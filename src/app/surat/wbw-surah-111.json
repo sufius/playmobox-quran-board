@@ -1,0 +1,853 @@
+{
+  "verses": [
+    {
+      "id": 6217,
+      "verse_number": 1,
+      "verse_key": "111:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " تَبَّتْ يَدَآ أَبِى لَهَبٍ وَتَبَّ",
+      "page_number": 603,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 18,
+          "position": 1,
+          "audio_url": "wbw/111_001_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮈ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮈ",
+          "translation": {
+            "text": "Perish",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "tabbat",
+            "language_name": "english"
+          },
+          "text_uthmani": "تَبَّتْ"
+        },
+        {
+          "id": 19,
+          "position": 2,
+          "audio_url": "wbw/111_001_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮉ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮉ",
+          "translation": {
+            "text": "(the) hands",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "yadā",
+            "language_name": "english"
+          },
+          "text_uthmani": "يَدَآ"
+        },
+        {
+          "id": 20,
+          "position": 3,
+          "audio_url": "wbw/111_001_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮊ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮊ",
+          "translation": {
+            "text": "(of) Abu",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "abī",
+            "language_name": "english"
+          },
+          "text_uthmani": "أَبِى"
+        },
+        {
+          "id": 21,
+          "position": 4,
+          "audio_url": "wbw/111_001_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮋ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮋ",
+          "translation": {
+            "text": "Lahab",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "lahabin",
+            "language_name": "english"
+          },
+          "text_uthmani": "لَهَبٍۢ"
+        },
+        {
+          "id": 22,
+          "position": 5,
+          "audio_url": "wbw/111_001_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮌ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮌ",
+          "translation": {
+            "text": "and perish he",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "watabba",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَتَبَّ"
+        },
+        {
+          "id": 23,
+          "position": 6,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮍ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮍ",
+          "translation": {
+            "text": "(1)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "١"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90127,
+          "resource_id": 19,
+          "text": "The power of Abu Lahab will perish, and he will perish."
+        },
+        {
+          "id": 370504,
+          "resource_id": 79,
+          "text": "Пусть лишится обоих рук Абу Ляхаб [[Абу Ляхаб – кличка дяди пророка Мухаммада, который усердно противодействовал Исламу. Настоящее его имя – Абдуль-‘Узза.]], и сам он да погибнет!"
+        },
+        {
+          "id": 256608,
+          "resource_id": 45,
+          "text": "Да пропадут пропадом руки Абу Лахаба, и сам он пропал."
+        },
+        {
+          "id": 145430,
+          "resource_id": 27,
+          "text": "Zugrunde gehen sollen die Hände Abu Lahabs, und zugrunde gehen soll er (selbst)!"
+        }
+      ],
+      "text_uthmani_tajweed": "تَبَّتْ يَد[o[َآ] أَبِى لَهَ[a:14669[بٍ و]َتَ[q[ب]َّ",
+      "text_uthmani_tajweed_parsed": "تَبَّتْ يَد<tajweed class=\"madda_pbligatory\" data-type=\"madda-obligatory\" data-description=\"Obligatory Prolongation: 4-5 Vowels\" data-tajweed=\"\">َآ</tajweed> أَبِى لَهَ<tajweed class=\"idgh_ghn\" data-type=\"idgham-without-ghunnah\" data-description=\"Idgham - With Ghunnah\" data-tajweed=\":14669\">بٍ و</tajweed>َتَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">ب</tajweed>َّ",
+      "text_uthmani_transcribed": "Tabbat yadā abī lahabiw wa tabb(a)."
+    },
+    {
+      "id": 6218,
+      "verse_number": 2,
+      "verse_key": "111:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَآ أَغْنَىٰ عَنْهُ مَالُهُۥ وَمَا كَسَبَ",
+      "page_number": 603,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 949,
+          "position": 1,
+          "audio_url": "wbw/111_002_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮎ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮎ",
+          "translation": {
+            "text": "Not",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "mā",
+            "language_name": "english"
+          },
+          "text_uthmani": "مَآ"
+        },
+        {
+          "id": 950,
+          "position": 2,
+          "audio_url": "wbw/111_002_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮏ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮏ",
+          "translation": {
+            "text": "(will) avail",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "aghnā",
+            "language_name": "english"
+          },
+          "text_uthmani": "أَغْنَىٰ"
+        },
+        {
+          "id": 951,
+          "position": 3,
+          "audio_url": "wbw/111_002_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮐ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮐ",
+          "translation": {
+            "text": "him",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "ʿanhu",
+            "language_name": "english"
+          },
+          "text_uthmani": "عَنْهُ"
+        },
+        {
+          "id": 952,
+          "position": 4,
+          "audio_url": "wbw/111_002_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮑ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮑ",
+          "translation": {
+            "text": "his wealth",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "māluhu",
+            "language_name": "english"
+          },
+          "text_uthmani": "مَالُهُۥ"
+        },
+        {
+          "id": 953,
+          "position": 5,
+          "audio_url": "wbw/111_002_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮒ",
+          "page_number": 603,
+          "line_number": 13,
+          "text": "ﮒ",
+          "translation": {
+            "text": "and what",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "wamā",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَمَا"
+        },
+        {
+          "id": 954,
+          "position": 6,
+          "audio_url": "wbw/111_002_006.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮓ",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "ﮓ",
+          "translation": {
+            "text": "he earned",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "kasaba",
+            "language_name": "english"
+          },
+          "text_uthmani": "كَسَبَ"
+        },
+        {
+          "id": 955,
+          "position": 7,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮔ",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "ﮔ",
+          "translation": {
+            "text": "(2)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٢"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90139,
+          "resource_id": 19,
+          "text": "His wealth and gains will not exempt him."
+        },
+        {
+          "id": 370505,
+          "resource_id": 79,
+          "text": "Не поможет ему [Абу Ляхабу] (в День Суда) накопленное им имущество и то, что он приобрел [его дела, которые он совершал против Пророка]."
+        },
+        {
+          "id": 256497,
+          "resource_id": 45,
+          "text": "Не спасло его богатство и то, что он приобрел (положение в обществе и дети)."
+        },
+        {
+          "id": 145459,
+          "resource_id": 27,
+          "text": "Was nützt ihm sein Besitz und das, was er erworben hat?"
+        }
+      ],
+      "text_uthmani_tajweed": "م[o[َآ] أَغْنَىٰ عَنْهُ مَالُهُ[n[ۥ] وَمَا كَسَ[q[ب]َ",
+      "text_uthmani_tajweed_parsed": "م<tajweed class=\"madda_pbligatory\" data-type=\"madda-obligatory\" data-description=\"Obligatory Prolongation: 4-5 Vowels\" data-tajweed=\"\">َآ</tajweed> أَغْنَىٰ عَنْهُ مَالُهُ<tajweed class=\"madda_normal\" data-type=\"madda-normal\" data-description=\"Normal Prolongation: 2 Vowels\" data-tajweed=\"\">ۥ</tajweed> وَمَا كَسَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">ب</tajweed>َ",
+      "text_uthmani_transcribed": "Mā agnā 'anhu māluhū wa mā kasab(a)."
+    },
+    {
+      "id": 6219,
+      "verse_number": 3,
+      "verse_key": "111:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "سَيَصْلَىٰ نَارًا ذَاتَ لَهَبٍ",
+      "page_number": 603,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 2625,
+          "position": 1,
+          "audio_url": "wbw/111_003_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮕ",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "ﮕ",
+          "translation": {
+            "text": "He will be burnt",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "sayaṣlā",
+            "language_name": "english"
+          },
+          "text_uthmani": "سَيَصْلَىٰ"
+        },
+        {
+          "id": 2626,
+          "position": 2,
+          "audio_url": "wbw/111_003_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮖ",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "ﮖ",
+          "translation": {
+            "text": "(in) a Fire",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "nāran",
+            "language_name": "english"
+          },
+          "text_uthmani": "نَارًۭا"
+        },
+        {
+          "id": 2627,
+          "position": 3,
+          "audio_url": "wbw/111_003_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮗ",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "ﮗ",
+          "translation": {
+            "text": "of",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "dhāta",
+            "language_name": "english"
+          },
+          "text_uthmani": "ذَاتَ"
+        },
+        {
+          "id": 2628,
+          "position": 4,
+          "audio_url": "wbw/111_003_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮘ",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "ﮘ",
+          "translation": {
+            "text": "Blazing Flames",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "lahabin",
+            "language_name": "english"
+          },
+          "text_uthmani": "لَهَبٍۢ"
+        },
+        {
+          "id": 2629,
+          "position": 5,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮙ",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "ﮙ",
+          "translation": {
+            "text": "(3)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٣"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90145,
+          "resource_id": 19,
+          "text": "He will be plunged in flaming Fire,"
+        },
+        {
+          "id": 370506,
+          "resource_id": 79,
+          "text": "Будет он (вечно) гореть в огне с пламенем [в Аду]"
+        },
+        {
+          "id": 256624,
+          "resource_id": 45,
+          "text": "Он попадет в пламенный Огонь."
+        },
+        {
+          "id": 145450,
+          "resource_id": 27,
+          "text": "Er wird einem Feuer voller Flammen ausgesetzt sein"
+        }
+      ],
+      "text_uthmani_tajweed": "سَيَصْلَىٰ نَا[f:14670[رًا ذ]َاتَ لَهَ[q[ب]ٍ",
+      "text_uthmani_tajweed_parsed": "سَيَصْلَىٰ نَا<tajweed class=\"ikhf\" data-type=\"ikhafa\" data-description=\"Ikhafa'\" data-tajweed=\":14670\">رًا ذ</tajweed>َاتَ لَهَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">ب</tajweed>ٍ",
+      "text_uthmani_transcribed": "Sayaṣlā nāran żāta lahab(in)."
+    },
+    {
+      "id": 6220,
+      "verse_number": 4,
+      "verse_key": "111:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَٱمْرَأَتُهُۥ حَمَّالَةَ ٱلْحَطَبِ",
+      "page_number": 603,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 4041,
+          "position": 1,
+          "audio_url": "wbw/111_004_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮚ",
+          "page_number": 603,
+          "line_number": 14,
+          "text": "ﮚ",
+          "translation": {
+            "text": "And his wife",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "wa-im'ra-atuhu",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَٱمْرَأَتُهُۥ"
+        },
+        {
+          "id": 4042,
+          "position": 2,
+          "audio_url": "wbw/111_004_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮛ",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "ﮛ",
+          "translation": {
+            "text": "(the) carrier",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "ḥammālata",
+            "language_name": "english"
+          },
+          "text_uthmani": "حَمَّالَةَ"
+        },
+        {
+          "id": 4043,
+          "position": 3,
+          "audio_url": "wbw/111_004_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮜ",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "ﮜ",
+          "translation": {
+            "text": "(of) firewood",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-ḥaṭabi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلْحَطَبِ"
+        },
+        {
+          "id": 4044,
+          "position": 4,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮝ",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "ﮝ",
+          "translation": {
+            "text": "(4)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٤"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90147,
+          "resource_id": 19,
+          "text": "And his wife, the wood-carrier,"
+        },
+        {
+          "id": 370507,
+          "resource_id": 79,
+          "text": "и жена его [[Жена Абу Ляхаба – Умм Джамиль бинт Харб, сестра Абу Суфьяна. По ночам она рассыпала колючки на дорогу, по которой ходил Пророк.]] – носильщица дров (тоже будет наказана вместе с ним),"
+        },
+        {
+          "id": 256421,
+          "resource_id": 45,
+          "text": "Жена его будет носить дрова,"
+        },
+        {
+          "id": 145452,
+          "resource_id": 27,
+          "text": "und (auch) seine Frau, die Brennholzträgerin."
+        }
+      ],
+      "text_uthmani_tajweed": "وَ[h:9999[ٱ]مْرَأَتُهُ[n[ۥ] حَ[g[مّ]َالَةَ [h:14671[ٱ]لْحَطَ[q[ب]ِ",
+      "text_uthmani_tajweed_parsed": "وَ<tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":9999\">ٱ</tajweed>مْرَأَتُهُ<tajweed class=\"madda_normal\" data-type=\"madda-normal\" data-description=\"Normal Prolongation: 2 Vowels\" data-tajweed=\"\">ۥ</tajweed> حَ<tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">مّ</tajweed>َالَةَ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14671\">ٱ</tajweed>لْحَطَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">ب</tajweed>ِ",
+      "text_uthmani_transcribed": "Wamra'atuh(ū), ḥammālatal-ḥaṭab(i)."
+    },
+    {
+      "id": 6221,
+      "verse_number": 5,
+      "verse_key": "111:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 555,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فِى جِيدِهَا حَبْلٌ مِّن مَّسَدٍۭ",
+      "page_number": 603,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 5280,
+          "position": 1,
+          "audio_url": "wbw/111_005_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮞ",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "ﮞ",
+          "translation": {
+            "text": "In",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "fī",
+            "language_name": "english"
+          },
+          "text_uthmani": "فِى"
+        },
+        {
+          "id": 5281,
+          "position": 2,
+          "audio_url": "wbw/111_005_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮟ",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "ﮟ",
+          "translation": {
+            "text": "her neck",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "jīdihā",
+            "language_name": "english"
+          },
+          "text_uthmani": "جِيدِهَا"
+        },
+        {
+          "id": 5282,
+          "position": 3,
+          "audio_url": "wbw/111_005_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮠ",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "ﮠ",
+          "translation": {
+            "text": "(will be) a rope",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "ḥablun",
+            "language_name": "english"
+          },
+          "text_uthmani": "حَبْلٌۭ"
+        },
+        {
+          "id": 5283,
+          "position": 4,
+          "audio_url": "wbw/111_005_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮡ",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "ﮡ",
+          "translation": {
+            "text": "of",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "min",
+            "language_name": "english"
+          },
+          "text_uthmani": "مِّن"
+        },
+        {
+          "id": 5284,
+          "position": 5,
+          "audio_url": "wbw/111_005_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮢ",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "ﮢ",
+          "translation": {
+            "text": "palm-fiber",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "masadin",
+            "language_name": "english"
+          },
+          "text_uthmani": "مَّسَدٍۭ"
+        },
+        {
+          "id": 5285,
+          "position": 6,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮣ",
+          "page_number": 603,
+          "line_number": 15,
+          "text": "ﮣ",
+          "translation": {
+            "text": "(5)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٥"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90149,
+          "resource_id": 19,
+          "text": "Will have upon her neck a halter of palm-fibre."
+        },
+        {
+          "id": 370508,
+          "resource_id": 79,
+          "text": "на шее у нее веревка из пальмовых волокон [[У нее было великолепное ожерелье из драгоценных камней. И однажды она сказала: «Я клянусь (идолами) аль-Латом и аль-‘Уззой, что обязательно израсходую это ожерелье на вражду с Мухаммадом». И поэтому в Судный День это станет ее наказанием.]]."
+        },
+        {
+          "id": 256627,
+          "resource_id": 45,
+          "text": "а на шее у нее будет плетеная веревка из пальмовых волокон."
+        },
+        {
+          "id": 145439,
+          "resource_id": 27,
+          "text": "Um ihrem Hals ist ein Strick aus Palmfasern."
+        }
+      ],
+      "text_uthmani_tajweed": "فِى جِيدِهَا حَ[q:14672[بْ][a:14673[لٌ م]ّ[a:14674[ِن م]َّسَ[q[د]ِۭ",
+      "text_uthmani_tajweed_parsed": "فِى جِيدِهَا حَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\":14672\">بْ</tajweed><tajweed class=\"idgh_ghn\" data-type=\"idgham-without-ghunnah\" data-description=\"Idgham - With Ghunnah\" data-tajweed=\":14673\">لٌ م</tajweed>ّ<tajweed class=\"idgh_ghn\" data-type=\"idgham-without-ghunnah\" data-description=\"Idgham - With Ghunnah\" data-tajweed=\":14674\">ِن م</tajweed>َّسَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">د</tajweed>ِۭ",
+      "text_uthmani_transcribed": "Fī jīdihā ḥablum mim masad(in)."
+    }
+  ],
+  "numberOfAyahs": 5,
+  "chapterNameArabic": "المسد",
+  "chapterNameTranscribed": "Al-Masad",
+  "chapterNameRomanized": "Al-Masad",
+  "chapterNameTranslated": {
+    "en": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "ru": {
+      "language_name": "russian",
+      "name": "Пальмовые волокна"
+    },
+    "de": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "tr": {
+      "language_name": "turkish",
+      "name": "Tebbet"
+    },
+    "ce": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "he": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "pl": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "tt": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "ug": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "uk": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "es": {
+      "language_name": "spanish",
+      "name": "La Fibra"
+    },
+    "fr": {
+      "language_name": "french",
+      "name": "Les fibres"
+    },
+    "bs": {
+      "language_name": "bosnian",
+      "name": "Plamen"
+    },
+    "id": {
+      "language_name": "indonesian",
+      "name": "Gejolak Api (Sabut)"
+    },
+    "nl": {
+      "language_name": "dutch",
+      "name": "De Palmvezel"
+    },
+    "it": {
+      "language_name": "italian",
+      "name": "Le Fibre di Palma"
+    },
+    "zh": {
+      "language_name": "chinese",
+      "name": "火焰"
+    },
+    "bg": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "pt": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "ro": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "cs": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "fi": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "no": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "sr": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    },
+    "sv": {
+      "language_name": "swedish",
+      "name": "Ett Tvinnat Rep"
+    },
+    "sq": {
+      "language_name": "english",
+      "name": "The Palm Fiber"
+    }
+  },
+  "chapterNumber": 111,
+  "revelationOrder": 6,
+  "revelationPlace": "makkah",
+  "pages": [
+    603,
+    603
+  ]
+}

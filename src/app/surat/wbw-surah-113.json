@@ -1,0 +1,853 @@
+{
+  "verses": [
+    {
+      "id": 6226,
+      "verse_number": 1,
+      "verse_key": "113:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 557,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " قُلْ أَعُوذُ بِرَبِّ ٱلْفَلَقِ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 215,
+          "position": 1,
+          "audio_url": "wbw/113_001_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭤ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭤ",
+          "translation": {
+            "text": "Say",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "qul",
+            "language_name": "english"
+          },
+          "text_uthmani": "قُلْ"
+        },
+        {
+          "id": 216,
+          "position": 2,
+          "audio_url": "wbw/113_001_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭥ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭥ",
+          "translation": {
+            "text": "I seek refuge",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "aʿūdhu",
+            "language_name": "english"
+          },
+          "text_uthmani": "أَعُوذُ"
+        },
+        {
+          "id": 217,
+          "position": 3,
+          "audio_url": "wbw/113_001_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭦ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭦ",
+          "translation": {
+            "text": "in (the) Lord",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "birabbi",
+            "language_name": "english"
+          },
+          "text_uthmani": "بِرَبِّ"
+        },
+        {
+          "id": 218,
+          "position": 4,
+          "audio_url": "wbw/113_001_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭧ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭧ",
+          "translation": {
+            "text": "(of) the dawn",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-falaqi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلْفَلَقِ"
+        },
+        {
+          "id": 219,
+          "position": 5,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭨ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭨ",
+          "translation": {
+            "text": "(1)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "١"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90172,
+          "resource_id": 19,
+          "text": "Say: I seek refuge in the Lord of the Daybreak"
+        },
+        {
+          "id": 370513,
+          "resource_id": 79,
+          "text": "Скажи: «Обращаюсь за защитой к Господу рассвета [к Аллаху] (Который может удалить любое зло и избавить от страха перед творениями)"
+        },
+        {
+          "id": 257922,
+          "resource_id": 45,
+          "text": "Скажи: «Прибегаю к защите Господа рассвета"
+        },
+        {
+          "id": 145476,
+          "resource_id": 27,
+          "text": "Sag: Ich nehme Zuflucht beim Herrn des Tagesanbruchs"
+        }
+      ],
+      "text_uthmani_tajweed": "قُلْ أَعُوذُ بِرَبِّ [h:14678[ٱ]لْفَلَ[q[ق]ِ",
+      "text_uthmani_tajweed_parsed": "قُلْ أَعُوذُ بِرَبِّ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14678\">ٱ</tajweed>لْفَلَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">ق</tajweed>ِ",
+      "text_uthmani_transcribed": "Qul a'ūżu birabbil-falaq(i)."
+    },
+    {
+      "id": 6227,
+      "verse_number": 2,
+      "verse_key": "113:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 557,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مِن شَرِّ مَا خَلَقَ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 969,
+          "position": 1,
+          "audio_url": "wbw/113_002_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭩ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭩ",
+          "translation": {
+            "text": "From",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "min",
+            "language_name": "english"
+          },
+          "text_uthmani": "مِن"
+        },
+        {
+          "id": 970,
+          "position": 2,
+          "audio_url": "wbw/113_002_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭪ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭪ",
+          "translation": {
+            "text": "(the) evil",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "sharri",
+            "language_name": "english"
+          },
+          "text_uthmani": "شَرِّ"
+        },
+        {
+          "id": 971,
+          "position": 3,
+          "audio_url": "wbw/113_002_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭫ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭫ",
+          "translation": {
+            "text": "(of) what",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "mā",
+            "language_name": "english"
+          },
+          "text_uthmani": "مَا"
+        },
+        {
+          "id": 972,
+          "position": 4,
+          "audio_url": "wbw/113_002_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭬ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭬ",
+          "translation": {
+            "text": "He created",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "khalaqa",
+            "language_name": "english"
+          },
+          "text_uthmani": "خَلَقَ"
+        },
+        {
+          "id": 973,
+          "position": 5,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭭ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭭ",
+          "translation": {
+            "text": "(2)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٢"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90174,
+          "resource_id": 19,
+          "text": "From the evil of that which He created;"
+        },
+        {
+          "id": 370514,
+          "resource_id": 79,
+          "text": "от зла тех, которых Он сотворил [от зла любого из творений],"
+        },
+        {
+          "id": 256646,
+          "resource_id": 45,
+          "text": "от зла того, что Он сотворил,"
+        },
+        {
+          "id": 145518,
+          "resource_id": 27,
+          "text": "vor dem Übel dessen, was Er erschaffen hat,"
+        }
+      ],
+      "text_uthmani_tajweed": "مِ[f:14679[ن ش]َرِّ مَا خَلَ[q[ق]َ",
+      "text_uthmani_tajweed_parsed": "مِ<tajweed class=\"ikhf\" data-type=\"ikhafa\" data-description=\"Ikhafa'\" data-tajweed=\":14679\">ن ش</tajweed>َرِّ مَا خَلَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">ق</tajweed>َ",
+      "text_uthmani_transcribed": "Min syarri mā khalaq(a)."
+    },
+    {
+      "id": 6228,
+      "verse_number": 3,
+      "verse_key": "113:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 557,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 2793,
+          "position": 1,
+          "audio_url": "wbw/113_003_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭮ",
+          "page_number": 604,
+          "line_number": 7,
+          "text": "ﭮ",
+          "translation": {
+            "text": "And from",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "wamin",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَمِن"
+        },
+        {
+          "id": 2794,
+          "position": 2,
+          "audio_url": "wbw/113_003_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭯ",
+          "page_number": 604,
+          "line_number": 8,
+          "text": "ﭯ",
+          "translation": {
+            "text": "(the) evil",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "sharri",
+            "language_name": "english"
+          },
+          "text_uthmani": "شَرِّ"
+        },
+        {
+          "id": 2795,
+          "position": 3,
+          "audio_url": "wbw/113_003_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭰ",
+          "page_number": 604,
+          "line_number": 8,
+          "text": "ﭰ",
+          "translation": {
+            "text": "(of) darkness",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "ghāsiqin",
+            "language_name": "english"
+          },
+          "text_uthmani": "غَاسِقٍ"
+        },
+        {
+          "id": 2796,
+          "position": 4,
+          "audio_url": "wbw/113_003_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭱ",
+          "page_number": 604,
+          "line_number": 8,
+          "text": "ﭱ",
+          "translation": {
+            "text": "when",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "idhā",
+            "language_name": "english"
+          },
+          "text_uthmani": "إِذَا"
+        },
+        {
+          "id": 2797,
+          "position": 5,
+          "audio_url": "wbw/113_003_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭲ",
+          "page_number": 604,
+          "line_number": 8,
+          "text": "ﭲ",
+          "translation": {
+            "text": "it spreads",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "waqaba",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَقَبَ"
+        },
+        {
+          "id": 2798,
+          "position": 6,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭳ",
+          "page_number": 604,
+          "line_number": 8,
+          "text": "ﭳ",
+          "translation": {
+            "text": "(3)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٣"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90176,
+          "resource_id": 19,
+          "text": "From the evil of the darkness when it is intense,"
+        },
+        {
+          "id": 370515,
+          "resource_id": 79,
+          "text": "от зла мрака, когда он покрыл [от зла ночи, когда она наступает] (так как ночью из своих мест выходят хищники, насекомые и злые люди)"
+        },
+        {
+          "id": 252231,
+          "resource_id": 45,
+          "text": "от зла мрака, когда он наступает,"
+        },
+        {
+          "id": 145512,
+          "resource_id": 27,
+          "text": "und vor dem Übel der Dunkelheit, wenn sie zunimmt,"
+        }
+      ],
+      "text_uthmani_tajweed": "وَمِ[f:14680[ن ش]َرِّ غَاسِقٍ إِذَا وَقَ[q[ب]َ",
+      "text_uthmani_tajweed_parsed": "وَمِ<tajweed class=\"ikhf\" data-type=\"ikhafa\" data-description=\"Ikhafa'\" data-tajweed=\":14680\">ن ش</tajweed>َرِّ غَاسِقٍ إِذَا وَقَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">ب</tajweed>َ",
+      "text_uthmani_transcribed": "Wa min syarri gāsiqin iżā waqab(a)."
+    },
+    {
+      "id": 6229,
+      "verse_number": 4,
+      "verse_key": "113:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 557,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمِن شَرِّ ٱلنَّفَّـٰثَـٰتِ فِى ٱلْعُقَدِ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 4181,
+          "position": 1,
+          "audio_url": "wbw/113_004_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭴ",
+          "page_number": 604,
+          "line_number": 8,
+          "text": "ﭴ",
+          "translation": {
+            "text": "And from",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "wamin",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَمِن"
+        },
+        {
+          "id": 4182,
+          "position": 2,
+          "audio_url": "wbw/113_004_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭵ",
+          "page_number": 604,
+          "line_number": 8,
+          "text": "ﭵ",
+          "translation": {
+            "text": "(the) evil",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "sharri",
+            "language_name": "english"
+          },
+          "text_uthmani": "شَرِّ"
+        },
+        {
+          "id": 4183,
+          "position": 3,
+          "audio_url": "wbw/113_004_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭶ",
+          "page_number": 604,
+          "line_number": 8,
+          "text": "ﭶ",
+          "translation": {
+            "text": "(of) the blowers",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-nafāthāti",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلنَّفَّـٰثَـٰتِ"
+        },
+        {
+          "id": 4184,
+          "position": 4,
+          "audio_url": "wbw/113_004_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭷ",
+          "page_number": 604,
+          "line_number": 8,
+          "text": "ﭷ",
+          "translation": {
+            "text": "in",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "fī",
+            "language_name": "english"
+          },
+          "text_uthmani": "فِى"
+        },
+        {
+          "id": 4185,
+          "position": 5,
+          "audio_url": "wbw/113_004_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭸ",
+          "page_number": 604,
+          "line_number": 9,
+          "text": "ﭸ",
+          "translation": {
+            "text": "the knots",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-ʿuqadi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلْعُقَدِ"
+        },
+        {
+          "id": 4186,
+          "position": 6,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭹ",
+          "page_number": 604,
+          "line_number": 9,
+          "text": "ﭹ",
+          "translation": {
+            "text": "(4)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٤"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90178,
+          "resource_id": 19,
+          "text": "And from the evil of malignant witchcraft,"
+        },
+        {
+          "id": 370516,
+          "resource_id": 79,
+          "text": "от зла (колдуний) плюющих на узлы (на веревках), (когда совершают колдовство)"
+        },
+        {
+          "id": 258145,
+          "resource_id": 45,
+          "text": "от зла колдуний, поплевывающих на узлы,"
+        },
+        {
+          "id": 145469,
+          "resource_id": 27,
+          "text": "und vor dem Übel der Knotenanbläserinnen"
+        }
+      ],
+      "text_uthmani_tajweed": "وَمِ[f:14680[ن ش]َرِّ [h:14681[ٱ][l[ل][g[نّ]َفَّ[n[ـٰ]ثَ[n[ـٰ]تِ فِى [h:14682[ٱ]لْعُقَ[q[د]ِ",
+      "text_uthmani_tajweed_parsed": "وَمِ<tajweed class=\"ikhf\" data-type=\"ikhafa\" data-description=\"Ikhafa'\" data-tajweed=\":14680\">ن ش</tajweed>َرِّ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14681\">ٱ</tajweed><tajweed class=\"slnt\" data-type=\"laam-shamsiyah\" data-description=\"Lam Shamsiyyah\" data-tajweed=\"\">ل</tajweed><tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed>َفَّ<tajweed class=\"madda_normal\" data-type=\"madda-normal\" data-description=\"Normal Prolongation: 2 Vowels\" data-tajweed=\"\">ـٰ</tajweed>ثَ<tajweed class=\"madda_normal\" data-type=\"madda-normal\" data-description=\"Normal Prolongation: 2 Vowels\" data-tajweed=\"\">ـٰ</tajweed>تِ فِى <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14682\">ٱ</tajweed>لْعُقَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">د</tajweed>ِ",
+      "text_uthmani_transcribed": "Wa min syarrin-naffāṡāti fil-'uqad(i)."
+    },
+    {
+      "id": 6230,
+      "verse_number": 5,
+      "verse_key": "113:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 557,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 5473,
+          "position": 1,
+          "audio_url": "wbw/113_005_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭺ",
+          "page_number": 604,
+          "line_number": 9,
+          "text": "ﭺ",
+          "translation": {
+            "text": "And from",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "wamin",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَمِن"
+        },
+        {
+          "id": 5474,
+          "position": 2,
+          "audio_url": "wbw/113_005_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭻ",
+          "page_number": 604,
+          "line_number": 9,
+          "text": "ﭻ",
+          "translation": {
+            "text": "(the) evil",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "sharri",
+            "language_name": "english"
+          },
+          "text_uthmani": "شَرِّ"
+        },
+        {
+          "id": 5475,
+          "position": 3,
+          "audio_url": "wbw/113_005_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭼ",
+          "page_number": 604,
+          "line_number": 9,
+          "text": "ﭼ",
+          "translation": {
+            "text": "(of) an envier",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "ḥāsidin",
+            "language_name": "english"
+          },
+          "text_uthmani": "حَاسِدٍ"
+        },
+        {
+          "id": 5476,
+          "position": 4,
+          "audio_url": "wbw/113_005_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭽ",
+          "page_number": 604,
+          "line_number": 9,
+          "text": "ﭽ",
+          "translation": {
+            "text": "when",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "idhā",
+            "language_name": "english"
+          },
+          "text_uthmani": "إِذَا"
+        },
+        {
+          "id": 5477,
+          "position": 5,
+          "audio_url": "wbw/113_005_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭾ",
+          "page_number": 604,
+          "line_number": 9,
+          "text": "ﭾ",
+          "translation": {
+            "text": "he envies",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "ḥasada",
+            "language_name": "english"
+          },
+          "text_uthmani": "حَسَدَ"
+        },
+        {
+          "id": 5478,
+          "position": 6,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭿ",
+          "page_number": 604,
+          "line_number": 9,
+          "text": "ﭿ",
+          "translation": {
+            "text": "(5)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٥"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90180,
+          "resource_id": 19,
+          "text": "And from the evil of the envier when he envieth."
+        },
+        {
+          "id": 370517,
+          "resource_id": 79,
+          "text": "от зла завистника, когда он завидует [желает, чтобы у того, кому он завидует, исчезло то, чем одарил его Аллах]!»"
+        },
+        {
+          "id": 258163,
+          "resource_id": 45,
+          "text": "от зла завистника, когда он завидует»."
+        },
+        {
+          "id": 145483,
+          "resource_id": 27,
+          "text": "und vor dem Übel eines (jeden) Neidenden, wenn er neidet."
+        }
+      ],
+      "text_uthmani_tajweed": "وَمِ[f:14680[ن ش]َرِّ حَاسِدٍ إِذَا حَسَ[q[د]َ",
+      "text_uthmani_tajweed_parsed": "وَمِ<tajweed class=\"ikhf\" data-type=\"ikhafa\" data-description=\"Ikhafa'\" data-tajweed=\":14680\">ن ش</tajweed>َرِّ حَاسِدٍ إِذَا حَسَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\"\">د</tajweed>َ",
+      "text_uthmani_transcribed": "Wa min syarri ḥāsidin iżā ḥasad(a)."
+    }
+  ],
+  "numberOfAyahs": 5,
+  "chapterNameArabic": "الفلق",
+  "chapterNameTranscribed": "Al-Falaq",
+  "chapterNameRomanized": "Al-Falaq",
+  "chapterNameTranslated": {
+    "en": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "ru": {
+      "language_name": "russian",
+      "name": "Рассвет"
+    },
+    "de": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "tr": {
+      "language_name": "turkish",
+      "name": "Felak"
+    },
+    "ce": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "he": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "pl": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "tt": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "ug": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "uk": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "es": {
+      "language_name": "spanish",
+      "name": "El Rayar del Alba"
+    },
+    "fr": {
+      "language_name": "french",
+      "name": "L'aube naissante"
+    },
+    "bs": {
+      "language_name": "bosnian",
+      "name": "Svitanje"
+    },
+    "id": {
+      "language_name": "indonesian",
+      "name": "Waktu Shubuh"
+    },
+    "nl": {
+      "language_name": "dutch",
+      "name": "De Ochtendschemering"
+    },
+    "it": {
+      "language_name": "italian",
+      "name": "L'Alba Nascente"
+    },
+    "zh": {
+      "language_name": "chinese",
+      "name": "曙光"
+    },
+    "bg": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "pt": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "ro": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "cs": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "fi": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "no": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "sr": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    },
+    "sv": {
+      "language_name": "swedish",
+      "name": "Gryningens Herre"
+    },
+    "sq": {
+      "language_name": "english",
+      "name": "The Daybreak"
+    }
+  },
+  "chapterNumber": 113,
+  "revelationOrder": 20,
+  "revelationPlace": "makkah",
+  "pages": [
+    604,
+    604
+  ]
+}

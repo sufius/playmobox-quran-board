@@ -1,0 +1,659 @@
+{
+  "verses": [
+    {
+      "id": 6214,
+      "verse_number": 1,
+      "verse_key": "110:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 554,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " إِذَا جَآءَ نَصْرُ ٱللَّهِ وَٱلْفَتْحُ",
+      "page_number": 603,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 232,
+          "position": 1,
+          "audio_url": "wbw/110_001_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭱ",
+          "page_number": 603,
+          "line_number": 8,
+          "text": "ﭱ",
+          "translation": {
+            "text": "When",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "idhā",
+            "language_name": "english"
+          },
+          "text_uthmani": "إِذَا"
+        },
+        {
+          "id": 233,
+          "position": 2,
+          "audio_url": "wbw/110_001_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭲ",
+          "page_number": 603,
+          "line_number": 8,
+          "text": "ﭲ",
+          "translation": {
+            "text": "comes",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "jāa",
+            "language_name": "english"
+          },
+          "text_uthmani": "جَآءَ"
+        },
+        {
+          "id": 234,
+          "position": 3,
+          "audio_url": "wbw/110_001_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭳ",
+          "page_number": 603,
+          "line_number": 8,
+          "text": "ﭳ",
+          "translation": {
+            "text": "(the) Help",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "naṣru",
+            "language_name": "english"
+          },
+          "text_uthmani": "نَصْرُ"
+        },
+        {
+          "id": 235,
+          "position": 4,
+          "audio_url": "wbw/110_001_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭴ",
+          "page_number": 603,
+          "line_number": 8,
+          "text": "ﭴ",
+          "translation": {
+            "text": "(of) Allah",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-lahi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱللَّهِ"
+        },
+        {
+          "id": 236,
+          "position": 5,
+          "audio_url": "wbw/110_001_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭵ",
+          "page_number": 603,
+          "line_number": 8,
+          "text": "ﭵ",
+          "translation": {
+            "text": "and the Victory",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "wal-fatḥu",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَٱلْفَتْحُ"
+        },
+        {
+          "id": 237,
+          "position": 6,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭶ",
+          "page_number": 603,
+          "line_number": 8,
+          "text": "ﭶ",
+          "translation": {
+            "text": "(1)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "١"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90111,
+          "resource_id": 19,
+          "text": "When Allah's succour and the triumph cometh"
+        },
+        {
+          "id": 370501,
+          "resource_id": 79,
+          "text": "Когда придет помощь Аллаха и победа [когда верующими будет завоевана Мекка],"
+        },
+        {
+          "id": 256587,
+          "resource_id": 45,
+          "text": "Когда придет помощь Аллаха и настанет победа,"
+        },
+        {
+          "id": 145411,
+          "resource_id": 27,
+          "text": "Wenn Allahs Hilfe kommt und der Sieg"
+        }
+      ],
+      "text_uthmani_tajweed": "إِذَا ج[o[َا]ٓءَ نَصْرُ [h:1184[ٱ]للَّهِ وَ[h:14666[ٱ]لْفَتْحُ",
+      "text_uthmani_tajweed_parsed": "إِذَا ج<tajweed class=\"madda_pbligatory\" data-type=\"madda-obligatory\" data-description=\"Obligatory Prolongation: 4-5 Vowels\" data-tajweed=\"\">َا</tajweed>ٓءَ نَصْرُ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":1184\">ٱ</tajweed>للَّهِ وَ<tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14666\">ٱ</tajweed>لْفَتْحُ",
+      "text_uthmani_transcribed": "Iżā jā'a naṣrullāhi wal-fatḥ(u)."
+    },
+    {
+      "id": 6215,
+      "verse_number": 2,
+      "verse_key": "110:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 554,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "وَرَأَيْتَ ٱلنَّاسَ يَدْخُلُونَ فِى دِينِ ٱللَّهِ أَفْوَاجًا",
+      "page_number": 603,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 1064,
+          "position": 1,
+          "audio_url": "wbw/110_002_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭷ",
+          "page_number": 603,
+          "line_number": 8,
+          "text": "ﭷ",
+          "translation": {
+            "text": "And you see",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "wara-ayta",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَرَأَيْتَ"
+        },
+        {
+          "id": 1065,
+          "position": 2,
+          "audio_url": "wbw/110_002_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭸ",
+          "page_number": 603,
+          "line_number": 8,
+          "text": "ﭸ",
+          "translation": {
+            "text": "the people",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-nāsa",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلنَّاسَ"
+        },
+        {
+          "id": 1066,
+          "position": 3,
+          "audio_url": "wbw/110_002_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭹ",
+          "page_number": 603,
+          "line_number": 9,
+          "text": "ﭹ",
+          "translation": {
+            "text": "entering",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "yadkhulūna",
+            "language_name": "english"
+          },
+          "text_uthmani": "يَدْخُلُونَ"
+        },
+        {
+          "id": 1067,
+          "position": 4,
+          "audio_url": "wbw/110_002_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭺ",
+          "page_number": 603,
+          "line_number": 9,
+          "text": "ﭺ",
+          "translation": {
+            "text": "into",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "fī",
+            "language_name": "english"
+          },
+          "text_uthmani": "فِى"
+        },
+        {
+          "id": 1068,
+          "position": 5,
+          "audio_url": "wbw/110_002_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭻ",
+          "page_number": 603,
+          "line_number": 9,
+          "text": "ﭻ",
+          "translation": {
+            "text": "(the) religion",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "dīni",
+            "language_name": "english"
+          },
+          "text_uthmani": "دِينِ"
+        },
+        {
+          "id": 1069,
+          "position": 6,
+          "audio_url": "wbw/110_002_006.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭼ",
+          "page_number": 603,
+          "line_number": 9,
+          "text": "ﭼ",
+          "translation": {
+            "text": "(of) Allah",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-lahi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱللَّهِ"
+        },
+        {
+          "id": 1070,
+          "position": 7,
+          "audio_url": "wbw/110_002_007.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭽ",
+          "page_number": 603,
+          "line_number": 9,
+          "text": "ﭽ",
+          "translation": {
+            "text": "(in) multitudes",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "afwājan",
+            "language_name": "english"
+          },
+          "text_uthmani": "أَفْوَاجًۭا"
+        },
+        {
+          "id": 1071,
+          "position": 8,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭾ",
+          "page_number": 603,
+          "line_number": 9,
+          "text": "ﭾ",
+          "translation": {
+            "text": "(2)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٢"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90112,
+          "resource_id": 19,
+          "text": "And thou seest mankind entering the religion of Allah in troops,"
+        },
+        {
+          "id": 370502,
+          "resource_id": 79,
+          "text": "и ты (о, Пророк) увидишь, как люди [многие народы] (станут) входит в Покорность Аллаху [в Ислам] толпами,"
+        },
+        {
+          "id": 256691,
+          "resource_id": 45,
+          "text": "когда ты увидишь, как люди толпами обращаются в религию Аллаха,"
+        },
+        {
+          "id": 140673,
+          "resource_id": 27,
+          "text": "und du die Menschen in Allahs Religion in Scharen eintreten siehst,"
+        }
+      ],
+      "text_uthmani_tajweed": "وَرَأَيْتَ [h:14667[ٱ][l[ل][g[نّ]َاسَ يَ[q:3156[دْ]خُلُونَ فِى دِينِ [h:2072[ٱ]للَّهِ أَفْوَاجًا",
+      "text_uthmani_tajweed_parsed": "وَرَأَيْتَ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14667\">ٱ</tajweed><tajweed class=\"slnt\" data-type=\"laam-shamsiyah\" data-description=\"Lam Shamsiyyah\" data-tajweed=\"\">ل</tajweed><tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed>َاسَ يَ<tajweed class=\"qlq\" data-type=\"qalaqah\" data-description=\"Qalaqah\" data-tajweed=\":3156\">دْ</tajweed>خُلُونَ فِى دِينِ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":2072\">ٱ</tajweed>للَّهِ أَفْوَاجًا",
+      "text_uthmani_transcribed": "Wa ra'aitan-nāsa yadkhulūna fī dīnillāhi afwājā(n)."
+    },
+    {
+      "id": 6216,
+      "verse_number": 3,
+      "verse_key": "110:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 554,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَٱسْتَغْفِرْهُ ۚ إِنَّهُۥ كَانَ تَوَّابًۢا",
+      "page_number": 603,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 2607,
+          "position": 1,
+          "audio_url": "wbw/110_003_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭿ",
+          "page_number": 603,
+          "line_number": 9,
+          "text": "ﭿ",
+          "translation": {
+            "text": "Then glorify",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "fasabbiḥ",
+            "language_name": "english"
+          },
+          "text_uthmani": "فَسَبِّحْ"
+        },
+        {
+          "id": 2608,
+          "position": 2,
+          "audio_url": "wbw/110_003_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮀ",
+          "page_number": 603,
+          "line_number": 9,
+          "text": "ﮀ",
+          "translation": {
+            "text": "with (the) praises",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "biḥamdi",
+            "language_name": "english"
+          },
+          "text_uthmani": "بِحَمْدِ"
+        },
+        {
+          "id": 2609,
+          "position": 3,
+          "audio_url": "wbw/110_003_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮁ",
+          "page_number": 603,
+          "line_number": 9,
+          "text": "ﮁ",
+          "translation": {
+            "text": "(of) your Lord",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "rabbika",
+            "language_name": "english"
+          },
+          "text_uthmani": "رَبِّكَ"
+        },
+        {
+          "id": 2610,
+          "position": 4,
+          "audio_url": "wbw/110_003_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮂﮃ",
+          "page_number": 603,
+          "line_number": 10,
+          "text": "ﮂﮃ",
+          "translation": {
+            "text": "and ask His forgiveness",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "wa-is'taghfir'hu",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَٱسْتَغْفِرْهُ ۚ"
+        },
+        {
+          "id": 2612,
+          "position": 5,
+          "audio_url": "wbw/110_003_006.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮄ",
+          "page_number": 603,
+          "line_number": 10,
+          "text": "ﮄ",
+          "translation": {
+            "text": "Indeed, He",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "innahu",
+            "language_name": "english"
+          },
+          "text_uthmani": "إِنَّهُۥ"
+        },
+        {
+          "id": 2613,
+          "position": 6,
+          "audio_url": "wbw/110_003_007.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮅ",
+          "page_number": 603,
+          "line_number": 10,
+          "text": "ﮅ",
+          "translation": {
+            "text": "is",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "kāna",
+            "language_name": "english"
+          },
+          "text_uthmani": "كَانَ"
+        },
+        {
+          "id": 2614,
+          "position": 7,
+          "audio_url": "wbw/110_003_008.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮆ",
+          "page_number": 603,
+          "line_number": 10,
+          "text": "ﮆ",
+          "translation": {
+            "text": "Oft-Returning",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "tawwāban",
+            "language_name": "english"
+          },
+          "text_uthmani": "تَوَّابًۢا"
+        },
+        {
+          "id": 2615,
+          "position": 8,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮇ",
+          "page_number": 603,
+          "line_number": 10,
+          "text": "ﮇ",
+          "translation": {
+            "text": "(3)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٣"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90113,
+          "resource_id": 19,
+          "text": "Then hymn the praises of thy Lord, and seek forgiveness of Him. Lo! He is ever ready to show mercy."
+        },
+        {
+          "id": 370503,
+          "resource_id": 79,
+          "text": "так восславляй же хвалой Господа своего и проси у Него прощения (за свои грехи, проявляя смирение пред Ним, и считая свои дела недостаточными)! Поистине, Он – принимающий покаяние!"
+        },
+        {
+          "id": 256684,
+          "resource_id": 45,
+          "text": "восславь же хвалой Господа своего и попроси у Него прощения. Воистину, Он - Принимающий покаяния."
+        },
+        {
+          "id": 145412,
+          "resource_id": 27,
+          "text": "dann lobpreise deinen Herrn und bitte Ihn um Vergebung; gewiß, Er ist Reue-Annehmend."
+        }
+      ],
+      "text_uthmani_tajweed": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَ[h:14668[ٱ]سْتَغْفِرْهُ‌ۚ إِ[g[نّ]َهُ[n[ۥ] كَانَ تَوَّابَۢا",
+      "text_uthmani_tajweed_parsed": "فَسَبِّحْ بِحَمْدِ رَبِّكَ وَ<tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14668\">ٱ</tajweed>سْتَغْفِرْهُ‌ۚ إِ<tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed>َهُ<tajweed class=\"madda_normal\" data-type=\"madda-normal\" data-description=\"Normal Prolongation: 2 Vowels\" data-tajweed=\"\">ۥ</tajweed> كَانَ تَوَّابَۢا",
+      "text_uthmani_transcribed": "Fasabbiḥ biḥamdi rabbika wastagfirh(u), innahū kāna tawwābā(n)."
+    }
+  ],
+  "numberOfAyahs": 3,
+  "chapterNameArabic": "النصر",
+  "chapterNameTranscribed": "An-Naşr",
+  "chapterNameRomanized": "An-Nasr",
+  "chapterNameTranslated": {
+    "en": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "ru": {
+      "language_name": "russian",
+      "name": "Помощь"
+    },
+    "de": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "tr": {
+      "language_name": "turkish",
+      "name": "Nasr"
+    },
+    "ce": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "he": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "pl": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "tt": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "ug": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "uk": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "es": {
+      "language_name": "spanish",
+      "name": "La Victoria"
+    },
+    "fr": {
+      "language_name": "french",
+      "name": "Le secours"
+    },
+    "bs": {
+      "language_name": "bosnian",
+      "name": "Pomoć"
+    },
+    "id": {
+      "language_name": "indonesian",
+      "name": "Pertolongan"
+    },
+    "nl": {
+      "language_name": "dutch",
+      "name": "De Hulp"
+    },
+    "it": {
+      "language_name": "italian",
+      "name": "L'Ausilio"
+    },
+    "zh": {
+      "language_name": "chinese",
+      "name": "援助"
+    },
+    "bg": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "pt": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "ro": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "cs": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "fi": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "no": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "sr": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    },
+    "sv": {
+      "language_name": "swedish",
+      "name": "Guds Hjälp"
+    },
+    "sq": {
+      "language_name": "english",
+      "name": "The Divine Support"
+    }
+  },
+  "chapterNumber": 110,
+  "revelationOrder": 114,
+  "revelationPlace": "madinah",
+  "pages": [
+    603,
+    603
+  ]
+}

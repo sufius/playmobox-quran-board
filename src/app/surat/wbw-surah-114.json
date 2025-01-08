@@ -1,0 +1,855 @@
+{
+  "verses": [
+    {
+      "id": 6231,
+      "verse_number": 1,
+      "verse_key": "114:1",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 558,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": " قُلْ أَعُوذُ بِرَبِّ ٱلنَّاسِ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 115,
+          "position": 1,
+          "audio_url": "wbw/114_001_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮀ",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "ﮀ",
+          "translation": {
+            "text": "Say",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "qul",
+            "language_name": "english"
+          },
+          "text_uthmani": "قُلْ"
+        },
+        {
+          "id": 116,
+          "position": 2,
+          "audio_url": "wbw/114_001_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮁ",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "ﮁ",
+          "translation": {
+            "text": "I seek refuge",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "aʿūdhu",
+            "language_name": "english"
+          },
+          "text_uthmani": "أَعُوذُ"
+        },
+        {
+          "id": 117,
+          "position": 3,
+          "audio_url": "wbw/114_001_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮂ",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "ﮂ",
+          "translation": {
+            "text": "in (the) Lord",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "birabbi",
+            "language_name": "english"
+          },
+          "text_uthmani": "بِرَبِّ"
+        },
+        {
+          "id": 118,
+          "position": 4,
+          "audio_url": "wbw/114_001_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮃ",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "ﮃ",
+          "translation": {
+            "text": "(of) mankind",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-nāsi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلنَّاسِ"
+        },
+        {
+          "id": 119,
+          "position": 5,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮄ",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "ﮄ",
+          "translation": {
+            "text": "(1)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "١"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90188,
+          "resource_id": 19,
+          "text": "Say: I seek refuge in the Lord of mankind,"
+        },
+        {
+          "id": 370518,
+          "resource_id": 79,
+          "text": "Скажи: «Я обращаюсь за защитой к Господу людей [к Аллаху],"
+        },
+        {
+          "id": 258178,
+          "resource_id": 45,
+          "text": "Скажи: «Прибегаю к защите Господа людей,"
+        },
+        {
+          "id": 139913,
+          "resource_id": 27,
+          "text": "Sag: Ich nehme Zuflucht beim Herrn der Menschen,"
+        }
+      ],
+      "text_uthmani_tajweed": "قُلْ أَعُوذُ بِرَبِّ [h:14683[ٱ][l[ل][g[نّ][p[َا]سِ",
+      "text_uthmani_tajweed_parsed": "قُلْ أَعُوذُ بِرَبِّ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14683\">ٱ</tajweed><tajweed class=\"slnt\" data-type=\"laam-shamsiyah\" data-description=\"Lam Shamsiyyah\" data-tajweed=\"\">ل</tajweed><tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed><tajweed class=\"madda_permissible\" data-type=\"madda-permissible\" data-description=\"Permissible Prolongation: 2, 4, 6 Vowels\" data-tajweed=\"\">َا</tajweed>سِ",
+      "text_uthmani_transcribed": "Qul a'ūżu birabbin-nās(i)."
+    },
+    {
+      "id": 6232,
+      "verse_number": 2,
+      "verse_key": "114:2",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 558,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مَلِكِ ٱلنَّاسِ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 932,
+          "position": 1,
+          "audio_url": "wbw/114_002_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮅ",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "ﮅ",
+          "translation": {
+            "text": "(The) King",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "maliki",
+            "language_name": "english"
+          },
+          "text_uthmani": "مَلِكِ"
+        },
+        {
+          "id": 933,
+          "position": 2,
+          "audio_url": "wbw/114_002_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮆ",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "ﮆ",
+          "translation": {
+            "text": "(of) mankind",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-nāsi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلنَّاسِ"
+        },
+        {
+          "id": 934,
+          "position": 3,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮇ",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "ﮇ",
+          "translation": {
+            "text": "(2)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٢"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90190,
+          "resource_id": 19,
+          "text": "The King of mankind,"
+        },
+        {
+          "id": 370519,
+          "resource_id": 79,
+          "text": "Правителю [Владыке] людей,"
+        },
+        {
+          "id": 252080,
+          "resource_id": 45,
+          "text": "Царя людей,"
+        },
+        {
+          "id": 145491,
+          "resource_id": 27,
+          "text": "dem König der Menschen,"
+        }
+      ],
+      "text_uthmani_tajweed": "مَلِكِ [h:14684[ٱ][l[ل][g[نّ][p[َا]سِ",
+      "text_uthmani_tajweed_parsed": "مَلِكِ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14684\">ٱ</tajweed><tajweed class=\"slnt\" data-type=\"laam-shamsiyah\" data-description=\"Lam Shamsiyyah\" data-tajweed=\"\">ل</tajweed><tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed><tajweed class=\"madda_permissible\" data-type=\"madda-permissible\" data-description=\"Permissible Prolongation: 2, 4, 6 Vowels\" data-tajweed=\"\">َا</tajweed>سِ",
+      "text_uthmani_transcribed": "Malikin-nās(i)."
+    },
+    {
+      "id": 6233,
+      "verse_number": 3,
+      "verse_key": "114:3",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 558,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "إِلَـٰهِ ٱلنَّاسِ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 2819,
+          "position": 1,
+          "audio_url": "wbw/114_003_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮈ",
+          "page_number": 604,
+          "line_number": 12,
+          "text": "ﮈ",
+          "translation": {
+            "text": "(The) God",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "ilāhi",
+            "language_name": "english"
+          },
+          "text_uthmani": "إِلَـٰهِ"
+        },
+        {
+          "id": 2820,
+          "position": 2,
+          "audio_url": "wbw/114_003_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮉ",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "ﮉ",
+          "translation": {
+            "text": "(of) mankind",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-nāsi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلنَّاسِ"
+        },
+        {
+          "id": 2821,
+          "position": 3,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮊ",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "ﮊ",
+          "translation": {
+            "text": "(3)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٣"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90192,
+          "resource_id": 19,
+          "text": "The god of mankind,"
+        },
+        {
+          "id": 370520,
+          "resource_id": 79,
+          "text": "Богу [[Бог – это тот, кому поклоняются и служат. Имя «аль-Иляh» (Бог) присуще только Аллаху, и никому другому.]] людей"
+        },
+        {
+          "id": 257791,
+          "resource_id": 45,
+          "text": "Бога людей,"
+        },
+        {
+          "id": 145481,
+          "resource_id": 27,
+          "text": "dem Gott der Menschen,"
+        }
+      ],
+      "text_uthmani_tajweed": "إِلَ[n[ـٰ]هِ [h:14685[ٱ][l[ل][g[نّ][p[َا]سِ",
+      "text_uthmani_tajweed_parsed": "إِلَ<tajweed class=\"madda_normal\" data-type=\"madda-normal\" data-description=\"Normal Prolongation: 2 Vowels\" data-tajweed=\"\">ـٰ</tajweed>هِ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14685\">ٱ</tajweed><tajweed class=\"slnt\" data-type=\"laam-shamsiyah\" data-description=\"Lam Shamsiyyah\" data-tajweed=\"\">ل</tajweed><tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed><tajweed class=\"madda_permissible\" data-type=\"madda-permissible\" data-description=\"Permissible Prolongation: 2, 4, 6 Vowels\" data-tajweed=\"\">َا</tajweed>سِ",
+      "text_uthmani_transcribed": "Ilāhin-nās(i)."
+    },
+    {
+      "id": 6234,
+      "verse_number": 4,
+      "verse_key": "114:4",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 558,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مِن شَرِّ ٱلْوَسْوَاسِ ٱلْخَنَّاسِ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 4131,
+          "position": 1,
+          "audio_url": "wbw/114_004_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮋ",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "ﮋ",
+          "translation": {
+            "text": "From",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "min",
+            "language_name": "english"
+          },
+          "text_uthmani": "مِن"
+        },
+        {
+          "id": 4132,
+          "position": 2,
+          "audio_url": "wbw/114_004_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮌ",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "ﮌ",
+          "translation": {
+            "text": "(the) evil",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "sharri",
+            "language_name": "english"
+          },
+          "text_uthmani": "شَرِّ"
+        },
+        {
+          "id": 4133,
+          "position": 3,
+          "audio_url": "wbw/114_004_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮍ",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "ﮍ",
+          "translation": {
+            "text": "(of) the whisperer",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-waswāsi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلْوَسْوَاسِ"
+        },
+        {
+          "id": 4134,
+          "position": 4,
+          "audio_url": "wbw/114_004_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮎ",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "ﮎ",
+          "translation": {
+            "text": "the one who withdraws",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-khanāsi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلْخَنَّاسِ"
+        },
+        {
+          "id": 4135,
+          "position": 5,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮏ",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "ﮏ",
+          "translation": {
+            "text": "(4)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٤"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90194,
+          "resource_id": 19,
+          "text": "From the evil of the sneaking whisperer,"
+        },
+        {
+          "id": 370521,
+          "resource_id": 79,
+          "text": "от зла (сатаны) внушающего (злое), (и при упоминании имени Аллаха) отступающего [[Когда человек помнит об Аллахе, ослабевает влияние сатаны на него, а когда человек не помнит об Аллахе, то сатана начинает покорять его сознание.]],"
+        },
+        {
+          "id": 256658,
+          "resource_id": 45,
+          "text": "от зла искусителя отступающего (или сжимающегося) при поминании Аллаха,"
+        },
+        {
+          "id": 145495,
+          "resource_id": 27,
+          "text": "vor dem Übel des Einflüsterers, des Davonschleichers,"
+        }
+      ],
+      "text_uthmani_tajweed": "مِ[f:14679[ن ش]َرِّ [h:14686[ٱ]لْوَسْوَاسِ [h:14687[ٱ]لْخَ[g[نّ][p[َا]سِ",
+      "text_uthmani_tajweed_parsed": "مِ<tajweed class=\"ikhf\" data-type=\"ikhafa\" data-description=\"Ikhafa'\" data-tajweed=\":14679\">ن ش</tajweed>َرِّ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14686\">ٱ</tajweed>لْوَسْوَاسِ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14687\">ٱ</tajweed>لْخَ<tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed><tajweed class=\"madda_permissible\" data-type=\"madda-permissible\" data-description=\"Permissible Prolongation: 2, 4, 6 Vowels\" data-tajweed=\"\">َا</tajweed>سِ",
+      "text_uthmani_transcribed": "Min syarril-waswāsil-khannās(i)."
+    },
+    {
+      "id": 6235,
+      "verse_number": 5,
+      "verse_key": "114:5",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 558,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ ٱلنَّاسِ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 5496,
+          "position": 1,
+          "audio_url": "wbw/114_005_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮐ",
+          "page_number": 604,
+          "line_number": 13,
+          "text": "ﮐ",
+          "translation": {
+            "text": "The one who",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "alladhī",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلَّذِى"
+        },
+        {
+          "id": 5497,
+          "position": 2,
+          "audio_url": "wbw/114_005_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮑ",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "ﮑ",
+          "translation": {
+            "text": "whispers",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "yuwaswisu",
+            "language_name": "english"
+          },
+          "text_uthmani": "يُوَسْوِسُ"
+        },
+        {
+          "id": 5498,
+          "position": 3,
+          "audio_url": "wbw/114_005_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮒ",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "ﮒ",
+          "translation": {
+            "text": "in",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "fī",
+            "language_name": "english"
+          },
+          "text_uthmani": "فِى"
+        },
+        {
+          "id": 5499,
+          "position": 4,
+          "audio_url": "wbw/114_005_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮓ",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "ﮓ",
+          "translation": {
+            "text": "(the) breasts",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "ṣudūri",
+            "language_name": "english"
+          },
+          "text_uthmani": "صُدُورِ"
+        },
+        {
+          "id": 5500,
+          "position": 5,
+          "audio_url": "wbw/114_005_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮔ",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "ﮔ",
+          "translation": {
+            "text": "(of) mankind",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-nāsi",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلنَّاسِ"
+        },
+        {
+          "id": 5501,
+          "position": 6,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮕ",
+          "page_number": 604,
+          "line_number": 14,
+          "text": "ﮕ",
+          "translation": {
+            "text": "(5)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٥"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90196,
+          "resource_id": 19,
+          "text": "Who whispereth in the hearts of mankind,"
+        },
+        {
+          "id": 370522,
+          "resource_id": 79,
+          "text": "который внушает злое в грудях [душах] людей [[Внушение сатаны – это некий голос, появляющийся в сознании человека, зовущий его к повиновению сатане.]],"
+        },
+        {
+          "id": 256635,
+          "resource_id": 45,
+          "text": "который наущает в груди людей"
+        },
+        {
+          "id": 145504,
+          "resource_id": 27,
+          "text": "der in die Brüste der Menschen einflüstert,"
+        }
+      ],
+      "text_uthmani_tajweed": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ [h:14688[ٱ][l[ل][g[نّ][p[َا]سِ",
+      "text_uthmani_tajweed_parsed": "ٱلَّذِى يُوَسْوِسُ فِى صُدُورِ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":14688\">ٱ</tajweed><tajweed class=\"slnt\" data-type=\"laam-shamsiyah\" data-description=\"Lam Shamsiyyah\" data-tajweed=\"\">ل</tajweed><tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed><tajweed class=\"madda_permissible\" data-type=\"madda-permissible\" data-description=\"Permissible Prolongation: 2, 4, 6 Vowels\" data-tajweed=\"\">َا</tajweed>سِ",
+      "text_uthmani_transcribed": "Allażī yuwaswisu fī ṣudūrin-nās(i)."
+    },
+    {
+      "id": 6236,
+      "verse_number": 6,
+      "verse_key": "114:6",
+      "hizb_number": 60,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 558,
+      "manzil_number": 7,
+      "sajdah_number": null,
+      "text_uthmani": "مِنَ ٱلْجِنَّةِ وَٱلنَّاسِ",
+      "page_number": 604,
+      "juz_number": 30,
+      "words": [
+        {
+          "id": 6729,
+          "position": 1,
+          "audio_url": "wbw/114_006_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮖ",
+          "page_number": 604,
+          "line_number": 15,
+          "text": "ﮖ",
+          "translation": {
+            "text": "From",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "mina",
+            "language_name": "english"
+          },
+          "text_uthmani": "مِنَ"
+        },
+        {
+          "id": 6730,
+          "position": 2,
+          "audio_url": "wbw/114_006_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮗ",
+          "page_number": 604,
+          "line_number": 15,
+          "text": "ﮗ",
+          "translation": {
+            "text": "the jinn",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "l-jinati",
+            "language_name": "english"
+          },
+          "text_uthmani": "ٱلْجِنَّةِ"
+        },
+        {
+          "id": 6731,
+          "position": 3,
+          "audio_url": "wbw/114_006_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﮘ",
+          "page_number": 604,
+          "line_number": 15,
+          "text": "ﮘ",
+          "translation": {
+            "text": "and men",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": "wal-nāsi",
+            "language_name": "english"
+          },
+          "text_uthmani": "وَٱلنَّاسِ"
+        },
+        {
+          "id": 6732,
+          "position": 4,
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﮙ",
+          "page_number": 604,
+          "line_number": 15,
+          "text": "ﮙ",
+          "translation": {
+            "text": "(6)",
+            "language_name": "english"
+          },
+          "transliteration": {
+            "text": null,
+            "language_name": "english"
+          },
+          "text_uthmani": "٦"
+        }
+      ],
+      "translations": [
+        {
+          "id": 90198,
+          "resource_id": 19,
+          "text": "Of the jinn and of mankind."
+        },
+        {
+          "id": 370523,
+          "resource_id": 79,
+          "text": "(И сатана бывает) из (числа) джиннов и людей [[Сатана-джин внушает в сознание людей, как это уже было разъяснено в предыдущем аяте. Внушение сатаны-человека происходит, когда он является в образе советчика к человеку. То, что внушил советчику сатана-джин, сатана-советчик передает человеку.]]."
+        },
+        {
+          "id": 252233,
+          "resource_id": 45,
+          "text": "и бывает из джиннов и людей»."
+        },
+        {
+          "id": 145496,
+          "resource_id": 27,
+          "text": "von den Ginn und den Menschen."
+        }
+      ],
+      "text_uthmani_tajweed": "مِنَ [h:6531[ٱ]لْجِ[g[نّ]َةِ وَ[h:824[ٱ][l[ل][g[نّ][p[َا]سِ",
+      "text_uthmani_tajweed_parsed": "مِنَ <tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":6531\">ٱ</tajweed>لْجِ<tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed>َةِ وَ<tajweed class=\"ham_wasl\" data-type=\"hamza-wasl\" data-description=\"Hamzat ul Wasl\" data-tajweed=\":824\">ٱ</tajweed><tajweed class=\"slnt\" data-type=\"laam-shamsiyah\" data-description=\"Lam Shamsiyyah\" data-tajweed=\"\">ل</tajweed><tajweed class=\"ghn\" data-type=\"ghunnah\" data-description=\"Ghunnah: 2 Vowels\" data-tajweed=\"\">نّ</tajweed><tajweed class=\"madda_permissible\" data-type=\"madda-permissible\" data-description=\"Permissible Prolongation: 2, 4, 6 Vowels\" data-tajweed=\"\">َا</tajweed>سِ",
+      "text_uthmani_transcribed": "Minal jinnati wan-nās(i)."
+    }
+  ],
+  "numberOfAyahs": 6,
+  "chapterNameArabic": "الناس",
+  "chapterNameTranscribed": "An-Nās",
+  "chapterNameRomanized": "An-Nas",
+  "chapterNameTranslated": {
+    "en": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "ru": {
+      "language_name": "russian",
+      "name": "Люди"
+    },
+    "de": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "tr": {
+      "language_name": "turkish",
+      "name": "Nâs"
+    },
+    "ce": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "he": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "pl": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "tt": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "ug": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "uk": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "es": {
+      "language_name": "spanish",
+      "name": "Los Hombres"
+    },
+    "fr": {
+      "language_name": "french",
+      "name": "Les humains"
+    },
+    "bs": {
+      "language_name": "bosnian",
+      "name": "Ljudi"
+    },
+    "id": {
+      "language_name": "indonesian",
+      "name": "Umat Manusia"
+    },
+    "nl": {
+      "language_name": "dutch",
+      "name": "De Mensheid"
+    },
+    "it": {
+      "language_name": "italian",
+      "name": "Gli Uomini"
+    },
+    "zh": {
+      "language_name": "chinese",
+      "name": "世人"
+    },
+    "bg": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "pt": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "ro": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "cs": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "fi": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "no": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "sr": {
+      "language_name": "english",
+      "name": "Mankind"
+    },
+    "sv": {
+      "language_name": "swedish",
+      "name": "Människornas Herre"
+    },
+    "sq": {
+      "language_name": "english",
+      "name": "Mankind"
+    }
+  },
+  "chapterNumber": 114,
+  "revelationOrder": 21,
+  "revelationPlace": "makkah",
+  "pages": [
+    604,
+    604
+  ]
+}
