@@ -1,12 +1,8 @@
 "use client"
 
-import { useEffect, useState } from "react";
+import { use, useEffect, useState } from "react";
 import styles from "./page.module.css";
-import { useParams } from 'next/navigation';
 
-interface BoardProps {
-  params: {surah: number}
-}
 
 interface VerseProps {
   hizb_number: number;
@@ -98,10 +94,25 @@ const Verse = (
   </>;
 };
 
-export default function Board<BoardProps>() {
-  const params = useParams();
-  const { surah } = params;
+interface BoardProps {
+  params: Promise<{
+    surah: number;
+    lang: string;
+  }>
+}
 
+export default function Board({params}: BoardProps) {
+  const { surah = 1, lang = "de" } = use(params);
+  const languageMapped: { [key:number]: string } = {
+    27: "de",
+    19: "en",
+    45: "ru",
+  };
+  const languageKeyMapped: { [key:string]: number } = {
+    "de": 27,
+    "en": 19,
+    "ru": 45,
+  };
   const [data, setData] = useState<SurahProps | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -124,26 +135,26 @@ export default function Board<BoardProps>() {
   return (
     <>
         <h6 className="position-absolute pmb-text-primary surah-number">
-            s&#363;rah: 18
+            s&#363;rah: {data.chapter_number}
         </h6>
         <h6 className="position-absolute pmb-text-primary ayat-numbers">
-            ʾāyāt: 1-11 [110]
+            ʾāyāt: 1-11 [{data.number_of_ayahs}]
         </h6>
         <h6 className="position-absolute surah-name-transcribed text-transcribed">
-            S&#363;rat<span title='HamztWslA' className= 'HamztWslA'> A&#8205;</span>&#8205;l-Kahf
+            {data.chapter_name_transcribed}
         </h6>
         <h6 className="position-absolute text-translated surah-name-translated text-transcribed">
-            Sure: die Höhle
+            {data.chapter_name_translated[lang].name}
         </h6>
         <h6 className="position-absolute surah-name-arabic noto-naskh-arabic-400 text-arabic">
-            سُورَة الكَهف
+          {data.chapter_name_arabic}
         </h6>
 
         <span className="position-absolute pmb-module-footprint border border-1 bg-gradient"></span> 
         <span className="position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span> 
 
         {data.verses.map((verse, index) => (
-          <Verse key={index} languageNumber={27} {...verse} />
+          <Verse key={index} languageNumber={languageKeyMapped[lang]} {...verse} />
         ))}
     </>
   );
