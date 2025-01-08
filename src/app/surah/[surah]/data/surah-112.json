@@ -1,0 +1,642 @@
+{
+  "chapter_name_arabic": "الإخلاص",
+  "chapter_name_transcribed": "Al-'Ikhlāş",
+  "chapter_name_translated": {
+    "bg": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "bs": {
+      "language_name": "bosnian",
+      "name": "Iskrenost"
+    },
+    "ce": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "cs": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "de": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "en": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "es": {
+      "language_name": "spanish",
+      "name": "La Adoración Pura"
+    },
+    "fi": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "fr": {
+      "language_name": "french",
+      "name": "La sincérité"
+    },
+    "he": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "id": {
+      "language_name": "indonesian",
+      "name": "Ikhlash"
+    },
+    "it": {
+      "language_name": "italian",
+      "name": "Il Puro Monoteismo"
+    },
+    "nl": {
+      "language_name": "dutch",
+      "name": "Het Zuivere Geloof"
+    },
+    "no": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "pl": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "pt": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "ro": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "ru": {
+      "language_name": "russian",
+      "name": "Очищение веры"
+    },
+    "sq": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "sr": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "sv": {
+      "language_name": "swedish",
+      "name": "Den Rena Tron"
+    },
+    "tr": {
+      "language_name": "turkish",
+      "name": "İhlâs"
+    },
+    "tt": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "ug": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "uk": {
+      "language_name": "english",
+      "name": "The Sincerity"
+    },
+    "zh": {
+      "language_name": "chinese",
+      "name": "忠诚"
+    }
+  },
+  "chapter_name_transliterated": "Al-Ikhlas",
+  "chapter_number": 112,
+  "number_of_ayahs": 4,
+  "pages": [
+    604,
+    604
+  ],
+  "revelation_order": 22,
+  "revelation_place": "makkah",
+  "verses": [
+    {
+      "hizb_number": 60,
+      "id": 6222,
+      "juz_number": 30,
+      "manzil_number": 7,
+      "page_number": 604,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 556,
+      "sajdah_number": null,
+      "text_uthmani": " قُلْ هُوَ ٱللَّهُ أَحَدٌ",
+      "text_uthmani_tajweed": "قُلْ هُوَ [h:8078[ٱ]للَّهُ أَحَ[q[د]ٌ",
+      "text_uthmani_tajweed_parsed": "قُلْ هُوَ <tajweed class='ham_wasl' data-type='hamza-wasl' data-description='Hamzat ul Wasl' data-tajweed=':8078'>ٱ</tajweed>للَّهُ أَحَ<tajweed class='qlq' data-type='qalaqah' data-description='Qalaqah'>د</tajweed>ٌ",
+      "text_uthmani_transcribed": "Qul huwallāhu aḥad(un).",
+      "translations": [
+        {
+          "id": 90157,
+          "resource_id": 19,
+          "text": "Say: He is Allah, the One!"
+        },
+        {
+          "id": 370509,
+          "resource_id": 79,
+          "text": "Скажи: «Он – Аллах – один [нет у Него сотоварища],"
+        },
+        {
+          "id": 257474,
+          "resource_id": 45,
+          "text": "Скажи: «Он - Аллах Единый,"
+        },
+        {
+          "id": 145522,
+          "resource_id": 27,
+          "text": "Sag: Er ist Allah, Einer,"
+        }
+      ],
+      "verse_key": "112:1",
+      "verse_number": 1,
+      "words": [
+        {
+          "audio_url": "wbw/112_001_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭑ",
+          "id": 6,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 1,
+          "text": "ﭑ",
+          "text_uthmani": "قُلْ",
+          "translation": {
+            "language_name": "english",
+            "text": "Say"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "qul"
+          }
+        },
+        {
+          "audio_url": "wbw/112_001_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭒ",
+          "id": 7,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 2,
+          "text": "ﭒ",
+          "text_uthmani": "هُوَ",
+          "translation": {
+            "language_name": "english",
+            "text": "He"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "huwa"
+          }
+        },
+        {
+          "audio_url": "wbw/112_001_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭓ",
+          "id": 8,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 3,
+          "text": "ﭓ",
+          "text_uthmani": "ٱللَّهُ",
+          "translation": {
+            "language_name": "english",
+            "text": "(is) Allah"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "l-lahu"
+          }
+        },
+        {
+          "audio_url": "wbw/112_001_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭔ",
+          "id": 9,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 4,
+          "text": "ﭔ",
+          "text_uthmani": "أَحَدٌ",
+          "translation": {
+            "language_name": "english",
+            "text": "the One"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "aḥadun"
+          }
+        },
+        {
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭕ",
+          "id": 10,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 5,
+          "text": "ﭕ",
+          "text_uthmani": "١",
+          "translation": {
+            "language_name": "english",
+            "text": "(1)"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": null
+          }
+        }
+      ]
+    },
+    {
+      "hizb_number": 60,
+      "id": 6223,
+      "juz_number": 30,
+      "manzil_number": 7,
+      "page_number": 604,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 556,
+      "sajdah_number": null,
+      "text_uthmani": "ٱللَّهُ ٱلصَّمَدُ",
+      "text_uthmani_tajweed": "ٱللَّهُ [h:14675[ٱ][l[ل]صَّمَ[q[د]ُ",
+      "text_uthmani_tajweed_parsed": "ٱللَّهُ <tajweed class='ham_wasl' data-type='hamza-wasl' data-description='Hamzat ul Wasl' data-tajweed=':14675'>ٱ</tajweed><tajweed class='slnt' data-type='laam-shamsiyah' data-description='Lam Shamsiyyah'>ل</tajweed>صَّمَ<tajweed class='qlq' data-type='qalaqah' data-description='Qalaqah'>د</tajweed>ُ",
+      "text_uthmani_transcribed": "Allāhuṣ-ṣamad(u).",
+      "translations": [
+        {
+          "id": 90159,
+          "resource_id": 19,
+          "text": "Allah, the eternally Besought of all!"
+        },
+        {
+          "id": 370510,
+          "resource_id": 79,
+          "text": "Аллах – Един (Своей сущностью);"
+        },
+        {
+          "id": 257494,
+          "resource_id": 45,
+          "text": "Аллах Самодостаточный."
+        },
+        {
+          "id": 145513,
+          "resource_id": 27,
+          "text": "Allah, der Überlegene."
+        }
+      ],
+      "verse_key": "112:2",
+      "verse_number": 2,
+      "words": [
+        {
+          "audio_url": "wbw/112_002_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭖ",
+          "id": 916,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 1,
+          "text": "ﭖ",
+          "text_uthmani": "ٱللَّهُ",
+          "translation": {
+            "language_name": "english",
+            "text": "Allah"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "al-lahu"
+          }
+        },
+        {
+          "audio_url": "wbw/112_002_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭗ",
+          "id": 917,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 2,
+          "text": "ﭗ",
+          "text_uthmani": "ٱلصَّمَدُ",
+          "translation": {
+            "language_name": "english",
+            "text": "the Eternal, the Absolute"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "l-ṣamadu"
+          }
+        },
+        {
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭘ",
+          "id": 918,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 3,
+          "text": "ﭘ",
+          "text_uthmani": "٢",
+          "translation": {
+            "language_name": "english",
+            "text": "(2)"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": null
+          }
+        }
+      ]
+    },
+    {
+      "hizb_number": 60,
+      "id": 6224,
+      "juz_number": 30,
+      "manzil_number": 7,
+      "page_number": 604,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 556,
+      "sajdah_number": null,
+      "text_uthmani": "لَمْ يَلِدْ وَلَمْ يُولَدْ",
+      "text_uthmani_tajweed": "لَمْ يَلِ[q:14676[دْ] وَلَمْ يُولَ[q:14677[دْ]",
+      "text_uthmani_tajweed_parsed": "لَمْ يَلِ<tajweed class='qlq' data-type='qalaqah' data-description='Qalaqah' data-tajweed=':14676'>دْ</tajweed> وَلَمْ يُولَ<tajweed class='qlq' data-type='qalaqah' data-description='Qalaqah' data-tajweed=':14677'>دْ</tajweed>",
+      "text_uthmani_transcribed": "Lam yalid wa lam yūlad.",
+      "translations": [
+        {
+          "id": 90161,
+          "resource_id": 19,
+          "text": "He begetteth not nor was begotten."
+        },
+        {
+          "id": 370511,
+          "resource_id": 79,
+          "text": "Он (никого) не родил и (Сам Он) не был рожден,"
+        },
+        {
+          "id": 255453,
+          "resource_id": 45,
+          "text": "Он не родил и не был рожден,"
+        },
+        {
+          "id": 145477,
+          "resource_id": 27,
+          "text": "Er hat nicht gezeugt und ist nicht gezeugt worden,"
+        }
+      ],
+      "verse_key": "112:3",
+      "verse_number": 3,
+      "words": [
+        {
+          "audio_url": "wbw/112_003_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭙ",
+          "id": 2746,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 1,
+          "text": "ﭙ",
+          "text_uthmani": "لَمْ",
+          "translation": {
+            "language_name": "english",
+            "text": "Not"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "lam"
+          }
+        },
+        {
+          "audio_url": "wbw/112_003_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭚ",
+          "id": 2747,
+          "line_number": 3,
+          "page_number": 604,
+          "position": 2,
+          "text": "ﭚ",
+          "text_uthmani": "يَلِدْ",
+          "translation": {
+            "language_name": "english",
+            "text": "He begets"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "yalid"
+          }
+        },
+        {
+          "audio_url": "wbw/112_003_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭛ",
+          "id": 2748,
+          "line_number": 4,
+          "page_number": 604,
+          "position": 3,
+          "text": "ﭛ",
+          "text_uthmani": "وَلَمْ",
+          "translation": {
+            "language_name": "english",
+            "text": "and not"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "walam"
+          }
+        },
+        {
+          "audio_url": "wbw/112_003_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭜ",
+          "id": 2749,
+          "line_number": 4,
+          "page_number": 604,
+          "position": 4,
+          "text": "ﭜ",
+          "text_uthmani": "يُولَدْ",
+          "translation": {
+            "language_name": "english",
+            "text": "He is begotten"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "yūlad"
+          }
+        },
+        {
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭝ",
+          "id": 2750,
+          "line_number": 4,
+          "page_number": 604,
+          "position": 5,
+          "text": "ﭝ",
+          "text_uthmani": "٣",
+          "translation": {
+            "language_name": "english",
+            "text": "(3)"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": null
+          }
+        }
+      ]
+    },
+    {
+      "hizb_number": 60,
+      "id": 6225,
+      "juz_number": 30,
+      "manzil_number": 7,
+      "page_number": 604,
+      "rub_el_hizb_number": 240,
+      "ruku_number": 556,
+      "sajdah_number": null,
+      "text_uthmani": "وَلَمْ يَكُن لَّهُۥ كُفُوًا أَحَدٌۢ",
+      "text_uthmani_tajweed": "وَلَمْ يَك[u:2596[ُن ل]َّهُ[n[ۥ] كُفُوًا أَحَ[q[د]ُۢ",
+      "text_uthmani_tajweed_parsed": "وَلَمْ يَك<tajweed class='idgh_w_ghn' data-type='idgham-without-ghunnah' data-description='Idgham - Without Ghunnah' data-tajweed=':2596'>ُن ل</tajweed>َّهُ<tajweed class='madda_normal' data-type='madda-normal' data-description='Normal Prolongation: 2 Vowels'>ۥ</tajweed> كُفُوًا أَحَ<tajweed class='qlq' data-type='qalaqah' data-description='Qalaqah'>د</tajweed>ُۢ",
+      "text_uthmani_transcribed": "Wa lam yakul lahū kufuwan aḥad(un).",
+      "translations": [
+        {
+          "id": 90163,
+          "resource_id": 19,
+          "text": "And there is none comparable unto Him."
+        },
+        {
+          "id": 370512,
+          "resource_id": 79,
+          "text": "и не стал Ему равным ни один [Ему нет ни равного и ни подобного]!»"
+        },
+        {
+          "id": 258322,
+          "resource_id": 45,
+          "text": "и нет никого равного Ему»."
+        },
+        {
+          "id": 145465,
+          "resource_id": 27,
+          "text": "und niemand ist Ihm jemals gleich."
+        }
+      ],
+      "verse_key": "112:4",
+      "verse_number": 4,
+      "words": [
+        {
+          "audio_url": "wbw/112_004_001.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭞ",
+          "id": 4136,
+          "line_number": 4,
+          "page_number": 604,
+          "position": 1,
+          "text": "ﭞ",
+          "text_uthmani": "وَلَمْ",
+          "translation": {
+            "language_name": "english",
+            "text": "And not"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "walam"
+          }
+        },
+        {
+          "audio_url": "wbw/112_004_002.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭟ",
+          "id": 4137,
+          "line_number": 4,
+          "page_number": 604,
+          "position": 2,
+          "text": "ﭟ",
+          "text_uthmani": "يَكُن",
+          "translation": {
+            "language_name": "english",
+            "text": "is"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "yakun"
+          }
+        },
+        {
+          "audio_url": "wbw/112_004_003.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭠ",
+          "id": 4138,
+          "line_number": 4,
+          "page_number": 604,
+          "position": 3,
+          "text": "ﭠ",
+          "text_uthmani": "لَّهُۥ",
+          "translation": {
+            "language_name": "english",
+            "text": "for Him"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "lahu"
+          }
+        },
+        {
+          "audio_url": "wbw/112_004_004.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭡ",
+          "id": 4139,
+          "line_number": 4,
+          "page_number": 604,
+          "position": 4,
+          "text": "ﭡ",
+          "text_uthmani": "كُفُوًا",
+          "translation": {
+            "language_name": "english",
+            "text": "equivalent"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "kufuwan"
+          }
+        },
+        {
+          "audio_url": "wbw/112_004_005.mp3",
+          "char_type_name": "word",
+          "code_v1": "ﭢ",
+          "id": 4140,
+          "line_number": 4,
+          "page_number": 604,
+          "position": 5,
+          "text": "ﭢ",
+          "text_uthmani": "أَحَدٌۢ",
+          "translation": {
+            "language_name": "english",
+            "text": "any [one]"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": "aḥadun"
+          }
+        },
+        {
+          "audio_url": null,
+          "char_type_name": "end",
+          "code_v1": "ﭣ",
+          "id": 4141,
+          "line_number": 4,
+          "page_number": 604,
+          "position": 6,
+          "text": "ﭣ",
+          "text_uthmani": "٤",
+          "translation": {
+            "language_name": "english",
+            "text": "(4)"
+          },
+          "transliteration": {
+            "language_name": "english",
+            "text": null
+          }
+        }
+      ]
+    }
+  ]
+}
