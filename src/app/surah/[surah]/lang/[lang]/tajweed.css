@@ -51,6 +51,7 @@ tajweed.madda_permissible {
 
 tajweed.madda_normal {
     color: #537FFF;
+    text-shadow: -0.1mm 0 #8fa9fa, 0 0.1mm #8fa9fa, 0.1mm 0 #8fa9fa, 0 -0.1mm #8fa9fa;
 }
 
 .idgh_mus {
