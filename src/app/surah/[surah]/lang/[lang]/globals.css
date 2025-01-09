@@ -129,10 +129,13 @@ body {
 }
 .text-transcribed {
   color: var(--pmb-text-transcribed);
+  right: 2.5mm;
 }
 .text-translated {
   color: var(--pmb-text-translated);
-  line-height: 1rem;
+  line-height: 0.8rem;
+  font-size: 0.8rem;
+  right: 2.5mm;
 }
 .text-arabic {
   color: var(--pmb-text-arabic);
