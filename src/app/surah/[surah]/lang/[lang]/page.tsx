@@ -63,15 +63,25 @@ interface SurahProps {
   verses: VerseProps[]
 };
 
+const convertToArabicNumerals = (latinNumber: number | string) => latinNumber.toString().replace(/\d/g, (digit: string) => '٠١٢٣٤٥٦٧٨٩'[parseInt(digit, 10)]);
+type LanguagesProps = { [key:number]: string };
+type LanguagesFlippedProps = { [key:string]: number };
+const f = (obj: LanguagesProps) => Object.fromEntries(Object.entries(obj).map(a => a.reverse()))
+const languages: LanguagesProps = {
+  27: "de",
+  19: "en",
+  45: "ru",
+};
+const languagesFlipped: LanguagesFlippedProps = f(languages);
 
 const Verse = (
   {
-  languageNumber,
+  languageId,
   verse_number,
   text_uthmani_transcribed,
   text_uthmani_tajweed_parsed,
   translations
-}: VerseProps & { languageNumber: number }) => {
+}: VerseProps & { languageId: number }) => {
   return <>
     <div className={`position-absolute btn-close translate-middle ${styles['button-' + verse_number]}`}></div>
     <hr className={`position-absolute ${styles['button-' + verse_number + '-divider']}`}></hr>
@@ -83,10 +93,14 @@ const Verse = (
     </div>
     <div className={`position-absolute translate-middle-y text-translated ${styles['button-' + verse_number + '-translated']}`}>
         &#xFD3E;{verse_number}&#xFD3F;&nbsp;
-        {translations.find(item => item.resource_id == languageNumber)?.text}
+        {translations.find(item => item.resource_id == languageId)?.text}
     </div>
     <div className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic ${styles['button-' + verse_number + '-arabic']}`}>
-        &#xFD3F;{verse_number}&#xFD3E;&nbsp;
+        <span>
+          {convertToArabicNumerals(verse_number)}
+          &#8205;
+          &#x06DD;
+        </span>&nbsp;
         <span style={{whiteSpace: "nowrap"}}
           dangerouslySetInnerHTML={{__html: text_uthmani_tajweed_parsed }} 
         ></span>
@@ -103,16 +117,6 @@ interface BoardProps {
 
 export default function Board({params}: BoardProps) {
   const { surah = 1, lang = "de" } = use(params);
-  const languageMapped: { [key:number]: string } = {
-    27: "de",
-    19: "en",
-    45: "ru",
-  };
-  const languageKeyMapped: { [key:string]: number } = {
-    "de": 27,
-    "en": 19,
-    "ru": 45,
-  };
   const [data, setData] = useState<SurahProps | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -154,7 +158,7 @@ export default function Board({params}: BoardProps) {
         <span className="position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span> 
 
         {data.verses.map((verse, index) => (
-          <Verse key={index} languageNumber={languageKeyMapped[lang]} {...verse} />
+          <Verse key={index} languageId={languagesFlipped[lang]} {...verse} />
         ))}
     </>
   );
