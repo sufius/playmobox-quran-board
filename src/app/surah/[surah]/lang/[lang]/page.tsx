@@ -127,7 +127,7 @@ const Verse = ({
   }, [text_uthmani_tajweed_parsed]);
 
   return <>
-    <div className={`position-absolute btn-close translate-middle ${styles['button-' + verse_number]}`}></div>
+    <div className={`d-none position-absolute btn-close translate-middle ${styles['button-' + verse_number]}`}></div>
     <hr className={`position-absolute ${styles['button-' + verse_number + '-divider']}`}></hr>
     <div className={`position-absolute translate-middle-y text-transcribed ${styles['button-' + verse_number + '-transcribed']}`}>
         &#xFD3E;{verse_number}&#xFD3F;&nbsp; 
@@ -206,10 +206,10 @@ export default function Board({params}: BoardProps) {
           Bismillāhir-raḥmānir-raḥīm(i)
         </h6>
 
-        <span className="position-absolute pmb-module-footprint border border-1 bg-gradient"></span> 
-        <span className="position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span> 
+        <span className="d-none position-absolute pmb-module-footprint border border-1 bg-gradient"></span> 
+        <span className="d-none position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span> 
 
-        {data.verses.map((verse, index) => (
+        {data.verses.slice(0, 11).map((verse, index) => (
           <Verse 
             key={index} 
             languageId={languagesFlipped[lang]} 
