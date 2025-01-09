@@ -1,6 +1,6 @@
 "use client"
 
-import { use, useEffect, useState } from "react";
+import { use, useEffect, useRef, useState } from "react";
 import styles from "./page.module.css";
 
 
@@ -63,6 +63,10 @@ interface SurahProps {
   verses: VerseProps[]
 };
 
+interface GetTextWidthFunction extends Function {
+  canvas?: HTMLCanvasElement;
+}
+
 const convertToArabicNumerals = (latinNumber: number | string) => latinNumber.toString().replace(/\d/g, (digit: string) => '٠١٢٣٤٥٦٧٨٩'[parseInt(digit, 10)]);
 type LanguagesProps = { [key:number]: string };
 type LanguagesFlippedProps = { [key:string]: number };
@@ -73,15 +77,55 @@ const languages: LanguagesProps = {
   45: "ru",
 };
 const languagesFlipped: LanguagesFlippedProps = f(languages);
+/**
+  * Uses canvas.measureText to compute and return the width of the given text of given font in pixels.
+  * 
+  * @param {String} text The text to be rendered.
+  * @param {String} font The css font descriptor that text is to be rendered with (e.g. "bold 14px verdana").
+  * 
+  * @see https://stackoverflow.com/questions/118241/calculate-text-width-with-javascript/21015393#21015393
+  */
+const getTextWidth: GetTextWidthFunction = function(text: string, font: string): number {
+  // re-use canvas object for better performance
+  const canvas: HTMLCanvasElement = getTextWidth.canvas || (getTextWidth.canvas = document.createElement("canvas"));
+  const context: CanvasRenderingContext2D | null  = canvas.getContext("2d");
+  if (!context) {
+      throw new Error("Failed to get canvas context");
+  }
+  context.font = font;
+  const metrics = context.measureText(text);
+  return metrics.width;
+}
+function getCssStyle(element: Element | HTMLSpanElement | null, prop: string) {
+    return element && window.getComputedStyle(element, null).getPropertyValue(prop);
+}
+function getCanvasFont(el: HTMLElement | null = document.body) {
+  const fontWeight = getCssStyle(el, 'font-weight') || 'normal';
+  const fontSize = getCssStyle(el, 'font-size') || '16px';
+  const fontFamily = getCssStyle(el, 'font-family') || 'Times New Roman';
+  
+  return `${fontWeight} ${fontSize} ${fontFamily}`;
+}
 
-const Verse = (
-  {
+
+const Verse = ({
   languageId,
   verse_number,
   text_uthmani_transcribed,
   text_uthmani_tajweed_parsed,
   translations
 }: VerseProps & { languageId: number }) => {
+  const arabicTextRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      console.log('itemsRef.current', arabicTextRef.current);
+      const fontSize = getTextWidth(arabicTextRef.current?.innerText, getCanvasFont(arabicTextRef.current));
+      console.log('fontSize', arabicTextRef.current, fontSize);
+    }, 1000);
+    return () => clearTimeout(timer);
+  }, [text_uthmani_tajweed_parsed]);
+
   return <>
     <div className={`position-absolute btn-close translate-middle ${styles['button-' + verse_number]}`}></div>
     <hr className={`position-absolute ${styles['button-' + verse_number + '-divider']}`}></hr>
@@ -101,7 +145,9 @@ const Verse = (
           &#8205;
           &#x06DD;
         </span>&nbsp;
-        <span style={{whiteSpace: "nowrap"}}
+        <span
+          style={{whiteSpace: "nowrap"}}
+          ref={arabicTextRef}
           dangerouslySetInnerHTML={{__html: text_uthmani_tajweed_parsed }} 
         ></span>
     </div>
@@ -118,6 +164,7 @@ interface BoardProps {
 export default function Board({params}: BoardProps) {
   const { surah = 1, lang = "de" } = use(params);
   const [data, setData] = useState<SurahProps | null>(null);
+  const [rows, setRows] = useState([]);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -163,7 +210,11 @@ export default function Board({params}: BoardProps) {
         <span className="position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span> 
 
         {data.verses.map((verse, index) => (
-          <Verse key={index} languageId={languagesFlipped[lang]} {...verse} />
+          <Verse 
+            key={index} 
+            languageId={languagesFlipped[lang]} 
+            {...verse} 
+          />
         ))}
     </>
   );
