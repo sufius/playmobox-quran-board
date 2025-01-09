@@ -160,6 +160,16 @@ body {
   font-size: 1.3rem;
 }
 
+.bismillah-image {
+  top: 47.0mm;
+  left: 2.5mm;
+}
+.bismillah-image-transcribed {
+  top: 60.0mm;
+  left: 2.5mm;
+  font-size: 0.8rem;
+}
+
 
 /* =============================== */
 

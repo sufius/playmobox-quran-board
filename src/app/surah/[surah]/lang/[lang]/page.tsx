@@ -154,6 +154,11 @@ export default function Board({params}: BoardProps) {
           {data.chapter_name_arabic}
         </h6>
 
+        <img className="position-absolute bismillah-image" src="/bismillah.svg" alt="Bismillāhir-raḥmānir-raḥīm(i)" width="150" />
+        <h6 className="position-absolute bismillah-image-transcribed text-transcribed">
+          Bismillāhir-raḥmānir-raḥīm(i)
+        </h6>
+
         <span className="position-absolute pmb-module-footprint border border-1 bg-gradient"></span> 
         <span className="position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span> 
 
