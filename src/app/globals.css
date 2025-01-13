@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@import "bootstrap/dist/css/bootstrap.css";
+@font-face {
+  font-family: "NotoNaskhArabic";
+  src: url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff2")
+      format("woff2"),
+    url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff") format("woff"),
+    url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.ttf")
+      format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --pmb-text-primary: #87ceeb;
+  --pmb-text-transcribed: #eddabb;
+  --pmb-text-translated: #dab473;
+  --pmb-text-arabic: #ffd700;
+
+  --pmb-ghn: #FFA500;
+  --pmb-qlq: #FF0000;
+  --pmb-idgh_ghn: #32CD32;
+  --pmb-idgh_w_ghn: #40E0D0;
+  --pmb-iqlb: #FF00FF;
+  
+  --pmb-ikhf_shfw: #FF66CC;
+  --pmb-idghm_shfw: #CC6600;
+  --pmb-ikhf: #9933FF;
+
+  --pmb-idgh_mus: #CCCCCC;
+  --pmb-slnt-and-ham_wasl: #FFFFFF;
+
+  --pmb-madda_necessary: #00CC99;
+  --pmb-madda_obligatory: #00FFFF;
+  --pmb-madda_permissible: #00FF00;
+  --pmb-madda_normal: #5b83fc;
+}
+
+/* =========================== */
+
+* {
+  /* Include the content box as well as padding and border for precise definitions */
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+html,
+body {
+  /* Styles for better appearance on screens only -- are reset to defaults in print styles later */
+
+  /* Reset the document's margin values */
+  margin: 0;
+  /* Reset the document's padding values */
+  padding: 0;
+  /* Use a non-white background color to make the content areas stick out from the full page box */
+  background-color: #eee;
+
+  font-family:'Times New Roman', Times, serif;
+}
+
+/* =========================== */
+
+.noto-naskh-arabic-400 {
+  font-family: "NotoNaskhArabic", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  direction: rtl;
+  font-size: 1.5rem;
+}
+
+/* =========================== */
+
+.pmb-text-primary {
+  color: var(--pmb-text-primary);
+}
+.text-transcribed {
+  color: var(--pmb-text-transcribed);
+  right: 2.5mm;
+  font-weight: bold;
+}
+.text-translated {
+  color: var(--pmb-text-translated);
+  line-height: 0.8rem;
+  font-size: 0.8rem;
+  right: 2.5mm;
+  font-weight: bold;
+}
+.text-arabic {
+  color: var(--pmb-text-arabic);
+}
+
+.surah-number {
+  top: 2.45mm;
+  left: 2.5mm;
+}
+.ayat-numbers {
+  top: 10.0mm;
+  left: 1.00mm;
+}
+.surah-name-transcribed {
+  top: 17.5mm;
+  left: 2.5mm;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.surah-name-translated {
+  top: 25.0mm;
+  left: 2.5mm;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.surah-name-arabic {
+  top: 32.5mm;
+  left: 2.5mm;
+  font-size: 1.3rem;
+  line-height: 1.3rem;
+}
+
+.bismillah-image {
+  top: 47.0mm;
+  left: 2.5mm;
+}
+.bismillah-image-transcribed {
+  top: 60.0mm;
+  left: 2.5mm;
+  font-size: 0.8rem;
+}
+
+/* =============================== */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid var(--pmb-text-translated);
+  margin: 1em 0;
+  padding: 0;
+}

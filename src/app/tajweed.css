@@ -1,60 +1,66 @@
 tajweed.ghn {
-    color: #FF7E1E;
+    color: var(--pmb-ghn);
 }
 tajweed.qlq {
-    color: #DD0008;
+    color: var(--pmb-qlq);
 }
 
 tajweed.idgh_ghn {
-    color: #50c23c;
+    color: var(--pmb-idgh_ghn);
 }
 
 tajweed.idgh_w_ghn {
-    color: #67e651;
+    color: var(--pmb-idgh_w_ghn);
 }
 
 tajweed.iqlb {
-    color: #26BFFD;
+    color: var(--pmb-iqlb);
 }
 
-tajweed.ikhf {
-    color: #e677f5;
-}
+
 
 tajweed.ikhf_shfw {
-    color: #ff47e6;
+    color: var(--pmb-ikhf_shfw);
 }
 
 tajweed.idghm_shfw {
-    color: #d8ffb4;
+    color: var(--pmb-idghm_shfw);
+}
+
+tajweed.ikhf {
+    color: var(--pmb-ikhf);
+}
+
+
+
+tajweed.idgh_mus {
+    color: var(--pmb-idgh_mus);
 }
 
 tajweed.slnt {
-    color: #AAAAAA;
+    color: var(--pmb-slnt-and-ham_wasl);
 }
 
 tajweed.ham_wasl {
-    color: #AAAAAA;
+    color: var(--pmb-slnt-and-ham_wasl);
 }
 
+
+
 tajweed.madda_necessary {
-    color: #323cc4;
+    color: var(--pmb-madda_necessary);
 }
 
 tajweed.madda_obligatory {
-    color: #3654c0;
+    color: var(--pmb-madda_obligatory);
 }
 
 tajweed.madda_permissible {
-    color: #5866ff;
+    color: var(--pmb-madda_permissible);
 }
 
 tajweed.madda_normal {
-    color: #7598ff;
-}
-
-.idgh_mus {
-    color: #A1A1A1;
+    color: var(--pmb-madda_normal);
 }
 
 

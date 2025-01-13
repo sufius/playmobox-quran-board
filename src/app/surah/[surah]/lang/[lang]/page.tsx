@@ -169,7 +169,7 @@ export default function Board({params}: BoardProps) {
 
   useEffect(() => {
     // Dynamically load the JSON file based on the param
-    import(`./data/surah-${surah}.json`)
+    import(`@/app/data/surah-${surah}.json`)
       .then((module) => {
         setData(module.default); // The default export of the imported module
       })
@@ -184,7 +184,7 @@ export default function Board({params}: BoardProps) {
   }
 
   return (
-    <>
+    <div className={styles["page"]}>
         <h6 className="position-absolute pmb-text-primary surah-number">
             s&#363;rah: {data.chapter_number}
         </h6>
@@ -216,6 +216,6 @@ export default function Board({params}: BoardProps) {
             {...verse} 
           />
         ))}
-    </>
+    </div>
   );
 }
