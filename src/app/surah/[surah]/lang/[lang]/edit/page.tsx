@@ -122,11 +122,13 @@ const Verse = ({
   text_uthmani_tajweed_parsed,
   translations
 }: VerseProps & { languageId: number }) => {
+  const transcriptedTextRef = useRef<HTMLElement>(null);
+  const translatedTextRef = useRef<HTMLElement>(null);
   const arabicTextRef = useRef<HTMLElement>(null);
 
   // useEffect(() => {
   //   const timer = setTimeout(() => {
-  //     console.log('itemsRef.current', arabicTextRef.current);
+  //     console.log('arabicTextRef.current', arabicTextRef.current);
   //     const fontSize = getTextWidth(arabicTextRef.current?.innerText, getCanvasFont(arabicTextRef.current));
   //     console.log('fontSize', arabicTextRef.current, fontSize);
   //   }, 1000);
@@ -134,41 +136,29 @@ const Verse = ({
   // }, [text_uthmani_tajweed_parsed]);
 
   return <>
-    <div
-      style={{ top: `${4.9 + (verse_number - 1) * 21.3}mm`, left: "58.0mm" }}
+    <span 
+      ref={transcriptedTextRef}
+      style={{ whiteSpace: "nowrap", top: `${4.9 + (verse_number - 1) * 21.3}mm`, left: "58.0mm", right: "13mm", lineHeight: "0.8rem" }}
       className={`position-absolute translate-middle-y text-transcribed`}
-    >
-      &#xFD3E;{verse_number}&#xFD3F;&nbsp;
-      <span style={{ whiteSpace: "nowrap" }}
-        dangerouslySetInnerHTML={{ __html: text_uthmani_transcribed }}
-      ></span>
-    </div>
-    <div
-      style={{ top: `${10.9 + (verse_number - 1) * 21.3}mm`, left: "58.0mm" }}
+      dangerouslySetInnerHTML={{ __html: `&#xFD3E;${verse_number}&#xFD3F; ${text_uthmani_transcribed}` }}
+    />
+    <span
+      ref={translatedTextRef}
+      style={{ whiteSpace: "nowrap", top: `${10.9 + (verse_number - 1) * 21.3}mm`, left: "58.0mm", right: "13mm", lineHeight: "0.8rem" }}
       className={`position-absolute translate-middle-y text-translated`}
     >
-      &#xFD3E;{verse_number}&#xFD3F;&nbsp;
-      {translations.find(item => item.resource_id == languageId)?.text}
-    </div>
-    <div
-      style={{ top: `${18.9 + (verse_number - 1) * 21.3}mm`, right: "5mm" }}
+      &#xFD3E;{verse_number}&#xFD3F; {translations.find(item => item.resource_id == languageId)?.text}
+    </span>
+    <span
+      ref={arabicTextRef}
       className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic`}
-    >
-      <span>
-        {convertToArabicNumerals(verse_number)}
-        &#8205;
-        &#x06DD;
-      </span>&nbsp;
-      <span
-        style={{ whiteSpace: "nowrap" }}
-        ref={arabicTextRef}
-        dangerouslySetInnerHTML={{ __html: text_uthmani_tajweed_parsed }}
-      ></span>
-    </div>
+      style={{ whiteSpace: "nowrap", top: `${18.9 + (verse_number - 1) * 21.3}mm`, right: "5mm" }}
+      dangerouslySetInnerHTML={{ __html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani_tajweed_parsed}` }}
+    />
     <hr
-      style={{ top: `${18.5 + (verse_number - 1) * 21.3}mm`, left: "58.0mm", width: "270mm" }}
+      style={{ top: `${18.5 + (verse_number - 1) * 21.3}mm`, left: "58.0mm", right: "15.0mm" }}
       className={`position-absolute`}
-    ></hr>
+    />
   </>;
 };
 

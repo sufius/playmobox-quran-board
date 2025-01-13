@@ -128,29 +128,22 @@ const Verse = ({
 
   return <>
     <div className={`d-none position-absolute btn-close translate-middle ${styles['button-' + verse_number]}`}></div>
-    <hr className={`position-absolute ${styles['button-' + verse_number + '-divider']}`}></hr>
-    <div className={`position-absolute translate-middle-y text-transcribed ${styles['button-' + verse_number + '-transcribed']}`}>
-        &#xFD3E;{verse_number}&#xFD3F;&nbsp; 
-        <span style={{whiteSpace: "nowrap"}}
-          dangerouslySetInnerHTML={{__html: text_uthmani_transcribed }} 
-        ></span>
-    </div>
-    <div className={`position-absolute translate-middle-y text-translated ${styles['button-' + verse_number + '-translated']}`}>
+    <span 
+      style={{whiteSpace: "nowrap"}}
+      className={`position-absolute translate-middle-y text-transcribed ${styles['button-' + verse_number + '-transcribed']}`}
+      dangerouslySetInnerHTML={{__html: `&#xFD3E;${verse_number}&#xFD3F; ${text_uthmani_transcribed}` }} 
+    />
+    <span className={`position-absolute translate-middle-y text-translated ${styles['button-' + verse_number + '-translated']}`}>
         &#xFD3E;{verse_number}&#xFD3F;&nbsp;
         {translations.find(item => item.resource_id == languageId)?.text}
-    </div>
-    <div className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic ${styles['button-' + verse_number + '-arabic']}`}>
-        <span>
-          {convertToArabicNumerals(verse_number)}
-          &#8205;
-          &#x06DD;
-        </span>&nbsp;
-        <span
-          style={{whiteSpace: "nowrap"}}
-          ref={arabicTextRef}
-          dangerouslySetInnerHTML={{__html: text_uthmani_tajweed_parsed }} 
-        ></span>
-    </div>
+    </span>
+    <span
+        style={{whiteSpace: "nowrap"}}
+        className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic ${styles['button-' + verse_number + '-arabic']}`}
+        ref={arabicTextRef}
+        dangerouslySetInnerHTML={{__html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani_tajweed_parsed}` }} 
+    />
+    <hr className={`position-absolute ${styles['button-' + verse_number + '-divider']}`}/>
   </>;
 };
 
