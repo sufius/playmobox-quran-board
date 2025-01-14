@@ -119,8 +119,9 @@ const Verse = ({
   languageId,
   verse_number,
   text_uthmani_transcribed,
-  text_uthmani_tajweed_parsed,
-  translations
+  text_uthmani,
+  translations,
+  words
 }: VerseProps & { languageId: number }) => {
   const [transcriptedTextWidth, setTranscriptedTextWidth] = useState(0); // State to store the value
   const [translatedTextWidth, setTranslatedTextWidth] = useState(0); // State to store the value
@@ -132,7 +133,7 @@ const Verse = ({
   const textWidthThreshold = 1025;
 
   useEffect(() => {
-      console.log('useEffect', arabicTextRef.current);
+    // console.log('words', words);
       if (transcriptedTextRef.current) {
         setTranscriptedTextWidth(getTextWidth(transcriptedTextRef.current?.innerText, getCanvasFont(transcriptedTextRef.current)));
       }
@@ -142,7 +143,141 @@ const Verse = ({
       if (arabicTextRef.current) {
         setArabicTextWidth(getTextWidth(arabicTextRef.current?.innerText, getCanvasFont(arabicTextRef.current)));
       }
-  }, [text_uthmani_transcribed, text_uthmani_tajweed_parsed, text_arabic]);
+
+
+
+
+
+ // Function to remove diacritics and non-visible characters from Arabic words
+ function removeDiacritics(str) {
+  // Regular expression to match diacritical marks and non-visible characters
+  const diacriticsAndInvisible = /[\u064B-\u0652\u0670\u06D6-\u06DC\u06DF-\u06E8\u06EA-\u06ED\u200C\u200D\uFEFF\u0323\u0640\u00A0\u0020]/g;
+  return str.replace(diacriticsAndInvisible, "");
+}
+function removeExtraWhitespace(str) {
+  return str.replace(/\s+/g, ''); // Remove all whitespaces
+}
+
+function calculateHammingDistance(word1, word2) {
+  // Normalize both words and remove diacritics and non-visible characters
+  const normalizedWord1 = word1.normalize("NFC");
+  const normalizedWord2 = word2.normalize("NFC");
+
+  const cleanWord1 = removeDiacritics(normalizedWord1);
+  const cleanWord2 = removeDiacritics(normalizedWord2);
+
+  // Clean both words by removing all whitespaces
+  const cleanedWord1 = removeExtraWhitespace(cleanWord1);
+  const cleanedWord2 = removeExtraWhitespace(cleanWord2);
+
+
+  // Ensure both words have the same length by padding with spaces if necessary
+  const maxLength = Math.max(cleanedWord1.length, cleanedWord2.length);
+  const paddedWord1 = cleanedWord1.padEnd(maxLength, " ");
+  const paddedWord2 = cleanedWord2.padEnd(maxLength, " ");
+
+  
+  console.log(`=========================================`);
+  console.log(`=========================================`);
+  console.log(`=========================================`);
+  
+  [...paddedWord1].forEach((char, i) => {
+    console.log(`paddedWord1[${i}]: ${char}, Unicode: ${char.charCodeAt(0)}`);
+  });
+  [...paddedWord2].forEach((char, i) => {
+    console.log(`paddedWord2[${i}]: ${char}, Unicode: ${char.charCodeAt(0)}`);
+  });
+  
+  console.log(`=========================================`);
+  
+  let mismatches = 0;
+  for (let i = 0; i < Math.max(paddedWord1.length, paddedWord2.length); i++) {
+    const char1 = paddedWord1[i] || " ";
+    const char2 = paddedWord2[i] || " ";
+    if (char1 !== char2) {
+      console.log(`Mismatch at position ${i}: ${char1} vs ${char2}`);
+      mismatches++;
+    }
+  }
+  console.log(`Total mismatches: ${mismatches}`);
+  
+  console.log(`=========================================`);
+  console.log(`=========================================`);
+  console.log(`=========================================`);
+
+
+
+
+
+  let distance = 0;
+
+  // Compare characters one by one
+  for (let i = 0; i < maxLength; i++) {
+    if (paddedWord1[i] !== paddedWord2[i]) {
+      distance++;
+    }
+  }
+
+  return distance;
+}
+
+function logCharacterDifferences(word1, word2) {
+  const normalizedWord1 = word1.normalize("NFC");
+  const normalizedWord2 = word2.normalize("NFC");
+
+  const cleanWord1 = removeDiacritics(normalizedWord1);
+  const cleanWord2 = removeDiacritics(normalizedWord2);
+
+  console.log("Cleaned Word 1:", [...cleanWord1].map((char) => `${char} (${char.charCodeAt(0)})`));
+  console.log("Cleaned Word 2:", [...cleanWord2].map((char) => `${char} (${char.charCodeAt(0)})`));
+
+  return { cleanWord1, cleanWord2 };
+}
+
+// Example words
+const word1 = "شَىْءٍ قَدِيرٌ";
+const word2 = "شَىْءٍۢ قَدِيرٌۭ";
+
+// console.log(`=========================================`);
+// console.log(`=========================================`);
+// console.log(`=========================================`);
+
+// [...word1].forEach((char, i) => {
+//   console.log(`word1[${i}]: ${char}, Unicode: ${char.charCodeAt(0)}`);
+// });
+// [...word2].forEach((char, i) => {
+//   console.log(`word2[${i}]: ${char}, Unicode: ${char.charCodeAt(0)}`);
+// });
+
+// console.log(`=========================================`);
+
+// let mismatches = 0;
+// for (let i = 0; i < Math.max(word1.length, word2.length); i++) {
+//   const char1 = word1[i] || " ";
+//   const char2 = word2[i] || " ";
+//   if (char1 !== char2) {
+//     console.log(`Mismatch at position ${i}: ${char1} vs ${char2}`);
+//     mismatches++;
+//   }
+// }
+// console.log(`Total mismatches: ${mismatches}`);
+
+// console.log(`=========================================`);
+// console.log(`=========================================`);
+// console.log(`=========================================`);
+
+// Log character differences
+logCharacterDifferences(word1, word2);
+
+console.log("Hamming Distance:", calculateHammingDistance(word1, word2));
+
+
+
+
+
+  }, [text_uthmani_transcribed, text_uthmani, text_arabic]);
+
+  
 
   return <>
     <span 
@@ -181,7 +316,17 @@ const Verse = ({
         right: "5mm",
         color: (arabicTextWidth > textWidthThreshold) ? "darkred" : "none"
       }}
-      dangerouslySetInnerHTML={{ __html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani_tajweed_parsed}` }}
+      dangerouslySetInnerHTML={{ __html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani}` }}
+    />
+    <span
+      className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic`}
+      style={{ 
+        whiteSpace: "nowrap", 
+        top: `${18.9 + (verse_number) * 21.3}mm`, 
+        right: "5mm",
+        color: (arabicTextWidth > textWidthThreshold) ? "darkred" : "none"
+      }}
+      dangerouslySetInnerHTML={{ __html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${words.slice(0,-1).map(word => word.text_uthmani).join(" ")}` }}
     />
     <hr
       style={{ top: `${18.5 + (verse_number - 1) * 21.3}mm`, left: "58.0mm", right: "15.0mm" }}
