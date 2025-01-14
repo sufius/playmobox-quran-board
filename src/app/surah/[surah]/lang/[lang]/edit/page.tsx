@@ -1,6 +1,6 @@
 "use client"
 
-import { use, useEffect, useRef, useState } from "react";
+import { use, useEffect, useMemo, useRef, useState } from "react";
 import styles from "./page.module.css";
 
 
@@ -122,37 +122,65 @@ const Verse = ({
   text_uthmani_tajweed_parsed,
   translations
 }: VerseProps & { languageId: number }) => {
+  const [transcriptedTextWidth, setTranscriptedTextWidth] = useState(0); // State to store the value
+  const [translatedTextWidth, setTranslatedTextWidth] = useState(0); // State to store the value
+  const [arabicTextWidth, setArabicTextWidth] = useState(0); // State to store the value
   const transcriptedTextRef = useRef<HTMLElement>(null);
   const translatedTextRef = useRef<HTMLElement>(null);
   const arabicTextRef = useRef<HTMLElement>(null);
+  const text_arabic = useMemo(() => translations.find(item => item.resource_id == languageId)?.text, [translations]);
+  const textWidthThreshold = 1025;
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     console.log('arabicTextRef.current', arabicTextRef.current);
-  //     const fontSize = getTextWidth(arabicTextRef.current?.innerText, getCanvasFont(arabicTextRef.current));
-  //     console.log('fontSize', arabicTextRef.current, fontSize);
-  //   }, 1000);
-  //   return () => clearTimeout(timer);
-  // }, [text_uthmani_tajweed_parsed]);
+  useEffect(() => {
+      console.log('useEffect', arabicTextRef.current);
+      if (transcriptedTextRef.current) {
+        setTranscriptedTextWidth(getTextWidth(transcriptedTextRef.current?.innerText, getCanvasFont(transcriptedTextRef.current)));
+      }
+      if (translatedTextRef.current) {
+        setTranslatedTextWidth(getTextWidth(translatedTextRef.current?.innerText, getCanvasFont(translatedTextRef.current)));
+      }
+      if (arabicTextRef.current) {
+        setArabicTextWidth(getTextWidth(arabicTextRef.current?.innerText, getCanvasFont(arabicTextRef.current)));
+      }
+  }, [text_uthmani_transcribed, text_uthmani_tajweed_parsed, text_arabic]);
 
   return <>
     <span 
       ref={transcriptedTextRef}
-      style={{ whiteSpace: "nowrap", top: `${4.9 + (verse_number - 1) * 21.3}mm`, left: "58.0mm", right: "13mm", lineHeight: "0.8rem" }}
+      style={{
+        whiteSpace: "nowrap",
+        top: `${4.9 + (verse_number - 1) * 21.3}mm`,
+        left: "58.0mm",
+        right: "13mm",
+        lineHeight: "0.8rem",
+        color: (transcriptedTextWidth > textWidthThreshold) ? "darkred" : "none"
+      }}
       className={`position-absolute translate-middle-y text-transcribed`}
       dangerouslySetInnerHTML={{ __html: `&#xFD3E;${verse_number}&#xFD3F; ${text_uthmani_transcribed}` }}
     />
     <span
       ref={translatedTextRef}
-      style={{ whiteSpace: "nowrap", top: `${10.9 + (verse_number - 1) * 21.3}mm`, left: "58.0mm", right: "13mm", lineHeight: "0.8rem" }}
+      style={{
+        whiteSpace: "nowrap", 
+        top: `${10.9 + (verse_number - 1) * 21.3}mm`, 
+        left: "58.0mm", 
+        right: "13mm", 
+        lineHeight: "0.8rem",
+        color: (translatedTextWidth > textWidthThreshold) ? "darkred" : "none"
+      }}
       className={`position-absolute translate-middle-y text-translated`}
     >
-      &#xFD3E;{verse_number}&#xFD3F; {translations.find(item => item.resource_id == languageId)?.text}
+      &#xFD3E;{verse_number}&#xFD3F; {text_arabic}
     </span>
     <span
       ref={arabicTextRef}
       className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic`}
-      style={{ whiteSpace: "nowrap", top: `${18.9 + (verse_number - 1) * 21.3}mm`, right: "5mm" }}
+      style={{ 
+        whiteSpace: "nowrap", 
+        top: `${18.9 + (verse_number - 1) * 21.3}mm`, 
+        right: "5mm",
+        color: (arabicTextWidth > textWidthThreshold) ? "darkred" : "none"
+      }}
       dangerouslySetInnerHTML={{ __html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani_tajweed_parsed}` }}
     />
     <hr
@@ -185,6 +213,7 @@ export default function Board({ params }: BoardProps) {
   if (!data || !rows) {
     return <>...Loading</>
   }
+  console.log('Board');
 
   return (
     <div className={styles["page"]} style={{ height: `${rows.verses.length * 21.3}mm` }}>
