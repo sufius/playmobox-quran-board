@@ -11,6 +11,26 @@ interface BoardProps {
   }>
 }
 
+interface WordsProps {
+  audio_url: string;
+  char_type_name: string;
+  code_v1: string;
+  id: number;
+  line_number: number;
+  page_number: number;
+  position: number;
+  text: string;
+  text_uthmani: string;
+  translation: {
+    language_name: string;
+    text: string;
+  };
+  transliteration: {
+    language_name: string;
+    text: string;
+  };
+};
+
 interface VerseProps {
   hizb_number: number;
   id: number;
@@ -31,25 +51,7 @@ interface VerseProps {
   }[];
   verse_key: number;
   verse_number: number;
-  words: {
-    audio_url: string;
-    char_type_name: string;
-    code_v1: string;
-    id: number;
-    line_number: number;
-    page_number: number;
-    position: number;
-    text: string;
-    text_uthmani: string;
-    translation: {
-      language_name: string;
-      text: string;
-    };
-    transliteration: {
-      language_name: string;
-      text: string;
-    };
-  }[];
+  words: WordsProps[];
 }[];
 
 interface SurahProps {
@@ -166,28 +168,74 @@ const Verse = ({
   const transcriptedTextRef = useRef<HTMLElement>(null);
   const translatedTextRef = useRef<HTMLElement>(null);
   const arabicTextRef = useRef<HTMLElement>(null);
-  const [hoveredWord, setHoveredWord] = useState<string | null>(null); // State to track the hovered word
+  const [hoveredWord, setHoveredWord] = useState<WordsProps | null>(null); // State to track the hovered word
   const text_translated = useMemo(() => translations.find(item => item.resource_id == languageId)?.text, [translations]);
   const textWidthThreshold = 1025;
 
   useEffect(() => {
     console.log('words', words);
-      if (transcriptedTextRef.current) {
-        setTranscriptedTextWidth(getTextWidth(transcriptedTextRef.current?.innerText, getCanvasFont(transcriptedTextRef.current)));
-      }
-      if (translatedTextRef.current) {
-        setTranslatedTextWidth(getTextWidth(translatedTextRef.current?.innerText, getCanvasFont(translatedTextRef.current)));
-      }
-      if (arabicTextRef.current) {
-        setArabicTextWidth(getTextWidth(arabicTextRef.current?.innerText, getCanvasFont(arabicTextRef.current)));
-      }
-
-      // Example words
-      const word1 = "شَىْءٍ قَدِيرٌ";
-      const word2 = "شَىْءٍۢ قَدِيرٌۭ";
-
-      console.log("Hamming Distance:", calculateHammingDistance(word1, word2));
+    if (transcriptedTextRef.current) {
+      setTranscriptedTextWidth(getTextWidth(transcriptedTextRef.current?.innerText, getCanvasFont(transcriptedTextRef.current)));
+    }
+    if (translatedTextRef.current) {
+      setTranslatedTextWidth(getTextWidth(translatedTextRef.current?.innerText, getCanvasFont(translatedTextRef.current)));
+    }
+    if (arabicTextRef.current) {
+      setArabicTextWidth(getTextWidth(arabicTextRef.current?.innerText, getCanvasFont(arabicTextRef.current)));
+    }
   }, [text_uthmani_transcribed, text_translated, text_arabic]);
+    
+  useEffect(() => {
+    console.log('hoveredWord', hoveredWord?.translation.text, translatedTextRef.current?.innerText);
+    if (!translatedTextRef.current) {
+        return;
+    }
+    if (!hoveredWord) {
+        return;
+    }
+    const wordToFind = hoveredWord.translation.text;
+    const translatedTextElement = translatedTextRef.current;
+    const translatedText = translatedTextElement.innerText;
+    const translatedTextSplitted: string[] = translatedText.split(/(\s+)/); // Keep spaces for reassembly
+    let bestMatch: string | null = null;
+    let bestDistance = Infinity;
+
+    // Find the best match using Hamming distance
+    translatedTextSplitted.forEach((translatedTextSplittedWord) => {
+        console.log("Hamming Distance:", calculateHammingDistance(translatedTextSplittedWord, wordToFind));
+        if (translatedTextSplittedWord.trim().length === wordToFind.length) { // Only compare translatedTextSplitted of the same length
+            // const distance = hammingDistance(translatedTextSplittedWord.trim(), wordToFind);
+            const distance = calculateHammingDistance(translatedTextSplittedWord, wordToFind);
+            if (distance < bestDistance) {
+                bestDistance = distance;
+                bestMatch = translatedTextSplittedWord;
+            }
+        }
+    });
+
+    if (bestMatch === null) {
+        console.info("No match found!");
+        return;
+    }
+
+    // Reconstruct the translatedTextElement with the best match highlighted
+    translatedTextElement.innerHTML = translatedTextSplitted
+        .map((word) =>
+            word === bestMatch
+                ? `<span style="background-color: yellow; cursor: pointer;">${word}</span>`
+                : word
+        )
+        .join("");
+
+    // Add click event to remove the highlight
+    const highlight = document.querySelector(".highlight");
+    if (highlight) {
+        highlight.addEventListener("click", () => {
+            translatedTextElement.innerHTML = translatedText;
+        });
+    }
+
+  }, [hoveredWord]);
 
   return <>
     <span 
@@ -242,7 +290,7 @@ const Verse = ({
         return (
           <span key={index}>
             <span
-              onMouseEnter={() => setHoveredWord(word.text_uthmani)} // Update hovered word on mouse enter
+              onMouseEnter={() => setHoveredWord(word)} // Update hovered word on mouse enter
               onMouseLeave={() => setHoveredWord(null)} // Reset hovered word on mouse leave
             >
               {word.text_uthmani}{" "}
