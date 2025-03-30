@@ -1,6 +1,7 @@
 "use client"
 
 import { use, useEffect, useRef, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import styles from "./page.module.css";
 
 
@@ -110,40 +111,41 @@ function getCanvasFont(el: HTMLElement | null = document.body) {
 
 const Verse = ({
   languageId,
+  index,
   verse_number,
   text_uthmani_transcribed,
   text_uthmani_tajweed_parsed,
   translations
-}: VerseProps & { languageId: number }) => {
+}: VerseProps & { languageId: number, index: number }) => {
   const arabicTextRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      console.log('itemsRef.current', arabicTextRef.current);
+      // console.log('itemsRef.current', arabicTextRef.current);
       const fontSize = getTextWidth(arabicTextRef.current?.innerText, getCanvasFont(arabicTextRef.current));
-      console.log('fontSize', arabicTextRef.current, fontSize);
+      // console.log('fontSize', arabicTextRef.current, fontSize);
     }, 1000);
     return () => clearTimeout(timer);
   }, [text_uthmani_tajweed_parsed]);
 
   return <>
-    <div className={`d-none position-absolute btn-close translate-middle ${styles['button-' + verse_number]}`}></div>
+    <div className={`d-none position-absolute btn-close translate-middle ${styles['button-' + index]}`}></div>
     <span 
       style={{whiteSpace: "nowrap"}}
-      className={`position-absolute translate-middle-y text-transcribed ${styles['button-' + verse_number + '-transcribed']}`}
+      className={`position-absolute translate-middle-y text-transcribed ${styles['button-' + index + '-transcribed']}`}
       dangerouslySetInnerHTML={{__html: `&#xFD3E;${verse_number}&#xFD3F; ${text_uthmani_transcribed}` }} 
     />
-    <span className={`position-absolute translate-middle-y text-translated ${styles['button-' + verse_number + '-translated']}`}>
+    <span className={`position-absolute translate-middle-y text-translated ${styles['button-' + index + '-translated']}`}>
         &#xFD3E;{verse_number}&#xFD3F;&nbsp;
         {translations.find(item => item.resource_id == languageId)?.text}
     </span>
     <span
         style={{whiteSpace: "nowrap"}}
-        className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic ${styles['button-' + verse_number + '-arabic']}`}
+        className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic ${styles['button-' + index + '-arabic']}`}
         ref={arabicTextRef}
         dangerouslySetInnerHTML={{__html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani_tajweed_parsed}` }} 
     />
-    <hr className={`position-absolute ${styles['button-' + verse_number + '-divider']}`}/>
+    <hr className={`position-absolute ${styles['button-' + index + '-divider']}`}/>
   </>;
 };
 
@@ -159,6 +161,11 @@ export default function Board({params}: BoardProps) {
   const [data, setData] = useState<SurahProps | null>(null);
   const [rows, setRows] = useState([]);
   const [error, setError] = useState<string | null>(null);
+
+  const searchParams = useSearchParams();
+  const start =  Number(searchParams.get("start")) || 0;
+  console.log('start', start );
+  
 
   useEffect(() => {
     // Dynamically load the JSON file based on the param
@@ -182,7 +189,7 @@ export default function Board({params}: BoardProps) {
             s&#363;rah: {data.chapter_number}
         </h6>
         <h6 className="position-absolute pmb-text-primary ayat-numbers">
-            ʾāyāt: 1-11 [{data.number_of_ayahs}]
+            ʾāyāt: {start+1}-{start+11} [{data.number_of_ayahs}]
         </h6>
         <h6 className="position-absolute surah-name-transcribed text-transcribed">
             {data.chapter_name_transcribed}
@@ -202,9 +209,10 @@ export default function Board({params}: BoardProps) {
         <span className="d-none position-absolute pmb-module-footprint border border-1 bg-gradient"></span> 
         <span className="d-none position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span> 
 
-        {data.verses.slice(0, 11).map((verse, index) => (
+        {data.verses.slice(start, start + 11).map((verse, index) => (
           <Verse 
-            key={index} 
+            key={index}
+            index={index+1}
             languageId={languagesFlipped[lang]} 
             {...verse} 
           />
