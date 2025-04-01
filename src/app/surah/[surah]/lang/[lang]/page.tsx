@@ -113,6 +113,7 @@ const Verse = ({
   languageId,
   index,
   verse_number,
+  text_uthmani,
   text_uthmani_transcribed,
   text_uthmani_tajweed_parsed,
   translations
@@ -143,7 +144,7 @@ const Verse = ({
         style={{whiteSpace: "nowrap"}}
         className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic ${styles['button-' + index + '-arabic']}`}
         ref={arabicTextRef}
-        dangerouslySetInnerHTML={{__html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani_tajweed_parsed}` }} 
+        dangerouslySetInnerHTML={{__html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani}` }} 
     />
     <hr className={`position-absolute ${styles['button-' + index + '-divider']}`}/>
   </>;
