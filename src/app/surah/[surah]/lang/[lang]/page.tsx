@@ -6,26 +6,32 @@ import styles from "./page.module.css";
 
 
 interface VerseProps {
-  hizb_number: number;
-  id: number;
-  juz_number: number;
-  manzil_number: number;
-  page_number: number;
-  rub_el_hizb_number: number;
-  ruku_number: number;
-  sajdah_number: number | null;
+  hizb_number?: number;
+  id?: number;
+  juz_number?: number;
+  manzil_number?: number;
+  page_number?: number;
+  rub_el_hizb_number?: number;
+  ruku_number?: number;
+  sajdah_number?: number | null;
   text_uthmani: string;
-  text_uthmani_tajweed: string;
-  text_uthmani_tajweed_parsed: string;
+  text_uthmani_tajweed?: string;
+  text_uthmani_tajweed_parsed?: string;
   text_uthmani_transcribed: string;
-  translations: {
+  translations?: {
     "id": number;
     "resource_id": number;
     "text": string;
   }[];
-  verse_key: number;
+  translation: string;
+  splitted: {
+    text_uthmani: string;
+    text_uthmani_transcribed: string;
+    translation: string;
+  };
+  verse_key?: number;
   verse_number: number;
-  words: {
+  words?: {
     audio_url: string;
     char_type_name: string;
     code_v1: string;
@@ -108,43 +114,64 @@ function getCanvasFont(el: HTMLElement | null = document.body) {
   return `${fontWeight} ${fontSize} ${fontFamily}`;
 }
 
+async function fetchJSONFiles(surah: number): Promise<VerseProps[] | undefined> {
+  const directory = "/boards/"; // JSON files location
+  const regex = new RegExp(`surah-${surah}_part\\d+-splitted\\.json$`); // Dynamic regex based on surah number
+
+  try {
+    // Ideally, this should come from a dynamic file index, but for now, it's hardcoded
+    const fileList = [
+      "surah-18_part1-splitted.json",
+      "surah-18_part2-splitted.json",
+      "surah-19_part1-splitted.json"
+    ]; // Replace with dynamic fetching if possible
+
+    const jsonPromises = fileList
+      .filter(file => regex.test(file)) // Filter based on dynamic Surah regex
+      .map(async file => {
+        const response = await fetch(`${directory}${file}`);
+        if (!response.ok) throw new Error(`Failed to load ${file}`);
+        return response.json();
+      });
+
+    const jsonFiles = await Promise.all(jsonPromises);
+    // console.log(`Loaded JSON files for Surah ${surah}:`, jsonFiles);
+    // console.log(`Loaded JSON files for Surah ${surah}:`, jsonFiles.flat().map(verse => verse.splitted || verse));
+    return jsonFiles.flat().map(verse => {
+      if (verse.splitted) {
+        verse.splitted[0].verse_number = verse.verse_number;
+      }
+      return verse.splitted || verse
+    }).flat()
+  } catch (error) {
+    console.error("Error loading JSON files:", error);
+  }
+}
 
 const Verse = ({
-  languageId,
   index,
   verse_number,
   text_uthmani,
   text_uthmani_transcribed,
-  text_uthmani_tajweed_parsed,
-  translations
-}: VerseProps & { languageId: number, index: number }) => {
-  const arabicTextRef = useRef<HTMLElement>(null);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      // console.log('itemsRef.current', arabicTextRef.current);
-      const fontSize = getTextWidth(arabicTextRef.current?.innerText, getCanvasFont(arabicTextRef.current));
-      // console.log('fontSize', arabicTextRef.current, fontSize);
-    }, 1000);
-    return () => clearTimeout(timer);
-  }, [text_uthmani_tajweed_parsed]);
+  translation,
+}: VerseProps & { index: number }) => {
 
   return <>
     <div className={`d-none position-absolute btn-close translate-middle ${styles['button-' + index]}`}></div>
     <span 
       style={{whiteSpace: "nowrap"}}
       className={`position-absolute translate-middle-y text-transcribed ${styles['button-' + index + '-transcribed']}`}
-      dangerouslySetInnerHTML={{__html: `&#xFD3E;${verse_number}&#xFD3F; ${text_uthmani_transcribed}` }} 
+      dangerouslySetInnerHTML={{__html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${text_uthmani_transcribed}` : text_uthmani_transcribed }} 
     />
-    <span className={`position-absolute translate-middle-y text-translated ${styles['button-' + index + '-translated']}`}>
-        &#xFD3E;{verse_number}&#xFD3F;&nbsp;
-        {translations.find(item => item.resource_id == languageId)?.text}
-    </span>
+    <span
+      className={`position-absolute translate-middle-y text-translated ${styles['button-' + index + '-translated']}`}
+      dangerouslySetInnerHTML={{__html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${translation}` : translation }}
+    />
     <span
         style={{whiteSpace: "nowrap"}}
         className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic ${styles['button-' + index + '-arabic']}`}
-        ref={arabicTextRef}
-        dangerouslySetInnerHTML={{__html: `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani}` }} 
+        dangerouslySetInnerHTML={{__html: verse_number ? 
+          `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani}` : text_uthmani }} 
     />
     <hr className={`position-absolute ${styles['button-' + index + '-divider']}`}/>
   </>;
@@ -160,19 +187,20 @@ interface BoardProps {
 export default function Board({params}: BoardProps) {
   const { surah = 1, lang = "de" } = use(params);
   const [data, setData] = useState<SurahProps | null>(null);
-  const [rows, setRows] = useState([]);
+  const [rows, setRows] = useState<VerseProps[] | undefined>([]);
   const [error, setError] = useState<string | null>(null);
 
   const searchParams = useSearchParams();
-  const start =  Number(searchParams.get("start")) || 0;
-  console.log('start', start );
-  
+  const start =  Number(searchParams.get("start")) || 0;  
 
   useEffect(() => {
     // Dynamically load the JSON file based on the param
     import(`@/app/data/surah-${surah}.json`)
-      .then((module) => {
+      .then(async (module) => {
         setData(module.default); // The default export of the imported module
+        let mergedSplittedVerses = await fetchJSONFiles(surah);
+        setRows(mergedSplittedVerses);
+        console.log('fetchJSONFiles(surah)', mergedSplittedVerses);
       })
       .catch((err) => {
         setError('File not found or an error occurred');
@@ -180,7 +208,7 @@ export default function Board({params}: BoardProps) {
       });
   }, [surah]);
  
-  if (!data) {
+  if (!data || !rows) {
     return <>...Loading</>
   }
 
@@ -210,11 +238,10 @@ export default function Board({params}: BoardProps) {
         <span className="d-none position-absolute pmb-module-footprint border border-1 bg-gradient"></span> 
         <span className="d-none position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span> 
 
-        {data.verses.slice(start, start + 11).map((verse, index) => (
+        {rows.slice(start, start + 11).map((verse, index) => (
           <Verse 
             key={index}
             index={index+1}
-            languageId={languagesFlipped[lang]} 
             {...verse} 
           />
         ))}
