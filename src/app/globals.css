@@ -12,10 +12,10 @@
 }
 
 :root {
-  --pmb-text-primary: #87ceeb;
-  --pmb-text-transcribed: #eddabb;
-  --pmb-text-translated: #dab473;
-  --pmb-text-arabic: #ffd700;
+  --pmb-text-primary: #5b83fc;
+  --pmb-text-transcribed: #E6B800;
+  --pmb-text-translated: #8B5A2B;
+  --pmb-text-arabic: darkgoldenrod;
 
   --pmb-ghn: #FFA500;
   --pmb-qlq: #FF0000;
