@@ -31,6 +31,7 @@ interface VerseProps {
   };
   verse_key?: number;
   verse_number: number;
+  belongs_to_verse_number: number;
   words?: {
     audio_url: string;
     char_type_name: string;
@@ -200,7 +201,7 @@ export default function Board({params}: BoardProps) {
         setData(module.default); // The default export of the imported module
         let mergedSplittedVerses = await fetchJSONFiles(surah);
         setRows(mergedSplittedVerses);
-        console.log('fetchJSONFiles(surah)', mergedSplittedVerses);
+        // console.log('fetchJSONFiles(surah)', mergedSplittedVerses);
       })
       .catch((err) => {
         setError('File not found or an error occurred');
@@ -215,10 +216,10 @@ export default function Board({params}: BoardProps) {
   return (
     <div className={styles["page"]}>
         <h6 className="position-absolute pmb-text-primary surah-number">
-            s&#363;rah: {data.chapter_number}
+            <b>s&#363;rah: {data.chapter_number}</b>
         </h6>
         <h6 className="position-absolute pmb-text-primary ayat-numbers">
-            ʾāyāt: {start+1}-{start+11} [{data.number_of_ayahs}]
+            <b>ʾāyāt: {rows[start]?.verse_number || rows[start]?.belongs_to_verse_number}-{rows[start+10]?.verse_number || rows[start+10]?.belongs_to_verse_number} [{data.number_of_ayahs}]</b>
         </h6>
         <h6 className="position-absolute surah-name-transcribed text-transcribed">
             {data.chapter_name_transcribed}
