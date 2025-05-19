@@ -1,15 +1,19 @@
 @charset "UTF-8";
 @import "bootstrap/dist/css/bootstrap.css";
 @font-face {
-  font-family: "NotoNaskhArabic";
-  src: url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff2")
-      format("woff2"),
-    url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff") format("woff"),
-    url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.ttf")
-      format("truetype");
+  font-family: "arabic-font-400";
+  src: 
+  url("./fonts/KSARegular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+/* 
+src: 
+url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff2") format("woff2"),
+url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff") format("woff"),
+url("./fonts/Arabic-Fonts/Hafs/hafs.otf") format("opentype"),
+url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.ttf") format("truetype");
+*/
 
 :root {
   --pmb-text-primary: #5b83fc;
@@ -60,8 +64,8 @@ body {
 
 /* =========================== */
 
-.noto-naskh-arabic-400 {
-  font-family: "NotoNaskhArabic", serif;
+.arabic-font-400 {
+  font-family: "arabic-font-400", serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;

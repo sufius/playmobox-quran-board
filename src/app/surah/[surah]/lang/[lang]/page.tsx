@@ -170,7 +170,7 @@ const Verse = ({
     />
     <span
         style={{whiteSpace: "nowrap"}}
-        className={`position-absolute translate-middle-y noto-naskh-arabic-400 text-arabic ${styles['button-' + index + '-arabic']}`}
+        className={`position-absolute translate-middle-y arabic-font-400 text-arabic ${styles['button-' + index + '-arabic']}`}
         dangerouslySetInnerHTML={{__html: verse_number ? 
           `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani}` : text_uthmani }} 
     />
@@ -227,7 +227,7 @@ export default function Board({params}: BoardProps) {
         <h6 className="position-absolute text-translated surah-name-translated text-transcribed">
             {data.chapter_name_translated[lang].name}
         </h6>
-        <h6 className="position-absolute surah-name-arabic noto-naskh-arabic-400 text-arabic">
+        <h6 className="position-absolute surah-name-arabic arabic-font-400 text-arabic">
           {data.chapter_name_arabic}
         </h6>
 
