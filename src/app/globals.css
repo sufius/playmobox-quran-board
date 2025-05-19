@@ -3,16 +3,16 @@
 @font-face {
   font-family: "arabic-font-400";
   src: 
-  url("./fonts/KSARegular.ttf") format("truetype");
+  url("./fonts/Montserrat-Regular.otf") format("opentype"),;
   font-weight: normal;
   font-style: normal;
 }
 /* 
 src: 
-url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff2") format("woff2"),
-url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff") format("woff"),
-url("./fonts/Arabic-Fonts/Hafs/hafs.otf") format("opentype"),
-url("./fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.ttf") format("truetype");
+url("./fonts/") format("woff2"),
+url("./fonts/") format("woff"),
+url("./fonts/") format("opentype"),
+url("./fonts/") format("truetype");
 */
 
 :root {
