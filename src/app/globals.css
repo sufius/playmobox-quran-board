@@ -19,6 +19,11 @@ url("./fonts/") format("opentype"),
 url("./fonts/") format("truetype");
 */
 
+/* Hide the Next.js dev overlay route badge */
+nextjs-portal {
+  display: none !important;
+}
+
 :root {
   --pmb-text-primary: #5b83fc;
   --pmb-text-transcribed: #E6B800;
