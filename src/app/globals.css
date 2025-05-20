@@ -1,12 +1,16 @@
 @charset "UTF-8";
 @import "bootstrap/dist/css/bootstrap.css";
+
+/* 
 @font-face {
   font-family: "arabic-font-400";
   src: 
-  url("./fonts/Montserrat-Regular.otf") format("opentype"),;
+  url("./fonts/KSARegular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
+*/
+
 /* 
 src: 
 url("./fonts/") format("woff2"),
@@ -65,7 +69,9 @@ body {
 /* =========================== */
 
 .arabic-font-400 {
+/*
   font-family: "arabic-font-400", serif;
+*/
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
