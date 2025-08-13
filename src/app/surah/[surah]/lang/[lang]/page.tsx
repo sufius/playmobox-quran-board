@@ -71,9 +71,6 @@ interface SurahProps {
   verses: VerseProps[]
 };
 
-interface GetTextWidthFunction extends Function {
-  canvas?: HTMLCanvasElement;
-}
 
 const convertToArabicNumerals = (latinNumber: number | string) => latinNumber.toString().replace(/\d/g, (digit: string) => '٠١٢٣٤٥٦٧٨٩'[parseInt(digit, 10)]);
 type LanguagesProps = { [key:number]: string };
@@ -85,35 +82,7 @@ const languages: LanguagesProps = {
   45: "ru",
 };
 const languagesFlipped: LanguagesFlippedProps = f(languages);
-/**
-  * Uses canvas.measureText to compute and return the width of the given text of given font in pixels.
-  * 
-  * @param {String} text The text to be rendered.
-  * @param {String} font The css font descriptor that text is to be rendered with (e.g. "bold 14px verdana").
-  * 
-  * @see https://stackoverflow.com/questions/118241/calculate-text-width-with-javascript/21015393#21015393
-  */
-const getTextWidth: GetTextWidthFunction = function(text: string, font: string): number {
-  // re-use canvas object for better performance
-  const canvas: HTMLCanvasElement = getTextWidth.canvas || (getTextWidth.canvas = document.createElement("canvas"));
-  const context: CanvasRenderingContext2D | null  = canvas.getContext("2d");
-  if (!context) {
-      throw new Error("Failed to get canvas context");
-  }
-  context.font = font;
-  const metrics = context.measureText(text);
-  return metrics.width;
-}
-function getCssStyle(element: Element | HTMLSpanElement | null, prop: string) {
-    return element && window.getComputedStyle(element, null).getPropertyValue(prop);
-}
-function getCanvasFont(el: HTMLElement | null = document.body) {
-  const fontWeight = getCssStyle(el, 'font-weight') || 'normal';
-  const fontSize = getCssStyle(el, 'font-size') || '16px';
-  const fontFamily = getCssStyle(el, 'font-family') || 'Times New Roman';
-  
-  return `${fontWeight} ${fontSize} ${fontFamily}`;
-}
+
 
 async function fetchJSONFiles(surah: number): Promise<VerseProps[] | undefined> {
   const directory = "/boards/"; // JSON files location
@@ -123,8 +92,7 @@ async function fetchJSONFiles(surah: number): Promise<VerseProps[] | undefined> 
     // Ideally, this should come from a dynamic file index, but for now, it's hardcoded
     const fileList = [
       "surah-18_part1-splitted.json",
-      "surah-18_part2-splitted.json",
-      "surah-19_part1-splitted.json"
+      "surah-18_part2-splitted.json"
     ]; // Replace with dynamic fetching if possible
 
     const jsonPromises = fileList
