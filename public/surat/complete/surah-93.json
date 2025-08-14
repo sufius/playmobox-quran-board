@@ -130,27 +130,27 @@
         {
           "id": 96026,
           "resource_id": 19,
-          "text": "By the morning hours"
+          "translation": "By the morning hours"
         },
         {
           "id": 370367,
           "resource_id": 79,
-          "text": "(Я Аллах) клянусь (предполуденным) утром"
+          "translation": "(Я Аллах) клянусь (предполуденным) утром"
         },
         {
           "id": 256324,
           "resource_id": 45,
-          "text": "Клянусь утром!"
+          "translation": "Клянусь утром!"
         },
         {
           "id": 141746,
           "resource_id": 27,
-          "text": "Bei der Morgenhelle"
+          "translation": "Bei der Morgenhelle"
         },
         {
           "id": 9311967,
           "resource_id": 445,
-          "text": "В знак (ореола) утреннего света"
+          "translation": "В знак (ореола) утреннего света"
         }
       ],
       "verse_key": "93:1",
@@ -165,7 +165,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﭲ",
-          "text_uthmani": "وَٱلضُّحَىٰ",
           "translation": {
             "language_name": "english",
             "text": "By the morning brightness"
@@ -173,7 +172,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wal-ḍuḥā"
-          }
+          },
+          "arabic": "وَٱلضُّحَىٰ"
         },
         {
           "audio_url": null,
@@ -184,7 +184,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﭳ",
-          "text_uthmani": "١",
           "translation": {
             "language_name": "english",
             "text": "(1)"
@@ -192,7 +191,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١"
         }
       ]
     },
@@ -209,27 +209,27 @@
         {
           "id": 96030,
           "resource_id": 19,
-          "text": "And by the night when it is stillest,"
+          "translation": "And by the night when it is stillest,"
         },
         {
           "id": 370368,
           "resource_id": 79,
-          "text": "и (клянусь) ночью, когда (все) успокаивается!"
+          "translation": "и (клянусь) ночью, когда (все) успокаивается!"
         },
         {
           "id": 256304,
           "resource_id": 45,
-          "text": "Клянусь ночью, когда она успокаивается (или покрывается мраком)!"
+          "translation": "Клянусь ночью, когда она успокаивается (или покрывается мраком)!"
         },
         {
           "id": 145152,
           "resource_id": 27,
-          "text": "und der Nacht, wenn sie (alles) umhüllt!"
+          "translation": "und der Nacht, wenn sie (alles) umhüllt!"
         },
         {
           "id": 9322597,
           "resource_id": 445,
-          "text": "В знак все темнеющего крова ночи"
+          "translation": "В знак все темнеющего крова ночи"
         }
       ],
       "verse_key": "93:2",
@@ -244,7 +244,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﭴ",
-          "text_uthmani": "وَٱلَّيْلِ",
           "translation": {
             "language_name": "english",
             "text": "And the night"
@@ -252,7 +251,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wa-al-layli"
-          }
+          },
+          "arabic": "وَٱلَّيْلِ"
         },
         {
           "audio_url": "wbw/093_002_002.mp3",
@@ -263,7 +263,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﭵ",
-          "text_uthmani": "إِذَا",
           "translation": {
             "language_name": "english",
             "text": "when"
@@ -271,7 +270,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "idhā"
-          }
+          },
+          "arabic": "إِذَا"
         },
         {
           "audio_url": "wbw/093_002_003.mp3",
@@ -282,7 +282,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﭶ",
-          "text_uthmani": "سَجَىٰ",
           "translation": {
             "language_name": "english",
             "text": "it covers with darkness"
@@ -290,7 +289,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "sajā"
-          }
+          },
+          "arabic": "سَجَىٰ"
         },
         {
           "audio_url": null,
@@ -301,7 +301,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﭷ",
-          "text_uthmani": "٢",
           "translation": {
             "language_name": "english",
             "text": "(2)"
@@ -309,7 +308,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢"
         }
       ]
     },
@@ -326,27 +326,27 @@
         {
           "id": 96032,
           "resource_id": 19,
-          "text": "Thy Lord hath not forsaken thee nor doth He hate thee,"
+          "translation": "Thy Lord hath not forsaken thee nor doth He hate thee,"
         },
         {
           "id": 370369,
           "resource_id": 79,
-          "text": "Не покинул тебя (о, Пророк) Господь твой [не прекратил ниспослание тебе откровений] и не возненавидел [не разгневался на тебя]."
+          "translation": "Не покинул тебя (о, Пророк) Господь твой [не прекратил ниспослание тебе откровений] и не возненавидел [не разгневался на тебя]."
         },
         {
           "id": 256306,
           "resource_id": 45,
-          "text": "Не покинул тебя твой Господь и не возненавидел."
+          "translation": "Не покинул тебя твой Господь и не возненавидел."
         },
         {
           "id": 145157,
           "resource_id": 27,
-          "text": "Dein Herr hat sich weder von dir verabschiedet noch haßt Er (dich)."
+          "translation": "Dein Herr hat sich weder von dir verabschiedet noch haßt Er (dich)."
         },
         {
           "id": 9335056,
           "resource_id": 445,
-          "text": "Тебя Господь твой не оставил, Тебя не разлюбил Владыка твой"
+          "translation": "Тебя Господь твой не оставил, Тебя не разлюбил Владыка твой"
         }
       ],
       "verse_key": "93:3",
@@ -361,7 +361,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﭸ",
-          "text_uthmani": "مَا",
           "translation": {
             "language_name": "english",
             "text": "Not"
@@ -369,7 +368,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "mā"
-          }
+          },
+          "arabic": "مَا"
         },
         {
           "audio_url": "wbw/093_003_002.mp3",
@@ -380,7 +380,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﭹ",
-          "text_uthmani": "وَدَّعَكَ",
           "translation": {
             "language_name": "english",
             "text": "has forsaken you"
@@ -388,7 +387,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "waddaʿaka"
-          }
+          },
+          "arabic": "وَدَّعَكَ"
         },
         {
           "audio_url": "wbw/093_003_003.mp3",
@@ -399,7 +399,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﭺ",
-          "text_uthmani": "رَبُّكَ",
           "translation": {
             "language_name": "english",
             "text": "your Lord"
@@ -407,7 +406,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rabbuka"
-          }
+          },
+          "arabic": "رَبُّكَ"
         },
         {
           "audio_url": "wbw/093_003_004.mp3",
@@ -418,7 +418,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﭻ",
-          "text_uthmani": "وَمَا",
           "translation": {
             "language_name": "english",
             "text": "and not"
@@ -426,7 +425,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wamā"
-          }
+          },
+          "arabic": "وَمَا"
         },
         {
           "audio_url": "wbw/093_003_005.mp3",
@@ -437,7 +437,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﭼ",
-          "text_uthmani": "قَلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "He is displeased"
@@ -445,7 +444,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "qalā"
-          }
+          },
+          "arabic": "قَلَىٰ"
         },
         {
           "audio_url": null,
@@ -456,7 +456,6 @@
           "page_number": 596,
           "position": 6,
           "text": "ﭽ",
-          "text_uthmani": "٣",
           "translation": {
             "language_name": "english",
             "text": "(3)"
@@ -464,7 +463,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣"
         }
       ]
     },
@@ -481,27 +481,27 @@
         {
           "id": 96034,
           "resource_id": 19,
-          "text": "And verily the latter portion will be better for thee than the former,"
+          "translation": "And verily the latter portion will be better for thee than the former,"
         },
         {
           "id": 370370,
           "resource_id": 79,
-          "text": "И однозначно Вечная жизнь (в Раю) для тебя – лучше, чем первая [чем жизнь в этом мире]."
+          "translation": "И однозначно Вечная жизнь (в Раю) для тебя – лучше, чем первая [чем жизнь в этом мире]."
         },
         {
           "id": 256308,
           "resource_id": 45,
-          "text": "Воистину, будущее для тебя лучше, чем настоящее."
+          "translation": "Воистину, будущее для тебя лучше, чем настоящее."
         },
         {
           "id": 145161,
           "resource_id": 27,
-          "text": "Und das Jenseits ist wahrlich besser für dich als das Diesseits."
+          "translation": "Und das Jenseits ist wahrlich besser für dich als das Diesseits."
         },
         {
           "id": 9345345,
           "resource_id": 445,
-          "text": "И знай, что каждый будущий момент Счастливей для тебя, чем предыдущий"
+          "translation": "И знай, что каждый будущий момент Счастливей для тебя, чем предыдущий"
         }
       ],
       "verse_key": "93:4",
@@ -516,7 +516,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﭾ",
-          "text_uthmani": "وَلَلْـَٔاخِرَةُ",
           "translation": {
             "language_name": "english",
             "text": "And surely the Hereafter"
@@ -524,7 +523,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walalākhiratu"
-          }
+          },
+          "arabic": "وَلَلْـَٔاخِرَةُ"
         },
         {
           "audio_url": "wbw/093_004_002.mp3",
@@ -535,7 +535,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﭿ",
-          "text_uthmani": "خَيْرٌۭ",
           "translation": {
             "language_name": "english",
             "text": "(is) better"
@@ -543,7 +542,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "khayrun"
-          }
+          },
+          "arabic": "خَيْرٌۭ"
         },
         {
           "audio_url": "wbw/093_004_003.mp3",
@@ -554,7 +554,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮀ",
-          "text_uthmani": "لَّكَ",
           "translation": {
             "language_name": "english",
             "text": "for you"
@@ -562,7 +561,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "laka"
-          }
+          },
+          "arabic": "لَّكَ"
         },
         {
           "audio_url": "wbw/093_004_004.mp3",
@@ -573,7 +573,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮁ",
-          "text_uthmani": "مِنَ",
           "translation": {
             "language_name": "english",
             "text": "than"
@@ -581,7 +580,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "mina"
-          }
+          },
+          "arabic": "مِنَ"
         },
         {
           "audio_url": "wbw/093_004_005.mp3",
@@ -592,7 +592,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﮂ",
-          "text_uthmani": "ٱلْأُولَىٰ",
           "translation": {
             "language_name": "english",
             "text": "the first"
@@ -600,7 +599,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ūlā"
-          }
+          },
+          "arabic": "ٱلْأُولَىٰ"
         },
         {
           "audio_url": null,
@@ -611,7 +611,6 @@
           "page_number": 596,
           "position": 6,
           "text": "ﮃ",
-          "text_uthmani": "٤",
           "translation": {
             "language_name": "english",
             "text": "(4)"
@@ -619,7 +618,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٤"
         }
       ]
     },
@@ -636,27 +636,27 @@
         {
           "id": 96036,
           "resource_id": 19,
-          "text": "And verily thy Lord will give unto thee so that thou wilt be content."
+          "translation": "And verily thy Lord will give unto thee so that thou wilt be content."
         },
         {
           "id": 370371,
           "resource_id": 79,
-          "text": "И, однозначно, вскоре даст тебе (о, Пророк) Господь твой (великие блага) [в этом мире победу, а в Вечной жизни награду, водоем и право заступничества за свою общину перед Аллахом], и ты будешь доволен."
+          "translation": "И, однозначно, вскоре даст тебе (о, Пророк) Господь твой (великие блага) [в этом мире победу, а в Вечной жизни награду, водоем и право заступничества за свою общину перед Аллахом], и ты будешь доволен."
         },
         {
           "id": 256313,
           "resource_id": 45,
-          "text": "Господь твой непременно одарит тебя, и ты будешь удовлетворен."
+          "translation": "Господь твой непременно одарит тебя, и ты будешь удовлетворен."
         },
         {
           "id": 145159,
           "resource_id": 27,
-          "text": "Und dein Herr wird dir wahrlich geben, und dann wirst du zufrieden sein."
+          "translation": "Und dein Herr wird dir wahrlich geben, und dann wirst du zufrieden sein."
         },
         {
           "id": 9355146,
           "resource_id": 445,
-          "text": "И скоро твой Господь пошлет тебе То, чем (безмерно) будешь ты доволен"
+          "translation": "И скоро твой Господь пошлет тебе То, чем (безмерно) будешь ты доволен"
         }
       ],
       "verse_key": "93:5",
@@ -671,7 +671,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮄ",
-          "text_uthmani": "وَلَسَوْفَ",
           "translation": {
             "language_name": "english",
             "text": "And soon"
@@ -679,7 +678,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walasawfa"
-          }
+          },
+          "arabic": "وَلَسَوْفَ"
         },
         {
           "audio_url": "wbw/093_005_002.mp3",
@@ -690,7 +690,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮅ",
-          "text_uthmani": "يُعْطِيكَ",
           "translation": {
             "language_name": "english",
             "text": "will give you"
@@ -698,7 +697,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yuʿ'ṭīka"
-          }
+          },
+          "arabic": "يُعْطِيكَ"
         },
         {
           "audio_url": "wbw/093_005_003.mp3",
@@ -709,7 +709,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮆ",
-          "text_uthmani": "رَبُّكَ",
           "translation": {
             "language_name": "english",
             "text": "your Lord"
@@ -717,7 +716,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rabbuka"
-          }
+          },
+          "arabic": "رَبُّكَ"
         },
         {
           "audio_url": "wbw/093_005_004.mp3",
@@ -728,7 +728,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮇ",
-          "text_uthmani": "فَتَرْضَىٰٓ",
           "translation": {
             "language_name": "english",
             "text": "then you will be satisfied"
@@ -736,7 +735,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fatarḍā"
-          }
+          },
+          "arabic": "فَتَرْضَىٰٓ"
         },
         {
           "audio_url": null,
@@ -747,7 +747,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﮈ",
-          "text_uthmani": "٥",
           "translation": {
             "language_name": "english",
             "text": "(5)"
@@ -755,7 +754,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٥"
         }
       ]
     },
@@ -772,27 +772,27 @@
         {
           "id": 96038,
           "resource_id": 19,
-          "text": "Did He not find thee an orphan and protect (thee)?"
+          "translation": "Did He not find thee an orphan and protect (thee)?"
         },
         {
           "id": 370372,
           "resource_id": 79,
-          "text": "Разве не нашел Он [Аллах] тебя (о, Мухаммад) сиротой и затем приютил [дал убежище и приют]?"
+          "translation": "Разве не нашел Он [Аллах] тебя (о, Мухаммад) сиротой и затем приютил [дал убежище и приют]?"
         },
         {
           "id": 256317,
           "resource_id": 45,
-          "text": "Разве Он не нашел тебя сиротой и не дал тебе приют?"
+          "translation": "Разве Он не нашел тебя сиротой и не дал тебе приют?"
         },
         {
           "id": 145163,
           "resource_id": 27,
-          "text": "Hat Er dich nicht als Waise gefunden und (dir) dann Zuflucht verschafft"
+          "translation": "Hat Er dich nicht als Waise gefunden und (dir) dann Zuflucht verschafft"
         },
         {
           "id": 9369236,
           "resource_id": 445,
-          "text": "Неужто не нашел тебя Он сиротой? Не дал приюта (и заботы)"
+          "translation": "Неужто не нашел тебя Он сиротой? Не дал приюта (и заботы)"
         }
       ],
       "verse_key": "93:6",
@@ -807,7 +807,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮉ",
-          "text_uthmani": "أَلَمْ",
           "translation": {
             "language_name": "english",
             "text": "Did not"
@@ -815,7 +814,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alam"
-          }
+          },
+          "arabic": "أَلَمْ"
         },
         {
           "audio_url": "wbw/093_006_002.mp3",
@@ -826,7 +826,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮊ",
-          "text_uthmani": "يَجِدْكَ",
           "translation": {
             "language_name": "english",
             "text": "He find you"
@@ -834,7 +833,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yajid'ka"
-          }
+          },
+          "arabic": "يَجِدْكَ"
         },
         {
           "audio_url": "wbw/093_006_003.mp3",
@@ -845,7 +845,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮋ",
-          "text_uthmani": "يَتِيمًۭا",
           "translation": {
             "language_name": "english",
             "text": "an orphan"
@@ -853,7 +852,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yatīman"
-          }
+          },
+          "arabic": "يَتِيمًۭا"
         },
         {
           "audio_url": "wbw/093_006_004.mp3",
@@ -864,7 +864,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮌ",
-          "text_uthmani": "فَـَٔاوَىٰ",
           "translation": {
             "language_name": "english",
             "text": "and give shelter"
@@ -872,7 +871,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "faāwā"
-          }
+          },
+          "arabic": "فَـَٔاوَىٰ"
         },
         {
           "audio_url": null,
@@ -883,7 +883,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﮍ",
-          "text_uthmani": "٦",
           "translation": {
             "language_name": "english",
             "text": "(6)"
@@ -891,7 +890,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٦"
         }
       ]
     },
@@ -908,27 +908,27 @@
         {
           "id": 96040,
           "resource_id": 19,
-          "text": "Did He not find thee wandering and direct (thee)?"
+          "translation": "Did He not find thee wandering and direct (thee)?"
         },
         {
           "id": 370373,
           "resource_id": 79,
-          "text": "И (разве Он не) нашел тебя (о, Мухаммад) заблудшим [ты ничего не знал об Истинной Вере, о том как исполнить пророческую миссию, ты не знал Коран и шариат] и затем указал тебе к этому путь [даровал все это]?"
+          "translation": "И (разве Он не) нашел тебя (о, Мухаммад) заблудшим [ты ничего не знал об Истинной Вере, о том как исполнить пророческую миссию, ты не знал Коран и шариат] и затем указал тебе к этому путь [даровал все это]?"
         },
         {
           "id": 256319,
           "resource_id": 45,
-          "text": "Он нашел тебя заблудшим и повел прямым путем."
+          "translation": "Он нашел тебя заблудшим и повел прямым путем."
         },
         {
           "id": 145165,
           "resource_id": 27,
-          "text": "und dich irregehend gefunden und dann rechtgeleitet"
+          "translation": "und dich irregehend gefunden und dann rechtgeleitet"
         },
         {
           "id": 9377291,
           "resource_id": 445,
-          "text": "Блуждал (в неведении) ты, Но разве не направил Он тебя по праведной стезе"
+          "translation": "Блуждал (в неведении) ты, Но разве не направил Он тебя по праведной стезе"
         }
       ],
       "verse_key": "93:7",
@@ -943,7 +943,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮎ",
-          "text_uthmani": "وَوَجَدَكَ",
           "translation": {
             "language_name": "english",
             "text": "And He found you"
@@ -951,7 +950,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wawajadaka"
-          }
+          },
+          "arabic": "وَوَجَدَكَ"
         },
         {
           "audio_url": "wbw/093_007_002.mp3",
@@ -962,7 +962,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮏ",
-          "text_uthmani": "ضَآلًّۭا",
           "translation": {
             "language_name": "english",
             "text": "lost"
@@ -970,7 +969,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ḍāllan"
-          }
+          },
+          "arabic": "ضَآلًّۭا"
         },
         {
           "audio_url": "wbw/093_007_003.mp3",
@@ -981,7 +981,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮐ",
-          "text_uthmani": "فَهَدَىٰ",
           "translation": {
             "language_name": "english",
             "text": "so He guided"
@@ -989,7 +988,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fahadā"
-          }
+          },
+          "arabic": "فَهَدَىٰ"
         },
         {
           "audio_url": null,
@@ -1000,7 +1000,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮑ",
-          "text_uthmani": "٧",
           "translation": {
             "language_name": "english",
             "text": "(7)"
@@ -1008,7 +1007,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٧"
         }
       ]
     },
@@ -1025,27 +1025,27 @@
         {
           "id": 96042,
           "resource_id": 19,
-          "text": "Did He not find thee destitute and enrich (thee)?"
+          "translation": "Did He not find thee destitute and enrich (thee)?"
         },
         {
           "id": 370374,
           "resource_id": 79,
-          "text": "И (разве Он не) нашел тебя (о, Мухаммад) бедным и затем обогатил (дав большую семью и победы, а также удовлетворенность и терпение)?"
+          "translation": "И (разве Он не) нашел тебя (о, Мухаммад) бедным и затем обогатил (дав большую семью и победы, а также удовлетворенность и терпение)?"
         },
         {
           "id": 256321,
           "resource_id": 45,
-          "text": "Он нашел тебя бедным и обогатил."
+          "translation": "Он нашел тебя бедным и обогатил."
         },
         {
           "id": 145169,
           "resource_id": 27,
-          "text": "und dich arm gefunden und dann reich gemacht?"
+          "translation": "und dich arm gefunden und dann reich gemacht?"
         },
         {
           "id": 9387242,
           "resource_id": 445,
-          "text": "В лишениях тебя увидев, Он разве не обогатил тебя"
+          "translation": "В лишениях тебя увидев, Он разве не обогатил тебя"
         }
       ],
       "verse_key": "93:8",
@@ -1060,7 +1060,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮒ",
-          "text_uthmani": "وَوَجَدَكَ",
           "translation": {
             "language_name": "english",
             "text": "And He found you"
@@ -1068,7 +1067,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wawajadaka"
-          }
+          },
+          "arabic": "وَوَجَدَكَ"
         },
         {
           "audio_url": "wbw/093_008_002.mp3",
@@ -1079,7 +1079,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮓ",
-          "text_uthmani": "عَآئِلًۭا",
           "translation": {
             "language_name": "english",
             "text": "in need"
@@ -1087,7 +1086,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿāilan"
-          }
+          },
+          "arabic": "عَآئِلًۭا"
         },
         {
           "audio_url": "wbw/093_008_003.mp3",
@@ -1098,7 +1098,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮔ",
-          "text_uthmani": "فَأَغْنَىٰ",
           "translation": {
             "language_name": "english",
             "text": "so He made self-sufficient"
@@ -1106,7 +1105,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-aghnā"
-          }
+          },
+          "arabic": "فَأَغْنَىٰ"
         },
         {
           "audio_url": null,
@@ -1117,7 +1117,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮕ",
-          "text_uthmani": "٨",
           "translation": {
             "language_name": "english",
             "text": "(8)"
@@ -1125,7 +1124,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٨"
         }
       ]
     },
@@ -1142,27 +1142,27 @@
         {
           "id": 96044,
           "resource_id": 19,
-          "text": "Therefor the orphan oppress not,"
+          "translation": "Therefor the orphan oppress not,"
         },
         {
           "id": 370375,
           "resource_id": 79,
-          "text": "Что касается сироты, то ты не притесняй (его) [[Не обращайся с ним несправедливо из-за того, что он слаб, а наоборот дай ему должное и вспомни о том, как ты сам был сиротой. Пророк Мухаммад очень хорошо обращался с сиротами – сам был благостен к ним и других наставлял на это.]]."
+          "translation": "Что касается сироты, то ты не притесняй (его) [[Не обращайся с ним несправедливо из-за того, что он слаб, а наоборот дай ему должное и вспомни о том, как ты сам был сиротой. Пророк Мухаммад очень хорошо обращался с сиротами – сам был благостен к ним и других наставлял на это.]]."
         },
         {
           "id": 257011,
           "resource_id": 45,
-          "text": "Посему не притесняй сироту!"
+          "translation": "Посему не притесняй сироту!"
         },
         {
           "id": 145167,
           "resource_id": 27,
-          "text": "Was nun die Waise angeht, so unterjoche (sie) nicht,"
+          "translation": "Was nun die Waise angeht, so unterjoche (sie) nicht,"
         },
         {
           "id": 9391711,
           "resource_id": 445,
-          "text": "А потому ты сироту не притесняй"
+          "translation": "А потому ты сироту не притесняй"
         }
       ],
       "verse_key": "93:9",
@@ -1177,7 +1177,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮖ",
-          "text_uthmani": "فَأَمَّا",
           "translation": {
             "language_name": "english",
             "text": "So as for"
@@ -1185,7 +1184,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-ammā"
-          }
+          },
+          "arabic": "فَأَمَّا"
         },
         {
           "audio_url": "wbw/093_009_002.mp3",
@@ -1196,7 +1196,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮗ",
-          "text_uthmani": "ٱلْيَتِيمَ",
           "translation": {
             "language_name": "english",
             "text": "the orphan"
@@ -1204,7 +1203,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-yatīma"
-          }
+          },
+          "arabic": "ٱلْيَتِيمَ"
         },
         {
           "audio_url": "wbw/093_009_003.mp3",
@@ -1215,7 +1215,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮘ",
-          "text_uthmani": "فَلَا",
           "translation": {
             "language_name": "english",
             "text": "then (do) not"
@@ -1223,7 +1222,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "falā"
-          }
+          },
+          "arabic": "فَلَا"
         },
         {
           "audio_url": "wbw/093_009_004.mp3",
@@ -1234,7 +1234,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮙ",
-          "text_uthmani": "تَقْهَرْ",
           "translation": {
             "language_name": "english",
             "text": "oppress"
@@ -1242,7 +1241,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "taqhar"
-          }
+          },
+          "arabic": "تَقْهَرْ"
         },
         {
           "audio_url": null,
@@ -1253,7 +1253,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﮚ",
-          "text_uthmani": "٩",
           "translation": {
             "language_name": "english",
             "text": "(9)"
@@ -1261,7 +1260,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٩"
         }
       ]
     },
@@ -1278,27 +1278,27 @@
         {
           "id": 96027,
           "resource_id": 19,
-          "text": "Therefor the beggar drive not away,"
+          "translation": "Therefor the beggar drive not away,"
         },
         {
           "id": 370376,
           "resource_id": 79,
-          "text": "А что касается просящего, то ты не отгоняй его (когда он просит подаяние) [либо накорми его, либо расстанься мягко]."
+          "translation": "А что касается просящего, то ты не отгоняй его (когда он просит подаяние) [либо накорми его, либо расстанься мягко]."
         },
         {
           "id": 256315,
           "resource_id": 45,
-          "text": "И не гони просящего!"
+          "translation": "И не гони просящего!"
         },
         {
           "id": 145174,
           "resource_id": 27,
-          "text": "und was den Bettler angeht, so fahre (ihn) nicht an,"
+          "translation": "und was den Bettler angeht, so fahre (ihn) nicht an,"
         },
         {
           "id": 93103821,
           "resource_id": 445,
-          "text": "Просящего, (не выслушав), не отгоняй"
+          "translation": "Просящего, (не выслушав), не отгоняй"
         }
       ],
       "verse_key": "93:10",
@@ -1313,7 +1313,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮛ",
-          "text_uthmani": "وَأَمَّا",
           "translation": {
             "language_name": "english",
             "text": "And as for"
@@ -1321,7 +1320,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wa-ammā"
-          }
+          },
+          "arabic": "وَأَمَّا"
         },
         {
           "audio_url": "wbw/093_010_002.mp3",
@@ -1332,7 +1332,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮜ",
-          "text_uthmani": "ٱلسَّآئِلَ",
           "translation": {
             "language_name": "english",
             "text": "one who asks"
@@ -1340,7 +1339,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-sāila"
-          }
+          },
+          "arabic": "ٱلسَّآئِلَ"
         },
         {
           "audio_url": "wbw/093_010_003.mp3",
@@ -1351,7 +1351,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮝ",
-          "text_uthmani": "فَلَا",
           "translation": {
             "language_name": "english",
             "text": "then (do) not"
@@ -1359,7 +1358,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "falā"
-          }
+          },
+          "arabic": "فَلَا"
         },
         {
           "audio_url": "wbw/093_010_004.mp3",
@@ -1370,7 +1370,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮞ",
-          "text_uthmani": "تَنْهَرْ",
           "translation": {
             "language_name": "english",
             "text": "repel"
@@ -1378,7 +1377,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "tanhar"
-          }
+          },
+          "arabic": "تَنْهَرْ"
         },
         {
           "audio_url": null,
@@ -1389,7 +1389,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﮟ",
-          "text_uthmani": "١٠",
           "translation": {
             "language_name": "english",
             "text": "(10)"
@@ -1397,7 +1396,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٠"
         }
       ]
     },
@@ -1414,27 +1414,27 @@
         {
           "id": 96028,
           "resource_id": 19,
-          "text": "Therefor of the bounty of thy Lord be thy discourse."
+          "translation": "Therefor of the bounty of thy Lord be thy discourse."
         },
         {
           "id": 370377,
           "resource_id": 79,
-          "text": "И что касается благ (которые дарует) Господь твой, то ты об этом возвещай [[Аллах Всевышний повелел Пророку, чтобы он рассказывал людям о тех благах, которыми одаряет Аллах. А рассказывать о том, что Аллах дарует, является выражением благодарности Ему.]]."
+          "translation": "И что касается благ (которые дарует) Господь твой, то ты об этом возвещай [[Аллах Всевышний повелел Пророку, чтобы он рассказывал людям о тех благах, которыми одаряет Аллах. А рассказывать о том, что Аллах дарует, является выражением благодарности Ему.]]."
         },
         {
           "id": 256302,
           "resource_id": 45,
-          "text": "И возвещай о милости своего Господа."
+          "translation": "И возвещай о милости своего Господа."
         },
         {
           "id": 145151,
           "resource_id": 27,
-          "text": "und was die Gunst deines Herrn angeht, so erzähle (davon)."
+          "translation": "und was die Gunst deines Herrn angeht, so erzähle (davon)."
         },
         {
           "id": 93116484,
           "resource_id": 445,
-          "text": "И возвещай всему и вся о мудрости Аллаха"
+          "translation": "И возвещай всему и вся о мудрости Аллаха"
         }
       ],
       "verse_key": "93:11",
@@ -1449,7 +1449,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮠ",
-          "text_uthmani": "وَأَمَّا",
           "translation": {
             "language_name": "english",
             "text": "But as for"
@@ -1457,7 +1456,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wa-ammā"
-          }
+          },
+          "arabic": "وَأَمَّا"
         },
         {
           "audio_url": "wbw/093_011_002.mp3",
@@ -1468,7 +1468,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮡ",
-          "text_uthmani": "بِنِعْمَةِ",
           "translation": {
             "language_name": "english",
             "text": "(the) Favor"
@@ -1476,7 +1475,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "biniʿ'mati"
-          }
+          },
+          "arabic": "بِنِعْمَةِ"
         },
         {
           "audio_url": "wbw/093_011_003.mp3",
@@ -1487,7 +1487,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮢ",
-          "text_uthmani": "رَبِّكَ",
           "translation": {
             "language_name": "english",
             "text": "(of) your Lord"
@@ -1495,7 +1494,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rabbika"
-          }
+          },
+          "arabic": "رَبِّكَ"
         },
         {
           "audio_url": "wbw/093_011_004.mp3",
@@ -1506,7 +1506,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮣ",
-          "text_uthmani": "فَحَدِّثْ",
           "translation": {
             "language_name": "english",
             "text": "narrate"
@@ -1514,7 +1513,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "faḥaddith"
-          }
+          },
+          "arabic": "فَحَدِّثْ"
         },
         {
           "audio_url": null,
@@ -1525,7 +1525,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﮤ",
-          "text_uthmani": "١١",
           "translation": {
             "language_name": "english",
             "text": "(11)"
@@ -1533,7 +1532,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١١"
         }
       ]
     }

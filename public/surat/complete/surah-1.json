@@ -130,27 +130,27 @@
         {
           "id": 90110,
           "resource_id": 19,
-          "text": "In the name of Allah, the Beneficent, the Merciful."
+          "translation": "In the name of Allah, the Beneficent, the Merciful."
         },
         {
           "id": 364288,
           "resource_id": 79,
-          "text": "С именем Аллаха Милостивого, Милосердного!"
+          "translation": "С именем Аллаха Милостивого, Милосердного!"
         },
         {
           "id": 256690,
           "resource_id": 45,
-          "text": "Во имя Аллаха, Милостивого, Милосердного!"
+          "translation": "Во имя Аллаха, Милостивого, Милосердного!"
         },
         {
           "id": 145299,
           "resource_id": 27,
-          "text": "Im Namen Allahs, des Allerbarmers, des Barmherzigen."
+          "translation": "Im Namen Allahs, des Allerbarmers, des Barmherzigen."
         },
         {
           "id": 11105,
           "resource_id": 445,
-          "text": "Во имя Аллаха, Всемилостивого, Милосердного"
+          "translation": "Во имя Аллаха, Всемилостивого, Милосердного"
         }
       ],
       "verse_key": "1:1",
@@ -165,7 +165,6 @@
           "page_number": 1,
           "position": 1,
           "text": "ﭑ",
-          "text_uthmani": "بِسْمِ",
           "translation": {
             "language_name": "english",
             "text": "In (the) name"
@@ -173,7 +172,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bis'mi"
-          }
+          },
+          "arabic": "بِسْمِ"
         },
         {
           "audio_url": "wbw/001_001_002.mp3",
@@ -184,7 +184,6 @@
           "page_number": 1,
           "position": 2,
           "text": "ﭒ",
-          "text_uthmani": "ٱللَّهِ",
           "translation": {
             "language_name": "english",
             "text": "(of) Allah"
@@ -192,7 +191,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-lahi"
-          }
+          },
+          "arabic": "ٱللَّهِ"
         },
         {
           "audio_url": "wbw/001_001_003.mp3",
@@ -203,7 +203,6 @@
           "page_number": 1,
           "position": 3,
           "text": "ﭓ",
-          "text_uthmani": "ٱلرَّحْمَـٰنِ",
           "translation": {
             "language_name": "english",
             "text": "the Most Gracious"
@@ -211,7 +210,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-raḥmāni"
-          }
+          },
+          "arabic": "ٱلرَّحْمَـٰنِ"
         },
         {
           "audio_url": "wbw/001_001_004.mp3",
@@ -222,7 +222,6 @@
           "page_number": 1,
           "position": 4,
           "text": "ﭔ",
-          "text_uthmani": "ٱلرَّحِيمِ",
           "translation": {
             "language_name": "english",
             "text": "the Most Merciful"
@@ -230,7 +229,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-raḥīmi"
-          }
+          },
+          "arabic": "ٱلرَّحِيمِ"
         },
         {
           "audio_url": null,
@@ -241,7 +241,6 @@
           "page_number": 1,
           "position": 5,
           "text": "ﭕ",
-          "text_uthmani": "١",
           "translation": {
             "language_name": "english",
             "text": "(1)"
@@ -249,7 +248,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١"
         }
       ]
     },
@@ -266,27 +266,27 @@
         {
           "id": 90259,
           "resource_id": 19,
-          "text": "Praise be to Allah, Lord of the Worlds,"
+          "translation": "Praise be to Allah, Lord of the Worlds,"
         },
         {
           "id": 364289,
           "resource_id": 79,
-          "text": "(Вся) хвала – (лишь одному) Аллаху, Господу миров [Господу всех творений],"
+          "translation": "(Вся) хвала – (лишь одному) Аллаху, Господу миров [Господу всех творений],"
         },
         {
           "id": 257876,
           "resource_id": 45,
-          "text": "Хвала Аллаху, Господу миров,"
+          "translation": "Хвала Аллаху, Господу миров,"
         },
         {
           "id": 145565,
           "resource_id": 27,
-          "text": "(Alles) Lob gehört Allah, dem Herrn der Welten,"
+          "translation": "(Alles) Lob gehört Allah, dem Herrn der Welten,"
         },
         {
           "id": 121657,
           "resource_id": 445,
-          "text": "Хвала Аллаху, Господу миров"
+          "translation": "Хвала Аллаху, Господу миров"
         }
       ],
       "verse_key": "1:2",
@@ -301,7 +301,6 @@
           "page_number": 1,
           "position": 1,
           "text": "ﭖ",
-          "text_uthmani": "ٱلْحَمْدُ",
           "translation": {
             "language_name": "english",
             "text": "All praises and thanks"
@@ -309,7 +308,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "al-ḥamdu"
-          }
+          },
+          "arabic": "ٱلْحَمْدُ"
         },
         {
           "audio_url": "wbw/001_002_002.mp3",
@@ -320,7 +320,6 @@
           "page_number": 1,
           "position": 2,
           "text": "ﭗ",
-          "text_uthmani": "لِلَّهِ",
           "translation": {
             "language_name": "english",
             "text": "(be) to Allah"
@@ -328,7 +327,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "lillahi"
-          }
+          },
+          "arabic": "لِلَّهِ"
         },
         {
           "audio_url": "wbw/001_002_003.mp3",
@@ -339,7 +339,6 @@
           "page_number": 1,
           "position": 3,
           "text": "ﭘ",
-          "text_uthmani": "رَبِّ",
           "translation": {
             "language_name": "english",
             "text": "the Lord"
@@ -347,7 +346,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rabbi"
-          }
+          },
+          "arabic": "رَبِّ"
         },
         {
           "audio_url": "wbw/001_002_004.mp3",
@@ -358,7 +358,6 @@
           "page_number": 1,
           "position": 4,
           "text": "ﭙ",
-          "text_uthmani": "ٱلْعَـٰلَمِينَ",
           "translation": {
             "language_name": "english",
             "text": "of the universe"
@@ -366,7 +365,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ʿālamīna"
-          }
+          },
+          "arabic": "ٱلْعَـٰلَمِينَ"
         },
         {
           "audio_url": null,
@@ -377,7 +377,6 @@
           "page_number": 1,
           "position": 5,
           "text": "ﭚ",
-          "text_uthmani": "٢",
           "translation": {
             "language_name": "english",
             "text": "(2)"
@@ -385,7 +384,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢"
         }
       ]
     },
@@ -402,27 +402,27 @@
         {
           "id": 90373,
           "resource_id": 19,
-          "text": "The Beneficent, the Merciful."
+          "translation": "The Beneficent, the Merciful."
         },
         {
           "id": 364290,
           "resource_id": 79,
-          "text": "Милостивому (ко всем Своим творениям в этом мире), (и) Милосердному (только к верующим в День Суда),"
+          "translation": "Милостивому (ко всем Своим творениям в этом мире), (и) Милосердному (только к верующим в День Суда),"
         },
         {
           "id": 251504,
           "resource_id": 45,
-          "text": "Милостивому, Милосердному,"
+          "translation": "Милостивому, Милосердному,"
         },
         {
           "id": 139956,
           "resource_id": 27,
-          "text": "dem Allerbarmer, dem Barmherzigen,"
+          "translation": "dem Allerbarmer, dem Barmherzigen,"
         },
         {
           "id": 13684,
           "resource_id": 445,
-          "text": "Всемилостив и милосерден (Он Один)"
+          "translation": "Всемилостив и милосерден (Он Один)"
         }
       ],
       "verse_key": "1:3",
@@ -437,7 +437,6 @@
           "page_number": 1,
           "position": 1,
           "text": "ﭛ",
-          "text_uthmani": "ٱلرَّحْمَـٰنِ",
           "translation": {
             "language_name": "english",
             "text": "The Most Gracious"
@@ -445,7 +444,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "al-raḥmāni"
-          }
+          },
+          "arabic": "ٱلرَّحْمَـٰنِ"
         },
         {
           "audio_url": "wbw/001_003_002.mp3",
@@ -456,7 +456,6 @@
           "page_number": 1,
           "position": 2,
           "text": "ﭜ",
-          "text_uthmani": "ٱلرَّحِيمِ",
           "translation": {
             "language_name": "english",
             "text": "the Most Merciful"
@@ -464,7 +463,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-raḥīmi"
-          }
+          },
+          "arabic": "ٱلرَّحِيمِ"
         },
         {
           "audio_url": null,
@@ -475,7 +475,6 @@
           "page_number": 1,
           "position": 3,
           "text": "ﭝ",
-          "text_uthmani": "٣",
           "translation": {
             "language_name": "english",
             "text": "(3)"
@@ -483,7 +482,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣"
         }
       ]
     },
@@ -500,27 +500,27 @@
         {
           "id": 90420,
           "resource_id": 19,
-          "text": "Master of the Day of Judgment,"
+          "translation": "Master of the Day of Judgment,"
         },
         {
           "id": 364291,
           "resource_id": 79,
-          "text": "(Единственному) Царю [Правителю] Дня Воздаяния!"
+          "translation": "(Единственному) Царю [Правителю] Дня Воздаяния!"
         },
         {
           "id": 256743,
           "resource_id": 45,
-          "text": "Властелину Дня воздаяния!"
+          "translation": "Властелину Дня воздаяния!"
         },
         {
           "id": 145721,
           "resource_id": 27,
-          "text": "dem Herrscher am Tag des Gerichts."
+          "translation": "dem Herrscher am Tag des Gerichts."
         },
         {
           "id": 147592,
           "resource_id": 445,
-          "text": "Дня Судного Один Он властелин"
+          "translation": "Дня Судного Один Он властелин"
         }
       ],
       "verse_key": "1:4",
@@ -535,7 +535,6 @@
           "page_number": 1,
           "position": 1,
           "text": "ﭞ",
-          "text_uthmani": "مَـٰلِكِ",
           "translation": {
             "language_name": "english",
             "text": "(The) Master"
@@ -543,7 +542,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "māliki"
-          }
+          },
+          "arabic": "مَـٰلِكِ"
         },
         {
           "audio_url": "wbw/001_004_002.mp3",
@@ -554,7 +554,6 @@
           "page_number": 1,
           "position": 2,
           "text": "ﭟ",
-          "text_uthmani": "يَوْمِ",
           "translation": {
             "language_name": "english",
             "text": "(of the) Day"
@@ -562,7 +561,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yawmi"
-          }
+          },
+          "arabic": "يَوْمِ"
         },
         {
           "audio_url": "wbw/001_004_003.mp3",
@@ -573,7 +573,6 @@
           "page_number": 1,
           "position": 3,
           "text": "ﭠ",
-          "text_uthmani": "ٱلدِّينِ",
           "translation": {
             "language_name": "english",
             "text": "(of the) Judgment"
@@ -581,7 +580,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-dīni"
-          }
+          },
+          "arabic": "ٱلدِّينِ"
         },
         {
           "audio_url": null,
@@ -592,7 +592,6 @@
           "page_number": 1,
           "position": 4,
           "text": "ﭡ",
-          "text_uthmani": "٤",
           "translation": {
             "language_name": "english",
             "text": "(4)"
@@ -600,7 +599,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٤"
         }
       ]
     },
@@ -617,27 +617,27 @@
         {
           "id": 90473,
           "resource_id": 19,
-          "text": "Thee (alone) we worship; Thee (alone) we ask for help."
+          "translation": "Thee (alone) we worship; Thee (alone) we ask for help."
         },
         {
           "id": 364292,
           "resource_id": 79,
-          "text": "(Только) Тебе мы служим [посвящаем свое поклонение] и (только) к Тебе обращаемся за помощью (в том, что можешь сделать только Ты)!"
+          "translation": "(Только) Тебе мы служим [посвящаем свое поклонение] и (только) к Тебе обращаемся за помощью (в том, что можешь сделать только Ты)!"
         },
         {
           "id": 257098,
           "resource_id": 45,
-          "text": "Тебе одному мы поклоняемся и Тебя одного молим о помощи."
+          "translation": "Тебе одному мы поклоняемся и Тебя одного молим о помощи."
         },
         {
           "id": 145769,
           "resource_id": 27,
-          "text": "Dir allein dienen wir, und zu Dir allein flehen wir um Hilfe."
+          "translation": "Dir allein dienen wir, und zu Dir allein flehen wir um Hilfe."
         },
         {
           "id": 153533,
           "resource_id": 445,
-          "text": "Мы предаемся лишь Тебе И лишь к Тебе о помощи взываем"
+          "translation": "Мы предаемся лишь Тебе И лишь к Тебе о помощи взываем"
         }
       ],
       "verse_key": "1:5",
@@ -652,7 +652,6 @@
           "page_number": 1,
           "position": 1,
           "text": "ﭢ",
-          "text_uthmani": "إِيَّاكَ",
           "translation": {
             "language_name": "english",
             "text": "You Alone"
@@ -660,7 +659,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "iyyāka"
-          }
+          },
+          "arabic": "إِيَّاكَ"
         },
         {
           "audio_url": "wbw/001_005_002.mp3",
@@ -671,7 +671,6 @@
           "page_number": 1,
           "position": 2,
           "text": "ﭣ",
-          "text_uthmani": "نَعْبُدُ",
           "translation": {
             "language_name": "english",
             "text": "we worship"
@@ -679,7 +678,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "naʿbudu"
-          }
+          },
+          "arabic": "نَعْبُدُ"
         },
         {
           "audio_url": "wbw/001_005_003.mp3",
@@ -690,7 +690,6 @@
           "page_number": 1,
           "position": 3,
           "text": "ﭤ",
-          "text_uthmani": "وَإِيَّاكَ",
           "translation": {
             "language_name": "english",
             "text": "and You Alone"
@@ -698,7 +697,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wa-iyyāka"
-          }
+          },
+          "arabic": "وَإِيَّاكَ"
         },
         {
           "audio_url": "wbw/001_005_004.mp3",
@@ -709,7 +709,6 @@
           "page_number": 1,
           "position": 4,
           "text": "ﭥ",
-          "text_uthmani": "نَسْتَعِينُ",
           "translation": {
             "language_name": "english",
             "text": "we ask for help"
@@ -717,7 +716,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "nastaʿīnu"
-          }
+          },
+          "arabic": "نَسْتَعِينُ"
         },
         {
           "audio_url": null,
@@ -728,7 +728,6 @@
           "page_number": 1,
           "position": 5,
           "text": "ﭦ",
-          "text_uthmani": "٥",
           "translation": {
             "language_name": "english",
             "text": "(5)"
@@ -736,7 +735,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٥"
         }
       ]
     },
@@ -753,27 +753,27 @@
         {
           "id": 90567,
           "resource_id": 19,
-          "text": "Show us the straight path,"
+          "translation": "Show us the straight path,"
         },
         {
           "id": 364293,
           "resource_id": 79,
-          "text": "Веди (Ты) нас Прямым Путем,"
+          "translation": "Веди (Ты) нас Прямым Путем,"
         },
         {
           "id": 252229,
           "resource_id": 45,
-          "text": "Веди нас прямым путем,"
+          "translation": "Веди нас прямым путем,"
         },
         {
           "id": 139833,
           "resource_id": 27,
-          "text": "Leite uns den geraden Weg,"
+          "translation": "Leite uns den geraden Weg,"
         },
         {
           "id": 161238,
           "resource_id": 445,
-          "text": "Направь прямой стезею нас"
+          "translation": "Направь прямой стезею нас"
         }
       ],
       "verse_key": "1:6",
@@ -788,7 +788,6 @@
           "page_number": 1,
           "position": 1,
           "text": "ﭧ",
-          "text_uthmani": "ٱهْدِنَا",
           "translation": {
             "language_name": "english",
             "text": "Guide us"
@@ -796,7 +795,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ih'dinā"
-          }
+          },
+          "arabic": "ٱهْدِنَا"
         },
         {
           "audio_url": "wbw/001_006_002.mp3",
@@ -807,7 +807,6 @@
           "page_number": 1,
           "position": 2,
           "text": "ﭨ",
-          "text_uthmani": "ٱلصِّرَٰطَ",
           "translation": {
             "language_name": "english",
             "text": "(to) the path"
@@ -815,7 +814,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ṣirāṭa"
-          }
+          },
+          "arabic": "ٱلصِّرَٰطَ"
         },
         {
           "audio_url": "wbw/001_006_003.mp3",
@@ -826,7 +826,6 @@
           "page_number": 1,
           "position": 3,
           "text": "ﭩ",
-          "text_uthmani": "ٱلْمُسْتَقِيمَ",
           "translation": {
             "language_name": "english",
             "text": "the straight"
@@ -834,7 +833,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-mus'taqīma"
-          }
+          },
+          "arabic": "ٱلْمُسْتَقِيمَ"
         },
         {
           "audio_url": null,
@@ -845,7 +845,6 @@
           "page_number": 1,
           "position": 4,
           "text": "ﭪ",
-          "text_uthmani": "٦",
           "translation": {
             "language_name": "english",
             "text": "(6)"
@@ -853,7 +852,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٦"
         }
       ]
     },
@@ -870,27 +870,27 @@
         {
           "id": 90697,
           "resource_id": 19,
-          "text": "The path of those whom Thou hast favoured; Not the (path) of those who earn Thine anger nor of those who go astray."
+          "translation": "The path of those whom Thou hast favoured; Not the (path) of those who earn Thine anger nor of those who go astray."
         },
         {
           "id": 364294,
           "resource_id": 79,
-          "text": "Путем тех, которых Ты благом одарил, (а) не (путем) тех, которые под (Твоим) гневом, и не (путем) заблудших."
+          "translation": "Путем тех, которых Ты благом одарил, (а) не (путем) тех, которые под (Твоим) гневом, и не (путем) заблудших."
         },
         {
           "id": 257687,
           "resource_id": 45,
-          "text": "путем тех, кого Ты облагодетельствовал, не тех, на кого пал гнев, и не заблудших."
+          "translation": "путем тех, кого Ты облагодетельствовал, не тех, на кого пал гнев, и не заблудших."
         },
         {
           "id": 145999,
           "resource_id": 27,
-          "text": "den Weg derjenigen, denen Du Gunst erwiesen hast, nicht derjenigen, die (Deinen) Zorn erregt haben, und nicht der Irregehenden!"
+          "translation": "den Weg derjenigen, denen Du Gunst erwiesen hast, nicht derjenigen, die (Deinen) Zorn erregt haben, und nicht der Irregehenden!"
         },
         {
           "id": 1710,
           "resource_id": 445,
-          "text": "Стезею тех, Кто милостью Твоею одарен, А не стезею тех, на ком Твой гнев, И не стезей заблудших"
+          "translation": "Стезею тех, Кто милостью Твоею одарен, А не стезею тех, на ком Твой гнев, И не стезей заблудших"
         }
       ],
       "verse_key": "1:7",
@@ -905,7 +905,6 @@
           "page_number": 1,
           "position": 1,
           "text": "ﭫ",
-          "text_uthmani": "صِرَٰطَ",
           "translation": {
             "language_name": "english",
             "text": "(The) path"
@@ -913,7 +912,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ṣirāṭa"
-          }
+          },
+          "arabic": "صِرَٰطَ"
         },
         {
           "audio_url": "wbw/001_007_002.mp3",
@@ -924,7 +924,6 @@
           "page_number": 1,
           "position": 2,
           "text": "ﭬ",
-          "text_uthmani": "ٱلَّذِينَ",
           "translation": {
             "language_name": "english",
             "text": "(of) those"
@@ -932,7 +931,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alladhīna"
-          }
+          },
+          "arabic": "ٱلَّذِينَ"
         },
         {
           "audio_url": "wbw/001_007_003.mp3",
@@ -943,7 +943,6 @@
           "page_number": 1,
           "position": 3,
           "text": "ﭭ",
-          "text_uthmani": "أَنْعَمْتَ",
           "translation": {
             "language_name": "english",
             "text": "You have bestowed (Your) Favors"
@@ -951,7 +950,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "anʿamta"
-          }
+          },
+          "arabic": "أَنْعَمْتَ"
         },
         {
           "audio_url": "wbw/001_007_004.mp3",
@@ -962,7 +962,6 @@
           "page_number": 1,
           "position": 4,
           "text": "ﭮ",
-          "text_uthmani": "عَلَيْهِمْ",
           "translation": {
             "language_name": "english",
             "text": "on them"
@@ -970,7 +969,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalayhim"
-          }
+          },
+          "arabic": "عَلَيْهِمْ"
         },
         {
           "audio_url": "wbw/001_007_005.mp3",
@@ -981,7 +981,6 @@
           "page_number": 1,
           "position": 5,
           "text": "ﭯ",
-          "text_uthmani": "غَيْرِ",
           "translation": {
             "language_name": "english",
             "text": "not (of)"
@@ -989,7 +988,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ghayri"
-          }
+          },
+          "arabic": "غَيْرِ"
         },
         {
           "audio_url": "wbw/001_007_006.mp3",
@@ -1000,7 +1000,6 @@
           "page_number": 1,
           "position": 6,
           "text": "ﭰ",
-          "text_uthmani": "ٱلْمَغْضُوبِ",
           "translation": {
             "language_name": "english",
             "text": "those who earned (Your) wrath"
@@ -1008,7 +1007,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-maghḍūbi"
-          }
+          },
+          "arabic": "ٱلْمَغْضُوبِ"
         },
         {
           "audio_url": "wbw/001_007_007.mp3",
@@ -1019,7 +1019,6 @@
           "page_number": 1,
           "position": 7,
           "text": "ﭱ",
-          "text_uthmani": "عَلَيْهِمْ",
           "translation": {
             "language_name": "english",
             "text": "on themselves"
@@ -1027,7 +1026,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalayhim"
-          }
+          },
+          "arabic": "عَلَيْهِمْ"
         },
         {
           "audio_url": "wbw/001_007_008.mp3",
@@ -1038,7 +1038,6 @@
           "page_number": 1,
           "position": 8,
           "text": "ﭲ",
-          "text_uthmani": "وَلَا",
           "translation": {
             "language_name": "english",
             "text": "and not"
@@ -1046,7 +1045,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walā"
-          }
+          },
+          "arabic": "وَلَا"
         },
         {
           "audio_url": "wbw/001_007_009.mp3",
@@ -1057,7 +1057,6 @@
           "page_number": 1,
           "position": 9,
           "text": "ﭳ",
-          "text_uthmani": "ٱلضَّآلِّينَ",
           "translation": {
             "language_name": "english",
             "text": "(of) those who go astray"
@@ -1065,7 +1064,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ḍālīna"
-          }
+          },
+          "arabic": "ٱلضَّآلِّينَ"
         },
         {
           "audio_url": null,
@@ -1076,7 +1076,6 @@
           "page_number": 1,
           "position": 10,
           "text": "ﭴ",
-          "text_uthmani": "٧",
           "translation": {
             "language_name": "english",
             "text": "(7)"
@@ -1084,7 +1083,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٧"
         }
       ]
     }

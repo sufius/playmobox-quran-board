@@ -130,27 +130,27 @@
         {
           "id": 90064,
           "resource_id": 19,
-          "text": "Hast thou observed him who belieth religion?"
+          "translation": "Hast thou observed him who belieth religion?"
         },
         {
           "id": 370485,
           "resource_id": 79,
-          "text": "Видел ли ты (о, Пророк) того, кто ложью считает воздаяние [Хочешь ли ты узнать, кто не признает истинность предстоящего расчета и воздаяния]?"
+          "translation": "Видел ли ты (о, Пророк) того, кто ложью считает воздаяние [Хочешь ли ты узнать, кто не признает истинность предстоящего расчета и воздаяния]?"
         },
         {
           "id": 256544,
           "resource_id": 45,
-          "text": "Видел ли ты того, кто считает ложью воздаяние?"
+          "translation": "Видел ли ты того, кто считает ложью воздаяние?"
         },
         {
           "id": 139915,
           "resource_id": 27,
-          "text": "Siehst du (nicht) denjenigen, der das Gericht für Lüge erklärt?"
+          "translation": "Siehst du (nicht) denjenigen, der das Gericht für Lüge erklärt?"
         },
         {
           "id": 10718022,
           "resource_id": 445,
-          "text": "Видал ли ты того, Кто отвергает Воздаянье"
+          "translation": "Видал ли ты того, Кто отвергает Воздаянье"
         }
       ],
       "verse_key": "107:1",
@@ -165,7 +165,6 @@
           "page_number": 602,
           "position": 1,
           "text": "ﭦ",
-          "text_uthmani": "أَرَءَيْتَ",
           "translation": {
             "language_name": "english",
             "text": "Have you seen"
@@ -173,7 +172,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ara-ayta"
-          }
+          },
+          "arabic": "أَرَءَيْتَ"
         },
         {
           "audio_url": "wbw/107_001_002.mp3",
@@ -184,7 +184,6 @@
           "page_number": 602,
           "position": 2,
           "text": "ﭧ",
-          "text_uthmani": "ٱلَّذِى",
           "translation": {
             "language_name": "english",
             "text": "the one who"
@@ -192,7 +191,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alladhī"
-          }
+          },
+          "arabic": "ٱلَّذِى"
         },
         {
           "audio_url": "wbw/107_001_003.mp3",
@@ -203,7 +203,6 @@
           "page_number": 602,
           "position": 3,
           "text": "ﭨ",
-          "text_uthmani": "يُكَذِّبُ",
           "translation": {
             "language_name": "english",
             "text": "denies"
@@ -211,7 +210,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yukadhibu"
-          }
+          },
+          "arabic": "يُكَذِّبُ"
         },
         {
           "audio_url": "wbw/107_001_004.mp3",
@@ -222,7 +222,6 @@
           "page_number": 602,
           "position": 4,
           "text": "ﭩ",
-          "text_uthmani": "بِٱلدِّينِ",
           "translation": {
             "language_name": "english",
             "text": "the Judgment"
@@ -230,7 +229,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bil-dīni"
-          }
+          },
+          "arabic": "بِٱلدِّينِ"
         },
         {
           "audio_url": null,
@@ -241,7 +241,6 @@
           "page_number": 602,
           "position": 5,
           "text": "ﭪ",
-          "text_uthmani": "١",
           "translation": {
             "language_name": "english",
             "text": "(1)"
@@ -249,7 +248,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١"
         }
       ]
     },
@@ -266,27 +266,27 @@
         {
           "id": 90066,
           "resource_id": 19,
-          "text": "That is he who repelleth the orphan,"
+          "translation": "That is he who repelleth the orphan,"
         },
         {
           "id": 370486,
           "resource_id": 79,
-          "text": "Это ведь тот, кто прогоняет сироту (когда его просят отдать положенное сироте)"
+          "translation": "Это ведь тот, кто прогоняет сироту (когда его просят отдать положенное сироте)"
         },
         {
           "id": 256538,
           "resource_id": 45,
-          "text": "Это - тот, кто гонит сироту"
+          "translation": "Это - тот, кто гонит сироту"
         },
         {
           "id": 145376,
           "resource_id": 27,
-          "text": "Das ist derjenige, der die Waise zurückstößt"
+          "translation": "Das ist derjenige, der die Waise zurückstößt"
         },
         {
           "id": 10727278,
           "resource_id": 445,
-          "text": "Таков лишь тот, кто отгоняет сироту"
+          "translation": "Таков лишь тот, кто отгоняет сироту"
         }
       ],
       "verse_key": "107:2",
@@ -301,7 +301,6 @@
           "page_number": 602,
           "position": 1,
           "text": "ﭫ",
-          "text_uthmani": "فَذَٰلِكَ",
           "translation": {
             "language_name": "english",
             "text": "Then that"
@@ -309,7 +308,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fadhālika"
-          }
+          },
+          "arabic": "فَذَٰلِكَ"
         },
         {
           "audio_url": "wbw/107_002_002.mp3",
@@ -320,7 +320,6 @@
           "page_number": 602,
           "position": 2,
           "text": "ﭬ",
-          "text_uthmani": "ٱلَّذِى",
           "translation": {
             "language_name": "english",
             "text": "(is) the one who"
@@ -328,7 +327,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alladhī"
-          }
+          },
+          "arabic": "ٱلَّذِى"
         },
         {
           "audio_url": "wbw/107_002_003.mp3",
@@ -339,7 +339,6 @@
           "page_number": 602,
           "position": 3,
           "text": "ﭭ",
-          "text_uthmani": "يَدُعُّ",
           "translation": {
             "language_name": "english",
             "text": "repulses"
@@ -347,7 +346,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yaduʿʿu"
-          }
+          },
+          "arabic": "يَدُعُّ"
         },
         {
           "audio_url": "wbw/107_002_004.mp3",
@@ -358,7 +358,6 @@
           "page_number": 602,
           "position": 4,
           "text": "ﭮ",
-          "text_uthmani": "ٱلْيَتِيمَ",
           "translation": {
             "language_name": "english",
             "text": "the orphan"
@@ -366,7 +365,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-yatīma"
-          }
+          },
+          "arabic": "ٱلْيَتِيمَ"
         },
         {
           "audio_url": null,
@@ -377,7 +377,6 @@
           "page_number": 602,
           "position": 5,
           "text": "ﭯ",
-          "text_uthmani": "٢",
           "translation": {
             "language_name": "english",
             "text": "(2)"
@@ -385,7 +384,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢"
         }
       ]
     },
@@ -402,27 +402,27 @@
         {
           "id": 90068,
           "resource_id": 19,
-          "text": "And urgeth not the feeding of the needy."
+          "translation": "And urgeth not the feeding of the needy."
         },
         {
           "id": 370487,
           "resource_id": 79,
-          "text": "и (сам не кормит) (и) не побуждает (других) накормить бедного (у которого нет ничего покушать)."
+          "translation": "и (сам не кормит) (и) не побуждает (других) накормить бедного (у которого нет ничего покушать)."
         },
         {
           "id": 258126,
           "resource_id": 45,
-          "text": "и не побуждает накормить бедняка."
+          "translation": "и не побуждает накормить бедняка."
         },
         {
           "id": 145379,
           "resource_id": 27,
-          "text": "und nicht zur Speisung des Armen anhält."
+          "translation": "und nicht zur Speisung des Armen anhält."
         },
         {
           "id": 10733887,
           "resource_id": 445,
-          "text": "Откажет в пище он тому, кто голодает"
+          "translation": "Откажет в пище он тому, кто голодает"
         }
       ],
       "verse_key": "107:3",
@@ -437,7 +437,6 @@
           "page_number": 602,
           "position": 1,
           "text": "ﭰ",
-          "text_uthmani": "وَلَا",
           "translation": {
             "language_name": "english",
             "text": "And (does) not"
@@ -445,7 +444,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walā"
-          }
+          },
+          "arabic": "وَلَا"
         },
         {
           "audio_url": "wbw/107_003_002.mp3",
@@ -456,7 +456,6 @@
           "page_number": 602,
           "position": 2,
           "text": "ﭱ",
-          "text_uthmani": "يَحُضُّ",
           "translation": {
             "language_name": "english",
             "text": "feel the urge"
@@ -464,7 +463,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yaḥuḍḍu"
-          }
+          },
+          "arabic": "يَحُضُّ"
         },
         {
           "audio_url": "wbw/107_003_003.mp3",
@@ -475,7 +475,6 @@
           "page_number": 602,
           "position": 3,
           "text": "ﭲ",
-          "text_uthmani": "عَلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "to"
@@ -483,7 +482,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalā"
-          }
+          },
+          "arabic": "عَلَىٰ"
         },
         {
           "audio_url": "wbw/107_003_004.mp3",
@@ -494,7 +494,6 @@
           "page_number": 602,
           "position": 4,
           "text": "ﭳ",
-          "text_uthmani": "طَعَامِ",
           "translation": {
             "language_name": "english",
             "text": "feed"
@@ -502,7 +501,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ṭaʿāmi"
-          }
+          },
+          "arabic": "طَعَامِ"
         },
         {
           "audio_url": "wbw/107_003_005.mp3",
@@ -513,7 +513,6 @@
           "page_number": 602,
           "position": 5,
           "text": "ﭴ",
-          "text_uthmani": "ٱلْمِسْكِينِ",
           "translation": {
             "language_name": "english",
             "text": "the poor"
@@ -521,7 +520,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-mis'kīni"
-          }
+          },
+          "arabic": "ٱلْمِسْكِينِ"
         },
         {
           "audio_url": null,
@@ -532,7 +532,6 @@
           "page_number": 602,
           "position": 6,
           "text": "ﭵ",
-          "text_uthmani": "٣",
           "translation": {
             "language_name": "english",
             "text": "(3)"
@@ -540,7 +539,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣"
         }
       ]
     },
@@ -557,27 +557,27 @@
         {
           "id": 90070,
           "resource_id": 19,
-          "text": "Ah, woe unto worshippers"
+          "translation": "Ah, woe unto worshippers"
         },
         {
           "id": 370488,
           "resource_id": 79,
-          "text": "Горе же [сильное наказание] (в День Суда) (будет) (таким) молящимся,"
+          "translation": "Горе же [сильное наказание] (в День Суда) (будет) (таким) молящимся,"
         },
         {
           "id": 256808,
           "resource_id": 45,
-          "text": "Горе молящимся,"
+          "translation": "Горе молящимся,"
         },
         {
           "id": 140623,
           "resource_id": 27,
-          "text": "Wehe nun den Betenden,"
+          "translation": "Wehe nun den Betenden,"
         },
         {
           "id": 10747161,
           "resource_id": 445,
-          "text": "И горе верующим тем"
+          "translation": "И горе верующим тем"
         }
       ],
       "verse_key": "107:4",
@@ -592,7 +592,6 @@
           "page_number": 602,
           "position": 1,
           "text": "ﭶ",
-          "text_uthmani": "فَوَيْلٌۭ",
           "translation": {
             "language_name": "english",
             "text": "So woe"
@@ -600,7 +599,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fawaylun"
-          }
+          },
+          "arabic": "فَوَيْلٌۭ"
         },
         {
           "audio_url": "wbw/107_004_002.mp3",
@@ -611,7 +611,6 @@
           "page_number": 602,
           "position": 2,
           "text": "ﭷ",
-          "text_uthmani": "لِّلْمُصَلِّينَ",
           "translation": {
             "language_name": "english",
             "text": "to those who pray"
@@ -619,7 +618,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "lil'muṣallīna"
-          }
+          },
+          "arabic": "لِّلْمُصَلِّينَ"
         },
         {
           "audio_url": null,
@@ -630,7 +630,6 @@
           "page_number": 602,
           "position": 3,
           "text": "ﭸ",
-          "text_uthmani": "٤",
           "translation": {
             "language_name": "english",
             "text": "(4)"
@@ -638,7 +637,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٤"
         }
       ]
     },
@@ -655,27 +655,27 @@
         {
           "id": 90072,
           "resource_id": 19,
-          "text": "Who are heedless of their prayer;"
+          "translation": "Who are heedless of their prayer;"
         },
         {
           "id": 370489,
           "resource_id": 79,
-          "text": "которые к молитве своей небрежны [не исполняют их как положено и в свое время],"
+          "translation": "которые к молитве своей небрежны [не исполняют их как положено и в свое время],"
         },
         {
           "id": 256797,
           "resource_id": 45,
-          "text": "которые небрежны к своим намазам,"
+          "translation": "которые небрежны к своим намазам,"
         },
         {
           "id": 145374,
           "resource_id": 27,
-          "text": "denjenigen, die auf ihre Gebete nicht achten,"
+          "translation": "denjenigen, die auf ihre Gebete nicht achten,"
         },
         {
           "id": 10759792,
           "resource_id": 445,
-          "text": "Кто небрежет в своих молитвах"
+          "translation": "Кто небрежет в своих молитвах"
         }
       ],
       "verse_key": "107:5",
@@ -690,7 +690,6 @@
           "page_number": 602,
           "position": 1,
           "text": "ﭹ",
-          "text_uthmani": "ٱلَّذِينَ",
           "translation": {
             "language_name": "english",
             "text": "Those who"
@@ -698,7 +697,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alladhīna"
-          }
+          },
+          "arabic": "ٱلَّذِينَ"
         },
         {
           "audio_url": "wbw/107_005_002.mp3",
@@ -709,7 +709,6 @@
           "page_number": 602,
           "position": 2,
           "text": "ﭺ",
-          "text_uthmani": "هُمْ",
           "translation": {
             "language_name": "english",
             "text": "[they]"
@@ -717,7 +716,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "hum"
-          }
+          },
+          "arabic": "هُمْ"
         },
         {
           "audio_url": "wbw/107_005_003.mp3",
@@ -728,7 +728,6 @@
           "page_number": 602,
           "position": 3,
           "text": "ﭻ",
-          "text_uthmani": "عَن",
           "translation": {
             "language_name": "english",
             "text": "about"
@@ -736,7 +735,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿan"
-          }
+          },
+          "arabic": "عَن"
         },
         {
           "audio_url": "wbw/107_005_004.mp3",
@@ -747,7 +747,6 @@
           "page_number": 602,
           "position": 4,
           "text": "ﭼ",
-          "text_uthmani": "صَلَاتِهِمْ",
           "translation": {
             "language_name": "english",
             "text": "their prayers"
@@ -755,7 +754,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ṣalātihim"
-          }
+          },
+          "arabic": "صَلَاتِهِمْ"
         },
         {
           "audio_url": "wbw/107_005_005.mp3",
@@ -766,7 +766,6 @@
           "page_number": 602,
           "position": 5,
           "text": "ﭽ",
-          "text_uthmani": "سَاهُونَ",
           "translation": {
             "language_name": "english",
             "text": "(are) neglectful"
@@ -774,7 +773,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "sāhūna"
-          }
+          },
+          "arabic": "سَاهُونَ"
         },
         {
           "audio_url": null,
@@ -785,7 +785,6 @@
           "page_number": 602,
           "position": 6,
           "text": "ﭾ",
-          "text_uthmani": "٥",
           "translation": {
             "language_name": "english",
             "text": "(5)"
@@ -793,7 +792,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٥"
         }
       ]
     },
@@ -810,27 +810,27 @@
         {
           "id": 90074,
           "resource_id": 19,
-          "text": "Who would be seen (at worship)"
+          "translation": "Who would be seen (at worship)"
         },
         {
           "id": 370490,
           "resource_id": 79,
-          "text": "которые делают (свои благие дела) напоказ (перед людьми)"
+          "translation": "которые делают (свои благие дела) напоказ (перед людьми)"
         },
         {
           "id": 256555,
           "resource_id": 45,
-          "text": "которые лицемерят"
+          "translation": "которые лицемерят"
         },
         {
           "id": 145367,
           "resource_id": 27,
-          "text": "denjenigen, die dabei (nur) gesehen werden wollen;"
+          "translation": "denjenigen, die dabei (nur) gesehen werden wollen;"
         },
         {
           "id": 10764912,
           "resource_id": 445,
-          "text": "Кто свою веру ставит напоказ"
+          "translation": "Кто свою веру ставит напоказ"
         }
       ],
       "verse_key": "107:6",
@@ -845,7 +845,6 @@
           "page_number": 602,
           "position": 1,
           "text": "ﭿ",
-          "text_uthmani": "ٱلَّذِينَ",
           "translation": {
             "language_name": "english",
             "text": "Those who"
@@ -853,7 +852,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alladhīna"
-          }
+          },
+          "arabic": "ٱلَّذِينَ"
         },
         {
           "audio_url": "wbw/107_006_002.mp3",
@@ -864,7 +864,6 @@
           "page_number": 602,
           "position": 2,
           "text": "ﮀ",
-          "text_uthmani": "هُمْ",
           "translation": {
             "language_name": "english",
             "text": "[they]"
@@ -872,7 +871,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "hum"
-          }
+          },
+          "arabic": "هُمْ"
         },
         {
           "audio_url": "wbw/107_006_003.mp3",
@@ -883,7 +883,6 @@
           "page_number": 602,
           "position": 3,
           "text": "ﮁ",
-          "text_uthmani": "يُرَآءُونَ",
           "translation": {
             "language_name": "english",
             "text": "make show"
@@ -891,7 +890,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yurāūna"
-          }
+          },
+          "arabic": "يُرَآءُونَ"
         },
         {
           "audio_url": null,
@@ -902,7 +902,6 @@
           "page_number": 602,
           "position": 4,
           "text": "ﮂ",
-          "text_uthmani": "٦",
           "translation": {
             "language_name": "english",
             "text": "(6)"
@@ -910,7 +909,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٦"
         }
       ]
     },
@@ -927,27 +927,27 @@
         {
           "id": 90076,
           "resource_id": 19,
-          "text": "Yet refuse small kindnesses!"
+          "translation": "Yet refuse small kindnesses!"
         },
         {
           "id": 370491,
           "resource_id": 79,
-          "text": "и отказывают в подаянии [отказывает даже в таких простых вещах, как ведро, мотыга, котел, и даже в воде и соли]!"
+          "translation": "и отказывают в подаянии [отказывает даже в таких простых вещах, как ведро, мотыга, котел, и даже в воде и соли]!"
         },
         {
           "id": 256551,
           "resource_id": 45,
-          "text": "и отказывают даже в мелочи!"
+          "translation": "и отказывают даже в мелочи!"
         },
         {
           "id": 145441,
           "resource_id": 27,
-          "text": "und die Hilfeleistung verweigern!"
+          "translation": "und die Hilfeleistung verweigern!"
         },
         {
           "id": 10771124,
           "resource_id": 445,
-          "text": "А ближнему откажет в самом малом"
+          "translation": "А ближнему откажет в самом малом"
         }
       ],
       "verse_key": "107:7",
@@ -962,7 +962,6 @@
           "page_number": 602,
           "position": 1,
           "text": "ﮃ",
-          "text_uthmani": "وَيَمْنَعُونَ",
           "translation": {
             "language_name": "english",
             "text": "And they deny"
@@ -970,7 +969,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wayamnaʿūna"
-          }
+          },
+          "arabic": "وَيَمْنَعُونَ"
         },
         {
           "audio_url": "wbw/107_007_002.mp3",
@@ -981,7 +981,6 @@
           "page_number": 602,
           "position": 2,
           "text": "ﮄ",
-          "text_uthmani": "ٱلْمَاعُونَ",
           "translation": {
             "language_name": "english",
             "text": "[the] small kindnesses"
@@ -989,7 +988,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-māʿūna"
-          }
+          },
+          "arabic": "ٱلْمَاعُونَ"
         },
         {
           "audio_url": null,
@@ -1000,7 +1000,6 @@
           "page_number": 602,
           "position": 3,
           "text": "ﮅ",
-          "text_uthmani": "٧",
           "translation": {
             "language_name": "english",
             "text": "(7)"
@@ -1008,7 +1007,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٧"
         }
       ]
     }

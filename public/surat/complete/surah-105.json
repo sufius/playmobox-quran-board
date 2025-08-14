@@ -130,27 +130,27 @@
         {
           "id": 90030,
           "resource_id": 19,
-          "text": "Hast thou not seen how thy Lord dealt with the owners of the Elephant?"
+          "translation": "Hast thou not seen how thy Lord dealt with the owners of the Elephant?"
         },
         {
           "id": 370476,
           "resource_id": 79,
-          "text": "Разве ты (о, Мухаммад) не думал о том, как поступил твой Господь с владельцами слона [[Разве же не рассуждал ты сам и люди, которые живут в твое время, что сделал Аллах с владельцами слона – эфиопским войском, которое направлялось разрушить Каабу? Почему же они не уверуют в Аллаха поразмыслив об этом? В то время эфиопы, которые являлись христианами, владели Йеменом, двинулись с войском, чтобы разрушить Каабу. Когда они приблизились к Мекке, Аллах послал на них стаю птиц, которая уничтожила тех воинов. Это было чудом, которое Аллах показал людям. Это событие произошло за 40 лет до начала пророческой миссии Мухаммада. И некоторые свидетели той истории еще были живы, когда Мухаммад уже стал пророком.]]?"
+          "translation": "Разве ты (о, Мухаммад) не думал о том, как поступил твой Господь с владельцами слона [[Разве же не рассуждал ты сам и люди, которые живут в твое время, что сделал Аллах с владельцами слона – эфиопским войском, которое направлялось разрушить Каабу? Почему же они не уверуют в Аллаха поразмыслив об этом? В то время эфиопы, которые являлись христианами, владели Йеменом, двинулись с войском, чтобы разрушить Каабу. Когда они приблизились к Мекке, Аллах послал на них стаю птиц, которая уничтожила тех воинов. Это было чудом, которое Аллах показал людям. Это событие произошло за 40 лет до начала пророческой миссии Мухаммада. И некоторые свидетели той истории еще были живы, когда Мухаммад уже стал пророком.]]?"
         },
         {
           "id": 256506,
           "resource_id": 45,
-          "text": "Разве ты не видел, что сделал твой Господь с владельцами слона?"
+          "translation": "Разве ты не видел, что сделал твой Господь с владельцами слона?"
         },
         {
           "id": 145337,
           "resource_id": 27,
-          "text": "Siehst du nicht, wie dein Herr mit den Leuten des Elefanten verfuhr?"
+          "translation": "Siehst du nicht, wie dein Herr mit den Leuten des Elefanten verfuhr?"
         },
         {
           "id": 10519839,
           "resource_id": 445,
-          "text": "Видал ли ты, как поступил Господь с людьми слона"
+          "translation": "Видал ли ты, как поступил Господь с людьми слона"
         }
       ],
       "verse_key": "105:1",
@@ -165,7 +165,6 @@
           "page_number": 601,
           "position": 1,
           "text": "ﮍ",
-          "text_uthmani": "أَلَمْ",
           "translation": {
             "language_name": "english",
             "text": "Have not"
@@ -173,7 +172,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alam"
-          }
+          },
+          "arabic": "أَلَمْ"
         },
         {
           "audio_url": "wbw/105_001_002.mp3",
@@ -184,7 +184,6 @@
           "page_number": 601,
           "position": 2,
           "text": "ﮎ",
-          "text_uthmani": "تَرَ",
           "translation": {
             "language_name": "english",
             "text": "you seen"
@@ -192,7 +191,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "tara"
-          }
+          },
+          "arabic": "تَرَ"
         },
         {
           "audio_url": "wbw/105_001_003.mp3",
@@ -203,7 +203,6 @@
           "page_number": 601,
           "position": 3,
           "text": "ﮏ",
-          "text_uthmani": "كَيْفَ",
           "translation": {
             "language_name": "english",
             "text": "how"
@@ -211,7 +210,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kayfa"
-          }
+          },
+          "arabic": "كَيْفَ"
         },
         {
           "audio_url": "wbw/105_001_004.mp3",
@@ -222,7 +222,6 @@
           "page_number": 601,
           "position": 4,
           "text": "ﮐ",
-          "text_uthmani": "فَعَلَ",
           "translation": {
             "language_name": "english",
             "text": "dealt"
@@ -230,7 +229,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "faʿala"
-          }
+          },
+          "arabic": "فَعَلَ"
         },
         {
           "audio_url": "wbw/105_001_005.mp3",
@@ -241,7 +241,6 @@
           "page_number": 601,
           "position": 5,
           "text": "ﮑ",
-          "text_uthmani": "رَبُّكَ",
           "translation": {
             "language_name": "english",
             "text": "your Lord"
@@ -249,7 +248,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rabbuka"
-          }
+          },
+          "arabic": "رَبُّكَ"
         },
         {
           "audio_url": "wbw/105_001_006.mp3",
@@ -260,7 +260,6 @@
           "page_number": 601,
           "position": 6,
           "text": "ﮒ",
-          "text_uthmani": "بِأَصْحَـٰبِ",
           "translation": {
             "language_name": "english",
             "text": "with (the) Companions"
@@ -268,7 +267,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bi-aṣḥābi"
-          }
+          },
+          "arabic": "بِأَصْحَـٰبِ"
         },
         {
           "audio_url": "wbw/105_001_007.mp3",
@@ -279,7 +279,6 @@
           "page_number": 601,
           "position": 7,
           "text": "ﮓ",
-          "text_uthmani": "ٱلْفِيلِ",
           "translation": {
             "language_name": "english",
             "text": "(of the) Elephant"
@@ -287,7 +286,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-fīli"
-          }
+          },
+          "arabic": "ٱلْفِيلِ"
         },
         {
           "audio_url": null,
@@ -298,7 +298,6 @@
           "page_number": 601,
           "position": 8,
           "text": "ﮔ",
-          "text_uthmani": "١",
           "translation": {
             "language_name": "english",
             "text": "(1)"
@@ -306,7 +305,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١"
         }
       ]
     },
@@ -323,27 +323,27 @@
         {
           "id": 90032,
           "resource_id": 19,
-          "text": "Did He not bring their stratagem to naught,"
+          "translation": "Did He not bring their stratagem to naught,"
         },
         {
           "id": 370477,
           "resource_id": 79,
-          "text": "Разве Он [Аллах] не сделал тщетными козни их [[Разве Аллах не расстроил их планы разрушить Каабу и захватить людей Мекки в плен? Аллах уничтожил их не дав им даже дойти до этого города. Так почему же твой народ, который знает об этой истории, не боится того, что Аллах может сделать с ними также за то, что они отвергают Его посланника, Его Книгу, и еще и отклоняют от Его пути людей?]] [эфиопского войска]?"
+          "translation": "Разве Он [Аллах] не сделал тщетными козни их [[Разве Аллах не расстроил их планы разрушить Каабу и захватить людей Мекки в плен? Аллах уничтожил их не дав им даже дойти до этого города. Так почему же твой народ, который знает об этой истории, не боится того, что Аллах может сделать с ними также за то, что они отвергают Его посланника, Его Книгу, и еще и отклоняют от Его пути людей?]] [эфиопского войска]?"
         },
         {
           "id": 256950,
           "resource_id": 45,
-          "text": "Разве Он не запутал их козни"
+          "translation": "Разве Он не запутал их козни"
         },
         {
           "id": 145343,
           "resource_id": 27,
-          "text": "Ließ Er nicht ihre List verlorengehen"
+          "translation": "Ließ Er nicht ihre List verlorengehen"
         },
         {
           "id": 10524349,
           "resource_id": 445,
-          "text": "Разрушив их зловещий план"
+          "translation": "Разрушив их зловещий план"
         }
       ],
       "verse_key": "105:2",
@@ -358,7 +358,6 @@
           "page_number": 601,
           "position": 1,
           "text": "ﮕ",
-          "text_uthmani": "أَلَمْ",
           "translation": {
             "language_name": "english",
             "text": "Did not"
@@ -366,7 +365,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alam"
-          }
+          },
+          "arabic": "أَلَمْ"
         },
         {
           "audio_url": "wbw/105_002_002.mp3",
@@ -377,7 +377,6 @@
           "page_number": 601,
           "position": 2,
           "text": "ﮖ",
-          "text_uthmani": "يَجْعَلْ",
           "translation": {
             "language_name": "english",
             "text": "He make"
@@ -385,7 +384,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yajʿal"
-          }
+          },
+          "arabic": "يَجْعَلْ"
         },
         {
           "audio_url": "wbw/105_002_003.mp3",
@@ -396,7 +396,6 @@
           "page_number": 601,
           "position": 3,
           "text": "ﮗ",
-          "text_uthmani": "كَيْدَهُمْ",
           "translation": {
             "language_name": "english",
             "text": "their plan"
@@ -404,7 +403,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kaydahum"
-          }
+          },
+          "arabic": "كَيْدَهُمْ"
         },
         {
           "audio_url": "wbw/105_002_004.mp3",
@@ -415,7 +415,6 @@
           "page_number": 601,
           "position": 4,
           "text": "ﮘ",
-          "text_uthmani": "فِى",
           "translation": {
             "language_name": "english",
             "text": "go"
@@ -423,7 +422,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fī"
-          }
+          },
+          "arabic": "فِى"
         },
         {
           "audio_url": "wbw/105_002_005.mp3",
@@ -434,7 +434,6 @@
           "page_number": 601,
           "position": 5,
           "text": "ﮙ",
-          "text_uthmani": "تَضْلِيلٍۢ",
           "translation": {
             "language_name": "english",
             "text": "astray"
@@ -442,7 +441,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "taḍlīlin"
-          }
+          },
+          "arabic": "تَضْلِيلٍۢ"
         },
         {
           "audio_url": null,
@@ -453,7 +453,6 @@
           "page_number": 601,
           "position": 6,
           "text": "ﮚ",
-          "text_uthmani": "٢",
           "translation": {
             "language_name": "english",
             "text": "(2)"
@@ -461,7 +460,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢"
         }
       ]
     },
@@ -478,27 +478,27 @@
         {
           "id": 90034,
           "resource_id": 19,
-          "text": "And send against them swarms of flying creatures,"
+          "translation": "And send against them swarms of flying creatures,"
         },
         {
           "id": 370478,
           "resource_id": 79,
-          "text": "И послал Он на них [на воинов] птиц стаями [[Это были черные птицы, которые группами летели со стороны моря. У каждой из этих птиц было по три камня: две в лапках и одна в клюве.]]?"
+          "translation": "И послал Он на них [на воинов] птиц стаями [[Это были черные птицы, которые группами летели со стороны моря. У каждой из этих птиц было по три камня: две в лапках и одна в клюве.]]?"
         },
         {
           "id": 256947,
           "resource_id": 45,
-          "text": "и не наслал на них птиц стаями?"
+          "translation": "и не наслал на них птиц стаями?"
         },
         {
           "id": 145342,
           "resource_id": 27,
-          "text": "und sandte gegen sie Vögel in aufeinanderfolgenden Schwärmen,"
+          "translation": "und sandte gegen sie Vögel in aufeinanderfolgenden Schwärmen,"
         },
         {
           "id": 10535484,
           "resource_id": 445,
-          "text": "Он против них абАбилей послал"
+          "translation": "Он против них абАбилей послал"
         }
       ],
       "verse_key": "105:3",
@@ -513,7 +513,6 @@
           "page_number": 601,
           "position": 1,
           "text": "ﮛ",
-          "text_uthmani": "وَأَرْسَلَ",
           "translation": {
             "language_name": "english",
             "text": "And He sent"
@@ -521,7 +520,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wa-arsala"
-          }
+          },
+          "arabic": "وَأَرْسَلَ"
         },
         {
           "audio_url": "wbw/105_003_002.mp3",
@@ -532,7 +532,6 @@
           "page_number": 601,
           "position": 2,
           "text": "ﮜ",
-          "text_uthmani": "عَلَيْهِمْ",
           "translation": {
             "language_name": "english",
             "text": "against them"
@@ -540,7 +539,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalayhim"
-          }
+          },
+          "arabic": "عَلَيْهِمْ"
         },
         {
           "audio_url": "wbw/105_003_003.mp3",
@@ -551,7 +551,6 @@
           "page_number": 601,
           "position": 3,
           "text": "ﮝ",
-          "text_uthmani": "طَيْرًا",
           "translation": {
             "language_name": "english",
             "text": "birds"
@@ -559,7 +558,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ṭayran"
-          }
+          },
+          "arabic": "طَيْرًا"
         },
         {
           "audio_url": "wbw/105_003_004.mp3",
@@ -570,7 +570,6 @@
           "page_number": 601,
           "position": 4,
           "text": "ﮞ",
-          "text_uthmani": "أَبَابِيلَ",
           "translation": {
             "language_name": "english",
             "text": "(in) flocks"
@@ -578,7 +577,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "abābīla"
-          }
+          },
+          "arabic": "أَبَابِيلَ"
         },
         {
           "audio_url": null,
@@ -589,7 +589,6 @@
           "page_number": 601,
           "position": 5,
           "text": "ﮟ",
-          "text_uthmani": "٣",
           "translation": {
             "language_name": "english",
             "text": "(3)"
@@ -597,7 +596,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣"
         }
       ]
     },
@@ -614,27 +614,27 @@
         {
           "id": 90036,
           "resource_id": 19,
-          "text": "Which pelted them with stones of baked clay,"
+          "translation": "Which pelted them with stones of baked clay,"
         },
         {
           "id": 370479,
           "resource_id": 79,
-          "text": "Бросали они [птицы] в них [в воинов] камни из обожженной глины [[Каждый камушек был больше чечевицы и меньше горошины и представлял собой глину, которая была обожжена в Аду, и на нем было написано имя того, на кого он попадет.]]."
+          "translation": "Бросали они [птицы] в них [в воинов] камни из обожженной глины [[Каждый камушек был больше чечевицы и меньше горошины и представлял собой глину, которая была обожжена в Аду, и на нем было написано имя того, на кого он попадет.]]."
         },
         {
           "id": 256893,
           "resource_id": 45,
-          "text": "Они бросали в них каменья из обожженной глины"
+          "translation": "Они бросали в них каменья из обожженной глины"
         },
         {
           "id": 145350,
           "resource_id": 27,
-          "text": "die sie mit Steinen aus gebranntem Lehm bewarfen,"
+          "translation": "die sie mit Steinen aus gebranntem Lehm bewarfen,"
         },
         {
           "id": 10544970,
           "resource_id": 445,
-          "text": "Которые комками обожженной глины людей слона сразили"
+          "translation": "Которые комками обожженной глины людей слона сразили"
         }
       ],
       "verse_key": "105:4",
@@ -649,7 +649,6 @@
           "page_number": 601,
           "position": 1,
           "text": "ﮠ",
-          "text_uthmani": "تَرْمِيهِم",
           "translation": {
             "language_name": "english",
             "text": "Striking them"
@@ -657,7 +656,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "tarmīhim"
-          }
+          },
+          "arabic": "تَرْمِيهِم"
         },
         {
           "audio_url": "wbw/105_004_002.mp3",
@@ -668,7 +668,6 @@
           "page_number": 601,
           "position": 2,
           "text": "ﮡ",
-          "text_uthmani": "بِحِجَارَةٍۢ",
           "translation": {
             "language_name": "english",
             "text": "with stones"
@@ -676,7 +675,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "biḥijāratin"
-          }
+          },
+          "arabic": "بِحِجَارَةٍۢ"
         },
         {
           "audio_url": "wbw/105_004_003.mp3",
@@ -687,7 +687,6 @@
           "page_number": 601,
           "position": 3,
           "text": "ﮢ",
-          "text_uthmani": "مِّن",
           "translation": {
             "language_name": "english",
             "text": "of"
@@ -695,7 +694,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "min"
-          }
+          },
+          "arabic": "مِّن"
         },
         {
           "audio_url": "wbw/105_004_004.mp3",
@@ -706,7 +706,6 @@
           "page_number": 601,
           "position": 4,
           "text": "ﮣ",
-          "text_uthmani": "سِجِّيلٍۢ",
           "translation": {
             "language_name": "english",
             "text": "baked clay"
@@ -714,7 +713,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "sijjīlin"
-          }
+          },
+          "arabic": "سِجِّيلٍۢ"
         },
         {
           "audio_url": null,
@@ -725,7 +725,6 @@
           "page_number": 601,
           "position": 5,
           "text": "ﮤ",
-          "text_uthmani": "٤",
           "translation": {
             "language_name": "english",
             "text": "(4)"
@@ -733,7 +732,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٤"
         }
       ]
     },
@@ -750,27 +750,27 @@
         {
           "id": 90038,
           "resource_id": 19,
-          "text": "And made them like green crops devoured (by cattle)?"
+          "translation": "And made them like green crops devoured (by cattle)?"
         },
         {
           "id": 370480,
           "resource_id": 79,
-          "text": "И сделал Он [Аллах] их [воинов] подобными ниве со съеденными зернами [подобно объеденной соломе]."
+          "translation": "И сделал Он [Аллах] их [воинов] подобными ниве со съеденными зернами [подобно объеденной соломе]."
         },
         {
           "id": 256926,
           "resource_id": 45,
-          "text": "и превратили их в подобие изъеденных иссохших злаковых листьев."
+          "translation": "и превратили их в подобие изъеденных иссохших злаковых листьев."
         },
         {
           "id": 145349,
           "resource_id": 27,
-          "text": "und sie so wie abgefressene Halme machte?"
+          "translation": "und sie so wie abgefressene Halme machte?"
         },
         {
           "id": 10555457,
           "resource_id": 445,
-          "text": "Затем он превратил их в мертво поле Соломинок и стеблей с разъеденным нутром"
+          "translation": "Затем он превратил их в мертво поле Соломинок и стеблей с разъеденным нутром"
         }
       ],
       "verse_key": "105:5",
@@ -785,7 +785,6 @@
           "page_number": 601,
           "position": 1,
           "text": "ﮥ",
-          "text_uthmani": "فَجَعَلَهُمْ",
           "translation": {
             "language_name": "english",
             "text": "Then He made them"
@@ -793,7 +792,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fajaʿalahum"
-          }
+          },
+          "arabic": "فَجَعَلَهُمْ"
         },
         {
           "audio_url": "wbw/105_005_002.mp3",
@@ -804,7 +804,6 @@
           "page_number": 601,
           "position": 2,
           "text": "ﮦ",
-          "text_uthmani": "كَعَصْفٍۢ",
           "translation": {
             "language_name": "english",
             "text": "like straw"
@@ -812,7 +811,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kaʿaṣfin"
-          }
+          },
+          "arabic": "كَعَصْفٍۢ"
         },
         {
           "audio_url": "wbw/105_005_003.mp3",
@@ -823,7 +823,6 @@
           "page_number": 601,
           "position": 3,
           "text": "ﮧ",
-          "text_uthmani": "مَّأْكُولٍۭ",
           "translation": {
             "language_name": "english",
             "text": "eaten up"
@@ -831,7 +830,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "makūlin"
-          }
+          },
+          "arabic": "مَّأْكُولٍۭ"
         },
         {
           "audio_url": null,
@@ -842,7 +842,6 @@
           "page_number": 601,
           "position": 4,
           "text": "ﮨ",
-          "text_uthmani": "٥",
           "translation": {
             "language_name": "english",
             "text": "(5)"
@@ -850,7 +849,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٥"
         }
       ]
     }

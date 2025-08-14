@@ -1,956 +1,849 @@
 [
   {
+    "index": 1,
     "verse_number": 1,
     "translation": "Alif-Lam-Mim.",
-    "text_uthmani": " الٓمٓ",
-    "text_uthmani_transcribed": "Alif lām mīm."
+    "arabic": " الٓمٓ",
+    "transcription": "Alif lām mīm."
   },
   {
+    "index": 2,
     "verse_number": 2,
     "translation": "Meinen die Menschen, daß sie in Ruhe gelassen werden, (nur) weil sie sagen: „Wir glauben, ohne daß sie geprüft werden?",
-    "text_uthmani": "أَحَسِبَ ٱلنَّاسُ أَن يُتْرَكُوٓا۟ أَن يَقُولُوٓا۟ ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ",
-    "text_uthmani_transcribed": "Aḥasiban-nāsu ay yutrakū ay yaqūlū āmannā wa hum lā yuftanūn(a)."
+    "arabic": "أَحَسِبَ ٱلنَّاسُ أَن يُتْرَكُوٓا۟ أَن يَقُولُوٓا۟ ءَامَنَّا وَهُمْ لَا يُفْتَنُونَ",
+    "transcription": "Aḥasiban-nāsu ay yutrakū ay yaqūlū āmannā wa hum lā yuftanūn(a)."
   },
   {
+    "index": 3,
     "verse_number": 3,
-    "translation": "Wir haben bereits diejenigen vor ihnen geprüft. Allah wird ganz gewiß diejenigen kennen, die die Wahrheit sprechen, und Er wird ganz gewiß die Lügner kennen.",
-    "segmented": [
-      {
-        "translation": "Wir haben bereits diejenigen vor ihnen geprüft.",
-        "text_uthmani": "وَلَقَدْ فَتَنَّا ٱلَّذِينَ مِن قَبْلِهِمْ ۖ",
-        "text_uthmani_transcribed": "Wa laqad fatanna allatheena min qablihim."
-      },
-      {
-        "translation": "Allah wird ganz gewiß diejenigen kennen, die die Wahrheit sprechen, und Er wird ganz gewiß die Lügner kennen.",
-        "text_uthmani": "فَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ صَدَقُوا۟ وَلَيَعْلَمَنَّ ٱلْكَـٰذِبِينَ",
-        "text_uthmani_transcribed": "Fala ya'lamanna Allahu allatheena sadaqoo wa la ya'lamanna alkathibeen."
-      }
-    ],
-    "text_uthmani": "وَلَقَدْ فَتَنَّا ٱلَّذِينَ مِن قَبْلِهِمْ ۖ فَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ صَدَقُوا۟ وَلَيَعْلَمَنَّ ٱلْكَـٰذِبِينَ",
-    "text_uthmani_transcribed": "Wa laqad fatannal-lażīna min qablihim falaya'lamannallāhul-lażīna ṣadaqū wa laya'lamannal-kāżibīn(a)."
+    "translation": "Wir haben bereits diejenigen vor ihnen geprüft.",
+    "arabic": "وَلَقَدْ فَتَنَّا ٱلَّذِينَ مِن قَبْلِهِمْ ۖ",
+    "transcription": "Wa laqad fatanna allatheena min qablihim."
   },
   {
+    "index": 4,
+    "verse_number": 3,
+    "translation": "Allah wird ganz gewiß diejenigen kennen, die die Wahrheit sprechen, und Er wird ganz gewiß die Lügner kennen.",
+    "arabic": "فَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ صَدَقُوا۟ وَلَيَعْلَمَنَّ ٱلْكَـٰذِبِينَ",
+    "transcription": "Fala ya'lamanna Allahu allatheena sadaqoo wa la ya'lamanna alkathibeen."
+  },
+  {
+    "index": 5,
     "verse_number": 4,
     "translation": "Oder meinen diejenigen, die böse Taten begehen, daß sie Uns entkommen (können)? Wie böse ist, was sie urteilen!",
-    "text_uthmani": "أَمْ حَسِبَ ٱلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ أَن يَسْبِقُونَا ۚ سَآءَ مَا يَحْكُمُونَ",
-    "text_uthmani_transcribed": "Am ḥasibal-lażīna ya'malūnas-sayyi'āti ay yasbiqūnā, sā'a mā yaḥkumūn(a)."
+    "arabic": "أَمْ حَسِبَ ٱلَّذِينَ يَعْمَلُونَ ٱلسَّيِّـَٔاتِ أَن يَسْبِقُونَا ۚ سَآءَ مَا يَحْكُمُونَ",
+    "transcription": "Am ḥasibal-lażīna ya'malūnas-sayyi'āti ay yasbiqūnā, sā'a mā yaḥkumūn(a)."
   },
   {
+    "index": 6,
     "verse_number": 5,
     "translation": "Wer die Begegnung mit Allah erwartet-, so wird Allahs Frist sicher kommen. Und Er ist der Allhörende und Allwissende.",
-    "text_uthmani": "مَن كَانَ يَرْجُوا۟ لِقَآءَ ٱللَّهِ فَإِنَّ أَجَلَ ٱللَّهِ لَـَٔاتٍ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
-    "text_uthmani_transcribed": "Man kāna yarjū liqā'allāhi fa'inna ajalallāhi la'āt(in), wa huwas-samī'ul-'alīm(u)."
+    "arabic": "مَن كَانَ يَرْجُوا۟ لِقَآءَ ٱللَّهِ فَإِنَّ أَجَلَ ٱللَّهِ لَـَٔاتٍ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+    "transcription": "Man kāna yarjū liqā'allāhi fa'inna ajalallāhi la'āt(in), wa huwas-samī'ul-'alīm(u)."
   },
   {
+    "index": 7,
     "verse_number": 6,
     "translation": "Und wer sich abmüht, der müht sich nur zu seinem eigenen Vorteil ab, denn Allah ist der Weltenbewohner fürwahr unbedürftig.",
-    "text_uthmani": "وَمَن جَـٰهَدَ فَإِنَّمَا يُجَـٰهِدُ لِنَفْسِهِۦٓ ۚ إِنَّ ٱللَّهَ لَغَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
-    "text_uthmani_transcribed": "Wa man jāhada fa'innamā yujāhidu linafsih(ī), innallāha laganiyyun 'anil-'ālamīn(a)."
+    "arabic": "وَمَن جَـٰهَدَ فَإِنَّمَا يُجَـٰهِدُ لِنَفْسِهِۦٓ ۚ إِنَّ ٱللَّهَ لَغَنِىٌّ عَنِ ٱلْعَـٰلَمِينَ",
+    "transcription": "Wa man jāhada fa'innamā yujāhidu linafsih(ī), innallāha laganiyyun 'anil-'ālamīn(a)."
   },
   {
+    "index": 8,
     "verse_number": 7,
-    "translation": "Denjenigen, die glauben und rechtschaffene Werke tun, werden Wir ganz gewiß ihre bösen Taten tilgen und ihnen ganz gewiß das Beste vergelten von dem, was sie taten.",
-    "segmented": [
-      {
-        "translation": "Denjenigen, die glauben und rechtschaffene Werke tun, werden Wir ganz gewiß ihre bösen Taten tilgen",
-        "text_uthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ",
-        "text_uthmani_transcribed": "Wa alladhīna āmanū wa 'amilū aṣ-ṣāliḥāti lanukaffiranna 'anhum sayyi'ātihim"
-      },
-      {
-        "translation": "und ihnen ganz gewiß das Beste vergelten von dem, was sie taten.",
-        "text_uthmani": "وَلَنَجْزِيَنَّهُمْ أَحْسَنَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ",
-        "text_uthmani_transcribed": "wa lanajziyannahum aḥsana alladhī kānū ya'malūn"
-      }
-    ],
-    "text_uthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ وَلَنَجْزِيَنَّهُمْ أَحْسَنَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ",
-    "text_uthmani_transcribed": "Wal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti lanukaffiranna 'anhum sayyi'ātihim wa lanajziyannahum aḥsanal-lażī kānū ya'malūn(a)."
+    "translation": "Denjenigen, die glauben und rechtschaffene Werke tun, werden Wir ganz gewiß ihre bösen Taten tilgen",
+    "arabic": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُكَفِّرَنَّ عَنْهُمْ سَيِّـَٔاتِهِمْ",
+    "transcription": "Wa alladhīna āmanū wa 'amilū aṣ-ṣāliḥāti lanukaffiranna 'anhum sayyi'ātihim"
   },
   {
+    "index": 9,
+    "verse_number": 7,
+    "translation": "und ihnen ganz gewiß das Beste vergelten von dem, was sie taten.",
+    "arabic": "وَلَنَجْزِيَنَّهُمْ أَحْسَنَ ٱلَّذِى كَانُوا۟ يَعْمَلُونَ",
+    "transcription": "wa lanajziyannahum aḥsana alladhī kānū ya'malūn"
+  },
+  {
+    "index": 10,
     "verse_number": 8,
-    "translation": "Und Wir haben dem Menschen anbefohlen, seine Eltern mit Güte zu behandeln. Wenn sie sich aber darum bemühen, daß Du Mir das beigesellst, wovon du kein Wissen hast, dann gehorche ihnen nicht. Zu Mir wird eure Rückkehr sein, da werde Ich euch kundtun, was ihr zu tun pflegtet.",
-    "segmented": [
-      {
-        "translation": "Und Wir haben dem Menschen anbefohlen, seine Eltern mit Güte zu behandeln.",
-        "text_uthmani": "وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حُسْنًا ۖ",
-        "text_uthmani_transcribed": "Wa waṣṣaynā al-insāna biwālidayhi ḥusnan."
-      },
-      {
-        "translation": "Wenn sie sich aber darum bemühen, daß Du Mir das beigesellst, wovon du kein Wissen hast, dann gehorche ihnen nicht.",
-        "text_uthmani": "وَإِن جَـٰهَدَاكَ لِتُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَآ ۚ",
-        "text_uthmani_transcribed": "Wa in jāhadāka litushrika bī mā laysa laka bihī ʿilmun falā tuṭiʿhumā."
-      },
-      {
-        "translation": "Zu Mir wird eure Rückkehr sein, da werde Ich euch kundtun, was ihr zu tun pflegtet.",
-        "text_uthmani": "إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
-        "text_uthmani_transcribed": "Ilayya marjiʿukum fa'unabbi'ukum bimā kuntum taʿmalūn."
-      }
-    ],
-    "text_uthmani": "وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حُسْنًا ۖ وَإِن جَـٰهَدَاكَ لِتُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَآ ۚ إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
-    "text_uthmani_transcribed": "Wa waṣṣainal-insāna biwālidaihi ḥusnā(n), wa in jāhadāka litusyrika bī mā laisa laka bihī 'ilmun falā tuṭi'humā, ilayya marji'ukum fa'unabbi'ukum bimā kuntum ta'malūn(a)."
+    "translation": "Und Wir haben dem Menschen anbefohlen, seine Eltern mit Güte zu behandeln.",
+    "arabic": "وَوَصَّيْنَا ٱلْإِنسَـٰنَ بِوَٰلِدَيْهِ حُسْنًا ۖ",
+    "transcription": "Wa waṣṣaynā al-insāna biwālidayhi ḥusnan."
   },
   {
+    "index": 11,
+    "verse_number": 8,
+    "translation": "Wenn sie sich aber darum bemühen, daß Du Mir das beigesellst, wovon du kein Wissen hast, dann gehorche ihnen nicht.",
+    "arabic": "وَإِن جَـٰهَدَاكَ لِتُشْرِكَ بِى مَا لَيْسَ لَكَ بِهِۦ عِلْمٌ فَلَا تُطِعْهُمَآ ۚ",
+    "transcription": "Wa in jāhadāka litushrika bī mā laysa laka bihī ʿilmun falā tuṭiʿhumā."
+  },
+  {
+    "index": 12,
+    "verse_number": 8,
+    "translation": "Zu Mir wird eure Rückkehr sein, da werde Ich euch kundtun, was ihr zu tun pflegtet.",
+    "arabic": "إِلَىَّ مَرْجِعُكُمْ فَأُنَبِّئُكُم بِمَا كُنتُمْ تَعْمَلُونَ",
+    "transcription": "Ilayya marjiʿukum fa'unabbi'ukum bimā kuntum taʿmalūn."
+  },
+  {
+    "index": 13,
     "verse_number": 9,
     "translation": "Diejenigen, die glauben und rechtschaffene Werke tun, lassen Wir in die Reihen der Rechtschaffenen eingehen.",
-    "text_uthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُدْخِلَنَّهُمْ فِى ٱلصَّـٰلِحِينَ",
-    "text_uthmani_transcribed": "Wal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti lanudkhilannahum fiṣ-ṣāliḥīn(a)."
+    "arabic": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُدْخِلَنَّهُمْ فِى ٱلصَّـٰلِحِينَ",
+    "transcription": "Wal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti lanudkhilannahum fiṣ-ṣāliḥīn(a)."
   },
   {
+    "index": 14,
     "verse_number": 10,
-    "translation": "Und unter den Menschen gibt es manchen, der sagt: „Wir glauben an Allah. Wenn ihm aber um Allahs willen Leid zugefügt wird, setzt er die Anfechtung durch die Menschen der Strafe Allahs gleich. Wenn jedoch Hilfe von deinem Herrn kommt, sagen sie ganz gewiß: „Wir sind ja mit euch gewesen. Weiß Allah denn nicht besser Bescheid über das, was in den Brüsten der Weltenbewohner steckt?",
-    "segmented": [
-      {
-        "translation": "Und unter den Menschen gibt es manchen, der sagt: „Wir glauben an Allah.",
-        "text_uthmani": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ",
-        "text_uthmani_transcribed": "Wa mina alnnasi man yaqoolu aamanna biAllahi"
-      },
-      {
-        "translation": "Wenn ihm aber um Allahs willen Leid zugefügt wird, setzt er die Anfechtung durch die Menschen der Strafe Allahs gleich.",
-        "text_uthmani": "فَإِذَآ أُوذِىَ فِى ٱللَّهِ جَعَلَ فِتْنَةَ ٱلنَّاسِ كَعَذَابِ ٱللَّهِ",
-        "text_uthmani_transcribed": "Fa-itha oothiya fee Allahi jaAAala fitnata alnnasi kaAAathabi Allahi"
-      },
-      {
-        "translation": "Wenn jedoch Hilfe von deinem Herrn kommt, sagen sie ganz gewiß: „Wir sind ja mit euch gewesen.",
-        "text_uthmani": "وَلَئِن جَآءَ نَصْرٌ مِّن رَّبِّكَ لَيَقُولُنَّ إِنَّا كُنَّا مَعَكُمْ",
-        "text_uthmani_transcribed": "Wala-in jaa nasrun min rabbika layaqoolunna inna kunna maAAakum"
-      },
-      {
-        "translation": "Weiß Allah denn nicht besser Bescheid über das, was in den Brüsten der Weltenbewohner steckt?",
-        "text_uthmani": "ۚ أَوَلَيْسَ ٱللَّهُ بِأَعْلَمَ بِمَا فِى صُدُورِ ٱلْعَـٰلَمِينَ",
-        "text_uthmani_transcribed": "Awalaysa Allahu biaAAlama bima fee sudoori alAAalameena"
-      }
-    ],
-    "text_uthmani": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ فَإِذَآ أُوذِىَ فِى ٱللَّهِ جَعَلَ فِتْنَةَ ٱلنَّاسِ كَعَذَابِ ٱللَّهِ وَلَئِن جَآءَ نَصْرٌ مِّن رَّبِّكَ لَيَقُولُنَّ إِنَّا كُنَّا مَعَكُمْ ۚ أَوَلَيْسَ ٱللَّهُ بِأَعْلَمَ بِمَا فِى صُدُورِ ٱلْعَـٰلَمِينَ",
-    "text_uthmani_transcribed": "Wa minan-nāsi may yaqūlu āmannā billāhi fa'iżā ūżiya  fillāhi ja'ala fitnatan-nāsi ka'ażābillāh(i), wa la'in jā'a naṣrum mir rabbika layaqūlunna innā kunnā ma'akum, awa laisallāhu bi'a'lama bimā fī ṣudūril-'ālamīn(a)."
+    "translation": "Und unter den Menschen gibt es manchen, der sagt: „Wir glauben an Allah.",
+    "arabic": "وَمِنَ ٱلنَّاسِ مَن يَقُولُ ءَامَنَّا بِٱللَّهِ",
+    "transcription": "Wa mina alnnasi man yaqoolu aamanna biAllahi"
   },
   {
+    "index": 15,
+    "verse_number": 10,
+    "translation": "Wenn ihm aber um Allahs willen Leid zugefügt wird, setzt er die Anfechtung durch die Menschen der Strafe Allahs gleich.",
+    "arabic": "فَإِذَآ أُوذِىَ فِى ٱللَّهِ جَعَلَ فِتْنَةَ ٱلنَّاسِ كَعَذَابِ ٱللَّهِ",
+    "transcription": "Fa-itha oothiya fee Allahi jaAAala fitnata alnnasi kaAAathabi Allahi"
+  },
+  {
+    "index": 16,
+    "verse_number": 10,
+    "translation": "Wenn jedoch Hilfe von deinem Herrn kommt, sagen sie ganz gewiß: „Wir sind ja mit euch gewesen.",
+    "arabic": "وَلَئِن جَآءَ نَصْرٌ مِّن رَّبِّكَ لَيَقُولُنَّ إِنَّا كُنَّا مَعَكُمْ",
+    "transcription": "Wala-in jaa nasrun min rabbika layaqoolunna inna kunna maAAakum"
+  },
+  {
+    "index": 17,
+    "verse_number": 10,
+    "translation": "Weiß Allah denn nicht besser Bescheid über das, was in den Brüsten der Weltenbewohner steckt?",
+    "arabic": "ۚ أَوَلَيْسَ ٱللَّهُ بِأَعْلَمَ بِمَا فِى صُدُورِ ٱلْعَـٰلَمِينَ",
+    "transcription": "Awalaysa Allahu biaAAlama bima fee sudoori alAAalameena"
+  },
+  {
+    "index": 18,
     "verse_number": 11,
     "translation": "Und Allah wird ganz gewiß diejenigen kennen, die glauben, und Er wird ganz gewiß die Heuchler kennen.",
-    "text_uthmani": "وَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَلَيَعْلَمَنَّ ٱلْمُنَـٰفِقِينَ",
-    "text_uthmani_transcribed": "Wa laya'lamannallāhul-lażīna āmanū wa laya'lamannal-munāfiqīn(a)."
+    "arabic": "وَلَيَعْلَمَنَّ ٱللَّهُ ٱلَّذِينَ ءَامَنُوا۟ وَلَيَعْلَمَنَّ ٱلْمُنَـٰفِقِينَ",
+    "transcription": "Wa laya'lamannallāhul-lażīna āmanū wa laya'lamannal-munāfiqīn(a)."
   },
   {
+    "index": 19,
     "verse_number": 12,
-    "translation": "Und diejenigen, die ungläubig sind, sagen zu denjenigen, die glauben: „Folgt unserem Weg. Laßt uns eure Verfehlungen tragen. Tragen werden sie aber nichts von ihren Verfehlungen, denn sie sind fürwahr Lügner.",
-    "segmented": [
-      {
-        "translation": "Und diejenigen, die ungläubig sind, sagen zu denjenigen, die glauben: „Folgt unserem Weg. Laßt uns eure Verfehlungen tragen.",
-        "text_uthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوا۟ ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ خَطَـٰيَـٰكُمْ",
-        "text_uthmani_transcribed": "Wa qāla alladhīna kafarū lilladhīna āmanū attabi'ū sabīlanā walnaḥmil khaṭāyākum"
-      },
-      {
-        "translation": "Tragen werden sie aber nichts von ihren Verfehlungen, denn sie sind fürwahr Lügner.",
-        "text_uthmani": "وَمَا هُم بِحَـٰمِلِينَ مِنْ خَطَـٰيَـٰهُم مِّن شَىْءٍ ۖ إِنَّهُمْ لَكَـٰذِبُونَ",
-        "text_uthmani_transcribed": "Wa mā hum biḥāmilīna min khaṭāyahum min shay'in ۖ innahum lakādhibūn"
-      }
-    ],
-    "text_uthmani": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوا۟ ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ خَطَـٰيَـٰكُمْ وَمَا هُم بِحَـٰمِلِينَ مِنْ خَطَـٰيَـٰهُم مِّن شَىْءٍ ۖ إِنَّهُمْ لَكَـٰذِبُونَ",
-    "text_uthmani_transcribed": "Wa qālal-lażīna kafarū lil-lażīna āmanuttabi'ū sabīlanā walnaḥmil khaṭāyākum, wa mā hum biḥāmilīna min khaṭāyāhum min syai'(in), innahum lakāżibūn(a)."
+    "translation": "Und diejenigen, die ungläubig sind, sagen zu denjenigen, die glauben: „Folgt unserem Weg. Laßt uns eure Verfehlungen tragen.",
+    "arabic": "وَقَالَ ٱلَّذِينَ كَفَرُوا۟ لِلَّذِينَ ءَامَنُوا۟ ٱتَّبِعُوا۟ سَبِيلَنَا وَلْنَحْمِلْ خَطَـٰيَـٰكُمْ",
+    "transcription": "Wa qāla alladhīna kafarū lilladhīna āmanū attabi'ū sabīlanā walnaḥmil khaṭāyākum"
   },
   {
+    "index": 20,
+    "verse_number": 12,
+    "translation": "Tragen werden sie aber nichts von ihren Verfehlungen, denn sie sind fürwahr Lügner.",
+    "arabic": "وَمَا هُم بِحَـٰمِلِينَ مِنْ خَطَـٰيَـٰهُم مِّن شَىْءٍ ۖ إِنَّهُمْ لَكَـٰذِبُونَ",
+    "transcription": "Wa mā hum biḥāmilīna min khaṭāyahum min shay'in ۖ innahum lakādhibūn"
+  },
+  {
+    "index": 21,
     "verse_number": 13,
-    "translation": "Ganz gewiß werden sie ihre (eigenen) Lasten tragen, und auch (weitere) Lasten zu ihren (eigenen) Lasten hinzu. Und sie werden am Tag der Auferstehung ganz gewiß befragt werden nach dem, was sie zu ersinnen pflegten.",
-    "segmented": [
-      {
-        "translation": "Ganz gewiß werden sie ihre (eigenen) Lasten tragen, und auch (weitere) Lasten zu ihren (eigenen) Lasten hinzu.",
-        "text_uthmani": "وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالًا مَّعَ أَثْقَالِهِمْ ۖ",
-        "text_uthmani_transcribed": "Wa layaḥmilunna aṯqālahum wa aṯqālan maʿa aṯqālihim ۖ"
-      },
-      {
-        "translation": "Und sie werden am Tag der Auferstehung ganz gewiß befragt werden nach dem, was sie zu ersinnen pflegten.",
-        "text_uthmani": "وَلَيُسْـَٔلُنَّ يَوْمَ ٱلْقِيَـٰمَةِ عَمَّا كَانُوا۟ يَفْتَرُونَ",
-        "text_uthmani_transcribed": "Wa layus'alunna yawma al-qiyāmati ʿammā kānū yaftarūna"
-      }
-    ],
-    "text_uthmani": "وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالًا مَّعَ أَثْقَالِهِمْ ۖ وَلَيُسْـَٔلُنَّ يَوْمَ ٱلْقِيَـٰمَةِ عَمَّا كَانُوا۟ يَفْتَرُونَ",
-    "text_uthmani_transcribed": "Wa layaḥmilunna aṡqālahum wa aṡqālam ma'a aṡqālihim wa layus'alunna yaumal-qiyāmati 'ammā kānū yaftarūn(a)."
+    "translation": "Ganz gewiß werden sie ihre (eigenen) Lasten tragen, und auch (weitere) Lasten zu ihren (eigenen) Lasten hinzu.",
+    "arabic": "وَلَيَحْمِلُنَّ أَثْقَالَهُمْ وَأَثْقَالًا مَّعَ أَثْقَالِهِمْ ۖ",
+    "transcription": "Wa layaḥmilunna aṯqālahum wa aṯqālan maʿa aṯqālihim ۖ"
   },
   {
+    "index": 22,
+    "verse_number": 13,
+    "translation": "Und sie werden am Tag der Auferstehung ganz gewiß befragt werden nach dem, was sie zu ersinnen pflegten.",
+    "arabic": "وَلَيُسْـَٔلُنَّ يَوْمَ ٱلْقِيَـٰمَةِ عَمَّا كَانُوا۟ يَفْتَرُونَ",
+    "transcription": "Wa layus'alunna yawma al-qiyāmati ʿammā kānū yaftarūna"
+  },
+  {
+    "index": 23,
     "verse_number": 14,
-    "translation": "Und Wir sandten bereits Nuh zu seinem Volk. Er verweilte unter ihnen tausend Jahre weniger fünfzig Jahre. Da ergriff sie die Überschwemmung, während sie Unrecht taten.",
-    "segmented": [
-      {
-        "translation": "Und Wir sandten bereits Nuh zu seinem Volk. Er verweilte unter ihnen tausend Jahre weniger fünfzig Jahre.",
-        "text_uthmani": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا",
-        "text_uthmani_transcribed": "Wa laqad arsalna Nuh'an ila qawmihi fa labitha feehim alfa sanatin illa khamsina 'aman"
-      },
-      {
-        "translation": "Da ergriff sie die Überschwemmung, während sie Unrecht taten.",
-        "text_uthmani": "فَأَخَذَهُمُ ٱلطُّوفَانُ وَهُمْ ظَـٰلِمُونَ",
-        "text_uthmani_transcribed": "fa akhadhahumu al-tufanu wa hum dhalimun"
-      }
-    ],
-    "text_uthmani": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا فَأَخَذَهُمُ ٱلطُّوفَانُ وَهُمْ ظَـٰلِمُونَ",
-    "text_uthmani_transcribed": "Wa laqad arsalnā nūḥan ilā qaumihī falabiṡa fīhim alfa sanatin illā khamsīna 'āmā(n), fa'akhażahumuṭ-ṭūfānu wa hum ẓālimūn(a)."
+    "translation": "Und Wir sandten bereits Nuh zu seinem Volk. Er verweilte unter ihnen tausend Jahre weniger fünfzig Jahre.",
+    "arabic": "وَلَقَدْ أَرْسَلْنَا نُوحًا إِلَىٰ قَوْمِهِۦ فَلَبِثَ فِيهِمْ أَلْفَ سَنَةٍ إِلَّا خَمْسِينَ عَامًا",
+    "transcription": "Wa laqad arsalna Nuh'an ila qawmihi fa labitha feehim alfa sanatin illa khamsina 'aman"
   },
   {
+    "index": 24,
+    "verse_number": 14,
+    "translation": "Da ergriff sie die Überschwemmung, während sie Unrecht taten.",
+    "arabic": "فَأَخَذَهُمُ ٱلطُّوفَانُ وَهُمْ ظَـٰلِمُونَ",
+    "transcription": "fa akhadhahumu al-tufanu wa hum dhalimun"
+  },
+  {
+    "index": 25,
     "verse_number": 15,
     "translation": "Da retteten Wir ihn und die Insassen des Schiffes und machten es zu einem Zeichen für die Weltenbewohner.",
-    "text_uthmani": "فَأَنجَيْنَـٰهُ وَأَصْحَـٰبَ ٱلسَّفِينَةِ وَجَعَلْنَـٰهَآ ءَايَةً لِّلْعَـٰلَمِينَ",
-    "text_uthmani_transcribed": "Fa'anjaināhu wa aṣḥābas-safīnati wa ja'alnāhā āyatal lil-'ālamīn(a)."
+    "arabic": "فَأَنجَيْنَـٰهُ وَأَصْحَـٰبَ ٱلسَّفِينَةِ وَجَعَلْنَـٰهَآ ءَايَةً لِّلْعَـٰلَمِينَ",
+    "transcription": "Fa'anjaināhu wa aṣḥābas-safīnati wa ja'alnāhā āyatal lil-'ālamīn(a)."
   },
   {
+    "index": 26,
     "verse_number": 16,
     "translation": "Und (Wir sandten) Ibrahim. Als er zu seinem Volk sagte: „Dient Allah und fürchtet Ihn. Das ist besser für euch, wenn ihr (es) nur wißt.",
-    "text_uthmani": "وَإِبْرَٰهِيمَ إِذْ قَالَ لِقَوْمِهِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ ۖ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
-    "text_uthmani_transcribed": "Wa ibrāhīma iż qāla liqaumihi'budullāha wattaqūh(u), żālikum khairul lakum in kuntum ta'lamūn(a)."
+    "arabic": "وَإِبْرَٰهِيمَ إِذْ قَالَ لِقَوْمِهِ ٱعْبُدُوا۟ ٱللَّهَ وَٱتَّقُوهُ ۖ ذَٰلِكُمْ خَيْرٌ لَّكُمْ إِن كُنتُمْ تَعْلَمُونَ",
+    "transcription": "Wa ibrāhīma iż qāla liqaumihi'budullāha wattaqūh(u), żālikum khairul lakum in kuntum ta'lamūn(a)."
   },
   {
+    "index": 27,
     "verse_number": 17,
-    "translation": "Ihr dient anstatt Allahs nur Götzen und schafft (dabei nur) ungeheuerliche Lüge. Gewiß, diejenigen, denen ihr anstatt Allahs dient, vermögen euch nicht zu versorgen. Sucht darum bei Allah die Versorgung und dient Ihm und dankt Ihm. Zu Ihm werdet ihr zurückgebracht.",
-    "segmented": [
-      {
-        "translation": "Ihr dient anstatt Allahs nur Götzen und schafft (dabei nur) ungeheuerliche Lüge.",
-        "text_uthmani": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَـٰنًا وَتَخْلُقُونَ إِفْكًا ۚ",
-        "text_uthmani_transcribed": "Innama ta'buduna min duni Allahi awthanaw wa takhluquna ifkan."
-      },
-      {
-        "translation": "Gewiß, diejenigen, denen ihr anstatt Allahs dient, vermögen euch nicht zu versorgen.",
-        "text_uthmani": "إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا",
-        "text_uthmani_transcribed": "Inna allatheena ta'buduna min duni Allahi la yamlikoona lakum rizqan."
-      },
-      {
-        "translation": "Sucht darum bei Allah die Versorgung und dient Ihm und dankt Ihm. Zu Ihm werdet ihr zurückgebracht.",
-        "text_uthmani": "فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
-        "text_uthmani_transcribed": "Fabtaghoo 'inda Allahi ar-rizqa wa'abudoohu wa'shkuroo lahu. Ilayhi turja'oon."
-      }
-    ],
-    "text_uthmani": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَـٰنًا وَتَخْلُقُونَ إِفْكًا ۚ إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
-    "text_uthmani_transcribed": "Innamā ta'budūna min dūnillāhi auṡānaw wa takhluqūna ifkā(n), innal-lażīna ta'budūna min dūnillāhi lā yamlikūna lakum rizqan fabtagū 'indallāhir-rizqa wa'budūhu wasykurū lah(ū), ilaihi turja'ūn(a)."
+    "translation": "Ihr dient anstatt Allahs nur Götzen und schafft (dabei nur) ungeheuerliche Lüge.",
+    "arabic": "إِنَّمَا تَعْبُدُونَ مِن دُونِ ٱللَّهِ أَوْثَـٰنًا وَتَخْلُقُونَ إِفْكًا ۚ",
+    "transcription": "Innama ta'buduna min duni Allahi awthanaw wa takhluquna ifkan."
   },
   {
+    "index": 28,
+    "verse_number": 17,
+    "translation": "Gewiß, diejenigen, denen ihr anstatt Allahs dient, vermögen euch nicht zu versorgen.",
+    "arabic": "إِنَّ ٱلَّذِينَ تَعْبُدُونَ مِن دُونِ ٱللَّهِ لَا يَمْلِكُونَ لَكُمْ رِزْقًا",
+    "transcription": "Inna allatheena ta'buduna min duni Allahi la yamlikoona lakum rizqan."
+  },
+  {
+    "index": 29,
+    "verse_number": 17,
+    "translation": "Sucht darum bei Allah die Versorgung und dient Ihm und dankt Ihm. Zu Ihm werdet ihr zurückgebracht.",
+    "arabic": "فَٱبْتَغُوا۟ عِندَ ٱللَّهِ ٱلرِّزْقَ وَٱعْبُدُوهُ وَٱشْكُرُوا۟ لَهُۥٓ ۖ إِلَيْهِ تُرْجَعُونَ",
+    "transcription": "Fabtaghoo 'inda Allahi ar-rizqa wa'abudoohu wa'shkuroo lahu. Ilayhi turja'oon."
+  },
+  {
+    "index": 30,
     "verse_number": 18,
-    "translation": "Und wenn ihr (die Botschaft) für Lüge erklärt, so haben bereits vor euch (andere) Gemeinschaften (sie) für Lüge erklärt. Und dem Gesandten obliegt nur die deutliche Übermittlung (der Botschaft).",
-    "segmented": [
-      {
-        "translation": "Und wenn ihr (die Botschaft) für Lüge erklärt, so haben bereits vor euch (andere) Gemeinschaften (sie) für Lüge erklärt.",
-        "text_uthmani": "وَإِن تُكَذِّبُوا۟ فَقَدْ كَذَّبَ أُمَمٌ مِّن قَبْلِكُمْ ۖ",
-        "text_uthmani_transcribed": "Wa in tukadhdhibū faqad kadhhaba umamun min qablikum ۖ"
-      },
-      {
-        "translation": "Und dem Gesandten obliegt nur die deutliche Übermittlung (der Botschaft).",
-        "text_uthmani": "وَمَا عَلَى ٱلرَّسُولِ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
-        "text_uthmani_transcribed": "Wa mā 'alā ar-rasūli illā al-balāghu al-mubīn"
-      }
-    ],
-    "text_uthmani": "وَإِن تُكَذِّبُوا۟ فَقَدْ كَذَّبَ أُمَمٌ مِّن قَبْلِكُمْ ۖ وَمَا عَلَى ٱلرَّسُولِ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
-    "text_uthmani_transcribed": "Wa in tukażżibū faqad każżaba umamum min qablikum, wa mā 'alar-rasūli illal-balāgul-mubīn(u)."
+    "translation": "Und wenn ihr (die Botschaft) für Lüge erklärt, so haben bereits vor euch (andere) Gemeinschaften (sie) für Lüge erklärt.",
+    "arabic": "وَإِن تُكَذِّبُوا۟ فَقَدْ كَذَّبَ أُمَمٌ مِّن قَبْلِكُمْ ۖ",
+    "transcription": "Wa in tukadhdhibū faqad kadhhaba umamun min qablikum ۖ"
   },
   {
+    "index": 31,
+    "verse_number": 18,
+    "translation": "Und dem Gesandten obliegt nur die deutliche Übermittlung (der Botschaft).",
+    "arabic": "وَمَا عَلَى ٱلرَّسُولِ إِلَّا ٱلْبَلَـٰغُ ٱلْمُبِينُ",
+    "transcription": "Wa mā 'alā ar-rasūli illā al-balāghu al-mubīn"
+  },
+  {
+    "index": 32,
     "verse_number": 19,
     "translation": "Haben sie denn nicht gesehen, wie Allah die Schöpfung am Anfang macht und sie hierauf wiederholt? Gewiß, das ist für Allah ein leichtes.",
-    "text_uthmani": "أَوَلَمْ يَرَوْا۟ كَيْفَ يُبْدِئُ ٱللَّهُ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥٓ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
-    "text_uthmani_transcribed": "Awalam yarau kaifa yubdi'ullāhul-khalqa ṡumma yu'īduh(ū), inna żālika 'alallāhi yasīr(un)."
+    "arabic": "أَوَلَمْ يَرَوْا۟ كَيْفَ يُبْدِئُ ٱللَّهُ ٱلْخَلْقَ ثُمَّ يُعِيدُهُۥٓ ۚ إِنَّ ذَٰلِكَ عَلَى ٱللَّهِ يَسِيرٌ",
+    "transcription": "Awalam yarau kaifa yubdi'ullāhul-khalqa ṡumma yu'īduh(ū), inna żālika 'alallāhi yasīr(un)."
   },
   {
+    "index": 33,
     "verse_number": 20,
-    "translation": "Sag: Reist auf der Erde umher und schaut, wie Er die Schöpfung am Anfang gemacht hat. Hierauf läßt Allah die letzte Schöpfung entstehen. Gewiß, Allah hat zu allem die Macht.",
-    "segmented": [
-      {
-        "translation": "Sag: Reist auf der Erde umher und schaut, wie Er die Schöpfung am Anfang gemacht hat. Hierauf läßt Allah die letzte Schöpfung entstehen.",
-        "text_uthmani": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ ٱلْخَلْقَ ۚ ثُمَّ ٱللَّهُ يُنشِئُ ٱلنَّشْأَةَ ٱلْـَٔاخِرَةَ ۚ",
-        "text_uthmani_transcribed": "Qul seeru fī al-ardi fa-anẓuru kayfa bada'a al-khalqa. Thumma Allāhu yunshi'u al-nash'ata al-ākhirata."
-      },
-      {
-        "translation": "Gewiß, Allah hat zu allem die Macht.",
-        "text_uthmani": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
-        "text_uthmani_transcribed": "Inna Allāha 'alā kulli shay'in qadīrun."
-      }
-    ],
-    "text_uthmani": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ ٱلْخَلْقَ ۚ ثُمَّ ٱللَّهُ يُنشِئُ ٱلنَّشْأَةَ ٱلْـَٔاخِرَةَ ۚ إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
-    "text_uthmani_transcribed": "Qul sīrū fil-arḍi fanẓurū kaifa bada'al-khalqa ṡummallāhu yunsyi'un-nasy'atal-ākhirah(ta), innallāha 'alā kulli syai'in qadīr(un)."
+    "translation": "Sag: Reist auf der Erde umher und schaut, wie Er die Schöpfung am Anfang gemacht hat. Hierauf läßt Allah die letzte Schöpfung entstehen.",
+    "arabic": "قُلْ سِيرُوا۟ فِى ٱلْأَرْضِ فَٱنظُرُوا۟ كَيْفَ بَدَأَ ٱلْخَلْقَ ۚ ثُمَّ ٱللَّهُ يُنشِئُ ٱلنَّشْأَةَ ٱلْـَٔاخِرَةَ ۚ",
+    "transcription": "Qul seeru fī al-ardi fa-anẓuru kayfa bada'a al-khalqa. Thumma Allāhu yunshi'u al-nash'ata al-ākhirata."
   },
   {
+    "index": 34,
+    "verse_number": 20,
+    "translation": "Gewiß, Allah hat zu allem die Macht.",
+    "arabic": "إِنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+    "transcription": "Inna Allāha 'alā kulli shay'in qadīrun."
+  },
+  {
+    "index": 35,
     "verse_number": 21,
     "translation": "Er straft, wen Er will, und Er erbarmt Sich, wessen Er will. Und zu Ihm werdet ihr zurückgebracht.",
-    "text_uthmani": "يُعَذِّبُ مَن يَشَآءُ وَيَرْحَمُ مَن يَشَآءُ ۖ وَإِلَيْهِ تُقْلَبُونَ",
-    "text_uthmani_transcribed": "Yu'ażżibu may yasyā'u wa yarḥamu may yasyā'(u), wa ilaihi tuqlabūn(a)."
+    "arabic": "يُعَذِّبُ مَن يَشَآءُ وَيَرْحَمُ مَن يَشَآءُ ۖ وَإِلَيْهِ تُقْلَبُونَ",
+    "transcription": "Yu'ażżibu may yasyā'u wa yarḥamu may yasyā'(u), wa ilaihi tuqlabūn(a)."
   },
   {
+    "index": 36,
     "verse_number": 22,
     "translation": "Und ihr werdet euch (Ihm) weder auf der Erde noch im Himmel entziehen können, und ihr habt außer Allah weder Schutzherrn noch Helfer.",
-    "text_uthmani": "وَمَآ أَنتُم بِمُعْجِزِينَ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ ۖ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
-    "text_uthmani_transcribed": "Wa mā antum bimu'jizīna fil-arḍi wa lā fis-samā'(i), wa mā lakum min dūnillāhi miw waliyyiw wa lā naṣīr(in)."
+    "arabic": "وَمَآ أَنتُم بِمُعْجِزِينَ فِى ٱلْأَرْضِ وَلَا فِى ٱلسَّمَآءِ ۖ وَمَا لَكُم مِّن دُونِ ٱللَّهِ مِن وَلِىٍّ وَلَا نَصِيرٍ",
+    "transcription": "Wa mā antum bimu'jizīna fil-arḍi wa lā fis-samā'(i), wa mā lakum min dūnillāhi miw waliyyiw wa lā naṣīr(in)."
   },
   {
+    "index": 37,
     "verse_number": 23,
-    "translation": "Diejenigen, die Allahs Zeichen und die Begegnung mit Ihm ableugnen, diese haben die Hoffnung auf Meine Barmherzigkeit aufgegeben, und für diese wird es schmerzhafte Strafe geben.",
-    "segmented": [
-      {
-        "translation": "Diejenigen, die Allahs Zeichen und die Begegnung mit Ihm ableugnen, diese haben die Hoffnung auf Meine Barmherzigkeit aufgegeben,",
-        "text_uthmani": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ ٱللَّهِ وَلِقَآئِهِۦٓ أُو۟لَـٰٓئِكَ يَئِسُوا۟ مِن رَّحْمَتِى",
-        "text_uthmani_transcribed": "Wa alladhīna kafarū bi-āyāti Allāhi wa-liqā'ihi, ūlā'ika ya'isū min raḥmatī"
-      },
-      {
-        "translation": "und für diese wird es schmerzhafte Strafe geben.",
-        "text_uthmani": "وَأُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
-        "text_uthmani_transcribed": "wa-ūlā'ika lahum 'adhābun alīmun"
-      }
-    ],
-    "text_uthmani": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ ٱللَّهِ وَلِقَآئِهِۦٓ أُو۟لَـٰٓئِكَ يَئِسُوا۟ مِن رَّحْمَتِى وَأُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
-    "text_uthmani_transcribed": "Wal-lażīna kafarū bi'āyātillāhi wa liqā'ihī ulā'ika ya'isū mir raḥmatī wa ulā'ika lahum 'ażābun alīm(un)."
+    "translation": "Diejenigen, die Allahs Zeichen und die Begegnung mit Ihm ableugnen, diese haben die Hoffnung auf Meine Barmherzigkeit aufgegeben,",
+    "arabic": "وَٱلَّذِينَ كَفَرُوا۟ بِـَٔايَـٰتِ ٱللَّهِ وَلِقَآئِهِۦٓ أُو۟لَـٰٓئِكَ يَئِسُوا۟ مِن رَّحْمَتِى",
+    "transcription": "Wa alladhīna kafarū bi-āyāti Allāhi wa-liqā'ihi, ūlā'ika ya'isū min raḥmatī"
   },
   {
+    "index": 38,
+    "verse_number": 23,
+    "translation": "und für diese wird es schmerzhafte Strafe geben.",
+    "arabic": "وَأُو۟لَـٰٓئِكَ لَهُمْ عَذَابٌ أَلِيمٌ",
+    "transcription": "wa-ūlā'ika lahum 'adhābun alīmun"
+  },
+  {
+    "index": 39,
     "verse_number": 24,
-    "translation": "Aber die Antwort seines Volkes war nur, daß sie sagten: „Tötet ihn oder verbrennt ihn. Da rettete Allah ihn aus dem Feuer. Darin sind wahrlich Zeichen für Leute, die glauben.",
-    "segmented": [
-      {
-        "translation": "Aber die Antwort seines Volkes war nur, daß sie sagten: „Tötet ihn oder verbrennt ihn. Da rettete Allah ihn aus dem Feuer.",
-        "text_uthmani": "فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱقْتُلُوهُ أَوْ حَرِّقُوهُ فَأَنجَىٰهُ ٱللَّهُ مِنَ ٱلنَّارِ",
-        "text_uthmani_transcribed": "Fama kana jawaba qawmihi illa an qaloo oqtuloohu aw harriqoohu faanjahu Allahu mina annari"
-      },
-      {
-        "translation": "Darin sind wahrlich Zeichen für Leute, die glauben.",
-        "text_uthmani": "ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
-        "text_uthmani_transcribed": "Inna fee thalika laayatin liqawmin yu'minoon"
-      }
-    ],
-    "text_uthmani": "فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱقْتُلُوهُ أَوْ حَرِّقُوهُ فَأَنجَىٰهُ ٱللَّهُ مِنَ ٱلنَّارِ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
-    "text_uthmani_transcribed": "Famā kāna jawāba qaumihī illā an qaluqtulūhu au ḥarriqūhu fa anjāhullāhu minan-nār(i), inna fī żālika la'āyātil liqaumiy yu'minūn(a)."
+    "translation": "Aber die Antwort seines Volkes war nur, daß sie sagten: „Tötet ihn oder verbrennt ihn. Da rettete Allah ihn aus dem Feuer.",
+    "arabic": "فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱقْتُلُوهُ أَوْ حَرِّقُوهُ فَأَنجَىٰهُ ٱللَّهُ مِنَ ٱلنَّارِ",
+    "transcription": "Fama kana jawaba qawmihi illa an qaloo oqtuloohu aw harriqoohu faanjahu Allahu mina annari"
   },
   {
+    "index": 40,
+    "verse_number": 24,
+    "translation": "Darin sind wahrlich Zeichen für Leute, die glauben.",
+    "arabic": "ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَـٰتٍ لِّقَوْمٍ يُؤْمِنُونَ",
+    "transcription": "Inna fee thalika laayatin liqawmin yu'minoon"
+  },
+  {
+    "index": 41,
     "verse_number": 25,
-    "translation": "Und er sagte: „Ihr habt euch ja anstatt Allahs nur Götzen genommen aus Freundschaft zueinander im diesseitigen Leben. Aber dereinst, am Tag der Auferstehung, werdet ihr einander verleugnen und einander verfluchen. Euer Zufluchtsort ist das (Höllen)feuer, und ihr werdet keine Helfer haben.",
-    "segmented": [
-      {
-        "translation": "Und er sagte: „Ihr habt euch ja anstatt Allahs nur Götzen genommen aus Freundschaft zueinander im diesseitigen Leben.",
-        "text_uthmani": "وَقَالَ إِنَّمَا ٱتَّخَذْتُم مِّن دُونِ ٱللَّهِ أَوْثَـٰنًا مَّوَدَّةَ بَيْنِكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا",
-        "text_uthmani_transcribed": "Wa qāla innamā ittakhadhtum min dūni Allāhi awthānan mawaddatan baynikum fī al-ḥayāwāti al-dunyā"
-      },
-      {
-        "translation": "Aber dereinst, am Tag der Auferstehung, werdet ihr einander verleugnen und einander verfluchen.",
-        "text_uthmani": "ۖ ثُمَّ يَوْمَ ٱلْقِيَـٰمَةِ يَكْفُرُ بَعْضُكُم بِبَعْضٍ وَيَلْعَنُ بَعْضُكُم بَعْضًا",
-        "text_uthmani_transcribed": "Thumma yawma al-qiyāmati yakfuru baʿḍukum bibaʿḍin wa yalʿanu baʿḍukum baʿḍan"
-      },
-      {
-        "translation": "Euer Zufluchtsort ist das (Höllen)feuer, und ihr werdet keine Helfer haben.",
-        "text_uthmani": "وَمَأْوَىٰكُمُ ٱلنَّارُ وَمَا لَكُم مِّن نَّـٰصِرِينَ",
-        "text_uthmani_transcribed": "Wa mawākumu al-nāru wa mā lakum min nāṣirīn"
-      }
-    ],
-    "text_uthmani": "وَقَالَ إِنَّمَا ٱتَّخَذْتُم مِّن دُونِ ٱللَّهِ أَوْثَـٰنًا مَّوَدَّةَ بَيْنِكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا ۖ ثُمَّ يَوْمَ ٱلْقِيَـٰمَةِ يَكْفُرُ بَعْضُكُم بِبَعْضٍ وَيَلْعَنُ بَعْضُكُم بَعْضًا وَمَأْوَىٰكُمُ ٱلنَّارُ وَمَا لَكُم مِّن نَّـٰصِرِينَ",
-    "text_uthmani_transcribed": "Wa qāla innamattakhażtum min dūnillāhi auṡānam mawaddata bainikum fil-ḥayātid-dun-yā, ṡumma yaumal-qiyāmati yakfuru ba'ḍukum biba'ḍiw wa yal'anu ba'ḍukum ba'ḍā(n), wa ma'wākumun nāru wa mā lakum min nāṣirīn(a)."
+    "translation": "Und er sagte: „Ihr habt euch ja anstatt Allahs nur Götzen genommen aus Freundschaft zueinander im diesseitigen Leben.",
+    "arabic": "وَقَالَ إِنَّمَا ٱتَّخَذْتُم مِّن دُونِ ٱللَّهِ أَوْثَـٰنًا مَّوَدَّةَ بَيْنِكُمْ فِى ٱلْحَيَوٰةِ ٱلدُّنْيَا",
+    "transcription": "Wa qāla innamā ittakhadhtum min dūni Allāhi awthānan mawaddatan baynikum fī al-ḥayāwāti al-dunyā"
   },
   {
+    "index": 42,
+    "verse_number": 25,
+    "translation": "Aber dereinst, am Tag der Auferstehung, werdet ihr einander verleugnen und einander verfluchen.",
+    "arabic": "ۖ ثُمَّ يَوْمَ ٱلْقِيَـٰمَةِ يَكْفُرُ بَعْضُكُم بِبَعْضٍ وَيَلْعَنُ بَعْضُكُم بَعْضًا",
+    "transcription": "Thumma yawma al-qiyāmati yakfuru baʿḍukum bibaʿḍin wa yalʿanu baʿḍukum baʿḍan"
+  },
+  {
+    "index": 43,
+    "verse_number": 25,
+    "translation": "Euer Zufluchtsort ist das (Höllen)feuer, und ihr werdet keine Helfer haben.",
+    "arabic": "وَمَأْوَىٰكُمُ ٱلنَّارُ وَمَا لَكُم مِّن نَّـٰصِرِينَ",
+    "transcription": "Wa mawākumu al-nāru wa mā lakum min nāṣirīn"
+  },
+  {
+    "index": 44,
     "verse_number": 26,
     "translation": "Da glaubte Lut ihm und sagte: „Ich werde zu meinem Herrn auswandern. Er ist ja der Allmächtige und Allweise.",
-    "text_uthmani": "۞ فَـَٔامَنَ لَهُۥ لُوطٌ ۘ وَقَالَ إِنِّى مُهَاجِرٌ إِلَىٰ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
-    "text_uthmani_transcribed": "Fa āmana lahū lūṭ(un), wa qāla innī muhājirun ilā rabbī, innahū huwal-'azīzul-ḥakīm(u)."
+    "arabic": "۞ فَـَٔامَنَ لَهُۥ لُوطٌ ۘ وَقَالَ إِنِّى مُهَاجِرٌ إِلَىٰ رَبِّىٓ ۖ إِنَّهُۥ هُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+    "transcription": "Fa āmana lahū lūṭ(un), wa qāla innī muhājirun ilā rabbī, innahū huwal-'azīzul-ḥakīm(u)."
   },
   {
+    "index": 45,
     "verse_number": 27,
-    "translation": "Und Wir schenkten ihm Ishaq und Ya’qub und richteten unter seiner Nachkommenschaft das Prophetentum und die Schrift ein und gaben ihm seinen Lohn im Diesseits. Und im Jenseits gehört er fürwahr zu den Rechtschaffenen.",
-    "segmented": [
-      {
-        "translation": "Und Wir schenkten ihm Ishaq und Ya’qub und richteten unter seiner Nachkommenschaft das Prophetentum und die Schrift ein",
-        "text_uthmani": "وَوَهَبْنَا لَهُۥٓ إِسْحَـٰقَ وَيَعْقُوبَ وَجَعَلْنَا فِى ذُرِّيَّتِهِ ٱلنُّبُوَّةَ وَٱلْكِتَـٰبَ",
-        "text_uthmani_transcribed": "Wa wahabna lahu ishaqa wa ya'quba wa ja'alna fi dhurriyyatihi al-nubuwata wa al-kitaba"
-      },
-      {
-        "translation": "und gaben ihm seinen Lohn im Diesseits. Und im Jenseits gehört er fürwahr zu den Rechtschaffenen.",
-        "text_uthmani": "وَءَاتَيْنَـٰهُ أَجْرَهُۥ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى ٱلْـَٔاخِرَةِ لَمِنَ ٱلصَّـٰلِحِينَ",
-        "text_uthmani_transcribed": "Wa ataynahu ajrahu fi al-dunya. Wa innahu fi al-akhirati la mina al-salihin"
-      }
-    ],
-    "text_uthmani": "وَوَهَبْنَا لَهُۥٓ إِسْحَـٰقَ وَيَعْقُوبَ وَجَعَلْنَا فِى ذُرِّيَّتِهِ ٱلنُّبُوَّةَ وَٱلْكِتَـٰبَ وَءَاتَيْنَـٰهُ أَجْرَهُۥ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى ٱلْـَٔاخِرَةِ لَمِنَ ٱلصَّـٰلِحِينَ",
-    "text_uthmani_transcribed": "Wa wahabnā lahū isḥāqa wa ya'qūba wa ja'alnā fī żurriyyatihin nubuwwata wal-kitāba wa ātaināhu ajrahū fid-dun-yā, wa innahū fil-ākhirati laminaṣ-ṣāliḥīn(a)."
+    "translation": "Und Wir schenkten ihm Ishaq und Ya’qub und richteten unter seiner Nachkommenschaft das Prophetentum und die Schrift ein",
+    "arabic": "وَوَهَبْنَا لَهُۥٓ إِسْحَـٰقَ وَيَعْقُوبَ وَجَعَلْنَا فِى ذُرِّيَّتِهِ ٱلنُّبُوَّةَ وَٱلْكِتَـٰبَ",
+    "transcription": "Wa wahabna lahu ishaqa wa ya'quba wa ja'alna fi dhurriyyatihi al-nubuwata wa al-kitaba"
   },
   {
+    "index": 46,
+    "verse_number": 27,
+    "translation": "und gaben ihm seinen Lohn im Diesseits. Und im Jenseits gehört er fürwahr zu den Rechtschaffenen.",
+    "arabic": "وَءَاتَيْنَـٰهُ أَجْرَهُۥ فِى ٱلدُّنْيَا ۖ وَإِنَّهُۥ فِى ٱلْـَٔاخِرَةِ لَمِنَ ٱلصَّـٰلِحِينَ",
+    "transcription": "Wa ataynahu ajrahu fi al-dunya. Wa innahu fi al-akhirati la mina al-salihin"
+  },
+  {
+    "index": 47,
     "verse_number": 28,
-    "translation": "Und (Wir sandten) Lut. Als er zu seinem Volk sagte: „Ihr begeht fürwahr das Abscheuliche, wie es vor euch niemand von den Weltenbewohnern getan hat.",
-    "segmented": [
-      {
-        "translation": "Und (Wir sandten) Lut.",
-        "text_uthmani": "وَلُوطًا",
-        "text_uthmani_transcribed": "Wa lūtan"
-      },
-      {
-        "translation": "Als er zu seinem Volk sagte: „Ihr begeht fürwahr das Abscheuliche, wie es vor euch niemand von den Weltenbewohnern getan hat.",
-        "text_uthmani": "إِذْ قَالَ لِقَوْمِهِۦٓ إِنَّكُمْ لَتَأْتُونَ ٱلْفَـٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَـٰلَمِينَ",
-        "text_uthmani_transcribed": "Idh qāla liqawmihi innakum lata'tūna al-fāḥishata mā sabaqakum bihā min aḥadin mina al-'ālamīn"
-      }
-    ],
-    "text_uthmani": "وَلُوطًا إِذْ قَالَ لِقَوْمِهِۦٓ إِنَّكُمْ لَتَأْتُونَ ٱلْفَـٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَـٰلَمِينَ",
-    "text_uthmani_transcribed": "Wa lūṭan iż qāla liqaumihī innakum lata'tūnal-fāḥisyata mā sabaqakum bihā min aḥadim minal-'ālamīn(a)."
+    "translation": "Und (Wir sandten) Lut.",
+    "arabic": "وَلُوطًا",
+    "transcription": "Wa lūtan"
   },
   {
+    "index": 48,
+    "verse_number": 28,
+    "translation": "Als er zu seinem Volk sagte: „Ihr begeht fürwahr das Abscheuliche, wie es vor euch niemand von den Weltenbewohnern getan hat.",
+    "arabic": "إِذْ قَالَ لِقَوْمِهِۦٓ إِنَّكُمْ لَتَأْتُونَ ٱلْفَـٰحِشَةَ مَا سَبَقَكُم بِهَا مِنْ أَحَدٍ مِّنَ ٱلْعَـٰلَمِينَ",
+    "transcription": "Idh qāla liqawmihi innakum lata'tūna al-fāḥishata mā sabaqakum bihā min aḥadin mina al-'ālamīn"
+  },
+  {
+    "index": 49,
     "verse_number": 29,
-    "translation": "Laßt ihr euch denn wahrlich (in Begierde) mit den Männern ein, und schneidet den (natürlichen) Weg ab und begeht in euren Zusammenkünften das Verwerfliche? Aber die Antwort seines Volkes war nur, daß sie sagten: „Bringe uns doch die Strafe Allahs her, wenn du zu den Wahrhaftigen gehörst.",
-    "segmented": [
-      {
-        "translation": "Laßt ihr euch denn wahrlich (in Begierde) mit den Männern ein, und schneidet den (natürlichen) Weg ab",
-        "text_uthmani": "أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ وَتَقْطَعُونَ ٱلسَّبِيلَ",
-        "text_uthmani_transcribed": "A'innakum lata'tūna al-rijāla wa taqtā'uuna al-sabīla"
-      },
-      {
-        "translation": "und begeht in euren Zusammenkünften das Verwerfliche?",
-        "text_uthmani": "وَتَأْتُونَ فِى نَادِيكُمُ ٱلْمُنكَرَ ۖ",
-        "text_uthmani_transcribed": "wa ta'tūna fī nādīkumu al-munkara"
-      },
-      {
-        "translation": "Aber die Antwort seines Volkes war nur, daß sie sagten: „Bringe uns doch die Strafe Allahs her, wenn du zu den Wahrhaftigen gehörst.",
-        "text_uthmani": "فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱئْتِنَا بِعَذَابِ ٱللَّهِ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
-        "text_uthmani_transcribed": "famā kāna jawāba qawmihi illā an qālū i'tinā bi'adhābi Allāhi in kunta mina al-ṣādiqīna"
-      }
-    ],
-    "text_uthmani": "أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ وَتَقْطَعُونَ ٱلسَّبِيلَ وَتَأْتُونَ فِى نَادِيكُمُ ٱلْمُنكَرَ ۖ فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱئْتِنَا بِعَذَابِ ٱللَّهِ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
-    "text_uthmani_transcribed": "A'innakum lata'tūnar-rijāla wa taqṭa'ūnas-sabīl(a), wa ta'tūna fī nādīkumul-munkar(a), famā kāna jawāba qaumihī illā an qālu'tinā bi'ażābillāhi in kunta minaṣ-ṣādiqīn(a)."
+    "translation": "Laßt ihr euch denn wahrlich (in Begierde) mit den Männern ein, und schneidet den (natürlichen) Weg ab",
+    "arabic": "أَئِنَّكُمْ لَتَأْتُونَ ٱلرِّجَالَ وَتَقْطَعُونَ ٱلسَّبِيلَ",
+    "transcription": "A'innakum lata'tūna al-rijāla wa taqtā'uuna al-sabīla"
   },
   {
+    "index": 50,
+    "verse_number": 29,
+    "translation": "und begeht in euren Zusammenkünften das Verwerfliche?",
+    "arabic": "وَتَأْتُونَ فِى نَادِيكُمُ ٱلْمُنكَرَ ۖ",
+    "transcription": "wa ta'tūna fī nādīkumu al-munkara"
+  },
+  {
+    "index": 51,
+    "verse_number": 29,
+    "translation": "Aber die Antwort seines Volkes war nur, daß sie sagten: „Bringe uns doch die Strafe Allahs her, wenn du zu den Wahrhaftigen gehörst.",
+    "arabic": "فَمَا كَانَ جَوَابَ قَوْمِهِۦٓ إِلَّآ أَن قَالُوا۟ ٱئْتِنَا بِعَذَابِ ٱللَّهِ إِن كُنتَ مِنَ ٱلصَّـٰدِقِينَ",
+    "transcription": "famā kāna jawāba qawmihi illā an qālū i'tinā bi'adhābi Allāhi in kunta mina al-ṣādiqīna"
+  },
+  {
+    "index": 52,
     "verse_number": 30,
     "translation": "Er sagte: „Mein Herr, hilf mir gegen das Volk, das Unheil stiftet.",
-    "text_uthmani": "قَالَ رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ ٱلْمُفْسِدِينَ",
-    "text_uthmani_transcribed": "Qāla rabbinṣurnī 'alal-qaumil-mufsidīn(a)."
+    "arabic": "قَالَ رَبِّ ٱنصُرْنِى عَلَى ٱلْقَوْمِ ٱلْمُفْسِدِينَ",
+    "transcription": "Qāla rabbinṣurnī 'alal-qaumil-mufsidīn(a)."
   },
   {
+    "index": 53,
     "verse_number": 31,
-    "translation": "Und als Unsere Gesandten zu Ibrahim mit der frohen Botschaft kamen, sagten sie: „Wir werden die Bewohner dieser Stadt vernichten, denn ihre Bewohner sind ungerecht.",
-    "segmented": [
-      {
-        "translation": "Und als Unsere Gesandten zu Ibrahim mit der frohen Botschaft kamen, sagten sie: „Wir werden die Bewohner dieser Stadt vernichten, denn ihre",
-        "text_uthmani": "وَلَمَّا جَآءَتْ رُسُلُنَآ إِبْرَٰهِيمَ بِٱلْبُشْرَىٰ قَالُوٓا۟ إِنَّا مُهْلِكُوٓا۟ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ",
-        "text_uthmani_transcribed": "Wa lamma jaa'at rusulunaa ibraaheema bil-bushraa qaaloo innaa muhlikoo ahli haadhihi al-qaryati"
-      },
-      {
-        "translation": "Bewohner sind ungerecht.",
-        "text_uthmani": "إِنَّ أَهْلَهَا كَانُوا۟ ظَـٰلِمِينَ",
-        "text_uthmani_transcribed": "Inna ahlaha kaanoo zaalimeen"
-      }
-    ],
-    "text_uthmani": "وَلَمَّا جَآءَتْ رُسُلُنَآ إِبْرَٰهِيمَ بِٱلْبُشْرَىٰ قَالُوٓا۟ إِنَّا مُهْلِكُوٓا۟ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ ۖ إِنَّ أَهْلَهَا كَانُوا۟ ظَـٰلِمِينَ",
-    "text_uthmani_transcribed": "Wa lammā jā'at rusulunā ibrāhīma bil-busyrā, qālū innā muhlikū ahli hāżihil-qaryah(ti), inna ahlahā kānū ẓālimīn(a)."
+    "translation": "Und als Unsere Gesandten zu Ibrahim mit der frohen Botschaft kamen, sagten sie: „Wir werden die Bewohner dieser Stadt vernichten, denn ihre",
+    "arabic": "وَلَمَّا جَآءَتْ رُسُلُنَآ إِبْرَٰهِيمَ بِٱلْبُشْرَىٰ قَالُوٓا۟ إِنَّا مُهْلِكُوٓا۟ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ",
+    "transcription": "Wa lamma jaa'at rusulunaa ibraaheema bil-bushraa qaaloo innaa muhlikoo ahli haadhihi al-qaryati"
   },
   {
+    "index": 54,
+    "verse_number": 31,
+    "translation": "Bewohner sind ungerecht.",
+    "arabic": "إِنَّ أَهْلَهَا كَانُوا۟ ظَـٰلِمِينَ",
+    "transcription": "Inna ahlaha kaanoo zaalimeen"
+  },
+  {
+    "index": 55,
     "verse_number": 32,
-    "translation": "Er sagte: Aber Lut befindet sich in ihr. Sie sagten: Wir wissen sehr wohl, wer sich in ihr befindet. Wir werden ihn ganz gewiß erretten, (ihn) und seine Angehörigen, außer seiner Frau; sie gehört zu denjenigen, die zurückbleiben.",
-    "segmented": [
-      {
-        "translation": "Er sagte: Aber Lut befindet sich in ihr. Sie sagten: Wir wissen sehr wohl, wer sich in ihr befindet.",
-        "text_uthmani": "قَالَ إِنَّ فِيهَا لُوطًا ۚ قَالُوا۟ نَحْنُ أَعْلَمُ بِمَن فِيهَا",
-        "text_uthmani_transcribed": "Qāla innā fīhā lūṭan. Qālū naḥnu aʿlamu biman fīhā"
-      },
-      {
-        "translation": "Wir werden ihn ganz gewiß erretten, (ihn) und seine Angehörigen, außer seiner Frau; sie gehört zu denjenigen, die zurückbleiben.",
-        "text_uthmani": "ۖ لَنُنَجِّيَنَّهُۥ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ",
-        "text_uthmani_transcribed": "Lanunajjiyannahū waʾahlahū illā imraʾatahū kānat mina lghābirīn"
-      }
-    ],
-    "text_uthmani": "قَالَ إِنَّ فِيهَا لُوطًا ۚ قَالُوا۟ نَحْنُ أَعْلَمُ بِمَن فِيهَا ۖ لَنُنَجِّيَنَّهُۥ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ",
-    "text_uthmani_transcribed": "Qāla inna fīhā lūṭā(n), qālū naḥnu a'lamu biman fīhā, lanunajjiyannahū wa ahlahū illamra'atahū kānat minal-gābirīn(a)."
+    "translation": "Er sagte: Aber Lut befindet sich in ihr. Sie sagten: Wir wissen sehr wohl, wer sich in ihr befindet.",
+    "arabic": "قَالَ إِنَّ فِيهَا لُوطًا ۚ قَالُوا۟ نَحْنُ أَعْلَمُ بِمَن فِيهَا",
+    "transcription": "Qāla innā fīhā lūṭan. Qālū naḥnu aʿlamu biman fīhā"
   },
   {
+    "index": 56,
+    "verse_number": 32,
+    "translation": "Wir werden ihn ganz gewiß erretten, (ihn) und seine Angehörigen, außer seiner Frau; sie gehört zu denjenigen, die zurückbleiben.",
+    "arabic": "ۖ لَنُنَجِّيَنَّهُۥ وَأَهْلَهُۥٓ إِلَّا ٱمْرَأَتَهُۥ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ",
+    "transcription": "Lanunajjiyannahū waʾahlahū illā imraʾatahū kānat mina lghābirīn"
+  },
+  {
+    "index": 57,
     "verse_number": 33,
-    "translation": "Und als nun Unsere Gesandten zu Lut kamen, geriet er ihretwegen in eine böse Lage und war durch ihre Anwesenheit beklommen. Sie sagten: „Fürchte dich nicht und sei nicht traurig, denn wir werden dich erretten, (dich) und deine Angehörigen, außer deiner Frau; sie gehört zu denjenigen, die zurückbleiben.",
-    "segmented": [
-      {
-        "translation": "Und als nun Unsere Gesandten zu Lut kamen, geriet er ihretwegen in eine böse Lage und war durch ihre Anwesenheit beklommen.",
-        "text_uthmani": "وَلَمَّآ أَن جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا",
-        "text_uthmani_transcribed": "Wa lamma an jaa'at rusuluna Lutan si'a bihim wa daaqa bihim dhar'an"
-      },
-      {
-        "translation": "Sie sagten: „Fürchte dich nicht und sei nicht traurig, denn wir werden dich erretten, (dich)",
-        "text_uthmani": "وَقَالُوا۟ لَا تَخَفْ وَلَا تَحْزَنْ ۖ إِنَّا مُنَجُّوكَ",
-        "text_uthmani_transcribed": "Wa qaaloo la takhaf wa la tahzan inna munajjooka"
-      },
-      {
-        "translation": "und deine Angehörigen, außer deiner Frau; sie gehört zu denjenigen, die zurückbleiben.",
-        "text_uthmani": "وَأَهْلَكَ إِلَّا ٱمْرَأَتَكَ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ",
-        "text_uthmani_transcribed": "Wa ahlaka illa imra'ataka kaanat mina al-ghabireen"
-      }
-    ],
-    "text_uthmani": "وَلَمَّآ أَن جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا وَقَالُوا۟ لَا تَخَفْ وَلَا تَحْزَنْ ۖ إِنَّا مُنَجُّوكَ وَأَهْلَكَ إِلَّا ٱمْرَأَتَكَ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ",
-    "text_uthmani_transcribed": "Wa lammā an jā'at rusulunā lūṭan sī'a bihim wa ḍāqa bihim żar'aw wa qālū lā takhaf wa lā taḥzan, innā munajjūka wa ahlaka illamra'ataka kānat minal-gābirīn(a)."
+    "translation": "Und als nun Unsere Gesandten zu Lut kamen, geriet er ihretwegen in eine böse Lage und war durch ihre Anwesenheit beklommen.",
+    "arabic": "وَلَمَّآ أَن جَآءَتْ رُسُلُنَا لُوطًا سِىٓءَ بِهِمْ وَضَاقَ بِهِمْ ذَرْعًا",
+    "transcription": "Wa lamma an jaa'at rusuluna Lutan si'a bihim wa daaqa bihim dhar'an"
   },
   {
+    "index": 58,
+    "verse_number": 33,
+    "translation": "Sie sagten: „Fürchte dich nicht und sei nicht traurig, denn wir werden dich erretten, (dich)",
+    "arabic": "وَقَالُوا۟ لَا تَخَفْ وَلَا تَحْزَنْ ۖ إِنَّا مُنَجُّوكَ",
+    "transcription": "Wa qaaloo la takhaf wa la tahzan inna munajjooka"
+  },
+  {
+    "index": 59,
+    "verse_number": 33,
+    "translation": "und deine Angehörigen, außer deiner Frau; sie gehört zu denjenigen, die zurückbleiben.",
+    "arabic": "وَأَهْلَكَ إِلَّا ٱمْرَأَتَكَ كَانَتْ مِنَ ٱلْغَـٰبِرِينَ",
+    "transcription": "Wa ahlaka illa imra'ataka kaanat mina al-ghabireen"
+  },
+  {
+    "index": 60,
     "verse_number": 34,
     "translation": "Wir werden auf die Bewohner dieser Stadt eine unheilvolle Strafe vom Himmel herabkommen lassen dafür, daß sie gefrevelt haben,",
-    "text_uthmani": "إِنَّا مُنزِلُونَ عَلَىٰٓ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَفْسُقُونَ",
-    "text_uthmani_transcribed": "Innā munzilūna 'alā ahli hāżihil-qaryati rijzam minas-samā'i bimā kānū yafsuqūn(a)."
+    "arabic": "إِنَّا مُنزِلُونَ عَلَىٰٓ أَهْلِ هَـٰذِهِ ٱلْقَرْيَةِ رِجْزًا مِّنَ ٱلسَّمَآءِ بِمَا كَانُوا۟ يَفْسُقُونَ",
+    "transcription": "Innā munzilūna 'alā ahli hāżihil-qaryati rijzam minas-samā'i bimā kānū yafsuqūn(a)."
   },
   {
+    "index": 61,
     "verse_number": 35,
     "translation": "Und Wir ließen ja von ihr ein klares Zeichen zurück für Leute, die begreifen.",
-    "text_uthmani": "وَلَقَد تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةً لِّقَوْمٍ يَعْقِلُونَ",
-    "text_uthmani_transcribed": "Wa laqad taraknā minhā āyatam bayyinatal liqaumiy ya'qilūn(a)."
+    "arabic": "وَلَقَد تَّرَكْنَا مِنْهَآ ءَايَةًۢ بَيِّنَةً لِّقَوْمٍ يَعْقِلُونَ",
+    "transcription": "Wa laqad taraknā minhā āyatam bayyinatal liqaumiy ya'qilūn(a)."
   },
   {
+    "index": 62,
     "verse_number": 36,
-    "translation": "Und (Wir sandten) zu Madyan ihren Bruder Su’aib. Da sagte er: „O mein Volk, dient Allah, erwartet den Jüngsten Tag und richtet auf der Erde nicht unheilstiftend Verderben an.",
-    "segmented": [
-      {
-        "translation": "Und (Wir sandten) zu Madyan ihren Bruder Su’aib.",
-        "text_uthmani": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا",
-        "text_uthmani_transcribed": "Wa ilā madyana akhāhum shu'aybā"
-      },
-      {
-        "translation": "Da sagte er: „O mein Volk, dient Allah, erwartet den Jüngsten Tag und richtet auf der Erde nicht unheilstiftend Verderben an.",
-        "text_uthmani": "فَقَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ وَٱرْجُوا۟ ٱلْيَوْمَ ٱلْـَٔاخِرَ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
-        "text_uthmani_transcribed": "Faqāla yā qawmi u'budū allāha warjū al-yawma al-ākhira wa lā ta'thaw fī al-ardi mufsidīn"
-      }
-    ],
-    "text_uthmani": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا فَقَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ وَٱرْجُوا۟ ٱلْيَوْمَ ٱلْـَٔاخِرَ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
-    "text_uthmani_transcribed": "Wa ilā madyana akhāhum syu'aibā(n), faqāla yā qaumi'budullāha warjul-yaumal-ākhira wa lā ta'ṡau fil-arḍi mufsidīn(a)."
+    "translation": "Und (Wir sandten) zu Madyan ihren Bruder Su’aib.",
+    "arabic": "وَإِلَىٰ مَدْيَنَ أَخَاهُمْ شُعَيْبًا",
+    "transcription": "Wa ilā madyana akhāhum shu'aybā"
   },
   {
+    "index": 63,
+    "verse_number": 36,
+    "translation": "Da sagte er: „O mein Volk, dient Allah, erwartet den Jüngsten Tag und richtet auf der Erde nicht unheilstiftend Verderben an.",
+    "arabic": "فَقَالَ يَـٰقَوْمِ ٱعْبُدُوا۟ ٱللَّهَ وَٱرْجُوا۟ ٱلْيَوْمَ ٱلْـَٔاخِرَ وَلَا تَعْثَوْا۟ فِى ٱلْأَرْضِ مُفْسِدِينَ",
+    "transcription": "Faqāla yā qawmi u'budū allāha warjū al-yawma al-ākhira wa lā ta'thaw fī al-ardi mufsidīn"
+  },
+  {
+    "index": 64,
     "verse_number": 37,
     "translation": "Aber sie bezichtigten ihn der Lüge. Da ergriff sie das Zittern, und am Morgen lagen sie in ihrer Wohnstätte auf den Brüsten da.",
-    "text_uthmani": "فَكَذَّبُوهُ فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَـٰثِمِينَ",
-    "text_uthmani_transcribed": "Fa każżabūhu fa'akhażathumur-rajfatu fa'aṣbaḥū fī dārihim jāṡimīn(a)."
+    "arabic": "فَكَذَّبُوهُ فَأَخَذَتْهُمُ ٱلرَّجْفَةُ فَأَصْبَحُوا۟ فِى دَارِهِمْ جَـٰثِمِينَ",
+    "transcription": "Fa każżabūhu fa'akhażathumur-rajfatu fa'aṣbaḥū fī dārihim jāṡimīn(a)."
   },
   {
+    "index": 65,
     "verse_number": 38,
-    "translation": "Und (erwähne auch) die ’Ad und die Tamud. (Ihr Untergang) ist euch ja deutlich geworden an ihren Wohnorten. Der Satan schmückte ihnen ihre Taten aus und hielt sie so vom Weg ab, obwohl sie Einsicht besaßen.",
-    "segmented": [
-      {
-        "translation": "Und (erwähne auch) die ’Ad und die Tamud. (Ihr Untergang) ist euch ja deutlich geworden an ihren Wohnorten.",
-        "text_uthmani": "وَعَادًا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَـٰكِنِهِمْ ۖ",
-        "text_uthmani_transcribed": "Wa 'Aadan wa Thamuda wa qad tabayyana lakum min masakinahim."
-      },
-      {
-        "translation": "Der Satan schmückte ihnen ihre Taten aus und hielt sie so vom Weg ab, obwohl sie Einsicht besaßen.",
-        "text_uthmani": "وَزَيَّنَ لَهُمُ ٱلشَّيْطَـٰنُ أَعْمَـٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ",
-        "text_uthmani_transcribed": "Wa zayyana lahumu ash-shaytanu a'malahum fa saddahum 'ani as-sabeeli wa kanu mustabsireen."
-      }
-    ],
-    "text_uthmani": "وَعَادًا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَـٰكِنِهِمْ ۖ وَزَيَّنَ لَهُمُ ٱلشَّيْطَـٰنُ أَعْمَـٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ",
-    "text_uthmani_transcribed": "Wa 'ādaw wa ṡamūda wa qat tabayyana lakum mim masākinihim, wa zayyana lahumusy-syaiṭānu a'mālahum faṣaddahum 'anis-sabīli wa kānū mustabṣirīn(a)."
+    "translation": "Und (erwähne auch) die ’Ad und die Tamud. (Ihr Untergang) ist euch ja deutlich geworden an ihren Wohnorten.",
+    "arabic": "وَعَادًا وَثَمُودَا۟ وَقَد تَّبَيَّنَ لَكُم مِّن مَّسَـٰكِنِهِمْ ۖ",
+    "transcription": "Wa 'Aadan wa Thamuda wa qad tabayyana lakum min masakinahim."
   },
   {
+    "index": 66,
+    "verse_number": 38,
+    "translation": "Der Satan schmückte ihnen ihre Taten aus und hielt sie so vom Weg ab, obwohl sie Einsicht besaßen.",
+    "arabic": "وَزَيَّنَ لَهُمُ ٱلشَّيْطَـٰنُ أَعْمَـٰلَهُمْ فَصَدَّهُمْ عَنِ ٱلسَّبِيلِ وَكَانُوا۟ مُسْتَبْصِرِينَ",
+    "transcription": "Wa zayyana lahumu ash-shaytanu a'malahum fa saddahum 'ani as-sabeeli wa kanu mustabsireen."
+  },
+  {
+    "index": 67,
     "verse_number": 39,
-    "translation": "Und (erwähne weiterhin) Qarun und Fir’aun und Haman. Musa kam ja zu ihnen mit den klaren Beweisen. Aber sie verhielten sich hochmütig auf der Erde; doch konnten sie (Uns) nicht zuvorkommen.",
-    "segmented": [
-      {
-        "translation": "Und (erwähne weiterhin) Qarun und Fir’aun und Haman. Musa kam ja zu ihnen mit den klaren Beweisen.",
-        "text_uthmani": "وَقَـٰرُونَ وَفِرْعَوْنَ وَهَـٰمَـٰنَ ۖ وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَـٰتِ",
-        "text_uthmani_transcribed": "Wa qaruna wa fir'awna wa haman. Wa laqad jaa'ahum musa bil-bayyinat."
-      },
-      {
-        "translation": "Aber sie verhielten sich hochmütig auf der Erde; doch konnten sie (Uns) nicht zuvorkommen.",
-        "text_uthmani": "فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ وَمَا كَانُوا۟ سَـٰبِقِينَ",
-        "text_uthmani_transcribed": "Fa istakbaru fi al-ardi wa ma kanu sabiqin."
-      }
-    ],
-    "text_uthmani": "وَقَـٰرُونَ وَفِرْعَوْنَ وَهَـٰمَـٰنَ ۖ وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَـٰتِ فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ وَمَا كَانُوا۟ سَـٰبِقِينَ",
-    "text_uthmani_transcribed": "Wa qārūna wa fir'auna wa hāmān(a), wa laqad jā'ahum mūsā bil-bayyināti fastakbarū fil-arḍi wa mā kānū sābiqīn(a)."
+    "translation": "Und (erwähne weiterhin) Qarun und Fir’aun und Haman. Musa kam ja zu ihnen mit den klaren Beweisen.",
+    "arabic": "وَقَـٰرُونَ وَفِرْعَوْنَ وَهَـٰمَـٰنَ ۖ وَلَقَدْ جَآءَهُم مُّوسَىٰ بِٱلْبَيِّنَـٰتِ",
+    "transcription": "Wa qaruna wa fir'awna wa haman. Wa laqad jaa'ahum musa bil-bayyinat."
   },
   {
+    "index": 68,
+    "verse_number": 39,
+    "translation": "Aber sie verhielten sich hochmütig auf der Erde; doch konnten sie (Uns) nicht zuvorkommen.",
+    "arabic": "فَٱسْتَكْبَرُوا۟ فِى ٱلْأَرْضِ وَمَا كَانُوا۟ سَـٰبِقِينَ",
+    "transcription": "Fa istakbaru fi al-ardi wa ma kanu sabiqin."
+  },
+  {
+    "index": 69,
     "verse_number": 40,
-    "translation": "Einen jeden ergriffen Wir für seine Sünde; so sandten Wir gegen einige von ihnen einen Sturm von Steinchen, andere ergriff der Schrei, mit anderen ließen Wir die Erde versinken, andere ließen Wir ertrinken. Und nimmer ist es Allah, der ihnen Unrecht getan hat, sondern sie selbst haben sich Unrecht zugefügt.",
-    "segmented": [
-      {
-        "translation": "Einen jeden ergriffen Wir für seine Sünde; so sandten Wir gegen einige von ihnen einen Sturm von Steinchen, andere ergriff der Schrei, mit",
-        "text_uthmani": "فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ ۖ فَمِنْهُم مَّنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًا وَمِنْهُم مَّنْ أَخَذَتْهُ ٱلصَّيْحَةُ وَمِنْهُم مَّنْ",
-        "text_uthmani_transcribed": "Fakullan akhadhna bi-dhanbihi. Faminhum man arsalna 'alayhi hasiban wa minhum man akhadhathu as-sayhatu wa minhum man"
-      },
-      {
-        "translation": "anderen ließen Wir die Erde versinken, andere ließen Wir ertrinken.",
-        "text_uthmani": "خَسَفْنَا بِهِ ٱلْأَرْضَ وَمِنْهُم مَّنْ أَغْرَقْنَا",
-        "text_uthmani_transcribed": "khasafna bihi al-arda wa minhum man aghraqna"
-      },
-      {
-        "translation": "Und nimmer ist es Allah, der ihnen Unrecht getan hat, sondern sie selbst haben sich Unrecht zugefügt.",
-        "text_uthmani": "ۚ وَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
-        "text_uthmani_transcribed": "Wa ma kana Allahu liyadhlamahum wa lakin kanu anfusahum yadhlamoon"
-      }
-    ],
-    "text_uthmani": "فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ ۖ فَمِنْهُم مَّنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًا وَمِنْهُم مَّنْ أَخَذَتْهُ ٱلصَّيْحَةُ وَمِنْهُم مَّنْ خَسَفْنَا بِهِ ٱلْأَرْضَ وَمِنْهُم مَّنْ أَغْرَقْنَا ۚ وَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
-    "text_uthmani_transcribed": "Fakullan akhażnā biżambih(ī), faminhum man arsalnā 'alaihi ḥāṣibā(n), wa minhum man akhażathuṣ-ṣaiḥah(tu), wa minhum man khasafnā bihil-arḍ(a), wa minhum man agraqnā, wa mā kānallāhu liyaẓlimahum wa lākin kānū anfusahum yaẓlimūn(a)."
+    "translation": "Einen jeden ergriffen Wir für seine Sünde; so sandten Wir gegen einige von ihnen einen Sturm von Steinchen, andere ergriff der Schrei, mit",
+    "arabic": "فَكُلًّا أَخَذْنَا بِذَنۢبِهِۦ ۖ فَمِنْهُم مَّنْ أَرْسَلْنَا عَلَيْهِ حَاصِبًا وَمِنْهُم مَّنْ أَخَذَتْهُ ٱلصَّيْحَةُ وَمِنْهُم مَّنْ",
+    "transcription": "Fakullan akhadhna bi-dhanbihi. Faminhum man arsalna 'alayhi hasiban wa minhum man akhadhathu as-sayhatu wa minhum man"
   },
   {
+    "index": 70,
+    "verse_number": 40,
+    "translation": "anderen ließen Wir die Erde versinken, andere ließen Wir ertrinken.",
+    "arabic": "خَسَفْنَا بِهِ ٱلْأَرْضَ وَمِنْهُم مَّنْ أَغْرَقْنَا",
+    "transcription": "khasafna bihi al-arda wa minhum man aghraqna"
+  },
+  {
+    "index": 71,
+    "verse_number": 40,
+    "translation": "Und nimmer ist es Allah, der ihnen Unrecht getan hat, sondern sie selbst haben sich Unrecht zugefügt.",
+    "arabic": "ۚ وَمَا كَانَ ٱللَّهُ لِيَظْلِمَهُمْ وَلَـٰكِن كَانُوٓا۟ أَنفُسَهُمْ يَظْلِمُونَ",
+    "transcription": "Wa ma kana Allahu liyadhlamahum wa lakin kanu anfusahum yadhlamoon"
+  },
+  {
+    "index": 72,
     "verse_number": 41,
-    "translation": "Das Gleichnis derjenigen, die sich anstatt Allahs Schutzherren nehmen, ist das der Spinne, die sich ein Haus genommen hat; das schwächste Haus ist fürwahr das Haus der Spinne, wenn sie (es) nur wüßten!",
-    "segmented": [
-      {
-        "translation": "Das Gleichnis derjenigen, die sich anstatt Allahs Schutzherren nehmen, ist das der Spinne, die sich ein Haus genommen hat; das schwächste Haus",
-        "text_uthmani": "مَثَلُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ أَوْلِيَآءَ كَمَثَلِ ٱلْعَنكَبُوتِ ٱتَّخَذَتْ بَيْتًا ۖ وَإِنَّ أَوْهَنَ ٱلْبُيُوتِ",
-        "text_uthmani_transcribed": "Mathalu allatheena ittakhathoo min dooni Allahi awliyaa kamathali al-ankabooti ittakhathat baytan. Wa-inna awhana al-buyooti"
-      },
-      {
-        "translation": "ist fürwahr das Haus der Spinne, wenn sie (es) nur wüßten!",
-        "text_uthmani": "لَبَيْتُ ٱلْعَنكَبُوتِ ۖ لَوْ كَانُوا۟ يَعْلَمُونَ",
-        "text_uthmani_transcribed": "labaytu al-ankabooti. Law kanoo ya'lamoon"
-      }
-    ],
-    "text_uthmani": "مَثَلُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ أَوْلِيَآءَ كَمَثَلِ ٱلْعَنكَبُوتِ ٱتَّخَذَتْ بَيْتًا ۖ وَإِنَّ أَوْهَنَ ٱلْبُيُوتِ لَبَيْتُ ٱلْعَنكَبُوتِ ۖ لَوْ كَانُوا۟ يَعْلَمُونَ",
-    "text_uthmani_transcribed": "Maṡalul-lażīnattakhażū min dūnillāhi auliyā'a kamaṡalil-'ankabūt(i), ittakhażat baitā(n), wa inna auhanal-buyūti labaitul-'ankabūt(i), lau kānū ya'lamūn(a)."
+    "translation": "Das Gleichnis derjenigen, die sich anstatt Allahs Schutzherren nehmen, ist das der Spinne, die sich ein Haus genommen hat; das schwächste Haus",
+    "arabic": "مَثَلُ ٱلَّذِينَ ٱتَّخَذُوا۟ مِن دُونِ ٱللَّهِ أَوْلِيَآءَ كَمَثَلِ ٱلْعَنكَبُوتِ ٱتَّخَذَتْ بَيْتًا ۖ وَإِنَّ أَوْهَنَ ٱلْبُيُوتِ",
+    "transcription": "Mathalu allatheena ittakhathoo min dooni Allahi awliyaa kamathali al-ankabooti ittakhathat baytan. Wa-inna awhana al-buyooti"
   },
   {
+    "index": 73,
+    "verse_number": 41,
+    "translation": "ist fürwahr das Haus der Spinne, wenn sie (es) nur wüßten!",
+    "arabic": "لَبَيْتُ ٱلْعَنكَبُوتِ ۖ لَوْ كَانُوا۟ يَعْلَمُونَ",
+    "transcription": "labaytu al-ankabooti. Law kanoo ya'lamoon"
+  },
+  {
+    "index": 74,
     "verse_number": 42,
     "translation": "Gewiß, Allah weiß all das, was sie anstatt Seiner anrufen. Und Er ist der Allmächtige und Allweise.",
-    "text_uthmani": "إِنَّ ٱللَّهَ يَعْلَمُ مَا يَدْعُونَ مِن دُونِهِۦ مِن شَىْءٍ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
-    "text_uthmani_transcribed": "Innallāha ya'lamu mā yad'ūna min dūnihī min syai'(in), wa huwal-'azīzul-ḥakīm(u)."
+    "arabic": "إِنَّ ٱللَّهَ يَعْلَمُ مَا يَدْعُونَ مِن دُونِهِۦ مِن شَىْءٍ ۚ وَهُوَ ٱلْعَزِيزُ ٱلْحَكِيمُ",
+    "transcription": "Innallāha ya'lamu mā yad'ūna min dūnihī min syai'(in), wa huwal-'azīzul-ḥakīm(u)."
   },
   {
+    "index": 75,
     "verse_number": 43,
     "translation": "Diese Gleichnisse prägen Wir für die Menschen. Aber nur diejenigen verstehen sie, die Wissen besitzen.",
-    "text_uthmani": "وَتِلْكَ ٱلْأَمْثَـٰلُ نَضْرِبُهَا لِلنَّاسِ ۖ وَمَا يَعْقِلُهَآ إِلَّا ٱلْعَـٰلِمُونَ",
-    "text_uthmani_transcribed": "Wa tilkal-amṡālu naḍribuhā lin-nās(i), wa mā ya'qiluhā illal-'ālimūn(a)."
+    "arabic": "وَتِلْكَ ٱلْأَمْثَـٰلُ نَضْرِبُهَا لِلنَّاسِ ۖ وَمَا يَعْقِلُهَآ إِلَّا ٱلْعَـٰلِمُونَ",
+    "transcription": "Wa tilkal-amṡālu naḍribuhā lin-nās(i), wa mā ya'qiluhā illal-'ālimūn(a)."
   },
   {
+    "index": 76,
     "verse_number": 44,
     "translation": "Allah hat die Himmel und die Erde in Wahrheit erschaffen. Darin ist wahrlich ein Zeichen für die Gläubigen.",
-    "text_uthmani": "خَلَقَ ٱللَّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّلْمُؤْمِنِينَ",
-    "text_uthmani_transcribed": "Khalaqallāhus-samāwāti wal-arḍa bil-ḥaqq(i), inna fī żālika la'āyatal lil-mu'minīn(a)."
+    "arabic": "خَلَقَ ٱللَّهُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ بِٱلْحَقِّ ۚ إِنَّ فِى ذَٰلِكَ لَـَٔايَةً لِّلْمُؤْمِنِينَ",
+    "transcription": "Khalaqallāhus-samāwāti wal-arḍa bil-ḥaqq(i), inna fī żālika la'āyatal lil-mu'minīn(a)."
   },
   {
+    "index": 77,
     "verse_number": 45,
-    "translation": "Verlies, was dir vom Buch (als Offenbarung) eingegeben wird, und verrichte das Gebet. Gewiß, das Gebet hält davon ab, das Schändliche und das Verwerfliche (zu tun). Und das Gedenken Allahs ist wahrlich größer. Und Allah weiß, was ihr macht.",
-    "segmented": [
-      {
-        "translation": "Verlies, was dir vom Buch (als Offenbarung) eingegeben wird, und verrichte das Gebet.",
-        "text_uthmani": "ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَـٰبِ وَأَقِمِ ٱلصَّلَوٰةَ",
-        "text_uthmani_transcribed": "Atlu maa oohiya ilayka mina alkitabi wa aqimi assalata"
-      },
-      {
-        "translation": "Gewiß, das Gebet hält davon ab, das Schändliche und das Verwerfliche (zu tun). Und das Gedenken Allahs ist wahrlich größer.",
-        "text_uthmani": "ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ",
-        "text_uthmani_transcribed": "Inna assalata tanha 'ani alfahshai wal munkari. Wa la dhikru Allahi akbaru"
-      },
-      {
-        "translation": "Und Allah weiß, was ihr macht.",
-        "text_uthmani": "ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
-        "text_uthmani_transcribed": "Wa Allahu ya'lamu ma tasna'oon"
-      }
-    ],
-    "text_uthmani": "ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَـٰبِ وَأَقِمِ ٱلصَّلَوٰةَ ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
-    "text_uthmani_transcribed": "Utlu mā ūḥiya ilaika minal-kitābi wa aqimiṣ-ṣalāh(ta), innaṣ-ṣalāta tanhā 'anil-faḥsyā'i wal-munkar(i), wa lażikrullāhi akbar(u), wallāhu ya'lamu mā taṣna'ūn(a)."
+    "translation": "Verlies, was dir vom Buch (als Offenbarung) eingegeben wird, und verrichte das Gebet.",
+    "arabic": "ٱتْلُ مَآ أُوحِىَ إِلَيْكَ مِنَ ٱلْكِتَـٰبِ وَأَقِمِ ٱلصَّلَوٰةَ",
+    "transcription": "Atlu maa oohiya ilayka mina alkitabi wa aqimi assalata"
   },
   {
+    "index": 78,
+    "verse_number": 45,
+    "translation": "Gewiß, das Gebet hält davon ab, das Schändliche und das Verwerfliche (zu tun). Und das Gedenken Allahs ist wahrlich größer.",
+    "arabic": "ۖ إِنَّ ٱلصَّلَوٰةَ تَنْهَىٰ عَنِ ٱلْفَحْشَآءِ وَٱلْمُنكَرِ ۗ وَلَذِكْرُ ٱللَّهِ أَكْبَرُ",
+    "transcription": "Inna assalata tanha 'ani alfahshai wal munkari. Wa la dhikru Allahi akbaru"
+  },
+  {
+    "index": 79,
+    "verse_number": 45,
+    "translation": "Und Allah weiß, was ihr macht.",
+    "arabic": "ۗ وَٱللَّهُ يَعْلَمُ مَا تَصْنَعُونَ",
+    "transcription": "Wa Allahu ya'lamu ma tasna'oon"
+  },
+  {
+    "index": 80,
     "verse_number": 46,
-    "translation": "Und streitet mit den Leuten der Schrift nur in bester Weise, außer denjenigen von ihnen, die Unrecht tun. Und sagt: „Wir glauben an das, was (als Offenbarung) zu uns herabgesandt worden ist und zu euch herabgesandt worden ist; unser Gott und euer Gott ist Einer, und wir sind Ihm ergeben’.",
-    "segmented": [
-      {
-        "translation": "Und streitet mit den Leuten der Schrift nur in bester Weise, außer denjenigen von ihnen, die Unrecht tun.",
-        "text_uthmani": "۞ وَلَا تُجَـٰدِلُوٓا۟ أَهْلَ ٱلْكِتَـٰبِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ إِلَّا ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ ۖ",
-        "text_uthmani_transcribed": "Wa la tujadiloo ahl al-kitabi illa bi allati hiya ahsanu illa allatheena zalamoo minhum."
-      },
-      {
-        "translation": "Und sagt: „Wir glauben an das, was (als Offenbarung) zu uns herabgesandt worden ist und zu euch herabgesandt worden ist; unser Gott",
-        "text_uthmani": "وَقُولُوٓا۟ ءَامَنَّا بِٱلَّذِىٓ أُنزِلَ إِلَيْنَا وَأُنزِلَ إِلَيْكُمْ وَإِلَـٰهُنَا",
-        "text_uthmani_transcribed": "Wa quloo amanna bi allathee unzila ilayna wa unzila ilaykum wa ilahuna"
-      },
-      {
-        "translation": "und euer Gott ist Einer, und wir sind Ihm ergeben’.",
-        "text_uthmani": "وَإِلَـٰهُكُمْ وَٰحِدٌ وَنَحْنُ لَهُۥ مُسْلِمُونَ",
-        "text_uthmani_transcribed": "wa ilahukum wahidun wa nahnu lahu muslimoon."
-      }
-    ],
-    "text_uthmani": "۞ وَلَا تُجَـٰدِلُوٓا۟ أَهْلَ ٱلْكِتَـٰبِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ إِلَّا ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ ۖ وَقُولُوٓا۟ ءَامَنَّا بِٱلَّذِىٓ أُنزِلَ إِلَيْنَا وَأُنزِلَ إِلَيْكُمْ وَإِلَـٰهُنَا وَإِلَـٰهُكُمْ وَٰحِدٌ وَنَحْنُ لَهُۥ مُسْلِمُونَ",
-    "text_uthmani_transcribed": "Wa lā tujādilū ahlal-kitābi illā bil-latī hiya aḥsan(u), illal-lażīna ẓalamū minhum wa qūlū āmannā bil-lażī unzila ilainā wa unzila ilaikum wa ilāhunā wa ilāhukum wāḥiduw wa naḥnu lahū muslimūn(a)."
+    "translation": "Und streitet mit den Leuten der Schrift nur in bester Weise, außer denjenigen von ihnen, die Unrecht tun.",
+    "arabic": "۞ وَلَا تُجَـٰدِلُوٓا۟ أَهْلَ ٱلْكِتَـٰبِ إِلَّا بِٱلَّتِى هِىَ أَحْسَنُ إِلَّا ٱلَّذِينَ ظَلَمُوا۟ مِنْهُمْ ۖ",
+    "transcription": "Wa la tujadiloo ahl al-kitabi illa bi allati hiya ahsanu illa allatheena zalamoo minhum."
   },
   {
+    "index": 81,
+    "verse_number": 46,
+    "translation": "Und sagt: „Wir glauben an das, was (als Offenbarung) zu uns herabgesandt worden ist und zu euch herabgesandt worden ist; unser Gott",
+    "arabic": "وَقُولُوٓا۟ ءَامَنَّا بِٱلَّذِىٓ أُنزِلَ إِلَيْنَا وَأُنزِلَ إِلَيْكُمْ وَإِلَـٰهُنَا",
+    "transcription": "Wa quloo amanna bi allathee unzila ilayna wa unzila ilaykum wa ilahuna"
+  },
+  {
+    "index": 82,
+    "verse_number": 46,
+    "translation": "und euer Gott ist Einer, und wir sind Ihm ergeben’.",
+    "arabic": "وَإِلَـٰهُكُمْ وَٰحِدٌ وَنَحْنُ لَهُۥ مُسْلِمُونَ",
+    "transcription": "wa ilahukum wahidun wa nahnu lahu muslimoon."
+  },
+  {
+    "index": 83,
     "verse_number": 47,
-    "translation": "Und so haben Wir das Buch zu dir hinabgesandt. Diejenigen, denen Wir die Schrift gaben, glauben daran. Und auch unter diesen da gibt es manche, die daran glauben. Nur die Ungläubigen verleugnen Unsere Zeichen.",
-    "segmented": [
-      {
-        "translation": "Und so haben Wir das Buch zu dir hinabgesandt. Diejenigen, denen Wir die Schrift gaben, glauben daran.",
-        "text_uthmani": "وَكَذَٰلِكَ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَـٰبَ ۚ فَٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يُؤْمِنُونَ بِهِۦ",
-        "text_uthmani_transcribed": "Wa kadhālika anzalnā ilayka al-kitāba. Fa alladhīna ātaynāhumu al-kitāba yu'minūna bihī"
-      },
-      {
-        "translation": "Und auch unter diesen da gibt es manche, die daran glauben. Nur die Ungläubigen verleugnen Unsere Zeichen.",
-        "text_uthmani": "ۖ وَمِنْ هَـٰٓؤُلَآءِ مَن يُؤْمِنُ بِهِۦ ۚ وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا ٱلْكَـٰفِرُونَ",
-        "text_uthmani_transcribed": "Wa min hāulā'i man yu'minu bihī. Wa mā yajhadu bi-āyātinā illā al-kāfirūn"
-      }
-    ],
-    "text_uthmani": "وَكَذَٰلِكَ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَـٰبَ ۚ فَٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يُؤْمِنُونَ بِهِۦ ۖ وَمِنْ هَـٰٓؤُلَآءِ مَن يُؤْمِنُ بِهِۦ ۚ وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا ٱلْكَـٰفِرُونَ",
-    "text_uthmani_transcribed": "Wa każālika anzalnā ilaikal-kitāb(a), fal-lażīna ātaināhumul-kitāba yu'minūna bih(ī), wa min hā'ulā'i may yu'minu bih(ī), wa mā yajḥadu bi'āyātinā illal-kāfirūn(a)."
+    "translation": "Und so haben Wir das Buch zu dir hinabgesandt. Diejenigen, denen Wir die Schrift gaben, glauben daran.",
+    "arabic": "وَكَذَٰلِكَ أَنزَلْنَآ إِلَيْكَ ٱلْكِتَـٰبَ ۚ فَٱلَّذِينَ ءَاتَيْنَـٰهُمُ ٱلْكِتَـٰبَ يُؤْمِنُونَ بِهِۦ",
+    "transcription": "Wa kadhālika anzalnā ilayka al-kitāba. Fa alladhīna ātaynāhumu al-kitāba yu'minūna bihī"
   },
   {
+    "index": 84,
+    "verse_number": 47,
+    "translation": "Und auch unter diesen da gibt es manche, die daran glauben. Nur die Ungläubigen verleugnen Unsere Zeichen.",
+    "arabic": "ۖ وَمِنْ هَـٰٓؤُلَآءِ مَن يُؤْمِنُ بِهِۦ ۚ وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا ٱلْكَـٰفِرُونَ",
+    "transcription": "Wa min hāulā'i man yu'minu bihī. Wa mā yajhadu bi-āyātinā illā al-kāfirūn"
+  },
+  {
+    "index": 85,
     "verse_number": 48,
-    "translation": "Und du hast vordem kein Buch verlesen und es auch nicht mit deiner rechten Hand niedergeschrieben. Sonst würden wahrlich diejenigen zweifeln, die (es) für falsch erklären.",
-    "segmented": [
-      {
-        "translation": "Und du hast vordem kein Buch verlesen und es auch nicht mit deiner rechten Hand niedergeschrieben.",
-        "text_uthmani": "وَمَا كُنتَ تَتْلُوا۟ مِن قَبْلِهِۦ مِن كِتَـٰبٍ وَلَا تَخُطُّهُۥ بِيَمِينِكَ ۖ",
-        "text_uthmani_transcribed": "Wa ma kunta tatluwa min qablihi min kitabin wa la takhuttuhu biyameenika."
-      },
-      {
-        "translation": "Sonst würden wahrlich diejenigen zweifeln, die (es) für falsch erklären.",
-        "text_uthmani": "إِذًا لَّٱرْتَابَ ٱلْمُبْطِلُونَ",
-        "text_uthmani_transcribed": "Idhan lartaba al-mubtiloon."
-      }
-    ],
-    "text_uthmani": "وَمَا كُنتَ تَتْلُوا۟ مِن قَبْلِهِۦ مِن كِتَـٰبٍ وَلَا تَخُطُّهُۥ بِيَمِينِكَ ۖ إِذًا لَّٱرْتَابَ ٱلْمُبْطِلُونَ",
-    "text_uthmani_transcribed": "Wa mā kunta tatlū min qablihī min kitābiw wa lā takhuṭṭuhū biyamīnika iżal lartābal-mubṭilūn(a)."
+    "translation": "Und du hast vordem kein Buch verlesen und es auch nicht mit deiner rechten Hand niedergeschrieben.",
+    "arabic": "وَمَا كُنتَ تَتْلُوا۟ مِن قَبْلِهِۦ مِن كِتَـٰبٍ وَلَا تَخُطُّهُۥ بِيَمِينِكَ ۖ",
+    "transcription": "Wa ma kunta tatluwa min qablihi min kitabin wa la takhuttuhu biyameenika."
   },
   {
+    "index": 86,
+    "verse_number": 48,
+    "translation": "Sonst würden wahrlich diejenigen zweifeln, die (es) für falsch erklären.",
+    "arabic": "إِذًا لَّٱرْتَابَ ٱلْمُبْطِلُونَ",
+    "transcription": "Idhan lartaba al-mubtiloon."
+  },
+  {
+    "index": 87,
     "verse_number": 49,
-    "translation": "Nein! Vielmehr sind es klare Zeichen in den Brüsten derjenigen, denen das Wissen gegeben worden ist. Und nur die Ungerechten verleugnen Unsere Zeichen.",
-    "segmented": [
-      {
-        "translation": "Nein! Vielmehr sind es klare Zeichen in den Brüsten derjenigen, denen das Wissen gegeben worden ist.",
-        "text_uthmani": "بَلْ هُوَ ءَايَـٰتٌۢ بَيِّنَـٰتٌ فِى صُدُورِ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ۚ",
-        "text_uthmani_transcribed": "Bal huwa aayatun bayyinatun fi sudoori allatheena ootoo al'ilma."
-      },
-      {
-        "translation": "Und nur die Ungerechten verleugnen Unsere Zeichen.",
-        "text_uthmani": "وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا ٱلظَّـٰلِمُونَ",
-        "text_uthmani_transcribed": "Wa ma yajhadu bi-ayatina illa alththalimoon."
-      }
-    ],
-    "text_uthmani": "بَلْ هُوَ ءَايَـٰتٌۢ بَيِّنَـٰتٌ فِى صُدُورِ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ۚ وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا ٱلظَّـٰلِمُونَ",
-    "text_uthmani_transcribed": "Bal huwa āyātum bayyinātun fī ṣudūril-lażīna ūtul-'ilm(a), wa mā yajḥadu bi'āyātinā illaẓ-ẓālimūn(a)."
+    "translation": "Nein! Vielmehr sind es klare Zeichen in den Brüsten derjenigen, denen das Wissen gegeben worden ist.",
+    "arabic": "بَلْ هُوَ ءَايَـٰتٌۢ بَيِّنَـٰتٌ فِى صُدُورِ ٱلَّذِينَ أُوتُوا۟ ٱلْعِلْمَ ۚ",
+    "transcription": "Bal huwa aayatun bayyinatun fi sudoori allatheena ootoo al'ilma."
   },
   {
+    "index": 88,
+    "verse_number": 49,
+    "translation": "Und nur die Ungerechten verleugnen Unsere Zeichen.",
+    "arabic": "وَمَا يَجْحَدُ بِـَٔايَـٰتِنَآ إِلَّا ٱلظَّـٰلِمُونَ",
+    "transcription": "Wa ma yajhadu bi-ayatina illa alththalimoon."
+  },
+  {
+    "index": 89,
     "verse_number": 50,
-    "translation": "Und sie sagen: „Wenn doch Zeichen von seinem Herrn auf ihn herabgesandt würden! Sag: Über die Zeichen verfügt (allein) Allah . Und ich bin nur ein deutlicher Warner.",
-    "segmented": [
-      {
-        "translation": "Und sie sagen: „Wenn doch Zeichen von seinem Herrn auf ihn herabgesandt würden! Sag: Über die Zeichen verfügt (allein) Allah .",
-        "text_uthmani": "وَقَالُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَـٰتٌ مِّن رَّبِّهِۦ ۖ قُلْ إِنَّمَا ٱلْـَٔايَـٰتُ عِندَ ٱللَّهِ",
-        "text_uthmani_transcribed": "Wa qālū lawlā unzila 'alayhi āyātun min rabbihi. Qul innamā al-āyātu 'inda Allāh"
-      },
-      {
-        "translation": "Und ich bin nur ein deutlicher Warner.",
-        "text_uthmani": "وَإِنَّمَآ أَنَا۠ نَذِيرٌ مُّبِينٌ",
-        "text_uthmani_transcribed": "Wa innamā anā nadhīrun mubīnun"
-      }
-    ],
-    "text_uthmani": "وَقَالُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَـٰتٌ مِّن رَّبِّهِۦ ۖ قُلْ إِنَّمَا ٱلْـَٔايَـٰتُ عِندَ ٱللَّهِ وَإِنَّمَآ أَنَا۠ نَذِيرٌ مُّبِينٌ",
-    "text_uthmani_transcribed": "Wa qālū lau lā unzila 'alaihi āyātum mir rabbih(ī), qul innamal-āyātu 'indallāh(i), wa innamā ana nażīrum mubīn(un)."
+    "translation": "Und sie sagen: „Wenn doch Zeichen von seinem Herrn auf ihn herabgesandt würden! Sag: Über die Zeichen verfügt (allein) Allah .",
+    "arabic": "وَقَالُوا۟ لَوْلَآ أُنزِلَ عَلَيْهِ ءَايَـٰتٌ مِّن رَّبِّهِۦ ۖ قُلْ إِنَّمَا ٱلْـَٔايَـٰتُ عِندَ ٱللَّهِ",
+    "transcription": "Wa qālū lawlā unzila 'alayhi āyātun min rabbihi. Qul innamā al-āyātu 'inda Allāh"
   },
   {
+    "index": 90,
+    "verse_number": 50,
+    "translation": "Und ich bin nur ein deutlicher Warner.",
+    "arabic": "وَإِنَّمَآ أَنَا۠ نَذِيرٌ مُّبِينٌ",
+    "transcription": "Wa innamā anā nadhīrun mubīnun"
+  },
+  {
+    "index": 91,
     "verse_number": 51,
-    "translation": "Genügt es ihnen denn nicht, daß Wir das Buch auf dich hinabgesandt haben, das ihnen verlesen wird? Darin ist wahrlich eine Barmherzigkeit und eine Ermahnung für Leute, die glauben.",
-    "segmented": [
-      {
-        "translation": "Genügt es ihnen denn nicht, daß Wir das Buch auf dich hinabgesandt haben, das ihnen verlesen wird?",
-        "text_uthmani": "أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَـٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ",
-        "text_uthmani_transcribed": "Awa lam yakfihim anna anzalna 'alayka al-kitaba yutla 'alayhim?"
-      },
-      {
-        "translation": "Darin ist wahrlich eine Barmherzigkeit und eine Ermahnung für Leute, die glauben.",
-        "text_uthmani": "إِنَّ فِى ذَٰلِكَ لَرَحْمَةً وَذِكْرَىٰ لِقَوْمٍ يُؤْمِنُونَ",
-        "text_uthmani_transcribed": "Inna fi dhalika la rahmatan wa dhikra li qawmin yu'minun."
-      }
-    ],
-    "text_uthmani": "أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَـٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ إِنَّ فِى ذَٰلِكَ لَرَحْمَةً وَذِكْرَىٰ لِقَوْمٍ يُؤْمِنُونَ",
-    "text_uthmani_transcribed": "Awalam yakfihim annā anzalnā 'alaikal-kitāba yutlā 'alaihim, inna fī żālika laraḥmataw wa żikrā liqaumiy yu'minūn(a)."
+    "translation": "Genügt es ihnen denn nicht, daß Wir das Buch auf dich hinabgesandt haben, das ihnen verlesen wird?",
+    "arabic": "أَوَلَمْ يَكْفِهِمْ أَنَّآ أَنزَلْنَا عَلَيْكَ ٱلْكِتَـٰبَ يُتْلَىٰ عَلَيْهِمْ ۚ",
+    "transcription": "Awa lam yakfihim anna anzalna 'alayka al-kitaba yutla 'alayhim?"
   },
   {
+    "index": 92,
+    "verse_number": 51,
+    "translation": "Darin ist wahrlich eine Barmherzigkeit und eine Ermahnung für Leute, die glauben.",
+    "arabic": "إِنَّ فِى ذَٰلِكَ لَرَحْمَةً وَذِكْرَىٰ لِقَوْمٍ يُؤْمِنُونَ",
+    "transcription": "Inna fi dhalika la rahmatan wa dhikra li qawmin yu'minun."
+  },
+  {
+    "index": 93,
     "verse_number": 52,
-    "translation": "Sag: Allah genügt zwischen mir und euch als Zeuge. Er weiß, was in den Himmeln und auf der Erde ist. Und diejenigen, die an das Falsche glauben und Allah verleugnen, das sind die Verlierer.",
-    "segmented": [
-      {
-        "translation": "Sag: Allah genügt zwischen mir und euch als Zeuge. Er weiß, was in den Himmeln und auf der Erde ist.",
-        "text_uthmani": "قُلْ كَفَىٰ بِٱللَّهِ بَيْنِى وَبَيْنَكُمْ شَهِيدًا ۖ يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ",
-        "text_uthmani_transcribed": "Qul kafā billāhi baynī wa baynakum shahīdan. Ya'lamu mā fī as-samāwāti wa al-ardi."
-      },
-      {
-        "translation": "Und diejenigen, die an das Falsche glauben und Allah verleugnen, das sind die Verlierer.",
-        "text_uthmani": "وَٱلَّذِينَ ءَامَنُوا۟ بِٱلْبَـٰطِلِ وَكَفَرُوا۟ بِٱللَّهِ أُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
-        "text_uthmani_transcribed": "Wa alladhīna āmanū bil-bātili wa kafarū billāhi, ūlā'ika humu al-khāsirūn."
-      }
-    ],
-    "text_uthmani": "قُلْ كَفَىٰ بِٱللَّهِ بَيْنِى وَبَيْنَكُمْ شَهِيدًا ۖ يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ وَٱلَّذِينَ ءَامَنُوا۟ بِٱلْبَـٰطِلِ وَكَفَرُوا۟ بِٱللَّهِ أُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
-    "text_uthmani_transcribed": "Qul kafā billāhi bainī wa bainakum syahīdā(n), ya'lamu mā fis-samāwāti wal-arḍ(i), wal-lażīna āmanū bil-bāṭili wa kafarū billāhi ulā'ika humul-khāsirūn(a)."
+    "translation": "Sag: Allah genügt zwischen mir und euch als Zeuge. Er weiß, was in den Himmeln und auf der Erde ist.",
+    "arabic": "قُلْ كَفَىٰ بِٱللَّهِ بَيْنِى وَبَيْنَكُمْ شَهِيدًا ۖ يَعْلَمُ مَا فِى ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۗ",
+    "transcription": "Qul kafā billāhi baynī wa baynakum shahīdan. Ya'lamu mā fī as-samāwāti wa al-ardi."
   },
   {
+    "index": 94,
+    "verse_number": 52,
+    "translation": "Und diejenigen, die an das Falsche glauben und Allah verleugnen, das sind die Verlierer.",
+    "arabic": "وَٱلَّذِينَ ءَامَنُوا۟ بِٱلْبَـٰطِلِ وَكَفَرُوا۟ بِٱللَّهِ أُو۟لَـٰٓئِكَ هُمُ ٱلْخَـٰسِرُونَ",
+    "transcription": "Wa alladhīna āmanū bil-bātili wa kafarū billāhi, ūlā'ika humu al-khāsirūn."
+  },
+  {
+    "index": 95,
     "verse_number": 53,
-    "translation": "Und sie wünschen von dir, die Strafe zu beschleunigen. Wenn es nicht eine festgesetzte Frist gäbe, wäre die Strafe wahrlich zu ihnen gekommen. Aber ganz gewiß wird sie plötzlich über sie kommen, ohne daß sie merken.",
-    "segmented": [
-      {
-        "translation": "Und sie wünschen von dir, die Strafe zu beschleunigen. Wenn es nicht eine festgesetzte Frist gäbe, wäre die Strafe wahrlich zu ihnen gekommen.",
-        "text_uthmani": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ ۚ وَلَوْلَآ أَجَلٌ مُّسَمًّى لَّجَآءَهُمُ ٱلْعَذَابُ",
-        "text_uthmani_transcribed": "Wa yasta'jilūnaka bil-'adhābi. Wa lawlā ajalun musamman lajā'ahumu al-'adhābu"
-      },
-      {
-        "translation": "Aber ganz gewiß wird sie plötzlich über sie kommen, ohne daß sie merken.",
-        "text_uthmani": "وَلَيَأْتِيَنَّهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
-        "text_uthmani_transcribed": "Wa laya'tiyannahum baghtatan wa hum lā yash'urūn"
-      }
-    ],
-    "text_uthmani": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ ۚ وَلَوْلَآ أَجَلٌ مُّسَمًّى لَّجَآءَهُمُ ٱلْعَذَابُ وَلَيَأْتِيَنَّهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
-    "text_uthmani_transcribed": "Wa yasta'jilūnaka bil-'ażāb(i), wa lau lā ajalum musammal lajā'ahumul-'ażāb(u), wa laya'tiyannahum bagtataw wa hum lā yasy'urūn(a)."
+    "translation": "Und sie wünschen von dir, die Strafe zu beschleunigen. Wenn es nicht eine festgesetzte Frist gäbe, wäre die Strafe wahrlich zu ihnen gekommen.",
+    "arabic": "وَيَسْتَعْجِلُونَكَ بِٱلْعَذَابِ ۚ وَلَوْلَآ أَجَلٌ مُّسَمًّى لَّجَآءَهُمُ ٱلْعَذَابُ",
+    "transcription": "Wa yasta'jilūnaka bil-'adhābi. Wa lawlā ajalun musamman lajā'ahumu al-'adhābu"
   },
   {
+    "index": 96,
+    "verse_number": 53,
+    "translation": "Aber ganz gewiß wird sie plötzlich über sie kommen, ohne daß sie merken.",
+    "arabic": "وَلَيَأْتِيَنَّهُم بَغْتَةً وَهُمْ لَا يَشْعُرُونَ",
+    "transcription": "Wa laya'tiyannahum baghtatan wa hum lā yash'urūn"
+  },
+  {
+    "index": 97,
     "verse_number": 54,
     "translation": "Sie wünschen von dir, die Strafe zu beschleunigen, doch wahrlich, die Hölle umfaßt die Ungläubigen,",
-    "text_uthmani": "يَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌۢ بِٱلْكَـٰفِرِينَ",
-    "text_uthmani_transcribed": "Yasta'jilūnaka bil-'ażāb(i), wa inna jahannama lamuḥīṭatum bil-kāfirīn(a)."
+    "arabic": "يَسْتَعْجِلُونَكَ بِٱلْعَذَابِ وَإِنَّ جَهَنَّمَ لَمُحِيطَةٌۢ بِٱلْكَـٰفِرِينَ",
+    "transcription": "Yasta'jilūnaka bil-'ażāb(i), wa inna jahannama lamuḥīṭatum bil-kāfirīn(a)."
   },
   {
+    "index": 98,
     "verse_number": 55,
     "translation": "am Tag, da die Strafe sie von oben und von unterhalb ihrer Füße her überdeckt, und Er sagt: „Kostet, was ihr zu tun pflegtet.",
-    "text_uthmani": "يَوْمَ يَغْشَىٰهُمُ ٱلْعَذَابُ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِمْ وَيَقُولُ ذُوقُوا۟ مَا كُنتُمْ تَعْمَلُونَ",
-    "text_uthmani_transcribed": "Yauma yagsyāhumul-'ażābu min fauqihim wa min taḥti arjulihim wa yaqūlu żūqū mā kuntum ta'malūn(a)."
+    "arabic": "يَوْمَ يَغْشَىٰهُمُ ٱلْعَذَابُ مِن فَوْقِهِمْ وَمِن تَحْتِ أَرْجُلِهِمْ وَيَقُولُ ذُوقُوا۟ مَا كُنتُمْ تَعْمَلُونَ",
+    "transcription": "Yauma yagsyāhumul-'ażābu min fauqihim wa min taḥti arjulihim wa yaqūlu żūqū mā kuntum ta'malūn(a)."
   },
   {
+    "index": 99,
     "verse_number": 56,
     "translation": "O Meine Diener, die ihr glaubt, gewiß, Meine Erde ist weit. So dient Mir, ja, allein Mir.",
-    "text_uthmani": "يَـٰعِبَادِىَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ أَرْضِى وَٰسِعَةٌ فَإِيَّـٰىَ فَٱعْبُدُونِ",
-    "text_uthmani_transcribed": "Yā 'ibādiyal-lażīna āmanū inna arḍī wāsi'atun fa iyyāya fa'budūn(i)."
+    "arabic": "يَـٰعِبَادِىَ ٱلَّذِينَ ءَامَنُوٓا۟ إِنَّ أَرْضِى وَٰسِعَةٌ فَإِيَّـٰىَ فَٱعْبُدُونِ",
+    "transcription": "Yā 'ibādiyal-lażīna āmanū inna arḍī wāsi'atun fa iyyāya fa'budūn(i)."
   },
   {
+    "index": 100,
     "verse_number": 57,
     "translation": "Jede Seele wird den Tod kosten. Hierauf werdet ihr zu Uns zurückgebracht.",
-    "text_uthmani": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ ۖ ثُمَّ إِلَيْنَا تُرْجَعُونَ",
-    "text_uthmani_transcribed": "Kullu nafsin żā'iqatul-maut(i), ṡumma ilainā turja'ūn(a)."
+    "arabic": "كُلُّ نَفْسٍ ذَآئِقَةُ ٱلْمَوْتِ ۖ ثُمَّ إِلَيْنَا تُرْجَعُونَ",
+    "transcription": "Kullu nafsin żā'iqatul-maut(i), ṡumma ilainā turja'ūn(a)."
   },
   {
+    "index": 101,
     "verse_number": 58,
-    "translation": "Denjenigen, die glauben und rechtschaffene Werke tun, werden Wir im (Paradies)garten ganz gewiß Obergemächer zuweisen, durcheilt von Bächen; ewig darin zu bleiben. Wie trefflich ist der Lohn derjenigen, die (gut) handeln,",
-    "segmented": [
-      {
-        "translation": "Denjenigen, die glauben",
-        "text_uthmani": "وَٱلَّذِينَ ءَامَنُوا۟",
-        "text_uthmani_transcribed": "Wa alladhīna āmanū"
-      },
-      {
-        "translation": "und rechtschaffene Werke tun, werden Wir im (Paradies)garten ganz gewiß Obergemächer zuweisen, durcheilt von Bächen; ewig darin zu bleiben.",
-        "text_uthmani": "وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُبَوِّئَنَّهُم مِّنَ ٱلْجَنَّةِ غُرَفًا تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا",
-        "text_uthmani_transcribed": "Wa 'amilū aṣ-ṣāliḥāti lanubawwi'annahum mina al-jannati ghurafan tajrī min taḥtihā al-anhāru khālidīna fīhā"
-      },
-      {
-        "translation": "Wie trefflich ist der Lohn derjenigen, die (gut) handeln,",
-        "text_uthmani": "ۚ نِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ",
-        "text_uthmani_transcribed": "Ni'ma ajru al-'āmilīn"
-      }
-    ],
-    "text_uthmani": "وَٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُبَوِّئَنَّهُم مِّنَ ٱلْجَنَّةِ غُرَفًا تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا ۚ نِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ",
-    "text_uthmani_transcribed": "Wal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti lanubawwi'annahum minal-jannati gurafan tajrī min taḥtihal-anhāru khālidīna fīhā, ni'ma ajrul-'āmilīn(a)."
+    "translation": "Denjenigen, die glauben",
+    "arabic": "وَٱلَّذِينَ ءَامَنُوا۟",
+    "transcription": "Wa alladhīna āmanū"
   },
   {
+    "index": 102,
+    "verse_number": 58,
+    "translation": "und rechtschaffene Werke tun, werden Wir im (Paradies)garten ganz gewiß Obergemächer zuweisen, durcheilt von Bächen; ewig darin zu bleiben.",
+    "arabic": "وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَنُبَوِّئَنَّهُم مِّنَ ٱلْجَنَّةِ غُرَفًا تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَا",
+    "transcription": "Wa 'amilū aṣ-ṣāliḥāti lanubawwi'annahum mina al-jannati ghurafan tajrī min taḥtihā al-anhāru khālidīna fīhā"
+  },
+  {
+    "index": 103,
+    "verse_number": 58,
+    "translation": "Wie trefflich ist der Lohn derjenigen, die (gut) handeln,",
+    "arabic": "ۚ نِعْمَ أَجْرُ ٱلْعَـٰمِلِينَ",
+    "transcription": "Ni'ma ajru al-'āmilīn"
+  },
+  {
+    "index": 104,
     "verse_number": 59,
     "translation": "die standhaft sind und sich auf ihren Herrn verlassen.",
-    "text_uthmani": "ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
-    "text_uthmani_transcribed": "Al-lażīna ṣabarū wa 'alā rabbihim yatawakkalūn(a)."
+    "arabic": "ٱلَّذِينَ صَبَرُوا۟ وَعَلَىٰ رَبِّهِمْ يَتَوَكَّلُونَ",
+    "transcription": "Al-lażīna ṣabarū wa 'alā rabbihim yatawakkalūn(a)."
   },
   {
+    "index": 105,
     "verse_number": 60,
     "translation": "Und wie viele Tiere tragen ihre (eigene) Versorgung nicht herbei! Allah versorgt sie und euch. Und Er ist der Allhörende und Allwissende.",
-    "text_uthmani": "وَكَأَيِّن مِّن دَآبَّةٍ لَّا تَحْمِلُ رِزْقَهَا ٱللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
-    "text_uthmani_transcribed": "Wa ka'ayyim min dābbatil lā taḥmilu rizqahā, allāhu yarzuquhā wa iyyākum, wa huwas-samī'ul-'alīm(u)."
+    "arabic": "وَكَأَيِّن مِّن دَآبَّةٍ لَّا تَحْمِلُ رِزْقَهَا ٱللَّهُ يَرْزُقُهَا وَإِيَّاكُمْ ۚ وَهُوَ ٱلسَّمِيعُ ٱلْعَلِيمُ",
+    "transcription": "Wa ka'ayyim min dābbatil lā taḥmilu rizqahā, allāhu yarzuquhā wa iyyākum, wa huwas-samī'ul-'alīm(u)."
   },
   {
+    "index": 106,
     "verse_number": 61,
-    "translation": "Und wenn du sie fragst, wer die Himmel und die Erde erschaffen und die Sonne und den Mond dienstbar gemacht hat, sagen sie ganz gewiß: Allah. Wie lassen sie sich also abwendig machen?",
-    "segmented": [
-      {
-        "translation": "Und wenn du sie fragst, wer die Himmel und die Erde erschaffen und die Sonne und den Mond dienstbar gemacht hat, sagen sie ganz gewiß: Allah.",
-        "text_uthmani": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ لَيَقُولُنَّ ٱللَّهُ ۖ",
-        "text_uthmani_transcribed": "Wa la'in sa'altahum man khalaqa as-samawati wa al-arda wa sakhkhara ash-shamsa wa al-qamara layaqulunna Allah."
-      },
-      {
-        "translation": "Wie lassen sie sich also abwendig machen?",
-        "text_uthmani": "فَأَنَّىٰ يُؤْفَكُونَ",
-        "text_uthmani_transcribed": "Fa'anna yu'fakoon."
-      }
-    ],
-    "text_uthmani": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ لَيَقُولُنَّ ٱللَّهُ ۖ فَأَنَّىٰ يُؤْفَكُونَ",
-    "text_uthmani_transcribed": "Wa la'in sa'altahum man khalaqas-samāwāti wal-arḍa wa sakhkharasy-syamsa wal-qamara layaqūlunnallāh(u), fa'annā yu'fakūn(a)."
+    "translation": "Und wenn du sie fragst, wer die Himmel und die Erde erschaffen und die Sonne und den Mond dienstbar gemacht hat, sagen sie ganz gewiß: Allah.",
+    "arabic": "وَلَئِن سَأَلْتَهُم مَّنْ خَلَقَ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضَ وَسَخَّرَ ٱلشَّمْسَ وَٱلْقَمَرَ لَيَقُولُنَّ ٱللَّهُ ۖ",
+    "transcription": "Wa la'in sa'altahum man khalaqa as-samawati wa al-arda wa sakhkhara ash-shamsa wa al-qamara layaqulunna Allah."
   },
   {
+    "index": 107,
+    "verse_number": 61,
+    "translation": "Wie lassen sie sich also abwendig machen?",
+    "arabic": "فَأَنَّىٰ يُؤْفَكُونَ",
+    "transcription": "Fa'anna yu'fakoon."
+  },
+  {
+    "index": 108,
     "verse_number": 62,
     "translation": "Allah gewährt die Versorgung großzügig, wem von Seinen Dienern Er will, und bemißt ihm auch. Gewiß, Allah weiß über alles Bescheid.",
-    "text_uthmani": "ٱللَّهُ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ لَهُۥٓ ۚ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
-    "text_uthmani_transcribed": "Allāhu yabsuṭur-rizqa limay yasyā'u min 'ibādihī wa yaqdiru lah(ū), innallāha bikulli syai'in 'alīm(un)."
+    "arabic": "ٱللَّهُ يَبْسُطُ ٱلرِّزْقَ لِمَن يَشَآءُ مِنْ عِبَادِهِۦ وَيَقْدِرُ لَهُۥٓ ۚ إِنَّ ٱللَّهَ بِكُلِّ شَىْءٍ عَلِيمٌ",
+    "transcription": "Allāhu yabsuṭur-rizqa limay yasyā'u min 'ibādihī wa yaqdiru lah(ū), innallāha bikulli syai'in 'alīm(un)."
   },
   {
+    "index": 109,
     "verse_number": 63,
-    "translation": "Und wenn du sie fragst, wer vom Himmel Wasser herabkommen läßt und dann damit die Erde nach ihrem Tod wieder lebendig macht, sagen sie ganz gewiß: „Allah. Sag: (Alles) Lob gehört Allah! Aber nein! Die meisten von ihnen begreifen nicht.",
-    "segmented": [
-      {
-        "translation": "Und wenn du sie fragst, wer vom Himmel Wasser herabkommen läßt",
-        "text_uthmani": "وَلَئِن سَأَلْتَهُم مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءً",
-        "text_uthmani_transcribed": "Wa la'in sa'altahum man nazzala mina alssama'i ma'an"
-      },
-      {
-        "translation": "und dann damit die Erde nach ihrem Tod wieder lebendig macht, sagen sie ganz gewiß: „Allah.",
-        "text_uthmani": "فَأَحْيَا بِهِ ٱلْأَرْضَ مِنۢ بَعْدِ مَوْتِهَا لَيَقُولُنَّ ٱللَّهُ",
-        "text_uthmani_transcribed": "fa'ahya bihi al-arda min ba'di mawtiha layaqoolunna Allah"
-      },
-      {
-        "translation": "Sag: (Alles) Lob gehört Allah! Aber nein! Die meisten von ihnen begreifen nicht.",
-        "text_uthmani": "ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ",
-        "text_uthmani_transcribed": "Quli alhamdu lillahi bal aktharuhum la ya'qiloon"
-      }
-    ],
-    "text_uthmani": "وَلَئِن سَأَلْتَهُم مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءً فَأَحْيَا بِهِ ٱلْأَرْضَ مِنۢ بَعْدِ مَوْتِهَا لَيَقُولُنَّ ٱللَّهُ ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ",
-    "text_uthmani_transcribed": "Wa la'in sa'altahum man nazzala minas-samā'i mā'an fa'aḥyā bihil-arḍa mim ba'di mautihā layaqūlunnallāh(u), qulil-ḥamdu lillāh(i), bal akṡaruhum lā ya'qilūn(a)."
+    "translation": "Und wenn du sie fragst, wer vom Himmel Wasser herabkommen läßt",
+    "arabic": "وَلَئِن سَأَلْتَهُم مَّن نَّزَّلَ مِنَ ٱلسَّمَآءِ مَآءً",
+    "transcription": "Wa la'in sa'altahum man nazzala mina alssama'i ma'an"
   },
   {
+    "index": 110,
+    "verse_number": 63,
+    "translation": "und dann damit die Erde nach ihrem Tod wieder lebendig macht, sagen sie ganz gewiß: „Allah.",
+    "arabic": "فَأَحْيَا بِهِ ٱلْأَرْضَ مِنۢ بَعْدِ مَوْتِهَا لَيَقُولُنَّ ٱللَّهُ",
+    "transcription": "fa'ahya bihi al-arda min ba'di mawtiha layaqoolunna Allah"
+  },
+  {
+    "index": 111,
+    "verse_number": 63,
+    "translation": "Sag: (Alles) Lob gehört Allah! Aber nein! Die meisten von ihnen begreifen nicht.",
+    "arabic": "ۚ قُلِ ٱلْحَمْدُ لِلَّهِ ۚ بَلْ أَكْثَرُهُمْ لَا يَعْقِلُونَ",
+    "transcription": "Quli alhamdu lillahi bal aktharuhum la ya'qiloon"
+  },
+  {
+    "index": 112,
     "verse_number": 64,
-    "translation": "Dieses irdische Leben ist nur Zerstreuung und Spiel. Die jenseitige Wohnstätte aber ist wahrlich das eigentliche Leben, wenn sie (es) nur wüßten!",
-    "segmented": [
-      {
-        "translation": "Dieses irdische Leben ist nur Zerstreuung und Spiel.",
-        "text_uthmani": "وَمَا هَـٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَهْوٌ وَلَعِبٌ ۚ",
-        "text_uthmani_transcribed": "Wa ma hadhihi alhayatu aldunya illa lahwun wala'ibun."
-      },
-      {
-        "translation": "Die jenseitige Wohnstätte aber ist wahrlich das eigentliche Leben, wenn sie (es) nur wüßten!",
-        "text_uthmani": "وَإِنَّ ٱلدَّارَ ٱلْـَٔاخِرَةَ لَهِىَ ٱلْحَيَوَانُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
-        "text_uthmani_transcribed": "Wa inna addara alakhirata lahiya alhayawanu. Law kanu ya'lamun."
-      }
-    ],
-    "text_uthmani": "وَمَا هَـٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَهْوٌ وَلَعِبٌ ۚ وَإِنَّ ٱلدَّارَ ٱلْـَٔاخِرَةَ لَهِىَ ٱلْحَيَوَانُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
-    "text_uthmani_transcribed": "Wa mā hāżihil-ḥayātud-dun-yā illā lahwuw wa la'ib(un), wa innad-dāral-ākhirata  lahiyal-ḥayawān(u), lau kānū ya'lamūn(a)."
+    "translation": "Dieses irdische Leben ist nur Zerstreuung und Spiel.",
+    "arabic": "وَمَا هَـٰذِهِ ٱلْحَيَوٰةُ ٱلدُّنْيَآ إِلَّا لَهْوٌ وَلَعِبٌ ۚ",
+    "transcription": "Wa ma hadhihi alhayatu aldunya illa lahwun wala'ibun."
   },
   {
+    "index": 113,
+    "verse_number": 64,
+    "translation": "Die jenseitige Wohnstätte aber ist wahrlich das eigentliche Leben, wenn sie (es) nur wüßten!",
+    "arabic": "وَإِنَّ ٱلدَّارَ ٱلْـَٔاخِرَةَ لَهِىَ ٱلْحَيَوَانُ ۚ لَوْ كَانُوا۟ يَعْلَمُونَ",
+    "transcription": "Wa inna addara alakhirata lahiya alhayawanu. Law kanu ya'lamun."
+  },
+  {
+    "index": 114,
     "verse_number": 65,
-    "translation": "Wenn sie ein Schiff besteigen, rufen sie Allah an, (wobei sie) Ihm gegenüber aufrichtig in der Religion (sind). Wenn Er sie nun ans Land errettet, gesellen sie sogleich (Ihm wieder andere) bei,",
-    "segmented": [
-      {
-        "translation": "Wenn sie ein Schiff besteigen, rufen sie Allah an, (wobei sie) Ihm gegenüber aufrichtig in der Religion (sind).",
-        "text_uthmani": "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ",
-        "text_uthmani_transcribed": "Fa idha rakibū fī al-fulki da'awu Allāha mukhliṣīna lahu ad-dīna"
-      },
-      {
-        "translation": "Wenn Er sie nun ans Land errettet, gesellen sie sogleich (Ihm wieder andere) bei,",
-        "text_uthmani": "فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
-        "text_uthmani_transcribed": "Falammā najjāhum ilā al-barri idhā hum yushrikūn"
-      }
-    ],
-    "text_uthmani": "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
-    "text_uthmani_transcribed": "Fa'iżā rakibū fil-fulki da'awullāha mukhliṣīna lahud-dīn(a), falammā najjāhum ilal-barri iżā hum yusyrikūn(a)."
+    "translation": "Wenn sie ein Schiff besteigen, rufen sie Allah an, (wobei sie) Ihm gegenüber aufrichtig in der Religion (sind).",
+    "arabic": "فَإِذَا رَكِبُوا۟ فِى ٱلْفُلْكِ دَعَوُا۟ ٱللَّهَ مُخْلِصِينَ لَهُ ٱلدِّينَ",
+    "transcription": "Fa idha rakibū fī al-fulki da'awu Allāha mukhliṣīna lahu ad-dīna"
   },
   {
+    "index": 115,
+    "verse_number": 65,
+    "translation": "Wenn Er sie nun ans Land errettet, gesellen sie sogleich (Ihm wieder andere) bei,",
+    "arabic": "فَلَمَّا نَجَّىٰهُمْ إِلَى ٱلْبَرِّ إِذَا هُمْ يُشْرِكُونَ",
+    "transcription": "Falammā najjāhum ilā al-barri idhā hum yushrikūn"
+  },
+  {
+    "index": 116,
     "verse_number": 66,
     "translation": "um undankbar zu sein für das, was Wir ihnen gegeben haben, und um zu genießen; sie werden (es noch) erfahren.",
-    "text_uthmani": "لِيَكْفُرُوا۟ بِمَآ ءَاتَيْنَـٰهُمْ وَلِيَتَمَتَّعُوا۟ ۖ فَسَوْفَ يَعْلَمُونَ",
-    "text_uthmani_transcribed": "Liyakfurū bimā ātaināhum wa liyatamatta'ū, fasaufa ya'lamūn(a)."
+    "arabic": "لِيَكْفُرُوا۟ بِمَآ ءَاتَيْنَـٰهُمْ وَلِيَتَمَتَّعُوا۟ ۖ فَسَوْفَ يَعْلَمُونَ",
+    "transcription": "Liyakfurū bimā ātaināhum wa liyatamatta'ū, fasaufa ya'lamūn(a)."
   },
   {
+    "index": 117,
     "verse_number": 67,
-    "translation": "Sehen sie denn nicht, daß Wir einen sicheren geschützten Bezirk gemacht haben, während die Menschen in ihrer Umgebung fortgerissen werden? Wollen sie denn an das Falsche glauben und Allahs Gunst verleugnen?",
-    "segmented": [
-      {
-        "translation": "Sehen sie denn nicht, daß Wir einen sicheren geschützten Bezirk gemacht haben, während die Menschen in ihrer Umgebung fortgerissen werden?",
-        "text_uthmani": "أَوَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا حَرَمًا ءَامِنًا وَيُتَخَطَّفُ ٱلنَّاسُ مِنْ حَوْلِهِمْ ۚ",
-        "text_uthmani_transcribed": "Awa lam yaraw anna ja'alna haraman aaminan wa yutakhattafu alnnasu min hawlihim?"
-      },
-      {
-        "translation": "Wollen sie denn an das Falsche glauben und Allahs Gunst verleugnen?",
-        "text_uthmani": "أَفَبِٱلْبَـٰطِلِ يُؤْمِنُونَ وَبِنِعْمَةِ ٱللَّهِ يَكْفُرُونَ",
-        "text_uthmani_transcribed": "Afabilbatili yu'minoona wabini'mati Allahi yakfuroon?"
-      }
-    ],
-    "text_uthmani": "أَوَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا حَرَمًا ءَامِنًا وَيُتَخَطَّفُ ٱلنَّاسُ مِنْ حَوْلِهِمْ ۚ أَفَبِٱلْبَـٰطِلِ يُؤْمِنُونَ وَبِنِعْمَةِ ٱللَّهِ يَكْفُرُونَ",
-    "text_uthmani_transcribed": "Awalam yarau annā ja'alnā ḥaraman āminaw wa yutakhaṭṭafun-nāsu min ḥaulihim, afabil-bāṭili yu'minūna wa bini'matillāhi yakfurūn(a)."
+    "translation": "Sehen sie denn nicht, daß Wir einen sicheren geschützten Bezirk gemacht haben, während die Menschen in ihrer Umgebung fortgerissen werden?",
+    "arabic": "أَوَلَمْ يَرَوْا۟ أَنَّا جَعَلْنَا حَرَمًا ءَامِنًا وَيُتَخَطَّفُ ٱلنَّاسُ مِنْ حَوْلِهِمْ ۚ",
+    "transcription": "Awa lam yaraw anna ja'alna haraman aaminan wa yutakhattafu alnnasu min hawlihim?"
   },
   {
+    "index": 118,
+    "verse_number": 67,
+    "translation": "Wollen sie denn an das Falsche glauben und Allahs Gunst verleugnen?",
+    "arabic": "أَفَبِٱلْبَـٰطِلِ يُؤْمِنُونَ وَبِنِعْمَةِ ٱللَّهِ يَكْفُرُونَ",
+    "transcription": "Afabilbatili yu'minoona wabini'mati Allahi yakfuroon?"
+  },
+  {
+    "index": 119,
     "verse_number": 68,
-    "translation": "Und wer ist ungerechter als jemand, der gegen Allah eine Lüge ersinnt oder die Wahrheit, nachdem sie zu ihm gekommen ist, für Lüge erklärt? Ist nicht in der Hölle ein Aufenthaltsort für die Ungläubigen?",
-    "segmented": [
-      {
-        "translation": "Und wer ist ungerechter als jemand, der gegen Allah eine Lüge ersinnt oder die Wahrheit, nachdem sie zu ihm gekommen ist, für Lüge erklärt?",
-        "text_uthmani": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِٱلْحَقِّ لَمَّا جَآءَهُۥٓ",
-        "text_uthmani_transcribed": "Wa man adhlamu mimmani iftaraa 'ala Allahi kadhiban aw kaddaba bilhaqqi lamma jaa'ahu"
-      },
-      {
-        "translation": "Ist nicht in der Hölle ein Aufenthaltsort für die Ungläubigen?",
-        "text_uthmani": "ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْكَـٰفِرِينَ",
-        "text_uthmani_transcribed": "Alaysa fi jahannama mathwan lilkaafireen"
-      }
-    ],
-    "text_uthmani": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِٱلْحَقِّ لَمَّا جَآءَهُۥٓ ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْكَـٰفِرِينَ",
-    "text_uthmani_transcribed": "Wa man aẓlamu mimmaniftarā 'alallāhi każiban au każżaba bil-ḥaqqi lammā jā'ah(ū), alaisa fī jahannama maṡwal lil-kāfirīn(a)."
+    "translation": "Und wer ist ungerechter als jemand, der gegen Allah eine Lüge ersinnt oder die Wahrheit, nachdem sie zu ihm gekommen ist, für Lüge erklärt?",
+    "arabic": "وَمَنْ أَظْلَمُ مِمَّنِ ٱفْتَرَىٰ عَلَى ٱللَّهِ كَذِبًا أَوْ كَذَّبَ بِٱلْحَقِّ لَمَّا جَآءَهُۥٓ",
+    "transcription": "Wa man adhlamu mimmani iftaraa 'ala Allahi kadhiban aw kaddaba bilhaqqi lamma jaa'ahu"
   },
   {
+    "index": 120,
+    "verse_number": 68,
+    "translation": "Ist nicht in der Hölle ein Aufenthaltsort für die Ungläubigen?",
+    "arabic": "ۚ أَلَيْسَ فِى جَهَنَّمَ مَثْوًى لِّلْكَـٰفِرِينَ",
+    "transcription": "Alaysa fi jahannama mathwan lilkaafireen"
+  },
+  {
+    "index": 121,
     "verse_number": 69,
     "translation": "Diejenigen aber, die sich um Unsertwillen abmühen, werden Wir ganz gewiß Unsere Wege leiten. Und Allah ist wahrlich mit den Gutes Tuenden.",
-    "text_uthmani": "وَٱلَّذِينَ جَـٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ",
-    "text_uthmani_transcribed": "Wal-lażīna jāhadū fīnā lanahdiyannahum subulanā, wa innallāha lama'al-muḥsinīn(a)."
+    "arabic": "وَٱلَّذِينَ جَـٰهَدُوا۟ فِينَا لَنَهْدِيَنَّهُمْ سُبُلَنَا ۚ وَإِنَّ ٱللَّهَ لَمَعَ ٱلْمُحْسِنِينَ",
+    "transcription": "Wal-lażīna jāhadū fīnā lanahdiyannahum subulanā, wa innallāha lama'al-muḥsinīn(a)."
   }
 ]

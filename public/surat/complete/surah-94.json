@@ -130,27 +130,27 @@
         {
           "id": 96048,
           "resource_id": 19,
-          "text": "Have We not caused thy bosom to dilate,"
+          "translation": "Have We not caused thy bosom to dilate,"
         },
         {
           "id": 370378,
           "resource_id": 79,
-          "text": "(досл.) Разве Мы не раскрыли тебе (о, Пророк) грудь [душу] твою (даровав тебе Веру, пророчество, знание и мудрость)?"
+          "translation": "(досл.) Разве Мы не раскрыли тебе (о, Пророк) грудь [душу] твою (даровав тебе Веру, пророчество, знание и мудрость)?"
         },
         {
           "id": 256325,
           "resource_id": 45,
-          "text": "Разве Мы не раскрыли для тебя грудь твою?"
+          "translation": "Разве Мы не раскрыли для тебя грудь твою?"
         },
         {
           "id": 145177,
           "resource_id": 27,
-          "text": "Haben Wir dir nicht deine Brust aufgetan"
+          "translation": "Haben Wir dir nicht deine Brust aufgetan"
         },
         {
           "id": 9416488,
           "resource_id": 445,
-          "text": "Мы разве не раскрыли грудь твою"
+          "translation": "Мы разве не раскрыли грудь твою"
         }
       ],
       "verse_key": "94:1",
@@ -165,7 +165,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮥ",
-          "text_uthmani": "أَلَمْ",
           "translation": {
             "language_name": "english",
             "text": "Have not"
@@ -173,7 +172,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alam"
-          }
+          },
+          "arabic": "أَلَمْ"
         },
         {
           "audio_url": "wbw/094_001_002.mp3",
@@ -184,7 +184,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮦ",
-          "text_uthmani": "نَشْرَحْ",
           "translation": {
             "language_name": "english",
             "text": "We expanded"
@@ -192,7 +191,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "nashraḥ"
-          }
+          },
+          "arabic": "نَشْرَحْ"
         },
         {
           "audio_url": "wbw/094_001_003.mp3",
@@ -203,7 +203,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮧ",
-          "text_uthmani": "لَكَ",
           "translation": {
             "language_name": "english",
             "text": "for you"
@@ -211,7 +210,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "laka"
-          }
+          },
+          "arabic": "لَكَ"
         },
         {
           "audio_url": "wbw/094_001_004.mp3",
@@ -222,7 +222,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮨ",
-          "text_uthmani": "صَدْرَكَ",
           "translation": {
             "language_name": "english",
             "text": "your breast"
@@ -230,7 +229,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ṣadraka"
-          }
+          },
+          "arabic": "صَدْرَكَ"
         },
         {
           "audio_url": null,
@@ -241,7 +241,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﮩ",
-          "text_uthmani": "١",
           "translation": {
             "language_name": "english",
             "text": "(1)"
@@ -249,7 +248,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١"
         }
       ]
     },
@@ -266,27 +266,27 @@
         {
           "id": 96050,
           "resource_id": 19,
-          "text": "And eased thee of the burden"
+          "translation": "And eased thee of the burden"
         },
         {
           "id": 370379,
           "resource_id": 79,
-          "text": "И (разве Мы) (этим самым) не сняли с тебя (о, Пророк) твою ношу [[Аллах Всевышний простил тебе все то, что было у тебя до того, как ты стал пророком]],"
+          "translation": "И (разве Мы) (этим самым) не сняли с тебя (о, Пророк) твою ношу [[Аллах Всевышний простил тебе все то, что было у тебя до того, как ты стал пророком]],"
         },
         {
           "id": 256341,
           "resource_id": 45,
-          "text": "и не сняли с тебя ношу,"
+          "translation": "и не сняли с тебя ношу,"
         },
         {
           "id": 141763,
           "resource_id": 27,
-          "text": "und dir deine Last abgenommen,"
+          "translation": "und dir deine Last abgenommen,"
         },
         {
           "id": 9424033,
           "resource_id": 445,
-          "text": "С души твоей не сняли бремя"
+          "translation": "С души твоей не сняли бремя"
         }
       ],
       "verse_key": "94:2",
@@ -301,7 +301,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮪ",
-          "text_uthmani": "وَوَضَعْنَا",
           "translation": {
             "language_name": "english",
             "text": "And We removed"
@@ -309,7 +308,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wawaḍaʿnā"
-          }
+          },
+          "arabic": "وَوَضَعْنَا"
         },
         {
           "audio_url": "wbw/094_002_002.mp3",
@@ -320,7 +320,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮫ",
-          "text_uthmani": "عَنكَ",
           "translation": {
             "language_name": "english",
             "text": "from you"
@@ -328,7 +327,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿanka"
-          }
+          },
+          "arabic": "عَنكَ"
         },
         {
           "audio_url": "wbw/094_002_003.mp3",
@@ -339,7 +339,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮬ",
-          "text_uthmani": "وِزْرَكَ",
           "translation": {
             "language_name": "english",
             "text": "your burden"
@@ -347,7 +346,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wiz'raka"
-          }
+          },
+          "arabic": "وِزْرَكَ"
         },
         {
           "audio_url": null,
@@ -358,7 +358,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮭ",
-          "text_uthmani": "٢",
           "translation": {
             "language_name": "english",
             "text": "(2)"
@@ -366,7 +365,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢"
         }
       ]
     },
@@ -383,27 +383,27 @@
         {
           "id": 96010,
           "resource_id": 19,
-          "text": "Which weighed down thy back;"
+          "translation": "Which weighed down thy back;"
         },
         {
           "id": 370380,
           "resource_id": 79,
-          "text": "которая тяготила твою спину (на протяжении лет до твоего пророчества)?"
+          "translation": "которая тяготила твою спину (на протяжении лет до твоего пророчества)?"
         },
         {
           "id": 256329,
           "resource_id": 45,
-          "text": "которая отягощала твою спину?"
+          "translation": "которая отягощала твою спину?"
         },
         {
           "id": 145179,
           "resource_id": 27,
-          "text": "die deinen Rücken niederdrückte,"
+          "translation": "die deinen Rücken niederdrückte,"
         },
         {
           "id": 9437370,
           "resource_id": 445,
-          "text": "Которое тебе саднило спину"
+          "translation": "Которое тебе саднило спину"
         }
       ],
       "verse_key": "94:3",
@@ -418,7 +418,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﮮ",
-          "text_uthmani": "ٱلَّذِىٓ",
           "translation": {
             "language_name": "english",
             "text": "Which"
@@ -426,7 +425,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alladhī"
-          }
+          },
+          "arabic": "ٱلَّذِىٓ"
         },
         {
           "audio_url": "wbw/094_003_002.mp3",
@@ -437,7 +437,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﮯ",
-          "text_uthmani": "أَنقَضَ",
           "translation": {
             "language_name": "english",
             "text": "weighed upon"
@@ -445,7 +444,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "anqaḍa"
-          }
+          },
+          "arabic": "أَنقَضَ"
         },
         {
           "audio_url": "wbw/094_003_003.mp3",
@@ -456,7 +456,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﮰ",
-          "text_uthmani": "ظَهْرَكَ",
           "translation": {
             "language_name": "english",
             "text": "your back"
@@ -464,7 +463,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ẓahraka"
-          }
+          },
+          "arabic": "ظَهْرَكَ"
         },
         {
           "audio_url": null,
@@ -475,7 +475,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﮱ",
-          "text_uthmani": "٣",
           "translation": {
             "language_name": "english",
             "text": "(3)"
@@ -483,7 +482,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣"
         }
       ]
     },
@@ -500,27 +500,27 @@
         {
           "id": 95959,
           "resource_id": 19,
-          "text": "And exalted thy fame?"
+          "translation": "And exalted thy fame?"
         },
         {
           "id": 370381,
           "resource_id": 79,
-          "text": "И Мы возвысили твое поминание [[Аллах Всевышний возвысил имя пророка Мухаммада в этом мире и в вечном. Это выражается в следующем: Аллах повелел верующим повиноваться Пророку; после произнесения свидетельства «Нет (признания) богом (кого-либо), кроме Аллаха» произносить «Мухаммад – посланник Аллаха»; его имя произносится в азане; и Аллах повелел верующим желать ему благословение и мир.]]."
+          "translation": "И Мы возвысили твое поминание [[Аллах Всевышний возвысил имя пророка Мухаммада в этом мире и в вечном. Это выражается в следующем: Аллах повелел верующим повиноваться Пророку; после произнесения свидетельства «Нет (признания) богом (кого-либо), кроме Аллаха» произносить «Мухаммад – посланник Аллаха»; его имя произносится в азане; и Аллах повелел верующим желать ему благословение и мир.]]."
         },
         {
           "id": 256331,
           "resource_id": 45,
-          "text": "Разве Мы не возвеличили для тебя славу твою?"
+          "translation": "Разве Мы не возвеличили для тебя славу твою?"
         },
         {
           "id": 139839,
           "resource_id": 27,
-          "text": "und dir dein Ansehen erhöht?"
+          "translation": "und dir dein Ansehen erhöht?"
         },
         {
           "id": 9448036,
           "resource_id": 445,
-          "text": "И не возвысили ту честь, к которой ты приставлен"
+          "translation": "И не возвысили ту честь, к которой ты приставлен"
         }
       ],
       "verse_key": "94:4",
@@ -535,7 +535,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﯓ",
-          "text_uthmani": "وَرَفَعْنَا",
           "translation": {
             "language_name": "english",
             "text": "And We raised high"
@@ -543,7 +542,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "warafaʿnā"
-          }
+          },
+          "arabic": "وَرَفَعْنَا"
         },
         {
           "audio_url": "wbw/094_004_002.mp3",
@@ -554,7 +554,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﯔ",
-          "text_uthmani": "لَكَ",
           "translation": {
             "language_name": "english",
             "text": "for you"
@@ -562,7 +561,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "laka"
-          }
+          },
+          "arabic": "لَكَ"
         },
         {
           "audio_url": "wbw/094_004_003.mp3",
@@ -573,7 +573,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﯕ",
-          "text_uthmani": "ذِكْرَكَ",
           "translation": {
             "language_name": "english",
             "text": "your reputation"
@@ -581,7 +580,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "dhik'raka"
-          }
+          },
+          "arabic": "ذِكْرَكَ"
         },
         {
           "audio_url": null,
@@ -592,7 +592,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﯖ",
-          "text_uthmani": "٤",
           "translation": {
             "language_name": "english",
             "text": "(4)"
@@ -600,7 +599,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٤"
         }
       ]
     },
@@ -617,27 +617,27 @@
         {
           "id": 96053,
           "resource_id": 19,
-          "text": "But lo! with hardship goeth ease,"
+          "translation": "But lo! with hardship goeth ease,"
         },
         {
           "id": 370382,
           "resource_id": 79,
-          "text": "Ведь, поистине, с тягостью легкость [после трудностей наступает облегчение], –"
+          "translation": "Ведь, поистине, с тягостью легкость [после трудностей наступает облегчение], –"
         },
         {
           "id": 256333,
           "resource_id": 45,
-          "text": "Воистину, за каждой тягостью наступает облегчение."
+          "translation": "Воистину, за каждой тягостью наступает облегчение."
         },
         {
           "id": 145182,
           "resource_id": 27,
-          "text": "Also gewiß, mit der Erschwernis ist Erleichterung,"
+          "translation": "Also gewiß, mit der Erschwernis ist Erleichterung,"
         },
         {
           "id": 9451829,
           "resource_id": 445,
-          "text": "Ведь, истинно, За каждой тягостью наступит облегченье"
+          "translation": "Ведь, истинно, За каждой тягостью наступит облегченье"
         }
       ],
       "verse_key": "94:5",
@@ -652,7 +652,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﯗ",
-          "text_uthmani": "فَإِنَّ",
           "translation": {
             "language_name": "english",
             "text": "So indeed"
@@ -660,7 +659,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-inna"
-          }
+          },
+          "arabic": "فَإِنَّ"
         },
         {
           "audio_url": "wbw/094_005_002.mp3",
@@ -671,7 +671,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﯘ",
-          "text_uthmani": "مَعَ",
           "translation": {
             "language_name": "english",
             "text": "with"
@@ -679,7 +678,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "maʿa"
-          }
+          },
+          "arabic": "مَعَ"
         },
         {
           "audio_url": "wbw/094_005_003.mp3",
@@ -690,7 +690,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﯙ",
-          "text_uthmani": "ٱلْعُسْرِ",
           "translation": {
             "language_name": "english",
             "text": "the hardship"
@@ -698,7 +697,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ʿus'ri"
-          }
+          },
+          "arabic": "ٱلْعُسْرِ"
         },
         {
           "audio_url": "wbw/094_005_004.mp3",
@@ -709,7 +709,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﯚ",
-          "text_uthmani": "يُسْرًا",
           "translation": {
             "language_name": "english",
             "text": "(is) ease"
@@ -717,7 +716,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yus'ran"
-          }
+          },
+          "arabic": "يُسْرًا"
         },
         {
           "audio_url": null,
@@ -728,7 +728,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﯛ",
-          "text_uthmani": "٥",
           "translation": {
             "language_name": "english",
             "text": "(5)"
@@ -736,7 +735,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٥"
         }
       ]
     },
@@ -753,27 +753,27 @@
         {
           "id": 96055,
           "resource_id": 19,
-          "text": "Lo! with hardship goeth ease;"
+          "translation": "Lo! with hardship goeth ease;"
         },
         {
           "id": 370383,
           "resource_id": 79,
-          "text": "поистине, с тягостью легкость [после трудностей наступает облегчение]!"
+          "translation": "поистине, с тягостью легкость [после трудностей наступает облегчение]!"
         },
         {
           "id": 256335,
           "resource_id": 45,
-          "text": "За каждой тягостью наступает облегчение."
+          "translation": "За каждой тягостью наступает облегчение."
         },
         {
           "id": 145186,
           "resource_id": 27,
-          "text": "gewiß, mit der Erschwernis ist Erleichterung."
+          "translation": "gewiß, mit der Erschwernis ist Erleichterung."
         },
         {
           "id": 9469638,
           "resource_id": 445,
-          "text": "Поистине, За каждой тягостью настанет облегченье"
+          "translation": "Поистине, За каждой тягостью настанет облегченье"
         }
       ],
       "verse_key": "94:6",
@@ -788,7 +788,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﯜ",
-          "text_uthmani": "إِنَّ",
           "translation": {
             "language_name": "english",
             "text": "Indeed"
@@ -796,7 +795,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "inna"
-          }
+          },
+          "arabic": "إِنَّ"
         },
         {
           "audio_url": "wbw/094_006_002.mp3",
@@ -807,7 +807,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﯝ",
-          "text_uthmani": "مَعَ",
           "translation": {
             "language_name": "english",
             "text": "with"
@@ -815,7 +814,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "maʿa"
-          }
+          },
+          "arabic": "مَعَ"
         },
         {
           "audio_url": "wbw/094_006_003.mp3",
@@ -826,7 +826,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﯞ",
-          "text_uthmani": "ٱلْعُسْرِ",
           "translation": {
             "language_name": "english",
             "text": "the hardship"
@@ -834,7 +833,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ʿus'ri"
-          }
+          },
+          "arabic": "ٱلْعُسْرِ"
         },
         {
           "audio_url": "wbw/094_006_004.mp3",
@@ -845,7 +845,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﯟ",
-          "text_uthmani": "يُسْرًۭا",
           "translation": {
             "language_name": "english",
             "text": "(is) ease"
@@ -853,7 +852,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yus'ran"
-          }
+          },
+          "arabic": "يُسْرًۭا"
         },
         {
           "audio_url": null,
@@ -864,7 +864,6 @@
           "page_number": 596,
           "position": 5,
           "text": "ﯠ",
-          "text_uthmani": "٦",
           "translation": {
             "language_name": "english",
             "text": "(6)"
@@ -872,7 +871,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٦"
         }
       ]
     },
@@ -889,27 +889,27 @@
         {
           "id": 96057,
           "resource_id": 19,
-          "text": "So when thou art relieved, still toil"
+          "translation": "So when thou art relieved, still toil"
         },
         {
           "id": 370384,
           "resource_id": 79,
-          "text": "И когда ты освободишься (от своих обязанностей как молитва, доведение истины людям, сражение с многобожниками), то труждайся [усердствуй обращаясь к Аллаху с мольбой и проси у Него то, что пожелаешь]"
+          "translation": "И когда ты освободишься (от своих обязанностей как молитва, доведение истины людям, сражение с многобожниками), то труждайся [усердствуй обращаясь к Аллаху с мольбой и проси у Него то, что пожелаешь]"
         },
         {
           "id": 256309,
           "resource_id": 45,
-          "text": "Посему, как только освободишься, будь деятелен (как только освободишься от мирских дел, усердно поклоняйся Аллаху, или как только завершишь намаз, усердно взывай к Аллаху с молитвами)"
+          "translation": "Посему, как только освободишься, будь деятелен (как только освободишься от мирских дел, усердно поклоняйся Аллаху, или как только завершишь намаз, усердно взывай к Аллаху с молитвами)"
         },
         {
           "id": 145194,
           "resource_id": 27,
-          "text": "Wenn du nun fertig bist, dann strenge dich an"
+          "translation": "Wenn du nun fertig bist, dann strenge dich an"
         },
         {
           "id": 9474731,
           "resource_id": 445,
-          "text": "И вот когда покончишь (с тяготой в молитве), Трудиться продолжай и дальше"
+          "translation": "И вот когда покончишь (с тяготой в молитве), Трудиться продолжай и дальше"
         }
       ],
       "verse_key": "94:7",
@@ -924,7 +924,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﯡ",
-          "text_uthmani": "فَإِذَا",
           "translation": {
             "language_name": "english",
             "text": "So when"
@@ -932,7 +931,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-idhā"
-          }
+          },
+          "arabic": "فَإِذَا"
         },
         {
           "audio_url": "wbw/094_007_002.mp3",
@@ -943,7 +943,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﯢ",
-          "text_uthmani": "فَرَغْتَ",
           "translation": {
             "language_name": "english",
             "text": "you have finished"
@@ -951,7 +950,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "faraghta"
-          }
+          },
+          "arabic": "فَرَغْتَ"
         },
         {
           "audio_url": "wbw/094_007_003.mp3",
@@ -962,7 +962,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﯣ",
-          "text_uthmani": "فَٱنصَبْ",
           "translation": {
             "language_name": "english",
             "text": "then labor hard"
@@ -970,7 +969,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-inṣab"
-          }
+          },
+          "arabic": "فَٱنصَبْ"
         },
         {
           "audio_url": null,
@@ -981,7 +981,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﯤ",
-          "text_uthmani": "٧",
           "translation": {
             "language_name": "english",
             "text": "(7)"
@@ -989,7 +988,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٧"
         }
       ]
     },
@@ -1006,27 +1006,27 @@
         {
           "id": 96059,
           "resource_id": 19,
-          "text": "And strive to please thy Lord."
+          "translation": "And strive to please thy Lord."
         },
         {
           "id": 370385,
           "resource_id": 79,
-          "text": "и к твоему Господу устремляйся [стремись к Аллаху, избегая Ада и желая Рая]!"
+          "translation": "и к твоему Господу устремляйся [стремись к Аллаху, избегая Ада и желая Рая]!"
         },
         {
           "id": 256338,
           "resource_id": 45,
-          "text": "и устремись к своему Господу."
+          "translation": "и устремись к своему Господу."
         },
         {
           "id": 145190,
           "resource_id": 27,
-          "text": "und nach deinem Herrn richte dein Begehren aus."
+          "translation": "und nach deinem Herrn richte dein Begehren aus."
         },
         {
           "id": 9485108,
           "resource_id": 445,
-          "text": "И все усилия Владыке своему направь"
+          "translation": "И все усилия Владыке своему направь"
         }
       ],
       "verse_key": "94:8",
@@ -1041,7 +1041,6 @@
           "page_number": 596,
           "position": 1,
           "text": "ﯥ",
-          "text_uthmani": "وَإِلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "And to"
@@ -1049,7 +1048,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wa-ilā"
-          }
+          },
+          "arabic": "وَإِلَىٰ"
         },
         {
           "audio_url": "wbw/094_008_002.mp3",
@@ -1060,7 +1060,6 @@
           "page_number": 596,
           "position": 2,
           "text": "ﯦ",
-          "text_uthmani": "رَبِّكَ",
           "translation": {
             "language_name": "english",
             "text": "your Lord"
@@ -1068,7 +1067,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rabbika"
-          }
+          },
+          "arabic": "رَبِّكَ"
         },
         {
           "audio_url": "wbw/094_008_003.mp3",
@@ -1079,7 +1079,6 @@
           "page_number": 596,
           "position": 3,
           "text": "ﯧ",
-          "text_uthmani": "فَٱرْغَب",
           "translation": {
             "language_name": "english",
             "text": "turn your attention"
@@ -1087,7 +1086,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-ir'ghab"
-          }
+          },
+          "arabic": "فَٱرْغَب"
         },
         {
           "audio_url": null,
@@ -1098,7 +1098,6 @@
           "page_number": 596,
           "position": 4,
           "text": "ﯨ",
-          "text_uthmani": "٨",
           "translation": {
             "language_name": "english",
             "text": "(8)"
@@ -1106,7 +1105,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٨"
         }
       ]
     }

@@ -1,306 +1,254 @@
 [
   {
+    "index": 1,
     "verse_number": 1,
-    "translation": "O Prophet, wenn ihr euch von Frauen scheidet, dann scheidet euch von ihnen auf ihre Wartezeit hin, und berechnet die Wartezeit. Und fürchtet Allah, euren Herrn. Weist sie nicht aus ihren Häusern aus; sie sollen auch nicht selbst ausziehen, außer, sie begehen etwas klar Abscheuliches. Dies sind Allahs Grenzen. Wer aber Allahs Grenzen übertritt, der fügt sich ja selbst Unrecht zu. Du weißt nicht, vielleicht führt Allah danach eine neue Lage herbei.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 1,
-        "translation": "O Prophet, wenn ihr euch von Frauen scheidet, dann scheidet euch von ihnen auf ihre Wartezeit hin, und berechnet die Wartezeit.",
-        "text_uthmani": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ",
-        "text_uthmani_transcribed": "Yā ayyuhan-nabiyyu iżā ṭallaqtumun-nisā'a fa ṭalliqūhunna li'iddatihinna wa aḥṣul-'iddah(ta),"
-      },
-      {
-        "belongs_to_verse_number": 1,
-        "translation": "Und fürchtet Allah, euren Herrn.",
-        "text_uthmani": "وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ",
-        "text_uthmani_transcribed": "wattaqullāha rabbakum"
-      },
-      {
-        "belongs_to_verse_number": 1,
-        "translation": "Weist sie nicht aus ihren Häusern aus; sie sollen auch nicht selbst ausziehen, außer, sie begehen etwas klar Abscheuliches.",
-        "text_uthmani": "لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ",
-        "text_uthmani_transcribed": "lā tukhrijūhunna mim buyūtihinna wa lā yakhrujna illā ay ya'tīna bifāḥisyatim mubayyinah(tin),"
-      },
-      {
-        "belongs_to_verse_number": 1,
-        "translation": "Dies sind Allahs Grenzen. Wer aber Allahs Grenzen übertritt, der fügt sich ja selbst Unrecht zu.",
-        "text_uthmani": "وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ",
-        "text_uthmani_transcribed": "wa tilka ḥudūdullāh(i), wa may yata'adda ḥudūdallāhi faqad ẓalama nafsah(ū),"
-      },
-      {
-        "belongs_to_verse_number": 1,
-        "translation": "Du weißt nicht, vielleicht führt Allah danach eine neue Lage herbei.",
-        "text_uthmani": "لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
-        "text_uthmani_transcribed": "lā tadrī la'allallāha yuḥdiṡu ba'da żālika amrā(n)."
-      }
-    ],
-    "text_uthmani": " يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
-    "text_uthmani_transcribed": "Yā ayyuhan-nabiyyu iżā ṭallaqtumun-nisā'a fa ṭalliqūhunna li'iddatihinna wa aḥṣul-'iddah(ta), wattaqullāha rabbakum, lā tukhrijūhunna mim buyūtihinna wa lā yakhrujna illā ay ya'tīna bifāḥisyatim mubayyinah(tin), wa tilka ḥudūdullāh(i), wa may yata'adda ḥudūdallāhi faqad ẓalama nafsah(ū), lā tadrī la'allallāha yuḥdiṡu ba'da żālika amrā(n)."
+    "translation": "O Prophet, wenn ihr euch von Frauen scheidet, dann scheidet euch von ihnen auf ihre Wartezeit hin, und berechnet die Wartezeit.",
+    "arabic": "يَـٰٓأَيُّهَا ٱلنَّبِىُّ إِذَا طَلَّقْتُمُ ٱلنِّسَآءَ فَطَلِّقُوهُنَّ لِعِدَّتِهِنَّ وَأَحْصُوا۟ ٱلْعِدَّةَ ۖ",
+    "transcription": "Yā ayyuhan-nabiyyu iżā ṭallaqtumun-nisā'a fa ṭalliqūhunna li'iddatihinna wa aḥṣul-'iddah(ta),"
   },
   {
+    "index": 2,
+    "verse_number": 1,
+    "translation": "Und fürchtet Allah, euren Herrn.",
+    "arabic": "وَٱتَّقُوا۟ ٱللَّهَ رَبَّكُمْ ۖ",
+    "transcription": "wattaqullāha rabbakum"
+  },
+  {
+    "index": 3,
+    "verse_number": 1,
+    "translation": "Weist sie nicht aus ihren Häusern aus; sie sollen auch nicht selbst ausziehen, außer, sie begehen etwas klar Abscheuliches.",
+    "arabic": "لَا تُخْرِجُوهُنَّ مِنۢ بُيُوتِهِنَّ وَلَا يَخْرُجْنَ إِلَّآ أَن يَأْتِينَ بِفَـٰحِشَةٍ مُّبَيِّنَةٍ ۚ",
+    "transcription": "lā tukhrijūhunna mim buyūtihinna wa lā yakhrujna illā ay ya'tīna bifāḥisyatim mubayyinah(tin),"
+  },
+  {
+    "index": 4,
+    "verse_number": 1,
+    "translation": "Dies sind Allahs Grenzen. Wer aber Allahs Grenzen übertritt, der fügt sich ja selbst Unrecht zu.",
+    "arabic": "وَتِلْكَ حُدُودُ ٱللَّهِ ۚ وَمَن يَتَعَدَّ حُدُودَ ٱللَّهِ فَقَدْ ظَلَمَ نَفْسَهُۥ ۚ",
+    "transcription": "wa tilka ḥudūdullāh(i), wa may yata'adda ḥudūdallāhi faqad ẓalama nafsah(ū),"
+  },
+  {
+    "index": 5,
+    "verse_number": 1,
+    "translation": "Du weißt nicht, vielleicht führt Allah danach eine neue Lage herbei.",
+    "arabic": "لَا تَدْرِى لَعَلَّ ٱللَّهَ يُحْدِثُ بَعْدَ ذَٰلِكَ أَمْرًا",
+    "transcription": "lā tadrī la'allallāha yuḥdiṡu ba'da żālika amrā(n)."
+  },
+  {
+    "index": 6,
     "verse_number": 2,
-    "translation": "Wenn sie dann ihre Frist erreichen, so behaltet sie in rechtlicher Weise oder trennt euch von ihnen in rechtlicher Weise. Und nehmt zwei gerechte Personen von euch zu Zeugen, und legt das Zeugnis (in Aufrichtigkeit) um Allahs willen ab. Damit wird ermahnt, wer an Allah und den Jüngsten Tag glaubt. Und wer Allah fürchtet, dem schafft Er einen Ausweg",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 2,
-        "translation": "Wenn sie dann ihre Frist erreichen, so behaltet sie in rechtlicher Weise oder trennt euch von ihnen in rechtlicher Weise.",
-        "text_uthmani": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ",
-        "text_uthmani_transcribed": "Fa iżā balagna ajalahunna fa amsikūhunna bima'rūfin au fāriqūhunna bima'rūfiw"
-      },
-      {
-        "belongs_to_verse_number": 2,
-        "translation": "Und nehmt zwei gerechte Personen von euch zu Zeugen, und legt das Zeugnis (in Aufrichtigkeit) um Allahs willen ab.",
-        "text_uthmani": "وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَـٰدَةَ لِلَّهِ ۚ",
-        "text_uthmani_transcribed": "wa asyhidū żawai 'adlim minkum wa aqīmusy-syahādata lillāh(i),"
-      },
-      {
-        "belongs_to_verse_number": 2,
-        "translation": "Damit wird ermahnt, wer an Allah und den Jüngsten Tag glaubt. Und wer Allah fürchtet, dem schafft Er einen Ausweg",
-        "text_uthmani": "ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا",
-        "text_uthmani_transcribed": "żālikum yū'aẓu bihī man kāna yu'minu billāhi wal-yaumil-ākhir(i), wa may yattaqillāha yaj'al lahū makhrajā(n)."
-      }
-    ],
-    "text_uthmani": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَـٰدَةَ لِلَّهِ ۚ ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا",
-    "text_uthmani_transcribed": "Fa iżā balagna ajalahunna fa amsikūhunna bima'rūfin au fāriqūhunna bima'rūfiw wa asyhidū żawai 'adlim minkum wa aqīmusy-syahādata lillāh(i), żālikum yū'aẓu bihī man kāna yu'minu billāhi wal-yaumil-ākhir(i), wa may yattaqillāha yaj'al lahū makhrajā(n)."
+    "translation": "Wenn sie dann ihre Frist erreichen, so behaltet sie in rechtlicher Weise oder trennt euch von ihnen in rechtlicher Weise.",
+    "arabic": "فَإِذَا بَلَغْنَ أَجَلَهُنَّ فَأَمْسِكُوهُنَّ بِمَعْرُوفٍ أَوْ فَارِقُوهُنَّ بِمَعْرُوفٍ",
+    "transcription": "Fa iżā balagna ajalahunna fa amsikūhunna bima'rūfin au fāriqūhunna bima'rūfiw"
   },
   {
+    "index": 7,
+    "verse_number": 2,
+    "translation": "Und nehmt zwei gerechte Personen von euch zu Zeugen, und legt das Zeugnis (in Aufrichtigkeit) um Allahs willen ab.",
+    "arabic": "وَأَشْهِدُوا۟ ذَوَىْ عَدْلٍ مِّنكُمْ وَأَقِيمُوا۟ ٱلشَّهَـٰدَةَ لِلَّهِ ۚ",
+    "transcription": "wa asyhidū żawai 'adlim minkum wa aqīmusy-syahādata lillāh(i),"
+  },
+  {
+    "index": 8,
+    "verse_number": 2,
+    "translation": "Damit wird ermahnt, wer an Allah und den Jüngsten Tag glaubt. Und wer Allah fürchtet, dem schafft Er einen Ausweg",
+    "arabic": "ذَٰلِكُمْ يُوعَظُ بِهِۦ مَن كَانَ يُؤْمِنُ بِٱللَّهِ وَٱلْيَوْمِ ٱلْـَٔاخِرِ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا",
+    "transcription": "żālikum yū'aẓu bihī man kāna yu'minu billāhi wal-yaumil-ākhir(i), wa may yattaqillāha yaj'al lahū makhrajā(n)."
+  },
+  {
+    "index": 9,
     "verse_number": 3,
-    "translation": "und gewährt ihm Versorgung, von wo (aus) er damit nicht rechnet. Und wer sich auf Allah verläßt, dem ist Er seine Genüge. Allah wird gewiß (die Durchführung) seine(r) Angelegenheit erreichen. Allah legt ja für alles ein Maß fest.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 3,
-        "translation": "und gewährt ihm Versorgung, von wo (aus) er damit nicht rechnet. Und wer sich auf Allah verläßt, dem ist Er seine Genüge.",
-        "text_uthmani": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ",
-        "text_uthmani_transcribed": "Wa yarzuqhu min ḥaiṡu lā yaḥtasib(u), wa may yatawakkal 'alallāhi fa huwa ḥasbuh(ū),"
-      },
-      {
-        "belongs_to_verse_number": 3,
-        "translation": "Allah wird gewiß (die Durchführung) seine(r) Angelegenheit erreichen. Allah legt ja für alles ein Maß fest.",
-        "text_uthmani": "إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍ قَدْرًا",
-        "text_uthmani_transcribed": "innallāha bāligu amrih(ī), qad ja'alallāhu likulli syai'in qadrā(n)."
-      }
-    ],
-    "text_uthmani": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍ قَدْرًا",
-    "text_uthmani_transcribed": "Wa yarzuqhu min ḥaiṡu lā yaḥtasib(u), wa may yatawakkal 'alallāhi fa huwa ḥasbuh(ū), innallāha bāligu amrih(ī), qad ja'alallāhu likulli syai'in qadrā(n)."
+    "translation": "und gewährt ihm Versorgung, von wo (aus) er damit nicht rechnet. Und wer sich auf Allah verläßt, dem ist Er seine Genüge.",
+    "arabic": "وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى ٱللَّهِ فَهُوَ حَسْبُهُۥٓ ۚ",
+    "transcription": "Wa yarzuqhu min ḥaiṡu lā yaḥtasib(u), wa may yatawakkal 'alallāhi fa huwa ḥasbuh(ū),"
   },
   {
+    "index": 10,
+    "verse_number": 3,
+    "translation": "Allah wird gewiß (die Durchführung) seine(r) Angelegenheit erreichen. Allah legt ja für alles ein Maß fest.",
+    "arabic": "إِنَّ ٱللَّهَ بَـٰلِغُ أَمْرِهِۦ ۚ قَدْ جَعَلَ ٱللَّهُ لِكُلِّ شَىْءٍ قَدْرًا",
+    "transcription": "innallāha bāligu amrih(ī), qad ja'alallāhu likulli syai'in qadrā(n)."
+  },
+  {
+    "index": 11,
     "verse_number": 4,
-    "translation": "Und diejenigen von euren Frauen, die keine Monatsblutung mehr erwarten, wenn ihr im Zweifel seid, so ist ihre Wartezeit drei Monate; und ebenso derjenigen, die (noch) keine Monatsblutung haben. Diejenigen, die schwanger sind - ihre Frist ist (erreicht), wenn sie mit dem niederkommen, was sie (in ihren Leibern) tragen. Und wer Allah fürchtet, dem schafft Er in seiner Angelegenheit Erleichterung.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 4,
-        "translation": "Und diejenigen von euren Frauen, die keine Monatsblutung mehr erwarten, wenn ihr im Zweifel seid, so ist ihre Wartezeit drei Monate;",
-        "text_uthmani": "وَٱلَّـٰٓـِٔى يَئِسْنَ مِنَ ٱلْمَحِيضِ مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَـٰثَةُ أَشْهُرٍ",
-        "text_uthmani_transcribed": "Wal-lā'ī ya'isna minal-maḥīḍi min nisā'ikum inirtabtum fa 'iddatuhunna ṡalāṡatu asyhur(in)"
-      },
-      {
-        "belongs_to_verse_number": 4,
-        "translation": "und ebenso derjenigen, die (noch) keine Monatsblutung haben.",
-        "text_uthmani": "وَٱلَّـٰٓـِٔى لَمْ يَحِضْنَ ۚ",
-        "text_uthmani_transcribed": "wal-lā'ī lam yaḥiḍn(a),"
-      },
-      {
-        "belongs_to_verse_number": 4,
-        "translation": "Diejenigen, die schwanger sind - ihre Frist ist (erreicht), wenn sie mit dem niederkommen, was sie (in ihren Leibern) tragen.",
-        "text_uthmani": "وَأُو۟لَـٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ",
-        "text_uthmani_transcribed": "wa ulātul-aḥmāli ajaluhunna ay yaḍa'na ḥamlahunn(a),"
-      },
-      {
-        "belongs_to_verse_number": 4,
-        "translation": "Und wer Allah fürchtet, dem schafft Er in seiner Angelegenheit Erleichterung.",
-        "text_uthmani": "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
-        "text_uthmani_transcribed": "wa may yattaqillāha yaj'al lahū min amrihī yusrā(n)."
-      }
-    ],
-    "text_uthmani": "وَٱلَّـٰٓـِٔى يَئِسْنَ مِنَ ٱلْمَحِيضِ مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَـٰثَةُ أَشْهُرٍ وَٱلَّـٰٓـِٔى لَمْ يَحِضْنَ ۚ وَأُو۟لَـٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
-    "text_uthmani_transcribed": "Wal-lā'ī ya'isna minal-maḥīḍi min nisā'ikum inirtabtum fa 'iddatuhunna ṡalāṡatu asyhur(in), wal-lā'ī lam yaḥiḍn(a), wa ulātul-aḥmāli ajaluhunna ay yaḍa'na ḥamlahunn(a), wa may yattaqillāha yaj'al lahū min amrihī yusrā(n)."
+    "translation": "Und diejenigen von euren Frauen, die keine Monatsblutung mehr erwarten, wenn ihr im Zweifel seid, so ist ihre Wartezeit drei Monate;",
+    "arabic": "وَٱلَّـٰٓـِٔى يَئِسْنَ مِنَ ٱلْمَحِيضِ مِن نِّسَآئِكُمْ إِنِ ٱرْتَبْتُمْ فَعِدَّتُهُنَّ ثَلَـٰثَةُ أَشْهُرٍ",
+    "transcription": "Wal-lā'ī ya'isna minal-maḥīḍi min nisā'ikum inirtabtum fa 'iddatuhunna ṡalāṡatu asyhur(in)"
   },
   {
+    "index": 12,
+    "verse_number": 4,
+    "translation": "und ebenso derjenigen, die (noch) keine Monatsblutung haben.",
+    "arabic": "وَٱلَّـٰٓـِٔى لَمْ يَحِضْنَ ۚ",
+    "transcription": "wal-lā'ī lam yaḥiḍn(a),"
+  },
+  {
+    "index": 13,
+    "verse_number": 4,
+    "translation": "Diejenigen, die schwanger sind - ihre Frist ist (erreicht), wenn sie mit dem niederkommen, was sie (in ihren Leibern) tragen.",
+    "arabic": "وَأُو۟لَـٰتُ ٱلْأَحْمَالِ أَجَلُهُنَّ أَن يَضَعْنَ حَمْلَهُنَّ ۚ",
+    "transcription": "wa ulātul-aḥmāli ajaluhunna ay yaḍa'na ḥamlahunn(a),"
+  },
+  {
+    "index": 14,
+    "verse_number": 4,
+    "translation": "Und wer Allah fürchtet, dem schafft Er in seiner Angelegenheit Erleichterung.",
+    "arabic": "وَمَن يَتَّقِ ٱللَّهَ يَجْعَل لَّهُۥ مِنْ أَمْرِهِۦ يُسْرًا",
+    "transcription": "wa may yattaqillāha yaj'al lahū min amrihī yusrā(n)."
+  },
+  {
+    "index": 15,
     "verse_number": 5,
-    "translation": "Das ist Allahs Anordnung, die Er zu euch (als Offenbarung) herabgesandt hat. Und wer Allah fürchtet, dem tilgt Er seine bösen Taten und dem gewährt Er großartigen Lohn.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 5,
-        "translation": "Das ist Allahs Anordnung, die Er zu euch (als Offenbarung) herabgesandt hat.",
-        "text_uthmani": "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُۥٓ إِلَيْكُمْ ۚ",
-        "text_uthmani_transcribed": "Żālika amrullāhi anzalahū ilaikum,"
-      },
-      {
-        "belongs_to_verse_number": 5,
-        "translation": "Und wer Allah fürchtet, dem tilgt Er seine bösen Taten und dem gewährt Er großartigen Lohn.",
-        "text_uthmani": "وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُعْظِمْ لَهُۥٓ أَجْرًا",
-        "text_uthmani_transcribed": "wa may yattaqillāha yukaffir 'anhu sayyi'ātihī wa yu'ẓim lahū ajrā(n)."
-      }
-    ],
-    "text_uthmani": "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُۥٓ إِلَيْكُمْ ۚ وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُعْظِمْ لَهُۥٓ أَجْرًا",
-    "text_uthmani_transcribed": "Żālika amrullāhi anzalahū ilaikum, wa may yattaqillāha yukaffir 'anhu sayyi'ātihī wa yu'ẓim lahū ajrā(n)."
+    "translation": "Das ist Allahs Anordnung, die Er zu euch (als Offenbarung) herabgesandt hat.",
+    "arabic": "ذَٰلِكَ أَمْرُ ٱللَّهِ أَنزَلَهُۥٓ إِلَيْكُمْ ۚ",
+    "transcription": "Żālika amrullāhi anzalahū ilaikum,"
   },
   {
+    "index": 16,
+    "verse_number": 5,
+    "translation": "Und wer Allah fürchtet, dem tilgt Er seine bösen Taten und dem gewährt Er großartigen Lohn.",
+    "arabic": "وَمَن يَتَّقِ ٱللَّهَ يُكَفِّرْ عَنْهُ سَيِّـَٔاتِهِۦ وَيُعْظِمْ لَهُۥٓ أَجْرًا",
+    "transcription": "wa may yattaqillāha yukaffir 'anhu sayyi'ātihī wa yu'ẓim lahū ajrā(n)."
+  },
+  {
+    "index": 17,
     "verse_number": 6,
-    "translation": "Laßt sie dort wohnen, wo ihr (selbst) wohnt, von dem, was ihr euch leisten könnt. Und fügt ihnen keinen Schaden zu, um sie in die Enge zu treiben. Und wenn sie schwanger sind, dann gebt für sie (das Nötige) aus, bis sie mit dem niederkommen, was sie (in ihren Leibern) tragen. Wenn sie für euch (das Kind) stillen, dann gebt ihnen ihren Lohn, und beratet untereinander (darüber) in rechtlicher Weise. Wenn ihr aber einander Schwierigkeiten bereitet, dann wird (das Kind) für ihn eine andere stillen.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 6,
-        "translation": "Laßt sie dort wohnen, wo ihr (selbst) wohnt, von dem, was ihr euch leisten könnt.",
-        "text_uthmani": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ",
-        "text_uthmani_transcribed": "Askinūhunna min ḥaiṡu sakantum miw wujdikum"
-      },
-      {
-        "belongs_to_verse_number": 6,
-        "translation": "Und fügt ihnen keinen Schaden zu, um sie in die Enge zu treiben.",
-        "text_uthmani": "وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ",
-        "text_uthmani_transcribed": "wa lā tuḍārrūhunna lituḍayyiqū 'alaihinn(a),"
-      },
-      {
-        "belongs_to_verse_number": 6,
-        "translation": "Und wenn sie schwanger sind, dann gebt für sie (das Nötige) aus, bis sie mit dem niederkommen, was sie (in ihren Leibern) tragen.",
-        "text_uthmani": "وَإِن كُنَّ أُو۟لَـٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ",
-        "text_uthmani_transcribed": "wa in kunna ulāti ḥamlin fa anfiqū 'alaihinna ḥattā yaḍa'na ḥamlahunn(a),"
-      },
-      {
-        "belongs_to_verse_number": 6,
-        "translation": "Wenn sie für euch (das Kind) stillen, dann gebt ihnen ihren Lohn, und beratet untereinander (darüber) in rechtlicher Weise.",
-        "text_uthmani": "فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ",
-        "text_uthmani_transcribed": "fa in arḍa'na lakum fa ātūhunna ujūrahunn(a), wa'tamirū bainakum bima'rūf(in)"
-      },
-      {
-        "belongs_to_verse_number": 6,
-        "translation": "Wenn ihr aber einander Schwierigkeiten bereitet, dann wird (das Kind) für ihn eine andere stillen.",
-        "text_uthmani": "وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ",
-        "text_uthmani_transcribed": "wa in ta'āsartum fasaturḍi'u lahū ukhrā."
-      }
-    ],
-    "text_uthmani": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ وَإِن كُنَّ أُو۟لَـٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ",
-    "text_uthmani_transcribed": "Askinūhunna min ḥaiṡu sakantum miw wujdikum wa lā tuḍārrūhunna lituḍayyiqū 'alaihinn(a), wa in kunna ulāti ḥamlin fa anfiqū 'alaihinna ḥattā yaḍa'na ḥamlahunn(a), fa in arḍa'na lakum fa ātūhunna ujūrahunn(a), wa'tamirū bainakum bima'rūf(in), wa in ta'āsartum fasaturḍi'u lahū ukhrā."
+    "translation": "Laßt sie dort wohnen, wo ihr (selbst) wohnt, von dem, was ihr euch leisten könnt.",
+    "arabic": "أَسْكِنُوهُنَّ مِنْ حَيْثُ سَكَنتُم مِّن وُجْدِكُمْ",
+    "transcription": "Askinūhunna min ḥaiṡu sakantum miw wujdikum"
   },
   {
+    "index": 18,
+    "verse_number": 6,
+    "translation": "Und fügt ihnen keinen Schaden zu, um sie in die Enge zu treiben.",
+    "arabic": "وَلَا تُضَآرُّوهُنَّ لِتُضَيِّقُوا۟ عَلَيْهِنَّ ۚ",
+    "transcription": "wa lā tuḍārrūhunna lituḍayyiqū 'alaihinn(a),"
+  },
+  {
+    "index": 19,
+    "verse_number": 6,
+    "translation": "Und wenn sie schwanger sind, dann gebt für sie (das Nötige) aus, bis sie mit dem niederkommen, was sie (in ihren Leibern) tragen.",
+    "arabic": "وَإِن كُنَّ أُو۟لَـٰتِ حَمْلٍ فَأَنفِقُوا۟ عَلَيْهِنَّ حَتَّىٰ يَضَعْنَ حَمْلَهُنَّ ۚ",
+    "transcription": "wa in kunna ulāti ḥamlin fa anfiqū 'alaihinna ḥattā yaḍa'na ḥamlahunn(a),"
+  },
+  {
+    "index": 20,
+    "verse_number": 6,
+    "translation": "Wenn sie für euch (das Kind) stillen, dann gebt ihnen ihren Lohn, und beratet untereinander (darüber) in rechtlicher Weise.",
+    "arabic": "فَإِنْ أَرْضَعْنَ لَكُمْ فَـَٔاتُوهُنَّ أُجُورَهُنَّ ۖ وَأْتَمِرُوا۟ بَيْنَكُم بِمَعْرُوفٍ ۖ",
+    "transcription": "fa in arḍa'na lakum fa ātūhunna ujūrahunn(a), wa'tamirū bainakum bima'rūf(in)"
+  },
+  {
+    "index": 21,
+    "verse_number": 6,
+    "translation": "Wenn ihr aber einander Schwierigkeiten bereitet, dann wird (das Kind) für ihn eine andere stillen.",
+    "arabic": "وَإِن تَعَاسَرْتُمْ فَسَتُرْضِعُ لَهُۥٓ أُخْرَىٰ",
+    "transcription": "wa in ta'āsartum fasaturḍi'u lahū ukhrā."
+  },
+  {
+    "index": 22,
     "verse_number": 7,
-    "translation": "Der Wohlhabende soll entsprechend seinem Wohlstand (die Aufwendungen) ausgeben. Und wem seine Versorgung bemessen (zugeteilt) wurde, der soll (eben) von dem ausgeben, was Allah ihm gegeben hat. Allah erlegt keiner Seele mehr auf als das, was Er ihr gegeben hat. Allah wird nach Schwierigkeit Erleichterung schaffen.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 7,
-        "translation": "Der Wohlhabende soll entsprechend seinem Wohlstand (die Aufwendungen) ausgeben.",
-        "text_uthmani": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ",
-        "text_uthmani_transcribed": "Liyunfiq żū sa'atim min sa'atih(ī)"
-      },
-      {
-        "belongs_to_verse_number": 7,
-        "translation": "Und wem seine Versorgung bemessen (zugeteilt) wurde, der soll (eben) von dem ausgeben, was Allah ihm gegeben hat.",
-        "text_uthmani": "وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ",
-        "text_uthmani_transcribed": "wa man qudira 'alaihi rizquhū falyunfiq mimmā ātāhullāh(u),"
-      },
-      {
-        "belongs_to_verse_number": 7,
-        "translation": "Allah erlegt keiner Seele mehr auf als das, was Er ihr gegeben hat. Allah wird nach Schwierigkeit Erleichterung schaffen.",
-        "text_uthmani": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
-        "text_uthmani_transcribed": "lā yukallifullāhu nafsan illā mā ātāhā, sayaj'alullāhu ba'da 'usriy yusrā(n)."
-      }
-    ],
-    "text_uthmani": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
-    "text_uthmani_transcribed": "Liyunfiq żū sa'atim min sa'atih(ī), wa man qudira 'alaihi rizquhū falyunfiq mimmā ātāhullāh(u), lā yukallifullāhu nafsan illā mā ātāhā, sayaj'alullāhu ba'da 'usriy yusrā(n)."
+    "translation": "Der Wohlhabende soll entsprechend seinem Wohlstand (die Aufwendungen) ausgeben.",
+    "arabic": "لِيُنفِقْ ذُو سَعَةٍ مِّن سَعَتِهِۦ ۖ",
+    "transcription": "Liyunfiq żū sa'atim min sa'atih(ī)"
   },
   {
+    "index": 23,
+    "verse_number": 7,
+    "translation": "Und wem seine Versorgung bemessen (zugeteilt) wurde, der soll (eben) von dem ausgeben, was Allah ihm gegeben hat.",
+    "arabic": "وَمَن قُدِرَ عَلَيْهِ رِزْقُهُۥ فَلْيُنفِقْ مِمَّآ ءَاتَىٰهُ ٱللَّهُ ۚ",
+    "transcription": "wa man qudira 'alaihi rizquhū falyunfiq mimmā ātāhullāh(u),"
+  },
+  {
+    "index": 24,
+    "verse_number": 7,
+    "translation": "Allah erlegt keiner Seele mehr auf als das, was Er ihr gegeben hat. Allah wird nach Schwierigkeit Erleichterung schaffen.",
+    "arabic": "لَا يُكَلِّفُ ٱللَّهُ نَفْسًا إِلَّا مَآ ءَاتَىٰهَا ۚ سَيَجْعَلُ ٱللَّهُ بَعْدَ عُسْرٍ يُسْرًا",
+    "transcription": "lā yukallifullāhu nafsan illā mā ātāhā, sayaj'alullāhu ba'da 'usriy yusrā(n)."
+  },
+  {
+    "index": 25,
     "verse_number": 8,
-    "translation": "Und wieviele Städte lehnten sich gegen den Befehl ihres Herrn und Seiner Gesandten auf, worauf Wir sie einer strengen Abrechnung unterzogen und mit entsetzlicher Strafe straften.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 8,
-        "translation": "Und wieviele Städte lehnten sich gegen den Befehl ihres Herrn und Seiner Gesandten auf, worauf Wir sie einer strengen Abrechnung unterzogen",
-        "text_uthmani": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَـٰهَا حِسَابًا شَدِيدًا",
-        "text_uthmani_transcribed": "Wa ka'ayyim min qaryatin 'atat 'an amri rabbihā wa rusulihī fa ḥāsabnāhā ḥisāban syadīdā(n)"
-      },
-      {
-        "belongs_to_verse_number": 8,
-        "translation": "und mit entsetzlicher Strafe straften.",
-        "text_uthmani": "وَعَذَّبْنَـٰهَا عَذَابًا نُّكْرًا",
-        "text_uthmani_transcribed": "wa 'ażżabnāhā 'ażāban nukrā(n)."
-      }
-    ],
-    "text_uthmani": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَـٰهَا حِسَابًا شَدِيدًا وَعَذَّبْنَـٰهَا عَذَابًا نُّكْرًا",
-    "text_uthmani_transcribed": "Wa ka'ayyim min qaryatin 'atat 'an amri rabbihā wa rusulihī fa ḥāsabnāhā ḥisāban syadīdā(n), wa 'ażżabnāhā 'ażāban nukrā(n)."
+    "translation": "Und wieviele Städte lehnten sich gegen den Befehl ihres Herrn und Seiner Gesandten auf, worauf Wir sie einer strengen Abrechnung unterzogen",
+    "arabic": "وَكَأَيِّن مِّن قَرْيَةٍ عَتَتْ عَنْ أَمْرِ رَبِّهَا وَرُسُلِهِۦ فَحَاسَبْنَـٰهَا حِسَابًا شَدِيدًا",
+    "transcription": "Wa ka'ayyim min qaryatin 'atat 'an amri rabbihā wa rusulihī fa ḥāsabnāhā ḥisāban syadīdā(n)"
   },
   {
+    "index": 26,
+    "verse_number": 8,
+    "translation": "und mit entsetzlicher Strafe straften.",
+    "arabic": "وَعَذَّبْنَـٰهَا عَذَابًا نُّكْرًا",
+    "transcription": "wa 'ażżabnāhā 'ażāban nukrā(n)."
+  },
+  {
+    "index": 27,
     "verse_number": 9,
     "translation": "Da kosteten sie die schlimmen Folgen ihres Verhaltens, und das Ende ihres Verhaltens war (nur) Verlust.",
-    "text_uthmani": "فَذَاقَتْ وَبَالَ أَمْرِهَا وَكَانَ عَـٰقِبَةُ أَمْرِهَا خُسْرًا",
-    "text_uthmani_transcribed": "Fa żāqat wabāla amrihā wa kāna 'āqibatu amrihā khusrā(n)."
+    "arabic": "فَذَاقَتْ وَبَالَ أَمْرِهَا وَكَانَ عَـٰقِبَةُ أَمْرِهَا خُسْرًا",
+    "transcription": "Fa żāqat wabāla amrihā wa kāna 'āqibatu amrihā khusrā(n)."
   },
   {
+    "index": 28,
     "verse_number": 10,
-    "translation": "Allah hat für sie strenge Strafe bereitet. So fürchtet Allah, o die ihr Verstand besitzt und die ihr glaubt. Allah hat ja zu euch eine Ermahnung (als Offenbarung) herabgesandt,",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 10,
-        "translation": "Allah hat für sie strenge Strafe bereitet. So fürchtet Allah, o die ihr Verstand besitzt und die ihr glaubt.",
-        "text_uthmani": "أَعَدَّ ٱللَّهُ لَهُمْ عَذَابًا شَدِيدًا ۖ فَٱتَّقُوا۟ ٱللَّهَ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ ٱلَّذِينَ ءَامَنُوا۟ ۚ",
-        "text_uthmani_transcribed": "A'addallāhu lahum 'ażāban syadīdan fattaqullāha yā ulil-albāb(i) - allażīna āmanū -"
-      },
-      {
-        "belongs_to_verse_number": 10,
-        "translation": "Allah hat ja zu euch eine Ermahnung (als Offenbarung) herabgesandt,",
-        "text_uthmani": "قَدْ أَنزَلَ ٱللَّهُ إِلَيْكُمْ ذِكْرًا",
-        "text_uthmani_transcribed": "qad anzalallāhu ilaikum żikrā(n)."
-      }
-    ],
-    "text_uthmani": "أَعَدَّ ٱللَّهُ لَهُمْ عَذَابًا شَدِيدًا ۖ فَٱتَّقُوا۟ ٱللَّهَ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ ٱلَّذِينَ ءَامَنُوا۟ ۚ قَدْ أَنزَلَ ٱللَّهُ إِلَيْكُمْ ذِكْرًا",
-    "text_uthmani_transcribed": "A'addallāhu lahum 'ażāban syadīdan fattaqullāha yā ulil-albāb(i) - allażīna āmanū - qad anzalallāhu ilaikum żikrā(n)."
+    "translation": "Allah hat für sie strenge Strafe bereitet. So fürchtet Allah, o die ihr Verstand besitzt und die ihr glaubt.",
+    "arabic": "أَعَدَّ ٱللَّهُ لَهُمْ عَذَابًا شَدِيدًا ۖ فَٱتَّقُوا۟ ٱللَّهَ يَـٰٓأُو۟لِى ٱلْأَلْبَـٰبِ ٱلَّذِينَ ءَامَنُوا۟ ۚ",
+    "transcription": "A'addallāhu lahum 'ażāban syadīdan fattaqullāha yā ulil-albāb(i) - allażīna āmanū -"
   },
   {
+    "index": 29,
+    "verse_number": 10,
+    "translation": "Allah hat ja zu euch eine Ermahnung (als Offenbarung) herabgesandt,",
+    "arabic": "قَدْ أَنزَلَ ٱللَّهُ إِلَيْكُمْ ذِكْرًا",
+    "transcription": "qad anzalallāhu ilaikum żikrā(n)."
+  },
+  {
+    "index": 30,
     "verse_number": 11,
-    "translation": "einen Gesandten, der euch Allahs Zeichen verliest, die alles klar machen, um diejenigen, die glauben und rechtschaffene Werke tun, aus den Finsternissen ins Licht hinauszubringen. Und wer an Allah glaubt und rechtschaffen handelt, den wird Er in Gärten eingehen lassen, durcheilt von Bächen, ewig und auf immer darin zu bleiben. Allah hat ihm (damit) ja eine schöne Versorgung gewährt.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 11,
-        "translation": "einen Gesandten, der euch Allahs Zeichen verliest, die alles klar machen, um diejenigen, die glauben",
-        "text_uthmani": "رَّسُولًا يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِ ٱللَّهِ مُبَيِّنَـٰتٍ لِّيُخْرِجَ ٱلَّذِينَ ءَامَنُوا۟",
-        "text_uthmani_transcribed": "Rasūlay yatlū 'alaikum āyātillāhi mubayyinātil liyukhrijal-lażīna āmanū"
-      },
-      {
-        "belongs_to_verse_number": 11,
-        "translation": "und rechtschaffene Werke tun, aus den Finsternissen ins Licht hinauszubringen.",
-        "text_uthmani": "وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ",
-        "text_uthmani_transcribed": "wa 'amiluṣ-ṣāliḥāti minaẓ-ẓulumāti ilan-nūr(i)"
-      },
-      {
-        "belongs_to_verse_number": 11,
-        "translation": "Und wer an Allah glaubt und rechtschaffen handelt, den wird Er in Gärten eingehen lassen, durcheilt von Bächen, ewig",
-        "text_uthmani": "وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ",
-        "text_uthmani_transcribed": "wa may yu'mim billāhi wa ya'mal ṣāliḥay yudkhilhu jannātin tajrī min taḥtihal-anhāru khālidīna"
-      },
-      {
-        "belongs_to_verse_number": 11,
-        "translation": "und auf immer darin zu bleiben. Allah hat ihm (damit) ja eine schöne Versorgung gewährt.",
-        "text_uthmani": "خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ قَدْ أَحْسَنَ ٱللَّهُ لَهُۥ رِزْقًا",
-        "text_uthmani_transcribed": "khālidīna fīhā abadā(n), qad aḥsanallāhu lahū rizqā(n)."
-      }
-    ],
-    "text_uthmani": "رَّسُولًا يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِ ٱللَّهِ مُبَيِّنَـٰتٍ لِّيُخْرِجَ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ ۚ وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ قَدْ أَحْسَنَ ٱللَّهُ لَهُۥ رِزْقًا",
-    "text_uthmani_transcribed": "Rasūlay yatlū 'alaikum āyātillāhi mubayyinātil liyukhrijal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti minaẓ-ẓulumāti ilan-nūr(i), wa may yu'mim billāhi wa ya'mal ṣāliḥay yudkhilhu jannātin tajrī min taḥtihal-anhāru khālidīna fīhā abadā(n), qad aḥsanallāhu lahū rizqā(n)."
+    "translation": "einen Gesandten, der euch Allahs Zeichen verliest, die alles klar machen, um diejenigen, die glauben",
+    "arabic": "رَّسُولًا يَتْلُوا۟ عَلَيْكُمْ ءَايَـٰتِ ٱللَّهِ مُبَيِّنَـٰتٍ لِّيُخْرِجَ ٱلَّذِينَ ءَامَنُوا۟",
+    "transcription": "Rasūlay yatlū 'alaikum āyātillāhi mubayyinātil liyukhrijal-lażīna āmanū"
   },
   {
+    "index": 31,
+    "verse_number": 11,
+    "translation": "und rechtschaffene Werke tun, aus den Finsternissen ins Licht hinauszubringen.",
+    "arabic": "وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ مِنَ ٱلظُّلُمَـٰتِ إِلَى ٱلنُّورِ",
+    "transcription": "wa 'amiluṣ-ṣāliḥāti minaẓ-ẓulumāti ilan-nūr(i)"
+  },
+  {
+    "index": 32,
+    "verse_number": 11,
+    "translation": "Und wer an Allah glaubt und rechtschaffen handelt, den wird Er in Gärten eingehen lassen, durcheilt von Bächen, ewig",
+    "arabic": "وَمَن يُؤْمِنۢ بِٱللَّهِ وَيَعْمَلْ صَـٰلِحًا يُدْخِلْهُ جَنَّـٰتٍ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ خَـٰلِدِينَ",
+    "transcription": "wa may yu'mim billāhi wa ya'mal ṣāliḥay yudkhilhu jannātin tajrī min taḥtihal-anhāru khālidīna"
+  },
+  {
+    "index": 33,
+    "verse_number": 11,
+    "translation": "und auf immer darin zu bleiben. Allah hat ihm (damit) ja eine schöne Versorgung gewährt.",
+    "arabic": "خَـٰلِدِينَ فِيهَآ أَبَدًا ۖ قَدْ أَحْسَنَ ٱللَّهُ لَهُۥ رِزْقًا",
+    "transcription": "khālidīna fīhā abadā(n), qad aḥsanallāhu lahū rizqā(n)."
+  },
+  {
+    "index": 34,
     "verse_number": 12,
-    "translation": "Allah ist es, Der sieben Himmel erschaffen hat, und von der Erde gleich (viel). Der Befehl (Allahs) kommt wahrhaftig zwischen ihnen herab, damit ihr wißt, daß Allah zu allem die Macht hat und daß Allah ja alles mit Seinem Wissen umfaßt.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 12,
-        "translation": "Allah ist es, Der sieben Himmel erschaffen hat, und von der Erde gleich (viel).",
-        "text_uthmani": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ",
-        "text_uthmani_transcribed": "Allāhul-lażī khalaqa sab'a samāwātiw wa minal-arḍi miṡlahunn(a)"
-      },
-      {
-        "belongs_to_verse_number": 12,
-        "translation": "Der Befehl (Allahs) kommt wahrhaftig zwischen ihnen herab, damit ihr wißt, daß Allah zu allem die Macht hat",
-        "text_uthmani": "يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
-        "text_uthmani_transcribed": "yatanazzalul-amru bainahunna lita'lamū annallāha 'alā kulli syai'in qadīr(un)"
-      },
-      {
-        "belongs_to_verse_number": 12,
-        "translation": "und daß Allah ja alles mit Seinem Wissen umfaßt.",
-        "text_uthmani": "وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
-        "text_uthmani_transcribed": "wa annallāha qad aḥāṭa bikulli syai'in 'ilmā(n)."
-      }
-    ],
-    "text_uthmani": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
-    "text_uthmani_transcribed": "Allāhul-lażī khalaqa sab'a samāwātiw wa minal-arḍi miṡlahunn(a), yatanazzalul-amru bainahunna lita'lamū annallāha 'alā kulli syai'in qadīr(un), wa annallāha qad aḥāṭa bikulli syai'in 'ilmā(n)."
+    "translation": "Allah ist es, Der sieben Himmel erschaffen hat, und von der Erde gleich (viel).",
+    "arabic": "ٱللَّهُ ٱلَّذِى خَلَقَ سَبْعَ سَمَـٰوَٰتٍ وَمِنَ ٱلْأَرْضِ مِثْلَهُنَّ",
+    "transcription": "Allāhul-lażī khalaqa sab'a samāwātiw wa minal-arḍi miṡlahunn(a)"
+  },
+  {
+    "index": 35,
+    "verse_number": 12,
+    "translation": "Der Befehl (Allahs) kommt wahrhaftig zwischen ihnen herab, damit ihr wißt, daß Allah zu allem die Macht hat",
+    "arabic": "يَتَنَزَّلُ ٱلْأَمْرُ بَيْنَهُنَّ لِتَعْلَمُوٓا۟ أَنَّ ٱللَّهَ عَلَىٰ كُلِّ شَىْءٍ قَدِيرٌ",
+    "transcription": "yatanazzalul-amru bainahunna lita'lamū annallāha 'alā kulli syai'in qadīr(un)"
+  },
+  {
+    "index": 36,
+    "verse_number": 12,
+    "translation": "und daß Allah ja alles mit Seinem Wissen umfaßt.",
+    "arabic": "وَأَنَّ ٱللَّهَ قَدْ أَحَاطَ بِكُلِّ شَىْءٍ عِلْمًۢا",
+    "transcription": "wa annallāha qad aḥāṭa bikulli syai'in 'ilmā(n)."
   }
 ]

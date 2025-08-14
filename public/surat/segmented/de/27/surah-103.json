@@ -1,34 +1,30 @@
 [
   {
+    "index": 1,
     "verse_number": 1,
     "translation": "Beim Zeitalter!",
-    "text_uthmani": " وَٱلْعَصْرِ",
-    "text_uthmani_transcribed": "Wal-'aṣr(i)."
+    "arabic": " وَٱلْعَصْرِ",
+    "transcription": "Wal-'aṣr(i)."
   },
   {
+    "index": 2,
     "verse_number": 2,
     "translation": "Der Mensch befindet sich wahrlich in Verlust,",
-    "text_uthmani": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ",
-    "text_uthmani_transcribed": "Innal-insāna lafī khusr(in)."
+    "arabic": "إِنَّ ٱلْإِنسَـٰنَ لَفِى خُسْرٍ",
+    "transcription": "Innal-insāna lafī khusr(in)."
   },
   {
+    "index": 3,
     "verse_number": 3,
-    "translation": "außer denjenigen, die glauben und rechtschaffene Werke tun und einander die Wahrheit eindringlich empfehlen und einander die Standhaftigkeit eindringlich empfehlen.",
-    "segmented": [
-      {
-        "belongs_to_verse_number": 3,
-        "translation": "außer denjenigen, die glauben und rechtschaffene Werke tun und einander die Wahrheit eindringlich empfehlen",
-        "text_uthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ",
-        "text_uthmani_transcribed": "Illal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti wa tawāṣau bil-ḥaqq(i)"
-      },
-      {
-        "belongs_to_verse_number": 3,
-        "translation": "und einander die Standhaftigkeit eindringlich empfehlen.",
-        "text_uthmani": "وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
-        "text_uthmani_transcribed": "wa tawāṣau biṣ-ṣabr(i)."
-      }
-    ],
-    "text_uthmani": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
-    "text_uthmani_transcribed": "Illal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti wa tawāṣau bil-ḥaqq(i), wa tawāṣau biṣ-ṣabr(i)."
+    "translation": "außer denjenigen, die glauben und rechtschaffene Werke tun und einander die Wahrheit eindringlich empfehlen",
+    "arabic": "إِلَّا ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ وَتَوَاصَوْا۟ بِٱلْحَقِّ",
+    "transcription": "Illal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti wa tawāṣau bil-ḥaqq(i)"
+  },
+  {
+    "index": 4,
+    "verse_number": 3,
+    "translation": "und einander die Standhaftigkeit eindringlich empfehlen.",
+    "arabic": "وَتَوَاصَوْا۟ بِٱلصَّبْرِ",
+    "transcription": "wa tawāṣau biṣ-ṣabr(i)."
   }
 ]

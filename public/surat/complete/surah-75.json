@@ -130,27 +130,27 @@
         {
           "id": 95316,
           "resource_id": 19,
-          "text": "Nay, I swear by the Day of Resurrection;"
+          "translation": "Nay, I swear by the Day of Resurrection;"
         },
         {
           "id": 369839,
           "resource_id": 79,
-          "text": "Нет [совсем не так, как думают и говорят неверующие, что не будет воскрешения и воздаяния за деяния]! (Я, Аллах) клянусь Днем Воскресения [Днем Суда]"
+          "translation": "Нет [совсем не так, как думают и говорят неверующие, что не будет воскрешения и воздаяния за деяния]! (Я, Аллах) клянусь Днем Воскресения [Днем Суда]"
         },
         {
           "id": 255662,
           "resource_id": 45,
-          "text": "Нет, клянусь Днем воскресения!"
+          "translation": "Нет, клянусь Днем воскресения!"
         },
         {
           "id": 144537,
           "resource_id": 27,
-          "text": "Nein! Ich schwöre beim Tag der Auferstehung."
+          "translation": "Nein! Ich schwöre beim Tag der Auferstehung."
         },
         {
           "id": 7517975,
           "resource_id": 445,
-          "text": "О да! Днем Воскресения клянусь"
+          "translation": "О да! Днем Воскресения клянусь"
         }
       ],
       "verse_key": "75:1",
@@ -165,7 +165,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﮊ",
-          "text_uthmani": "لَآ",
           "translation": {
             "language_name": "english",
             "text": "Nay"
@@ -173,7 +172,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "lā"
-          }
+          },
+          "arabic": "لَآ"
         },
         {
           "audio_url": "wbw/075_001_002.mp3",
@@ -184,7 +184,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﮋ",
-          "text_uthmani": "أُقْسِمُ",
           "translation": {
             "language_name": "english",
             "text": "I swear"
@@ -192,7 +191,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "uq'simu"
-          }
+          },
+          "arabic": "أُقْسِمُ"
         },
         {
           "audio_url": "wbw/075_001_003.mp3",
@@ -203,7 +203,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﮌ",
-          "text_uthmani": "بِيَوْمِ",
           "translation": {
             "language_name": "english",
             "text": "by (the) Day"
@@ -211,7 +210,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "biyawmi"
-          }
+          },
+          "arabic": "بِيَوْمِ"
         },
         {
           "audio_url": "wbw/075_001_004.mp3",
@@ -222,7 +222,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﮍ",
-          "text_uthmani": "ٱلْقِيَـٰمَةِ",
           "translation": {
             "language_name": "english",
             "text": "(of) the Resurrection"
@@ -230,7 +229,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-qiyāmati"
-          }
+          },
+          "arabic": "ٱلْقِيَـٰمَةِ"
         },
         {
           "audio_url": null,
@@ -241,7 +241,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﮎ",
-          "text_uthmani": "١",
           "translation": {
             "language_name": "english",
             "text": "(1)"
@@ -249,7 +248,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١"
         }
       ]
     },
@@ -266,27 +266,27 @@
         {
           "id": 95328,
           "resource_id": 19,
-          "text": "Nay, I swear by the accusing soul (that this Scripture is true)."
+          "translation": "Nay, I swear by the accusing soul (that this Scripture is true)."
         },
         {
           "id": 369840,
           "resource_id": 79,
-          "text": "и клянусь (Я) душой порицающей [душой верующего, который порицает своего обладателя, когда он совершает грехи и оставляет возложенные на него Аллахом обязанности] (что люди будут воскрешены)!"
+          "translation": "и клянусь (Я) душой порицающей [душой верующего, который порицает своего обладателя, когда он совершает грехи и оставляет возложенные на него Аллахом обязанности] (что люди будут воскрешены)!"
         },
         {
           "id": 255649,
           "resource_id": 45,
-          "text": "Клянусь душой попрекающей!"
+          "translation": "Клянусь душой попрекающей!"
         },
         {
           "id": 144470,
           "resource_id": 27,
-          "text": "Nein! Ich schwöre bei der Seele, die sich selbst tadelt."
+          "translation": "Nein! Ich schwöre bei der Seele, die sich selbst tadelt."
         },
         {
           "id": 7523717,
           "resource_id": 445,
-          "text": "Клянусь душой, исполненной (само)укора, (Зовущей воздержаться от греха)"
+          "translation": "Клянусь душой, исполненной (само)укора, (Зовущей воздержаться от греха)"
         }
       ],
       "verse_key": "75:2",
@@ -301,7 +301,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﮏ",
-          "text_uthmani": "وَلَآ",
           "translation": {
             "language_name": "english",
             "text": "And nay"
@@ -309,7 +308,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walā"
-          }
+          },
+          "arabic": "وَلَآ"
         },
         {
           "audio_url": "wbw/075_002_002.mp3",
@@ -320,7 +320,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﮐ",
-          "text_uthmani": "أُقْسِمُ",
           "translation": {
             "language_name": "english",
             "text": "I swear"
@@ -328,7 +327,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "uq'simu"
-          }
+          },
+          "arabic": "أُقْسِمُ"
         },
         {
           "audio_url": "wbw/075_002_003.mp3",
@@ -339,7 +339,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﮑ",
-          "text_uthmani": "بِٱلنَّفْسِ",
           "translation": {
             "language_name": "english",
             "text": "by the soul"
@@ -347,7 +346,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bil-nafsi"
-          }
+          },
+          "arabic": "بِٱلنَّفْسِ"
         },
         {
           "audio_url": "wbw/075_002_004.mp3",
@@ -358,7 +358,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﮒ",
-          "text_uthmani": "ٱللَّوَّامَةِ",
           "translation": {
             "language_name": "english",
             "text": "self-accusing"
@@ -366,7 +365,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-lawāmati"
-          }
+          },
+          "arabic": "ٱللَّوَّامَةِ"
         },
         {
           "audio_url": null,
@@ -377,7 +377,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﮓ",
-          "text_uthmani": "٢",
           "translation": {
             "language_name": "english",
             "text": "(2)"
@@ -385,7 +384,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢"
         }
       ]
     },
@@ -402,27 +402,27 @@
         {
           "id": 95340,
           "resource_id": 19,
-          "text": "Thinketh man that We shall not assemble his bones?"
+          "translation": "Thinketh man that We shall not assemble his bones?"
         },
         {
           "id": 369841,
           "resource_id": 79,
-          "text": "Неужели человек [неверующий] думает, что Мы никогда не соберем его костей (после того, как они истлеют)?"
+          "translation": "Неужели человек [неверующий] думает, что Мы никогда не соберем его костей (после того, как они истлеют)?"
         },
         {
           "id": 258191,
           "resource_id": 45,
-          "text": "Неужели человек полагает, что Мы не соберем его костей?"
+          "translation": "Неужели человек полагает, что Мы не соберем его костей?"
         },
         {
           "id": 144482,
           "resource_id": 27,
-          "text": "Meint der Mensch (etwa), daß Wir seine Knochen nicht zusammenfügen werden?"
+          "translation": "Meint der Mensch (etwa), daß Wir seine Knochen nicht zusammenfügen werden?"
         },
         {
           "id": 7532673,
           "resource_id": 445,
-          "text": "Ужель уверен человек, что Мы костей его не соберем, (Когда они уже истлели)"
+          "translation": "Ужель уверен человек, что Мы костей его не соберем, (Когда они уже истлели)"
         }
       ],
       "verse_key": "75:3",
@@ -437,7 +437,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﮔ",
-          "text_uthmani": "أَيَحْسَبُ",
           "translation": {
             "language_name": "english",
             "text": "Does think"
@@ -445,7 +444,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ayaḥsabu"
-          }
+          },
+          "arabic": "أَيَحْسَبُ"
         },
         {
           "audio_url": "wbw/075_003_002.mp3",
@@ -456,7 +456,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﮕ",
-          "text_uthmani": "ٱلْإِنسَـٰنُ",
           "translation": {
             "language_name": "english",
             "text": "[the] man"
@@ -464,7 +463,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-insānu"
-          }
+          },
+          "arabic": "ٱلْإِنسَـٰنُ"
         },
         {
           "audio_url": "wbw/075_003_003.mp3",
@@ -475,7 +475,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﮖ",
-          "text_uthmani": "أَلَّن",
           "translation": {
             "language_name": "english",
             "text": "that not"
@@ -483,7 +482,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "allan"
-          }
+          },
+          "arabic": "أَلَّن"
         },
         {
           "audio_url": "wbw/075_003_004.mp3",
@@ -494,7 +494,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﮗ",
-          "text_uthmani": "نَّجْمَعَ",
           "translation": {
             "language_name": "english",
             "text": "We will assemble"
@@ -502,7 +501,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "najmaʿa"
-          }
+          },
+          "arabic": "نَّجْمَعَ"
         },
         {
           "audio_url": "wbw/075_003_005.mp3",
@@ -513,7 +513,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﮘ",
-          "text_uthmani": "عِظَامَهُۥ",
           "translation": {
             "language_name": "english",
             "text": "his bones"
@@ -521,7 +520,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿiẓāmahu"
-          }
+          },
+          "arabic": "عِظَامَهُۥ"
         },
         {
           "audio_url": null,
@@ -532,7 +532,6 @@
           "page_number": 577,
           "position": 6,
           "text": "ﮙ",
-          "text_uthmani": "٣",
           "translation": {
             "language_name": "english",
             "text": "(3)"
@@ -540,7 +539,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣"
         }
       ]
     },
@@ -557,27 +557,27 @@
         {
           "id": 95352,
           "resource_id": 19,
-          "text": "Yea, verily. We are Able to restore his very fingers!"
+          "translation": "Yea, verily. We are Able to restore his very fingers!"
         },
         {
           "id": 369842,
           "resource_id": 79,
-          "text": "Конечно же (Мы воскресим его), (и) Мы способны (с точностью) восстановить даже кончики его пальцев."
+          "translation": "Конечно же (Мы воскресим его), (и) Мы способны (с точностью) восстановить даже кончики его пальцев."
         },
         {
           "id": 252164,
           "resource_id": 45,
-          "text": "Конечно! Мы способны восстановить даже кончики его пальцев (или сделать всего его пальцы одинаковыми, так что он не сможет пользоваться ими, как прежде)."
+          "translation": "Конечно! Мы способны восстановить даже кончики его пальцев (или сделать всего его пальцы одинаковыми, так что он не сможет пользоваться ими, как прежде)."
         },
         {
           "id": 144485,
           "resource_id": 27,
-          "text": "Ja doch! (Wir) haben die Macht dazu, seine Fingerspitzen zurechtzuformen."
+          "translation": "Ja doch! (Wir) haben die Macht dazu, seine Fingerspitzen zurechtzuformen."
         },
         {
           "id": 75481,
           "resource_id": 445,
-          "text": "Не только так! Мы можем его пальцев кончики собрать В порядке совершенном"
+          "translation": "Не только так! Мы можем его пальцев кончики собрать В порядке совершенном"
         }
       ],
       "verse_key": "75:4",
@@ -592,7 +592,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﮚ",
-          "text_uthmani": "بَلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "Nay"
@@ -600,7 +599,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "balā"
-          }
+          },
+          "arabic": "بَلَىٰ"
         },
         {
           "audio_url": "wbw/075_004_002.mp3",
@@ -611,7 +611,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﮛ",
-          "text_uthmani": "قَـٰدِرِينَ",
           "translation": {
             "language_name": "english",
             "text": "(We are) Able"
@@ -619,7 +618,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "qādirīna"
-          }
+          },
+          "arabic": "قَـٰدِرِينَ"
         },
         {
           "audio_url": "wbw/075_004_003.mp3",
@@ -630,7 +630,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﮜ",
-          "text_uthmani": "عَلَىٰٓ",
           "translation": {
             "language_name": "english",
             "text": "on"
@@ -638,7 +637,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalā"
-          }
+          },
+          "arabic": "عَلَىٰٓ"
         },
         {
           "audio_url": "wbw/075_004_004.mp3",
@@ -649,7 +649,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﮝ",
-          "text_uthmani": "أَن",
           "translation": {
             "language_name": "english",
             "text": "that"
@@ -657,7 +656,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "an"
-          }
+          },
+          "arabic": "أَن"
         },
         {
           "audio_url": "wbw/075_004_005.mp3",
@@ -668,7 +668,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﮞ",
-          "text_uthmani": "نُّسَوِّىَ",
           "translation": {
             "language_name": "english",
             "text": "We can restore"
@@ -676,7 +675,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "nusawwiya"
-          }
+          },
+          "arabic": "نُّسَوِّىَ"
         },
         {
           "audio_url": "wbw/075_004_006.mp3",
@@ -687,7 +687,6 @@
           "page_number": 577,
           "position": 6,
           "text": "ﮟ",
-          "text_uthmani": "بَنَانَهُۥ",
           "translation": {
             "language_name": "english",
             "text": "his fingertips"
@@ -695,7 +694,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "banānahu"
-          }
+          },
+          "arabic": "بَنَانَهُۥ"
         },
         {
           "audio_url": null,
@@ -706,7 +706,6 @@
           "page_number": 577,
           "position": 7,
           "text": "ﮠ",
-          "text_uthmani": "٤",
           "translation": {
             "language_name": "english",
             "text": "(4)"
@@ -714,7 +713,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٤"
         }
       ]
     },
@@ -731,27 +731,27 @@
         {
           "id": 95355,
           "resource_id": 19,
-          "text": "But man would fain deny what is before him."
+          "translation": "But man would fain deny what is before him."
         },
         {
           "id": 369843,
           "resource_id": 79,
-          "text": "Но желает человек (не веря в воскрешение) и впредь (в своей жизни) совершать грехи."
+          "translation": "Но желает человек (не веря в воскрешение) и впредь (в своей жизни) совершать грехи."
         },
         {
           "id": 258194,
           "resource_id": 45,
-          "text": "Но человек желает и впредь совершать грехи."
+          "translation": "Но человек желает и впредь совершать грехи."
         },
         {
           "id": 144487,
           "resource_id": 27,
-          "text": "Aber nein! Der Mensch will (fortdauernd) vor sich hin lasterhaft sein."
+          "translation": "Aber nein! Der Mensch will (fortdauernd) vor sich hin lasterhaft sein."
         },
         {
           "id": 7559706,
           "resource_id": 445,
-          "text": "Но хочет человек распутничать (в грехах) За время, (что отпущено ему) в сей жизни"
+          "translation": "Но хочет человек распутничать (в грехах) За время, (что отпущено ему) в сей жизни"
         }
       ],
       "verse_key": "75:5",
@@ -766,7 +766,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﮡ",
-          "text_uthmani": "بَلْ",
           "translation": {
             "language_name": "english",
             "text": "Nay"
@@ -774,7 +773,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bal"
-          }
+          },
+          "arabic": "بَلْ"
         },
         {
           "audio_url": "wbw/075_005_002.mp3",
@@ -785,7 +785,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﮢ",
-          "text_uthmani": "يُرِيدُ",
           "translation": {
             "language_name": "english",
             "text": "Desires"
@@ -793,7 +792,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yurīdu"
-          }
+          },
+          "arabic": "يُرِيدُ"
         },
         {
           "audio_url": "wbw/075_005_003.mp3",
@@ -804,7 +804,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﮣ",
-          "text_uthmani": "ٱلْإِنسَـٰنُ",
           "translation": {
             "language_name": "english",
             "text": "[the] man"
@@ -812,7 +811,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-insānu"
-          }
+          },
+          "arabic": "ٱلْإِنسَـٰنُ"
         },
         {
           "audio_url": "wbw/075_005_004.mp3",
@@ -823,7 +823,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﮤ",
-          "text_uthmani": "لِيَفْجُرَ",
           "translation": {
             "language_name": "english",
             "text": "to give (the) lie"
@@ -831,7 +830,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "liyafjura"
-          }
+          },
+          "arabic": "لِيَفْجُرَ"
         },
         {
           "audio_url": "wbw/075_005_005.mp3",
@@ -842,7 +842,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﮥ",
-          "text_uthmani": "أَمَامَهُۥ",
           "translation": {
             "language_name": "english",
             "text": "(to) what is before him"
@@ -850,7 +849,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "amāmahu"
-          }
+          },
+          "arabic": "أَمَامَهُۥ"
         },
         {
           "audio_url": null,
@@ -861,7 +861,6 @@
           "page_number": 577,
           "position": 6,
           "text": "ﮦ",
-          "text_uthmani": "٥",
           "translation": {
             "language_name": "english",
             "text": "(5)"
@@ -869,7 +868,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٥"
         }
       ]
     },
@@ -886,27 +886,27 @@
         {
           "id": 95230,
           "resource_id": 19,
-          "text": "He asketh: When will be this Day of Resurrection?"
+          "translation": "He asketh: When will be this Day of Resurrection?"
         },
         {
           "id": 369844,
           "resource_id": 79,
-          "text": "Он спрашивает: «Когда же (наступит) День Воскресения?»"
+          "translation": "Он спрашивает: «Когда же (наступит) День Воскресения?»"
         },
         {
           "id": 255679,
           "resource_id": 45,
-          "text": "Он спрашивает, когда же наступит День воскресения?"
+          "translation": "Он спрашивает, когда же наступит День воскресения?"
         },
         {
           "id": 144489,
           "resource_id": 27,
-          "text": "Er fragt: Wann wird bloß der Tag der Auferstehung sein?"
+          "translation": "Er fragt: Wann wird bloß der Tag der Auferstehung sein?"
         },
         {
           "id": 7565104,
           "resource_id": 445,
-          "text": "И вопрошает он: \"Когда ж День Воскресения наступит"
+          "translation": "И вопрошает он: \"Когда ж День Воскресения наступит"
         }
       ],
       "verse_key": "75:6",
@@ -921,7 +921,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﮧ",
-          "text_uthmani": "يَسْـَٔلُ",
           "translation": {
             "language_name": "english",
             "text": "He asks"
@@ -929,7 +928,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yasalu"
-          }
+          },
+          "arabic": "يَسْـَٔلُ"
         },
         {
           "audio_url": "wbw/075_006_002.mp3",
@@ -940,7 +940,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﮨ",
-          "text_uthmani": "أَيَّانَ",
           "translation": {
             "language_name": "english",
             "text": "When"
@@ -948,7 +947,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ayyāna"
-          }
+          },
+          "arabic": "أَيَّانَ"
         },
         {
           "audio_url": "wbw/075_006_003.mp3",
@@ -959,7 +959,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﮩ",
-          "text_uthmani": "يَوْمُ",
           "translation": {
             "language_name": "english",
             "text": "(is the) Day"
@@ -967,7 +966,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yawmu"
-          }
+          },
+          "arabic": "يَوْمُ"
         },
         {
           "audio_url": "wbw/075_006_004.mp3",
@@ -978,7 +978,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﮪ",
-          "text_uthmani": "ٱلْقِيَـٰمَةِ",
           "translation": {
             "language_name": "english",
             "text": "(of) the Resurrection"
@@ -986,7 +985,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-qiyāmati"
-          }
+          },
+          "arabic": "ٱلْقِيَـٰمَةِ"
         },
         {
           "audio_url": null,
@@ -997,7 +997,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﮫ",
-          "text_uthmani": "٦",
           "translation": {
             "language_name": "english",
             "text": "(6)"
@@ -1005,7 +1004,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٦"
         }
       ]
     },
@@ -1022,27 +1022,27 @@
         {
           "id": 95357,
           "resource_id": 19,
-          "text": "But when sight is confounded"
+          "translation": "But when sight is confounded"
         },
         {
           "id": 369845,
           "resource_id": 79,
-          "text": "(Прямо перед наступлением этого дня) когда (из-за сильного страха) будет (словно молнией) ослеплен взор (того, кто не верил в этот великий день),"
+          "translation": "(Прямо перед наступлением этого дня) когда (из-за сильного страха) будет (словно молнией) ослеплен взор (того, кто не верил в этот великий день),"
         },
         {
           "id": 258198,
           "resource_id": 45,
-          "text": "Когда взор будет ошеломлен,"
+          "translation": "Когда взор будет ошеломлен,"
         },
         {
           "id": 144491,
           "resource_id": 27,
-          "text": "Wenn dann der Blick verwirrt ist"
+          "translation": "Wenn dann der Blick verwirrt ist"
         },
         {
           "id": 7575954,
           "resource_id": 445,
-          "text": "Тогда всяк ослепится взор"
+          "translation": "Тогда всяк ослепится взор"
         }
       ],
       "verse_key": "75:7",
@@ -1057,7 +1057,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﮬ",
-          "text_uthmani": "فَإِذَا",
           "translation": {
             "language_name": "english",
             "text": "So when"
@@ -1065,7 +1064,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-idhā"
-          }
+          },
+          "arabic": "فَإِذَا"
         },
         {
           "audio_url": "wbw/075_007_002.mp3",
@@ -1076,7 +1076,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﮭ",
-          "text_uthmani": "بَرِقَ",
           "translation": {
             "language_name": "english",
             "text": "is dazzled"
@@ -1084,7 +1083,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bariqa"
-          }
+          },
+          "arabic": "بَرِقَ"
         },
         {
           "audio_url": "wbw/075_007_003.mp3",
@@ -1095,7 +1095,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﮮ",
-          "text_uthmani": "ٱلْبَصَرُ",
           "translation": {
             "language_name": "english",
             "text": "the vision"
@@ -1103,7 +1102,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-baṣaru"
-          }
+          },
+          "arabic": "ٱلْبَصَرُ"
         },
         {
           "audio_url": null,
@@ -1114,7 +1114,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﮯ",
-          "text_uthmani": "٧",
           "translation": {
             "language_name": "english",
             "text": "(7)"
@@ -1122,7 +1121,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٧"
         }
       ]
     },
@@ -1139,27 +1139,27 @@
         {
           "id": 95359,
           "resource_id": 19,
-          "text": "And the moon is eclipsed"
+          "translation": "And the moon is eclipsed"
         },
         {
           "id": 369846,
           "resource_id": 79,
-          "text": "и затмится луна [исчезнет ее свет],"
+          "translation": "и затмится луна [исчезнет ее свет],"
         },
         {
           "id": 252213,
           "resource_id": 45,
-          "text": "луна затмится,"
+          "translation": "луна затмится,"
         },
         {
           "id": 144493,
           "resource_id": 27,
-          "text": "und der Mond sich verfinstert"
+          "translation": "und der Mond sich verfinstert"
         },
         {
           "id": 7584252,
           "resource_id": 445,
-          "text": "И в темень скатится луна"
+          "translation": "И в темень скатится луна"
         }
       ],
       "verse_key": "75:8",
@@ -1174,7 +1174,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﮰ",
-          "text_uthmani": "وَخَسَفَ",
           "translation": {
             "language_name": "english",
             "text": "And becomes dark"
@@ -1182,7 +1181,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wakhasafa"
-          }
+          },
+          "arabic": "وَخَسَفَ"
         },
         {
           "audio_url": "wbw/075_008_002.mp3",
@@ -1193,7 +1193,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﮱ",
-          "text_uthmani": "ٱلْقَمَرُ",
           "translation": {
             "language_name": "english",
             "text": "the moon"
@@ -1201,7 +1200,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-qamaru"
-          }
+          },
+          "arabic": "ٱلْقَمَرُ"
         },
         {
           "audio_url": null,
@@ -1212,7 +1212,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﯓ",
-          "text_uthmani": "٨",
           "translation": {
             "language_name": "english",
             "text": "(8)"
@@ -1220,7 +1219,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٨"
         }
       ]
     },
@@ -1237,27 +1237,27 @@
         {
           "id": 95361,
           "resource_id": 19,
-          "text": "And sun and moon are united,"
+          "translation": "And sun and moon are united,"
         },
         {
           "id": 369847,
           "resource_id": 79,
-          "text": "и будут сведены вместе солнце и луна (на одном горизонте) (у которых уже не будет света),"
+          "translation": "и будут сведены вместе солнце и луна (на одном горизонте) (у которых уже не будет света),"
         },
         {
           "id": 258199,
           "resource_id": 45,
-          "text": "а солнце и луна сойдутся."
+          "translation": "а солнце и луна сойдутся."
         },
         {
           "id": 144495,
           "resource_id": 27,
-          "text": "und Sonne und Mond zusammengebracht werden,"
+          "translation": "und Sonne und Mond zusammengebracht werden,"
         },
         {
           "id": 759872,
           "resource_id": 445,
-          "text": "И солнце, и луна (В затмении иль восхождении) сойдутся вместе"
+          "translation": "И солнце, и луна (В затмении иль восхождении) сойдутся вместе"
         }
       ],
       "verse_key": "75:9",
@@ -1272,7 +1272,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﯔ",
-          "text_uthmani": "وَجُمِعَ",
           "translation": {
             "language_name": "english",
             "text": "And are joined"
@@ -1280,7 +1279,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wajumiʿa"
-          }
+          },
+          "arabic": "وَجُمِعَ"
         },
         {
           "audio_url": "wbw/075_009_002.mp3",
@@ -1291,7 +1291,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﯕ",
-          "text_uthmani": "ٱلشَّمْسُ",
           "translation": {
             "language_name": "english",
             "text": "the sun"
@@ -1299,7 +1298,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-shamsu"
-          }
+          },
+          "arabic": "ٱلشَّمْسُ"
         },
         {
           "audio_url": "wbw/075_009_003.mp3",
@@ -1310,7 +1310,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﯖ",
-          "text_uthmani": "وَٱلْقَمَرُ",
           "translation": {
             "language_name": "english",
             "text": "and the moon"
@@ -1318,7 +1317,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wal-qamaru"
-          }
+          },
+          "arabic": "وَٱلْقَمَرُ"
         },
         {
           "audio_url": null,
@@ -1329,7 +1329,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﯗ",
-          "text_uthmani": "٩",
           "translation": {
             "language_name": "english",
             "text": "(9)"
@@ -1337,7 +1336,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٩"
         }
       ]
     },
@@ -1354,27 +1354,27 @@
         {
           "id": 95317,
           "resource_id": 19,
-          "text": "On that day man will cry: Whither to flee!"
+          "translation": "On that day man will cry: Whither to flee!"
         },
         {
           "id": 369848,
           "resource_id": 79,
-          "text": "скажет человек в тот день: «Куда бежать (от наказания Аллаха)?»"
+          "translation": "скажет человек в тот день: «Куда бежать (от наказания Аллаха)?»"
         },
         {
           "id": 255660,
           "resource_id": 45,
-          "text": "В тот день человек скажет: «Куда бежать?»."
+          "translation": "В тот день человек скажет: «Куда бежать?»."
         },
         {
           "id": 144451,
           "resource_id": 27,
-          "text": "wird der Mensch an jenem Tag sagen: Wohin soll die Flucht sein?"
+          "translation": "wird der Mensch an jenem Tag sagen: Wohin soll die Flucht sein?"
         },
         {
           "id": 75108412,
           "resource_id": 445,
-          "text": "В тот День Воскликнет человек: \"Где (мне) убежища (искать)"
+          "translation": "В тот День Воскликнет человек: \"Где (мне) убежища (искать)"
         }
       ],
       "verse_key": "75:10",
@@ -1389,7 +1389,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﯘ",
-          "text_uthmani": "يَقُولُ",
           "translation": {
             "language_name": "english",
             "text": "Will say"
@@ -1397,7 +1396,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yaqūlu"
-          }
+          },
+          "arabic": "يَقُولُ"
         },
         {
           "audio_url": "wbw/075_010_002.mp3",
@@ -1408,7 +1408,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﯙ",
-          "text_uthmani": "ٱلْإِنسَـٰنُ",
           "translation": {
             "language_name": "english",
             "text": "[the] man"
@@ -1416,7 +1415,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-insānu"
-          }
+          },
+          "arabic": "ٱلْإِنسَـٰنُ"
         },
         {
           "audio_url": "wbw/075_010_003.mp3",
@@ -1427,7 +1427,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﯚ",
-          "text_uthmani": "يَوْمَئِذٍ",
           "translation": {
             "language_name": "english",
             "text": "that Day"
@@ -1435,7 +1434,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yawma-idhin"
-          }
+          },
+          "arabic": "يَوْمَئِذٍ"
         },
         {
           "audio_url": "wbw/075_010_004.mp3",
@@ -1446,7 +1446,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﯛ",
-          "text_uthmani": "أَيْنَ",
           "translation": {
             "language_name": "english",
             "text": "Where"
@@ -1454,7 +1453,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ayna"
-          }
+          },
+          "arabic": "أَيْنَ"
         },
         {
           "audio_url": "wbw/075_010_005.mp3",
@@ -1465,7 +1465,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﯜ",
-          "text_uthmani": "ٱلْمَفَرُّ",
           "translation": {
             "language_name": "english",
             "text": "(is) the escape"
@@ -1473,7 +1472,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-mafaru"
-          }
+          },
+          "arabic": "ٱلْمَفَرُّ"
         },
         {
           "audio_url": null,
@@ -1484,7 +1484,6 @@
           "page_number": 577,
           "position": 6,
           "text": "ﯝ",
-          "text_uthmani": "١٠",
           "translation": {
             "language_name": "english",
             "text": "(10)"
@@ -1492,7 +1491,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٠"
         }
       ]
     },
@@ -1509,27 +1509,27 @@
         {
           "id": 95318,
           "resource_id": 19,
-          "text": "Alas! No refuge!"
+          "translation": "Alas! No refuge!"
         },
         {
           "id": 369849,
           "resource_id": 79,
-          "text": "Но нет же! Нет убежища (в этот день)!"
+          "translation": "Но нет же! Нет убежища (в этот день)!"
         },
         {
           "id": 255640,
           "resource_id": 45,
-          "text": "О нет! Не будет убежища!"
+          "translation": "О нет! Не будет убежища!"
         },
         {
           "id": 144448,
           "resource_id": 27,
-          "text": "Keineswegs! (Es gibt) keine Zuflucht."
+          "translation": "Keineswegs! (Es gibt) keine Zuflucht."
         },
         {
           "id": 75117707,
           "resource_id": 445,
-          "text": "Но нет же! Никаких убежищ"
+          "translation": "Но нет же! Никаких убежищ"
         }
       ],
       "verse_key": "75:11",
@@ -1544,7 +1544,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﯞ",
-          "text_uthmani": "كَلَّا",
           "translation": {
             "language_name": "english",
             "text": "By no means"
@@ -1552,7 +1551,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kallā"
-          }
+          },
+          "arabic": "كَلَّا"
         },
         {
           "audio_url": "wbw/075_011_002.mp3",
@@ -1563,7 +1563,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﯟ",
-          "text_uthmani": "لَا",
           "translation": {
             "language_name": "english",
             "text": "(There is) no"
@@ -1571,7 +1570,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "lā"
-          }
+          },
+          "arabic": "لَا"
         },
         {
           "audio_url": "wbw/075_011_003.mp3",
@@ -1582,7 +1582,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﯠ",
-          "text_uthmani": "وَزَرَ",
           "translation": {
             "language_name": "english",
             "text": "refuge"
@@ -1590,7 +1589,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wazara"
-          }
+          },
+          "arabic": "وَزَرَ"
         },
         {
           "audio_url": null,
@@ -1601,7 +1601,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﯡ",
-          "text_uthmani": "١١",
           "translation": {
             "language_name": "english",
             "text": "(11)"
@@ -1609,7 +1608,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١١"
         }
       ]
     },
@@ -1626,27 +1626,27 @@
         {
           "id": 95319,
           "resource_id": 19,
-          "text": "Unto thy Lord is the recourse that day."
+          "translation": "Unto thy Lord is the recourse that day."
         },
         {
           "id": 369850,
           "resource_id": 79,
-          "text": "К Господу твоему в тот день будет возвращение (Его творений) (когда Он воздаст им по тому, что они заслуживают)!"
+          "translation": "К Господу твоему в тот день будет возвращение (Его творений) (когда Он воздаст им по тому, что они заслуживают)!"
         },
         {
           "id": 255639,
           "resource_id": 45,
-          "text": "В тот день возвращение будет к твоему Господу."
+          "translation": "В тот день возвращение будет к твоему Господу."
         },
         {
           "id": 144449,
           "resource_id": 27,
-          "text": "Zu deinem Herrn wird an jenem Tag der Weg zum Aufenthaltsort (führen)."
+          "translation": "Zu deinem Herrn wird an jenem Tag der Weg zum Aufenthaltsort (führen)."
         },
         {
           "id": 751265,
           "resource_id": 445,
-          "text": "И лишь у твоего Владыки В тот День - (Последнее) пристанище твое"
+          "translation": "И лишь у твоего Владыки В тот День - (Последнее) пристанище твое"
         }
       ],
       "verse_key": "75:12",
@@ -1661,7 +1661,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﯢ",
-          "text_uthmani": "إِلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "To"
@@ -1669,7 +1668,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ilā"
-          }
+          },
+          "arabic": "إِلَىٰ"
         },
         {
           "audio_url": "wbw/075_012_002.mp3",
@@ -1680,7 +1680,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﯣ",
-          "text_uthmani": "رَبِّكَ",
           "translation": {
             "language_name": "english",
             "text": "your Lord"
@@ -1688,7 +1687,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rabbika"
-          }
+          },
+          "arabic": "رَبِّكَ"
         },
         {
           "audio_url": "wbw/075_012_003.mp3",
@@ -1699,7 +1699,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﯤ",
-          "text_uthmani": "يَوْمَئِذٍ",
           "translation": {
             "language_name": "english",
             "text": "that Day"
@@ -1707,7 +1706,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yawma-idhin"
-          }
+          },
+          "arabic": "يَوْمَئِذٍ"
         },
         {
           "audio_url": "wbw/075_012_004.mp3",
@@ -1718,7 +1718,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﯥ",
-          "text_uthmani": "ٱلْمُسْتَقَرُّ",
           "translation": {
             "language_name": "english",
             "text": "(is) the place of rest"
@@ -1726,7 +1725,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-mus'taqaru"
-          }
+          },
+          "arabic": "ٱلْمُسْتَقَرُّ"
         },
         {
           "audio_url": null,
@@ -1737,7 +1737,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﯦ",
-          "text_uthmani": "١٢",
           "translation": {
             "language_name": "english",
             "text": "(12)"
@@ -1745,7 +1744,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٢"
         }
       ]
     },
@@ -1762,27 +1762,27 @@
         {
           "id": 95320,
           "resource_id": 19,
-          "text": "On that day man is told the tale of that which he hath sent before and left behind."
+          "translation": "On that day man is told the tale of that which he hath sent before and left behind."
         },
         {
           "id": 369851,
           "resource_id": 79,
-          "text": "Сообщено будет человеку в тот день (о всех его делах), что он уготовал вперед [совершил] и отложил [упустил]."
+          "translation": "Сообщено будет человеку в тот день (о всех его делах), что он уготовал вперед [совершил] и отложил [упустил]."
         },
         {
           "id": 255641,
           "resource_id": 45,
-          "text": "В тот день человеку возвестят о том, что он совершил заранее и что оставил после себя."
+          "translation": "В тот день человеку возвестят о том, что он совершил заранее и что оставил после себя."
         },
         {
           "id": 144450,
           "resource_id": 27,
-          "text": "Dem Menschen wird an jenem Tag kundgetan, was er vorausgeschickt und zurückgestellt hat."
+          "translation": "Dem Menschen wird an jenem Tag kundgetan, was er vorausgeschickt und zurückgestellt hat."
         },
         {
           "id": 75134235,
           "resource_id": 445,
-          "text": "И человеку возвестят В тот День, Что он себе вперед уготовал И что (без выполнения) оставил"
+          "translation": "И человеку возвестят В тот День, Что он себе вперед уготовал И что (без выполнения) оставил"
         }
       ],
       "verse_key": "75:13",
@@ -1797,7 +1797,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﯧ",
-          "text_uthmani": "يُنَبَّؤُا۟",
           "translation": {
             "language_name": "english",
             "text": "Will be informed"
@@ -1805,7 +1804,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yunabba-u"
-          }
+          },
+          "arabic": "يُنَبَّؤُا۟"
         },
         {
           "audio_url": "wbw/075_013_002.mp3",
@@ -1816,7 +1816,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﯨ",
-          "text_uthmani": "ٱلْإِنسَـٰنُ",
           "translation": {
             "language_name": "english",
             "text": "[the] man"
@@ -1824,7 +1823,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-insānu"
-          }
+          },
+          "arabic": "ٱلْإِنسَـٰنُ"
         },
         {
           "audio_url": "wbw/075_013_003.mp3",
@@ -1835,7 +1835,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﯩ",
-          "text_uthmani": "يَوْمَئِذٍۭ",
           "translation": {
             "language_name": "english",
             "text": "that Day"
@@ -1843,7 +1842,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yawma-idhin"
-          }
+          },
+          "arabic": "يَوْمَئِذٍۭ"
         },
         {
           "audio_url": "wbw/075_013_004.mp3",
@@ -1854,7 +1854,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﯪ",
-          "text_uthmani": "بِمَا",
           "translation": {
             "language_name": "english",
             "text": "of what"
@@ -1862,7 +1861,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bimā"
-          }
+          },
+          "arabic": "بِمَا"
         },
         {
           "audio_url": "wbw/075_013_005.mp3",
@@ -1873,7 +1873,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﯫ",
-          "text_uthmani": "قَدَّمَ",
           "translation": {
             "language_name": "english",
             "text": "he sent forth"
@@ -1881,7 +1880,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "qaddama"
-          }
+          },
+          "arabic": "قَدَّمَ"
         },
         {
           "audio_url": "wbw/075_013_006.mp3",
@@ -1892,7 +1892,6 @@
           "page_number": 577,
           "position": 6,
           "text": "ﯬ",
-          "text_uthmani": "وَأَخَّرَ",
           "translation": {
             "language_name": "english",
             "text": "and kept back"
@@ -1900,7 +1899,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wa-akhara"
-          }
+          },
+          "arabic": "وَأَخَّرَ"
         },
         {
           "audio_url": null,
@@ -1911,7 +1911,6 @@
           "page_number": 577,
           "position": 7,
           "text": "ﯭ",
-          "text_uthmani": "١٣",
           "translation": {
             "language_name": "english",
             "text": "(13)"
@@ -1919,7 +1918,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٣"
         }
       ]
     },
@@ -1936,27 +1936,27 @@
         {
           "id": 95321,
           "resource_id": 19,
-          "text": "Oh, but man is a telling witness against himself,"
+          "translation": "Oh, but man is a telling witness against himself,"
         },
         {
           "id": 369852,
           "resource_id": 79,
-          "text": "Более того, человек сам (в тот день) (будет) против самого себя свидетелем [он сам знает, что совершал],"
+          "translation": "Более того, человек сам (в тот день) (будет) против самого себя свидетелем [он сам знает, что совершал],"
         },
         {
           "id": 255642,
           "resource_id": 45,
-          "text": "Но человек будет свидетельствовать против самого себя,"
+          "translation": "Но человек будет свидетельствовать против самого себя,"
         },
         {
           "id": 144454,
           "resource_id": 27,
-          "text": "Aber nein! Der Mensch wird bezüglich seiner selbst durchblicken,"
+          "translation": "Aber nein! Der Mensch wird bezüglich seiner selbst durchblicken,"
         },
         {
           "id": 75146814,
           "resource_id": 445,
-          "text": "И будет человек В тот День Сам показания давать против себя"
+          "translation": "И будет человек В тот День Сам показания давать против себя"
         }
       ],
       "verse_key": "75:14",
@@ -1971,7 +1971,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﯮ",
-          "text_uthmani": "بَلِ",
           "translation": {
             "language_name": "english",
             "text": "Nay"
@@ -1979,7 +1978,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bali"
-          }
+          },
+          "arabic": "بَلِ"
         },
         {
           "audio_url": "wbw/075_014_002.mp3",
@@ -1990,7 +1990,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﯯ",
-          "text_uthmani": "ٱلْإِنسَـٰنُ",
           "translation": {
             "language_name": "english",
             "text": "[The] man"
@@ -1998,7 +1997,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-insānu"
-          }
+          },
+          "arabic": "ٱلْإِنسَـٰنُ"
         },
         {
           "audio_url": "wbw/075_014_003.mp3",
@@ -2009,7 +2009,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﯰ",
-          "text_uthmani": "عَلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "against"
@@ -2017,7 +2016,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalā"
-          }
+          },
+          "arabic": "عَلَىٰ"
         },
         {
           "audio_url": "wbw/075_014_004.mp3",
@@ -2028,7 +2028,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﯱ",
-          "text_uthmani": "نَفْسِهِۦ",
           "translation": {
             "language_name": "english",
             "text": "himself"
@@ -2036,7 +2035,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "nafsihi"
-          }
+          },
+          "arabic": "نَفْسِهِۦ"
         },
         {
           "audio_url": "wbw/075_014_005.mp3",
@@ -2047,7 +2047,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﯲ",
-          "text_uthmani": "بَصِيرَةٌۭ",
           "translation": {
             "language_name": "english",
             "text": "(will be) a witness"
@@ -2055,7 +2054,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "baṣīratun"
-          }
+          },
+          "arabic": "بَصِيرَةٌۭ"
         },
         {
           "audio_url": null,
@@ -2066,7 +2066,6 @@
           "page_number": 577,
           "position": 6,
           "text": "ﯳ",
-          "text_uthmani": "١٤",
           "translation": {
             "language_name": "english",
             "text": "(14)"
@@ -2074,7 +2073,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٤"
         }
       ]
     },
@@ -2091,27 +2091,27 @@
         {
           "id": 95322,
           "resource_id": 19,
-          "text": "Although he tender his excuses."
+          "translation": "Although he tender his excuses."
         },
         {
           "id": 369853,
           "resource_id": 79,
-          "text": "и даже излагая оправдания [оправдываясь] (за свои грехи)..."
+          "translation": "и даже излагая оправдания [оправдываясь] (за свои грехи)..."
         },
         {
           "id": 255643,
           "resource_id": 45,
-          "text": "даже если он будет оправдываться."
+          "translation": "даже если он будет оправдываться."
         },
         {
           "id": 144452,
           "resource_id": 27,
-          "text": "auch wenn er seine Entschuldigungen vorbrächte ."
+          "translation": "auch wenn er seine Entschuldigungen vorbrächte ."
         },
         {
           "id": 75151489,
           "resource_id": 445,
-          "text": "И даже если он представит извиненья, (Они Аллахом приняты не будут)"
+          "translation": "И даже если он представит извиненья, (Они Аллахом приняты не будут)"
         }
       ],
       "verse_key": "75:15",
@@ -2126,7 +2126,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﯴ",
-          "text_uthmani": "وَلَوْ",
           "translation": {
             "language_name": "english",
             "text": "Even if"
@@ -2134,7 +2133,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walaw"
-          }
+          },
+          "arabic": "وَلَوْ"
         },
         {
           "audio_url": "wbw/075_015_002.mp3",
@@ -2145,7 +2145,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﯵ",
-          "text_uthmani": "أَلْقَىٰ",
           "translation": {
             "language_name": "english",
             "text": "he presents"
@@ -2153,7 +2152,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alqā"
-          }
+          },
+          "arabic": "أَلْقَىٰ"
         },
         {
           "audio_url": "wbw/075_015_003.mp3",
@@ -2164,7 +2164,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﯶ",
-          "text_uthmani": "مَعَاذِيرَهُۥ",
           "translation": {
             "language_name": "english",
             "text": "his excuses"
@@ -2172,7 +2171,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "maʿādhīrahu"
-          }
+          },
+          "arabic": "مَعَاذِيرَهُۥ"
         },
         {
           "audio_url": null,
@@ -2183,7 +2183,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﯷ",
-          "text_uthmani": "١٥",
           "translation": {
             "language_name": "english",
             "text": "(15)"
@@ -2191,7 +2190,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٥"
         }
       ]
     },
@@ -2208,27 +2208,27 @@
         {
           "id": 95323,
           "resource_id": 19,
-          "text": "Stir not thy tongue herewith to hasten it."
+          "translation": "Stir not thy tongue herewith to hasten it."
         },
         {
           "id": 369854,
           "resource_id": 79,
-          "text": "Не шевели (о, Пророк) языком своим с ним [с Кораном], (многократно повторяя его) чтобы ускорить это [чтобы скорее запомнить его]."
+          "translation": "Не шевели (о, Пророк) языком своим с ним [с Кораном], (многократно повторяя его) чтобы ускорить это [чтобы скорее запомнить его]."
         },
         {
           "id": 255644,
           "resource_id": 45,
-          "text": "Не шевели своим языком, повторяя его (Коран), чтобы поскорее запомнить."
+          "translation": "Не шевели своим языком, повторяя его (Коран), чтобы поскорее запомнить."
         },
         {
           "id": 144453,
           "resource_id": 27,
-          "text": "Bewege deine Zunge nicht damit, um ihn übereilt weiterzugeben."
+          "translation": "Bewege deine Zunge nicht damit, um ihn übereilt weiterzugeben."
         },
         {
           "id": 75167132,
           "resource_id": 445,
-          "text": "(О Мухаммад!) Ты не спеши переложить (Ниспосланные откровения Корана) на язык, (Боясь, что ускользнут они)"
+          "translation": "(О Мухаммад!) Ты не спеши переложить (Ниспосланные откровения Корана) на язык, (Боясь, что ускользнут они)"
         }
       ],
       "verse_key": "75:16",
@@ -2243,7 +2243,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﯸ",
-          "text_uthmani": "لَا",
           "translation": {
             "language_name": "english",
             "text": "Not"
@@ -2251,7 +2250,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "lā"
-          }
+          },
+          "arabic": "لَا"
         },
         {
           "audio_url": "wbw/075_016_002.mp3",
@@ -2262,7 +2262,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﯹ",
-          "text_uthmani": "تُحَرِّكْ",
           "translation": {
             "language_name": "english",
             "text": "move"
@@ -2270,7 +2269,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "tuḥarrik"
-          }
+          },
+          "arabic": "تُحَرِّكْ"
         },
         {
           "audio_url": "wbw/075_016_003.mp3",
@@ -2281,7 +2281,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﯺ",
-          "text_uthmani": "بِهِۦ",
           "translation": {
             "language_name": "english",
             "text": "with it"
@@ -2289,7 +2288,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bihi"
-          }
+          },
+          "arabic": "بِهِۦ"
         },
         {
           "audio_url": "wbw/075_016_004.mp3",
@@ -2300,7 +2300,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﯻ",
-          "text_uthmani": "لِسَانَكَ",
           "translation": {
             "language_name": "english",
             "text": "your tongue"
@@ -2308,7 +2307,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "lisānaka"
-          }
+          },
+          "arabic": "لِسَانَكَ"
         },
         {
           "audio_url": "wbw/075_016_005.mp3",
@@ -2319,7 +2319,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﯼ",
-          "text_uthmani": "لِتَعْجَلَ",
           "translation": {
             "language_name": "english",
             "text": "to hasten"
@@ -2327,7 +2326,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "litaʿjala"
-          }
+          },
+          "arabic": "لِتَعْجَلَ"
         },
         {
           "audio_url": "wbw/075_016_006.mp3",
@@ -2338,7 +2338,6 @@
           "page_number": 577,
           "position": 6,
           "text": "ﯽ",
-          "text_uthmani": "بِهِۦٓ",
           "translation": {
             "language_name": "english",
             "text": "with it"
@@ -2346,7 +2345,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bihi"
-          }
+          },
+          "arabic": "بِهِۦٓ"
         },
         {
           "audio_url": null,
@@ -2357,7 +2357,6 @@
           "page_number": 577,
           "position": 7,
           "text": "ﯾ",
-          "text_uthmani": "١٦",
           "translation": {
             "language_name": "english",
             "text": "(16)"
@@ -2365,7 +2364,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٦"
         }
       ]
     },
@@ -2382,27 +2382,27 @@
         {
           "id": 95324,
           "resource_id": 19,
-          "text": "Lo! upon Us (resteth) the putting together thereof and the reading thereof."
+          "translation": "Lo! upon Us (resteth) the putting together thereof and the reading thereof."
         },
         {
           "id": 369855,
           "resource_id": 79,
-          "text": "Поистине, на Нас (лежит обязанность) собирать его и прочесть его. [Аллах Сам сделает так, что Пророк запомнит весь Коран, и научится читать все аяты правильно.]"
+          "translation": "Поистине, на Нас (лежит обязанность) собирать его и прочесть его. [Аллах Сам сделает так, что Пророк запомнит весь Коран, и научится читать все аяты правильно.]"
         },
         {
           "id": 255645,
           "resource_id": 45,
-          "text": "Нам надлежит собрать его и прочесть."
+          "translation": "Нам надлежит собрать его и прочесть."
         },
         {
           "id": 144458,
           "resource_id": 27,
-          "text": "Uns obliegt es, ihn zusammenzustellen und ihn vorlesen zu lassen."
+          "translation": "Uns obliegt es, ihn zusammenzustellen und ihn vorlesen zu lassen."
         },
         {
           "id": 75179197,
           "resource_id": 445,
-          "text": "На Нас лежит соединение (частей) и чтение (Корана)"
+          "translation": "На Нас лежит соединение (частей) и чтение (Корана)"
         }
       ],
       "verse_key": "75:17",
@@ -2417,7 +2417,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﯿ",
-          "text_uthmani": "إِنَّ",
           "translation": {
             "language_name": "english",
             "text": "Indeed"
@@ -2425,7 +2424,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "inna"
-          }
+          },
+          "arabic": "إِنَّ"
         },
         {
           "audio_url": "wbw/075_017_002.mp3",
@@ -2436,7 +2436,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﰀ",
-          "text_uthmani": "عَلَيْنَا",
           "translation": {
             "language_name": "english",
             "text": "upon Us"
@@ -2444,7 +2443,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalaynā"
-          }
+          },
+          "arabic": "عَلَيْنَا"
         },
         {
           "audio_url": "wbw/075_017_003.mp3",
@@ -2455,7 +2455,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﰁ",
-          "text_uthmani": "جَمْعَهُۥ",
           "translation": {
             "language_name": "english",
             "text": "(is) its collection"
@@ -2463,7 +2462,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "jamʿahu"
-          }
+          },
+          "arabic": "جَمْعَهُۥ"
         },
         {
           "audio_url": "wbw/075_017_004.mp3",
@@ -2474,7 +2474,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﰂ",
-          "text_uthmani": "وَقُرْءَانَهُۥ",
           "translation": {
             "language_name": "english",
             "text": "and its recitation"
@@ -2482,7 +2481,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "waqur'ānahu"
-          }
+          },
+          "arabic": "وَقُرْءَانَهُۥ"
         },
         {
           "audio_url": null,
@@ -2493,7 +2493,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﰃ",
-          "text_uthmani": "١٧",
           "translation": {
             "language_name": "english",
             "text": "(17)"
@@ -2501,7 +2500,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٧"
         }
       ]
     },
@@ -2518,27 +2518,27 @@
         {
           "id": 95325,
           "resource_id": 19,
-          "text": "And when We read it, follow thou the reading;"
+          "translation": "And when We read it, follow thou the reading;"
         },
         {
           "id": 369856,
           "resource_id": 79,
-          "text": "И когда Мы прочитаем его [когда Аллах передаст тебе тот или иной аят через ангела Джибрила], то следуй за его чтением [читай его следом]."
+          "translation": "И когда Мы прочитаем его [когда Аллах передаст тебе тот или иной аят через ангела Джибрила], то следуй за его чтением [читай его следом]."
         },
         {
           "id": 255646,
           "resource_id": 45,
-          "text": "Когда же Мы прочтем его, то читай его следом."
+          "translation": "Когда же Мы прочтем его, то читай его следом."
         },
         {
           "id": 144455,
           "resource_id": 27,
-          "text": "Und (erst) wenn Wir ihn vorgelesen haben, dann folge du der Art seines Vortragens."
+          "translation": "Und (erst) wenn Wir ihn vorgelesen haben, dann folge du der Art seines Vortragens."
         },
         {
           "id": 75189212,
           "resource_id": 445,
-          "text": "Когда же Мы тебе его читаем, (Внимательно его) словам ты следуй"
+          "translation": "Когда же Мы тебе его читаем, (Внимательно его) словам ты следуй"
         }
       ],
       "verse_key": "75:18",
@@ -2553,7 +2553,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﰄ",
-          "text_uthmani": "فَإِذَا",
           "translation": {
             "language_name": "english",
             "text": "And when"
@@ -2561,7 +2560,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-idhā"
-          }
+          },
+          "arabic": "فَإِذَا"
         },
         {
           "audio_url": "wbw/075_018_002.mp3",
@@ -2572,7 +2572,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﰅ",
-          "text_uthmani": "قَرَأْنَـٰهُ",
           "translation": {
             "language_name": "english",
             "text": "We have recited it"
@@ -2580,7 +2579,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "qaranāhu"
-          }
+          },
+          "arabic": "قَرَأْنَـٰهُ"
         },
         {
           "audio_url": "wbw/075_018_003.mp3",
@@ -2591,7 +2591,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﰆ",
-          "text_uthmani": "فَٱتَّبِعْ",
           "translation": {
             "language_name": "english",
             "text": "then follow"
@@ -2599,7 +2598,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-ittabiʿ"
-          }
+          },
+          "arabic": "فَٱتَّبِعْ"
         },
         {
           "audio_url": "wbw/075_018_004.mp3",
@@ -2610,7 +2610,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﰇ",
-          "text_uthmani": "قُرْءَانَهُۥ",
           "translation": {
             "language_name": "english",
             "text": "its recitation"
@@ -2618,7 +2617,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "qur'ānahu"
-          }
+          },
+          "arabic": "قُرْءَانَهُۥ"
         },
         {
           "audio_url": null,
@@ -2629,7 +2629,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﰈ",
-          "text_uthmani": "١٨",
           "translation": {
             "language_name": "english",
             "text": "(18)"
@@ -2637,7 +2636,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٨"
         }
       ]
     },
@@ -2654,27 +2654,27 @@
         {
           "id": 95326,
           "resource_id": 19,
-          "text": "Then lo! upon Us (resteth) the explanation thereof."
+          "translation": "Then lo! upon Us (resteth) the explanation thereof."
         },
         {
           "id": 369857,
           "resource_id": 79,
-          "text": "Далее, поистине, на Нас (лежит обязанность) разъяснить его [Коран]."
+          "translation": "Далее, поистине, на Нас (лежит обязанность) разъяснить его [Коран]."
         },
         {
           "id": 255647,
           "resource_id": 45,
-          "text": "Нам надлежит разъяснять его."
+          "translation": "Нам надлежит разъяснять его."
         },
         {
           "id": 144456,
           "resource_id": 27,
-          "text": "Hierauf obliegt es Uns, ihn klar darzulegen."
+          "translation": "Hierauf obliegt es Uns, ihn klar darzulegen."
         },
         {
           "id": 75198065,
           "resource_id": 445,
-          "text": "На Нас лежит и разъяснение его"
+          "translation": "На Нас лежит и разъяснение его"
         }
       ],
       "verse_key": "75:19",
@@ -2689,7 +2689,6 @@
           "page_number": 577,
           "position": 1,
           "text": "ﰉ",
-          "text_uthmani": "ثُمَّ",
           "translation": {
             "language_name": "english",
             "text": "Then"
@@ -2697,7 +2696,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "thumma"
-          }
+          },
+          "arabic": "ثُمَّ"
         },
         {
           "audio_url": "wbw/075_019_002.mp3",
@@ -2708,7 +2708,6 @@
           "page_number": 577,
           "position": 2,
           "text": "ﰊ",
-          "text_uthmani": "إِنَّ",
           "translation": {
             "language_name": "english",
             "text": "indeed"
@@ -2716,7 +2715,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "inna"
-          }
+          },
+          "arabic": "إِنَّ"
         },
         {
           "audio_url": "wbw/075_019_003.mp3",
@@ -2727,7 +2727,6 @@
           "page_number": 577,
           "position": 3,
           "text": "ﰋ",
-          "text_uthmani": "عَلَيْنَا",
           "translation": {
             "language_name": "english",
             "text": "upon Us"
@@ -2735,7 +2734,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalaynā"
-          }
+          },
+          "arabic": "عَلَيْنَا"
         },
         {
           "audio_url": "wbw/075_019_004.mp3",
@@ -2746,7 +2746,6 @@
           "page_number": 577,
           "position": 4,
           "text": "ﰌ",
-          "text_uthmani": "بَيَانَهُۥ",
           "translation": {
             "language_name": "english",
             "text": "(is) its explanation"
@@ -2754,7 +2753,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bayānahu"
-          }
+          },
+          "arabic": "بَيَانَهُۥ"
         },
         {
           "audio_url": null,
@@ -2765,7 +2765,6 @@
           "page_number": 577,
           "position": 5,
           "text": "ﰍ",
-          "text_uthmani": "١٩",
           "translation": {
             "language_name": "english",
             "text": "(19)"
@@ -2773,7 +2772,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٩"
         }
       ]
     },
@@ -2790,27 +2790,27 @@
         {
           "id": 95329,
           "resource_id": 19,
-          "text": "Nay, but ye do love the fleeting Now"
+          "translation": "Nay, but ye do love the fleeting Now"
         },
         {
           "id": 369858,
           "resource_id": 79,
-          "text": "Нет [не думайте, что не будет воскрешения для расчета и воздаяния]! Однако, вы любите преходящую [жизнь в этом мире]"
+          "translation": "Нет [не думайте, что не будет воскрешения для расчета и воздаяния]! Однако, вы любите преходящую [жизнь в этом мире]"
         },
         {
           "id": 255650,
           "resource_id": 45,
-          "text": "Но нет! Вы любите жизнь ближнюю"
+          "translation": "Но нет! Вы любите жизнь ближнюю"
         },
         {
           "id": 144459,
           "resource_id": 27,
-          "text": "Keineswegs! Vielmehr liebt ihr das schnell Eintreffende,"
+          "translation": "Keineswegs! Vielmehr liebt ihr das schnell Eintreffende,"
         },
         {
           "id": 75201740,
           "resource_id": 445,
-          "text": "Но нет! Мила вам суета и тщЕта (этой жизни)"
+          "translation": "Но нет! Мила вам суета и тщЕта (этой жизни)"
         }
       ],
       "verse_key": "75:20",
@@ -2825,7 +2825,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭑ",
-          "text_uthmani": "كَلَّا",
           "translation": {
             "language_name": "english",
             "text": "No"
@@ -2833,7 +2832,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kallā"
-          }
+          },
+          "arabic": "كَلَّا"
         },
         {
           "audio_url": "wbw/075_020_002.mp3",
@@ -2844,7 +2844,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭒ",
-          "text_uthmani": "بَلْ",
           "translation": {
             "language_name": "english",
             "text": "But"
@@ -2852,7 +2851,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bal"
-          }
+          },
+          "arabic": "بَلْ"
         },
         {
           "audio_url": "wbw/075_020_003.mp3",
@@ -2863,7 +2863,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭓ",
-          "text_uthmani": "تُحِبُّونَ",
           "translation": {
             "language_name": "english",
             "text": "you love"
@@ -2871,7 +2870,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "tuḥibbūna"
-          }
+          },
+          "arabic": "تُحِبُّونَ"
         },
         {
           "audio_url": "wbw/075_020_004.mp3",
@@ -2882,7 +2882,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﭔ",
-          "text_uthmani": "ٱلْعَاجِلَةَ",
           "translation": {
             "language_name": "english",
             "text": "the immediate"
@@ -2890,7 +2889,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ʿājilata"
-          }
+          },
+          "arabic": "ٱلْعَاجِلَةَ"
         },
         {
           "audio_url": null,
@@ -2901,7 +2901,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﭕ",
-          "text_uthmani": "٢٠",
           "translation": {
             "language_name": "english",
             "text": "(20)"
@@ -2909,7 +2908,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢٠"
         }
       ]
     },
@@ -2926,27 +2926,27 @@
         {
           "id": 95330,
           "resource_id": 19,
-          "text": "And neglect the Hereafter."
+          "translation": "And neglect the Hereafter."
         },
         {
           "id": 369859,
           "resource_id": 79,
-          "text": "и оставляете Последнюю [пренебрегаете делами для Вечной жизни]."
+          "translation": "и оставляете Последнюю [пренебрегаете делами для Вечной жизни]."
         },
         {
           "id": 255651,
           "resource_id": 45,
-          "text": "и пренебрегаете Последней жизнью."
+          "translation": "и пренебрегаете Последней жизнью."
         },
         {
           "id": 144460,
           "resource_id": 27,
-          "text": "und laßt das Jenseits (außer acht)."
+          "translation": "und laßt das Jenseits (außer acht)."
         },
         {
           "id": 75215880,
           "resource_id": 445,
-          "text": "И оставляете вы жизнь вторую (без вниманья)"
+          "translation": "И оставляете вы жизнь вторую (без вниманья)"
         }
       ],
       "verse_key": "75:21",
@@ -2961,7 +2961,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭖ",
-          "text_uthmani": "وَتَذَرُونَ",
           "translation": {
             "language_name": "english",
             "text": "And leave"
@@ -2969,7 +2968,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "watadharūna"
-          }
+          },
+          "arabic": "وَتَذَرُونَ"
         },
         {
           "audio_url": "wbw/075_021_002.mp3",
@@ -2980,7 +2980,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭗ",
-          "text_uthmani": "ٱلْـَٔاخِرَةَ",
           "translation": {
             "language_name": "english",
             "text": "the Hereafter"
@@ -2988,7 +2987,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ākhirata"
-          }
+          },
+          "arabic": "ٱلْـَٔاخِرَةَ"
         },
         {
           "audio_url": null,
@@ -2999,7 +2999,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭘ",
-          "text_uthmani": "٢١",
           "translation": {
             "language_name": "english",
             "text": "(21)"
@@ -3007,7 +3006,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢١"
         }
       ]
     },
@@ -3024,27 +3024,27 @@
         {
           "id": 95331,
           "resource_id": 19,
-          "text": "That day will faces be resplendent,"
+          "translation": "That day will faces be resplendent,"
         },
         {
           "id": 369860,
           "resource_id": 79,
-          "text": "Лица (верующих) (будут) в тот день [в День Суда] сияющими,"
+          "translation": "Лица (верующих) (будут) в тот день [в День Суда] сияющими,"
         },
         {
           "id": 255652,
           "resource_id": 45,
-          "text": "Одни лица в тот день будут сиять"
+          "translation": "Одни лица в тот день будут сиять"
         },
         {
           "id": 144461,
           "resource_id": 27,
-          "text": "(Die einen) Gesichter werden an jenem Tag strahlen,"
+          "translation": "(Die einen) Gesichter werden an jenem Tag strahlen,"
         },
         {
           "id": 75221001,
           "resource_id": 445,
-          "text": "В тот День Сияющими будут лица у одних"
+          "translation": "В тот День Сияющими будут лица у одних"
         }
       ],
       "verse_key": "75:22",
@@ -3059,7 +3059,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭙ",
-          "text_uthmani": "وُجُوهٌۭ",
           "translation": {
             "language_name": "english",
             "text": "Faces"
@@ -3067,7 +3066,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wujūhun"
-          }
+          },
+          "arabic": "وُجُوهٌۭ"
         },
         {
           "audio_url": "wbw/075_022_002.mp3",
@@ -3078,7 +3078,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭚ",
-          "text_uthmani": "يَوْمَئِذٍۢ",
           "translation": {
             "language_name": "english",
             "text": "that Day"
@@ -3086,7 +3085,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yawma-idhin"
-          }
+          },
+          "arabic": "يَوْمَئِذٍۢ"
         },
         {
           "audio_url": "wbw/075_022_003.mp3",
@@ -3097,7 +3097,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭛ",
-          "text_uthmani": "نَّاضِرَةٌ",
           "translation": {
             "language_name": "english",
             "text": "(will be) radiant"
@@ -3105,7 +3104,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "nāḍiratun"
-          }
+          },
+          "arabic": "نَّاضِرَةٌ"
         },
         {
           "audio_url": null,
@@ -3116,7 +3116,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﭜ",
-          "text_uthmani": "٢٢",
           "translation": {
             "language_name": "english",
             "text": "(22)"
@@ -3124,7 +3123,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢٢"
         }
       ]
     },
@@ -3141,27 +3141,27 @@
         {
           "id": 95332,
           "resource_id": 19,
-          "text": "Looking toward their Lord;"
+          "translation": "Looking toward their Lord;"
         },
         {
           "id": 369861,
           "resource_id": 79,
-          "text": "на Господа своего взирающими [верующие увидят Аллаха в Раю, подобно тому, как люди в этом мире видят солнце и луну]."
+          "translation": "на Господа своего взирающими [верующие увидят Аллаха в Раю, подобно тому, как люди в этом мире видят солнце и луну]."
         },
         {
           "id": 255653,
           "resource_id": 45,
-          "text": "и взирать на своего Господа."
+          "translation": "и взирать на своего Господа."
         },
         {
           "id": 144462,
           "resource_id": 27,
-          "text": "zu ihrem Herrn schauen."
+          "translation": "zu ihrem Herrn schauen."
         },
         {
           "id": 75232059,
           "resource_id": 445,
-          "text": "Взирающих на своего Владыку"
+          "translation": "Взирающих на своего Владыку"
         }
       ],
       "verse_key": "75:23",
@@ -3176,7 +3176,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭝ",
-          "text_uthmani": "إِلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "Towards"
@@ -3184,7 +3183,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ilā"
-          }
+          },
+          "arabic": "إِلَىٰ"
         },
         {
           "audio_url": "wbw/075_023_002.mp3",
@@ -3195,7 +3195,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭞ",
-          "text_uthmani": "رَبِّهَا",
           "translation": {
             "language_name": "english",
             "text": "their Lord"
@@ -3203,7 +3202,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rabbihā"
-          }
+          },
+          "arabic": "رَبِّهَا"
         },
         {
           "audio_url": "wbw/075_023_003.mp3",
@@ -3214,7 +3214,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭟ",
-          "text_uthmani": "نَاظِرَةٌۭ",
           "translation": {
             "language_name": "english",
             "text": "looking"
@@ -3222,7 +3221,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "nāẓiratun"
-          }
+          },
+          "arabic": "نَاظِرَةٌۭ"
         },
         {
           "audio_url": null,
@@ -3233,7 +3233,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﭠ",
-          "text_uthmani": "٢٣",
           "translation": {
             "language_name": "english",
             "text": "(23)"
@@ -3241,7 +3240,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢٣"
         }
       ]
     },
@@ -3258,27 +3258,27 @@
         {
           "id": 95333,
           "resource_id": 19,
-          "text": "And that day will other faces be despondent,"
+          "translation": "And that day will other faces be despondent,"
         },
         {
           "id": 369862,
           "resource_id": 79,
-          "text": "И лица (неверующих и грешников) в тот день [в День Суда] будут мрачными."
+          "translation": "И лица (неверующих и грешников) в тот день [в День Суда] будут мрачными."
         },
         {
           "id": 255654,
           "resource_id": 45,
-          "text": "Другие же лица в тот день будут омрачены."
+          "translation": "Другие же лица в тот день будут омрачены."
         },
         {
           "id": 144463,
           "resource_id": 27,
-          "text": "Und (die anderen) Gesichter werden an jenem Tag finster sein;"
+          "translation": "Und (die anderen) Gesichter werden an jenem Tag finster sein;"
         },
         {
           "id": 75243402,
           "resource_id": 445,
-          "text": "Другие ж лица в этот День Печаль и мрак покроют"
+          "translation": "Другие ж лица в этот День Печаль и мрак покроют"
         }
       ],
       "verse_key": "75:24",
@@ -3293,7 +3293,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭡ",
-          "text_uthmani": "وَوُجُوهٌۭ",
           "translation": {
             "language_name": "english",
             "text": "And faces"
@@ -3301,7 +3300,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wawujūhun"
-          }
+          },
+          "arabic": "وَوُجُوهٌۭ"
         },
         {
           "audio_url": "wbw/075_024_002.mp3",
@@ -3312,7 +3312,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭢ",
-          "text_uthmani": "يَوْمَئِذٍۭ",
           "translation": {
             "language_name": "english",
             "text": "that Day"
@@ -3320,7 +3319,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yawma-idhin"
-          }
+          },
+          "arabic": "يَوْمَئِذٍۭ"
         },
         {
           "audio_url": "wbw/075_024_003.mp3",
@@ -3331,7 +3331,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭣ",
-          "text_uthmani": "بَاسِرَةٌۭ",
           "translation": {
             "language_name": "english",
             "text": "(will be) distorted"
@@ -3339,7 +3338,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bāsiratun"
-          }
+          },
+          "arabic": "بَاسِرَةٌۭ"
         },
         {
           "audio_url": null,
@@ -3350,7 +3350,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﭤ",
-          "text_uthmani": "٢٤",
           "translation": {
             "language_name": "english",
             "text": "(24)"
@@ -3358,7 +3357,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢٤"
         }
       ]
     },
@@ -3375,27 +3375,27 @@
         {
           "id": 95334,
           "resource_id": 19,
-          "text": "Thou wilt know that some great disaster is about to fall on them."
+          "translation": "Thou wilt know that some great disaster is about to fall on them."
         },
         {
           "id": 369863,
           "resource_id": 79,
-          "text": "Они будут думать, что (на них падает такая беда, от которой) ломается спинной хребет."
+          "translation": "Они будут думать, что (на них падает такая беда, от которой) ломается спинной хребет."
         },
         {
           "id": 255655,
           "resource_id": 45,
-          "text": "Они убедятся о том, что их поразит беда."
+          "translation": "Они убедятся о том, что их поразит беда."
         },
         {
           "id": 144464,
           "resource_id": 27,
-          "text": "die meinen, es würde ihnen das Rückgrat gebrochen."
+          "translation": "die meinen, es würde ihnen das Rückgrat gebrochen."
         },
         {
           "id": 75255194,
           "resource_id": 445,
-          "text": "В предвестии беды, ломающей хребет"
+          "translation": "В предвестии беды, ломающей хребет"
         }
       ],
       "verse_key": "75:25",
@@ -3410,7 +3410,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭥ",
-          "text_uthmani": "تَظُنُّ",
           "translation": {
             "language_name": "english",
             "text": "Thinking"
@@ -3418,7 +3417,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "taẓunnu"
-          }
+          },
+          "arabic": "تَظُنُّ"
         },
         {
           "audio_url": "wbw/075_025_002.mp3",
@@ -3429,7 +3429,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭦ",
-          "text_uthmani": "أَن",
           "translation": {
             "language_name": "english",
             "text": "that"
@@ -3437,7 +3436,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "an"
-          }
+          },
+          "arabic": "أَن"
         },
         {
           "audio_url": "wbw/075_025_003.mp3",
@@ -3448,7 +3448,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭧ",
-          "text_uthmani": "يُفْعَلَ",
           "translation": {
             "language_name": "english",
             "text": "will be done"
@@ -3456,7 +3455,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yuf'ʿala"
-          }
+          },
+          "arabic": "يُفْعَلَ"
         },
         {
           "audio_url": "wbw/075_025_004.mp3",
@@ -3467,7 +3467,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﭨ",
-          "text_uthmani": "بِهَا",
           "translation": {
             "language_name": "english",
             "text": "to them"
@@ -3475,7 +3474,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bihā"
-          }
+          },
+          "arabic": "بِهَا"
         },
         {
           "audio_url": "wbw/075_025_005.mp3",
@@ -3486,7 +3486,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﭩ",
-          "text_uthmani": "فَاقِرَةٌۭ",
           "translation": {
             "language_name": "english",
             "text": "backbreaking"
@@ -3494,7 +3493,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fāqiratun"
-          }
+          },
+          "arabic": "فَاقِرَةٌۭ"
         },
         {
           "audio_url": null,
@@ -3505,7 +3505,6 @@
           "page_number": 578,
           "position": 6,
           "text": "ﭪ",
-          "text_uthmani": "٢٥",
           "translation": {
             "language_name": "english",
             "text": "(25)"
@@ -3513,7 +3512,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢٥"
         }
       ]
     },
@@ -3530,27 +3530,27 @@
         {
           "id": 95335,
           "resource_id": 19,
-          "text": "Nay, but when the life cometh up to the throat"
+          "translation": "Nay, but when the life cometh up to the throat"
         },
         {
           "id": 369864,
           "resource_id": 79,
-          "text": "Но нет! Когда дойдет она [душа] до ключицы (во время смерти),"
+          "translation": "Но нет! Когда дойдет она [душа] до ключицы (во время смерти),"
         },
         {
           "id": 255656,
           "resource_id": 45,
-          "text": "Но нет! Когда душа достигнет ключицы,"
+          "translation": "Но нет! Когда душа достигнет ключицы,"
         },
         {
           "id": 144465,
           "resource_id": 27,
-          "text": "Keineswegs! Wenn sie das Schlüsselbein erreicht"
+          "translation": "Keineswegs! Wenn sie das Schlüsselbein erreicht"
         },
         {
           "id": 7526619,
           "resource_id": 445,
-          "text": "Когда (душа при выходе из тела) Подступит к самой горловине"
+          "translation": "Когда (душа при выходе из тела) Подступит к самой горловине"
         }
       ],
       "verse_key": "75:26",
@@ -3565,7 +3565,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭫ",
-          "text_uthmani": "كَلَّآ",
           "translation": {
             "language_name": "english",
             "text": "No"
@@ -3573,7 +3572,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kallā"
-          }
+          },
+          "arabic": "كَلَّآ"
         },
         {
           "audio_url": "wbw/075_026_002.mp3",
@@ -3584,7 +3584,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭬ",
-          "text_uthmani": "إِذَا",
           "translation": {
             "language_name": "english",
             "text": "When"
@@ -3592,7 +3591,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "idhā"
-          }
+          },
+          "arabic": "إِذَا"
         },
         {
           "audio_url": "wbw/075_026_003.mp3",
@@ -3603,7 +3603,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭭ",
-          "text_uthmani": "بَلَغَتِ",
           "translation": {
             "language_name": "english",
             "text": "it reaches"
@@ -3611,7 +3610,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "balaghati"
-          }
+          },
+          "arabic": "بَلَغَتِ"
         },
         {
           "audio_url": "wbw/075_026_004.mp3",
@@ -3622,7 +3622,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﭮ",
-          "text_uthmani": "ٱلتَّرَاقِىَ",
           "translation": {
             "language_name": "english",
             "text": "the collar bones"
@@ -3630,7 +3629,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-tarāqiya"
-          }
+          },
+          "arabic": "ٱلتَّرَاقِىَ"
         },
         {
           "audio_url": null,
@@ -3641,7 +3641,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﭯ",
-          "text_uthmani": "٢٦",
           "translation": {
             "language_name": "english",
             "text": "(26)"
@@ -3649,7 +3648,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢٦"
         }
       ]
     },
@@ -3666,27 +3666,27 @@
         {
           "id": 95336,
           "resource_id": 19,
-          "text": "And men say: Where is the wizard (who can save him now)?"
+          "translation": "And men say: Where is the wizard (who can save him now)?"
         },
         {
           "id": 369865,
           "resource_id": 79,
-          "text": "и будет сказано (теми, кто присутствует при умирающем): «Кто прочитает заклинание (чтобы он исцелился)?»"
+          "translation": "и будет сказано (теми, кто присутствует при умирающем): «Кто прочитает заклинание (чтобы он исцелился)?»"
         },
         {
           "id": 255657,
           "resource_id": 45,
-          "text": "будет сказано: «Кто же прочтет заклинание?»."
+          "translation": "будет сказано: «Кто же прочтет заклинание?»."
         },
         {
           "id": 144466,
           "resource_id": 27,
-          "text": "und gesagt wird: Wer ist ein Zauberer (, der ihn retten kann)?,"
+          "translation": "und gesagt wird: Wer ist ein Zauberer (, der ihn retten kann)?,"
         },
         {
           "id": 75275469,
           "resource_id": 445,
-          "text": "(И прозвучит): \"Кто может исцелить его? Кто сможет жизнь ему вернуть"
+          "translation": "(И прозвучит): \"Кто может исцелить его? Кто сможет жизнь ему вернуть"
         }
       ],
       "verse_key": "75:27",
@@ -3701,7 +3701,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭰ",
-          "text_uthmani": "وَقِيلَ",
           "translation": {
             "language_name": "english",
             "text": "And it is said"
@@ -3709,7 +3708,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "waqīla"
-          }
+          },
+          "arabic": "وَقِيلَ"
         },
         {
           "audio_url": "wbw/075_027_002.mp3",
@@ -3720,7 +3720,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭱﭲ",
-          "text_uthmani": "مَنْ ۜ",
           "translation": {
             "language_name": "english",
             "text": "Who"
@@ -3728,7 +3727,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "man"
-          }
+          },
+          "arabic": "مَنْ ۜ"
         },
         {
           "audio_url": "wbw/075_027_004.mp3",
@@ -3739,7 +3739,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭳ",
-          "text_uthmani": "رَاقٍۢ",
           "translation": {
             "language_name": "english",
             "text": "(will) cure"
@@ -3747,7 +3746,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rāqin"
-          }
+          },
+          "arabic": "رَاقٍۢ"
         },
         {
           "audio_url": null,
@@ -3758,7 +3758,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﭴ",
-          "text_uthmani": "٢٧",
           "translation": {
             "language_name": "english",
             "text": "(27)"
@@ -3766,7 +3765,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢٧"
         }
       ]
     },
@@ -3783,27 +3783,27 @@
         {
           "id": 95337,
           "resource_id": 19,
-          "text": "And he knoweth that it is the parting;"
+          "translation": "And he knoweth that it is the parting;"
         },
         {
           "id": 369866,
           "resource_id": 79,
-          "text": "И подумает он [умирающий] (когда увидит ангелов), что это – расставание (с этим миром),"
+          "translation": "И подумает он [умирающий] (когда увидит ангелов), что это – расставание (с этим миром),"
         },
         {
           "id": 255658,
           "resource_id": 45,
-          "text": "Умирающий поймет, что наступило расставание."
+          "translation": "Умирающий поймет, что наступило расставание."
         },
         {
           "id": 144467,
           "resource_id": 27,
-          "text": "und wenn er meint, daß es (jetzt) die Trennung sei,"
+          "translation": "und wenn er meint, daß es (jetzt) die Trennung sei,"
         },
         {
           "id": 75289541,
           "resource_id": 445,
-          "text": "Тогда познает человек, Что это - час разлуки (с жизнью)"
+          "translation": "Тогда познает человек, Что это - час разлуки (с жизнью)"
         }
       ],
       "verse_key": "75:28",
@@ -3818,7 +3818,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭵ",
-          "text_uthmani": "وَظَنَّ",
           "translation": {
             "language_name": "english",
             "text": "And he is certain"
@@ -3826,7 +3825,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "waẓanna"
-          }
+          },
+          "arabic": "وَظَنَّ"
         },
         {
           "audio_url": "wbw/075_028_002.mp3",
@@ -3837,7 +3837,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭶ",
-          "text_uthmani": "أَنَّهُ",
           "translation": {
             "language_name": "english",
             "text": "that it"
@@ -3845,7 +3844,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "annahu"
-          }
+          },
+          "arabic": "أَنَّهُ"
         },
         {
           "audio_url": "wbw/075_028_003.mp3",
@@ -3856,7 +3856,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭷ",
-          "text_uthmani": "ٱلْفِرَاقُ",
           "translation": {
             "language_name": "english",
             "text": "(is) the parting"
@@ -3864,7 +3863,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-firāqu"
-          }
+          },
+          "arabic": "ٱلْفِرَاقُ"
         },
         {
           "audio_url": null,
@@ -3875,7 +3875,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﭸ",
-          "text_uthmani": "٢٨",
           "translation": {
             "language_name": "english",
             "text": "(28)"
@@ -3883,7 +3882,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢٨"
         }
       ]
     },
@@ -3900,27 +3900,27 @@
         {
           "id": 95338,
           "resource_id": 19,
-          "text": "And agony is heaped on agony;"
+          "translation": "And agony is heaped on agony;"
         },
         {
           "id": 369867,
           "resource_id": 79,
-          "text": "и сойдется голень с голенью [тяжесть предсмертного состояния сойдется со страхом перед Вечной жизнью] –"
+          "translation": "и сойдется голень с голенью [тяжесть предсмертного состояния сойдется со страхом перед Вечной жизнью] –"
         },
         {
           "id": 255659,
           "resource_id": 45,
-          "text": "Голень сойдется с голенью (тяготы мирской жизни объединятся с тяготами последней жизни или голени человека будут сложены вместе в саване),"
+          "translation": "Голень сойдется с голенью (тяготы мирской жизни объединятся с тяготами последней жизни или голени человека будут сложены вместе в саване),"
         },
         {
           "id": 144468,
           "resource_id": 27,
-          "text": "und wenn (bei ihm) sich das eine Bein um das andere legt,"
+          "translation": "und wenn (bei ihm) sich das eine Bein um das andere legt,"
         },
         {
           "id": 75293447,
           "resource_id": 445,
-          "text": "И тут одна его голень Примкнет к другой голени"
+          "translation": "И тут одна его голень Примкнет к другой голени"
         }
       ],
       "verse_key": "75:29",
@@ -3935,7 +3935,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭹ",
-          "text_uthmani": "وَٱلْتَفَّتِ",
           "translation": {
             "language_name": "english",
             "text": "And is wound"
@@ -3943,7 +3942,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wal-tafati"
-          }
+          },
+          "arabic": "وَٱلْتَفَّتِ"
         },
         {
           "audio_url": "wbw/075_029_002.mp3",
@@ -3954,7 +3954,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭺ",
-          "text_uthmani": "ٱلسَّاقُ",
           "translation": {
             "language_name": "english",
             "text": "the leg"
@@ -3962,7 +3961,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-sāqu"
-          }
+          },
+          "arabic": "ٱلسَّاقُ"
         },
         {
           "audio_url": "wbw/075_029_003.mp3",
@@ -3973,7 +3973,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭻ",
-          "text_uthmani": "بِٱلسَّاقِ",
           "translation": {
             "language_name": "english",
             "text": "about the leg"
@@ -3981,7 +3980,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bil-sāqi"
-          }
+          },
+          "arabic": "بِٱلسَّاقِ"
         },
         {
           "audio_url": null,
@@ -3992,7 +3992,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﭼ",
-          "text_uthmani": "٢٩",
           "translation": {
             "language_name": "english",
             "text": "(29)"
@@ -4000,7 +3999,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢٩"
         }
       ]
     },
@@ -4017,27 +4017,27 @@
         {
           "id": 95341,
           "resource_id": 19,
-          "text": "Unto thy Lord that day will be the driving."
+          "translation": "Unto thy Lord that day will be the driving."
         },
         {
           "id": 369868,
           "resource_id": 79,
-          "text": "к Господу твоему будет в тот день [в День Суда] пригон [возвращение]."
+          "translation": "к Господу твоему будет в тот день [в День Суда] пригон [возвращение]."
         },
         {
           "id": 255674,
           "resource_id": 45,
-          "text": "и в тот день его пригонят к твоему Господу."
+          "translation": "и в тот день его пригонят к твоему Господу."
         },
         {
           "id": 144471,
           "resource_id": 27,
-          "text": "zu deinem Herrn wird an jenem Tag das Treiben sein."
+          "translation": "zu deinem Herrn wird an jenem Tag das Treiben sein."
         },
         {
           "id": 75303542,
           "resource_id": 445,
-          "text": "И лишь к Владыке твоему В тот День - пригон"
+          "translation": "И лишь к Владыке твоему В тот День - пригон"
         }
       ],
       "verse_key": "75:30",
@@ -4052,7 +4052,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﭽ",
-          "text_uthmani": "إِلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "To"
@@ -4060,7 +4059,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ilā"
-          }
+          },
+          "arabic": "إِلَىٰ"
         },
         {
           "audio_url": "wbw/075_030_002.mp3",
@@ -4071,7 +4071,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﭾ",
-          "text_uthmani": "رَبِّكَ",
           "translation": {
             "language_name": "english",
             "text": "your Lord"
@@ -4079,7 +4078,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rabbika"
-          }
+          },
+          "arabic": "رَبِّكَ"
         },
         {
           "audio_url": "wbw/075_030_003.mp3",
@@ -4090,7 +4090,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﭿ",
-          "text_uthmani": "يَوْمَئِذٍ",
           "translation": {
             "language_name": "english",
             "text": "that Day"
@@ -4098,7 +4097,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yawma-idhin"
-          }
+          },
+          "arabic": "يَوْمَئِذٍ"
         },
         {
           "audio_url": "wbw/075_030_004.mp3",
@@ -4109,7 +4109,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮀ",
-          "text_uthmani": "ٱلْمَسَاقُ",
           "translation": {
             "language_name": "english",
             "text": "(will be) the driving"
@@ -4117,7 +4116,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-masāqu"
-          }
+          },
+          "arabic": "ٱلْمَسَاقُ"
         },
         {
           "audio_url": null,
@@ -4128,7 +4128,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﮁ",
-          "text_uthmani": "٣٠",
           "translation": {
             "language_name": "english",
             "text": "(30)"
@@ -4136,7 +4135,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣٠"
         }
       ]
     },
@@ -4153,27 +4153,27 @@
         {
           "id": 95342,
           "resource_id": 19,
-          "text": "For he neither trusted, nor prayed."
+          "translation": "For he neither trusted, nor prayed."
         },
         {
           "id": 369869,
           "resource_id": 79,
-          "text": "Ведь он не признал истинность (того, о чем сообщается в Коране и что говорил Пророк) и не совершал (обязательные) молитвы,"
+          "translation": "Ведь он не признал истинность (того, о чем сообщается в Коране и что говорил Пророк) и не совершал (обязательные) молитвы,"
         },
         {
           "id": 255663,
           "resource_id": 45,
-          "text": "Он не уверовал и не совершал намаз."
+          "translation": "Он не уверовал и не совершал намаз."
         },
         {
           "id": 144472,
           "resource_id": 27,
-          "text": "Doch hielt er nicht (die Botschaft) für wahr noch betete er,"
+          "translation": "Doch hielt er nicht (die Botschaft) für wahr noch betete er,"
         },
         {
           "id": 75318254,
           "resource_id": 445,
-          "text": "Ведь он не веровал, и не молился"
+          "translation": "Ведь он не веровал, и не молился"
         }
       ],
       "verse_key": "75:31",
@@ -4188,7 +4188,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﮂ",
-          "text_uthmani": "فَلَا",
           "translation": {
             "language_name": "english",
             "text": "And not"
@@ -4196,7 +4195,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "falā"
-          }
+          },
+          "arabic": "فَلَا"
         },
         {
           "audio_url": "wbw/075_031_002.mp3",
@@ -4207,7 +4207,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﮃ",
-          "text_uthmani": "صَدَّقَ",
           "translation": {
             "language_name": "english",
             "text": "he accepted (the) truth"
@@ -4215,7 +4214,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ṣaddaqa"
-          }
+          },
+          "arabic": "صَدَّقَ"
         },
         {
           "audio_url": "wbw/075_031_003.mp3",
@@ -4226,7 +4226,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﮄ",
-          "text_uthmani": "وَلَا",
           "translation": {
             "language_name": "english",
             "text": "and not"
@@ -4234,7 +4233,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walā"
-          }
+          },
+          "arabic": "وَلَا"
         },
         {
           "audio_url": "wbw/075_031_004.mp3",
@@ -4245,7 +4245,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮅ",
-          "text_uthmani": "صَلَّىٰ",
           "translation": {
             "language_name": "english",
             "text": "he prayed"
@@ -4253,7 +4252,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ṣallā"
-          }
+          },
+          "arabic": "صَلَّىٰ"
         },
         {
           "audio_url": null,
@@ -4264,7 +4264,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﮆ",
-          "text_uthmani": "٣١",
           "translation": {
             "language_name": "english",
             "text": "(31)"
@@ -4272,7 +4271,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣١"
         }
       ]
     },
@@ -4289,27 +4289,27 @@
         {
           "id": 95343,
           "resource_id": 19,
-          "text": "But he denied and flouted."
+          "translation": "But he denied and flouted."
         },
         {
           "id": 369870,
           "resource_id": 79,
-          "text": "а наоборот, счел это [Коран] ложью и отвернулся (от Веры),"
+          "translation": "а наоборот, счел это [Коран] ложью и отвернулся (от Веры),"
         },
         {
           "id": 255664,
           "resource_id": 45,
-          "text": "Напротив, он счел это ложью и отвернулся,"
+          "translation": "Напротив, он счел это ложью и отвернулся,"
         },
         {
           "id": 144473,
           "resource_id": 27,
-          "text": "sondern er erklärte (sie) für Lüge, und er kehrte sich ab."
+          "translation": "sondern er erklärte (sie) für Lüge, und er kehrte sich ab."
         },
         {
           "id": 75327501,
           "resource_id": 445,
-          "text": "И верой пренебрег, и отвернулся"
+          "translation": "И верой пренебрег, и отвернулся"
         }
       ],
       "verse_key": "75:32",
@@ -4324,7 +4324,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﮇ",
-          "text_uthmani": "وَلَـٰكِن",
           "translation": {
             "language_name": "english",
             "text": "But"
@@ -4332,7 +4331,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walākin"
-          }
+          },
+          "arabic": "وَلَـٰكِن"
         },
         {
           "audio_url": "wbw/075_032_002.mp3",
@@ -4343,7 +4343,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﮈ",
-          "text_uthmani": "كَذَّبَ",
           "translation": {
             "language_name": "english",
             "text": "he denied"
@@ -4351,7 +4350,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kadhaba"
-          }
+          },
+          "arabic": "كَذَّبَ"
         },
         {
           "audio_url": "wbw/075_032_003.mp3",
@@ -4362,7 +4362,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﮉ",
-          "text_uthmani": "وَتَوَلَّىٰ",
           "translation": {
             "language_name": "english",
             "text": "and turned away"
@@ -4370,7 +4369,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "watawallā"
-          }
+          },
+          "arabic": "وَتَوَلَّىٰ"
         },
         {
           "audio_url": null,
@@ -4381,7 +4381,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮊ",
-          "text_uthmani": "٣٢",
           "translation": {
             "language_name": "english",
             "text": "(32)"
@@ -4389,7 +4388,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣٢"
         }
       ]
     },
@@ -4406,27 +4406,27 @@
         {
           "id": 95344,
           "resource_id": 19,
-          "text": "Then went he to his folk with glee."
+          "translation": "Then went he to his folk with glee."
         },
         {
           "id": 369871,
           "resource_id": 79,
-          "text": "затем отправился к своей семье, с горделивой (из-за своего неверия) походкой."
+          "translation": "затем отправился к своей семье, с горделивой (из-за своего неверия) походкой."
         },
         {
           "id": 255665,
           "resource_id": 45,
-          "text": "а затем горделиво отправился к своей семье."
+          "translation": "а затем горделиво отправился к своей семье."
         },
         {
           "id": 144474,
           "resource_id": 27,
-          "text": "Hierauf ging er zu seinen Angehörigen, stolzierend."
+          "translation": "Hierauf ging er zu seinen Angehörigen, stolzierend."
         },
         {
           "id": 75338298,
           "resource_id": 445,
-          "text": "Затем в самодовольствии кичливом Прошествовал перед своей семьей"
+          "translation": "Затем в самодовольствии кичливом Прошествовал перед своей семьей"
         }
       ],
       "verse_key": "75:33",
@@ -4441,7 +4441,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﮋ",
-          "text_uthmani": "ثُمَّ",
           "translation": {
             "language_name": "english",
             "text": "Then"
@@ -4449,7 +4448,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "thumma"
-          }
+          },
+          "arabic": "ثُمَّ"
         },
         {
           "audio_url": "wbw/075_033_002.mp3",
@@ -4460,7 +4460,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﮌ",
-          "text_uthmani": "ذَهَبَ",
           "translation": {
             "language_name": "english",
             "text": "he went"
@@ -4468,7 +4467,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "dhahaba"
-          }
+          },
+          "arabic": "ذَهَبَ"
         },
         {
           "audio_url": "wbw/075_033_003.mp3",
@@ -4479,7 +4479,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﮍ",
-          "text_uthmani": "إِلَىٰٓ",
           "translation": {
             "language_name": "english",
             "text": "to"
@@ -4487,7 +4486,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ilā"
-          }
+          },
+          "arabic": "إِلَىٰٓ"
         },
         {
           "audio_url": "wbw/075_033_004.mp3",
@@ -4498,7 +4498,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮎ",
-          "text_uthmani": "أَهْلِهِۦ",
           "translation": {
             "language_name": "english",
             "text": "his family"
@@ -4506,7 +4505,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ahlihi"
-          }
+          },
+          "arabic": "أَهْلِهِۦ"
         },
         {
           "audio_url": "wbw/075_033_005.mp3",
@@ -4517,7 +4517,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﮏ",
-          "text_uthmani": "يَتَمَطَّىٰٓ",
           "translation": {
             "language_name": "english",
             "text": "swaggering"
@@ -4525,7 +4524,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yatamaṭṭā"
-          }
+          },
+          "arabic": "يَتَمَطَّىٰٓ"
         },
         {
           "audio_url": null,
@@ -4536,7 +4536,6 @@
           "page_number": 578,
           "position": 6,
           "text": "ﮐ",
-          "text_uthmani": "٣٣",
           "translation": {
             "language_name": "english",
             "text": "(33)"
@@ -4544,7 +4543,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣٣"
         }
       ]
     },
@@ -4561,27 +4561,27 @@
         {
           "id": 95345,
           "resource_id": 19,
-          "text": "Nearer unto thee and nearer,"
+          "translation": "Nearer unto thee and nearer,"
         },
         {
           "id": 369872,
           "resource_id": 79,
-          "text": "Горе [погибель] тебе (о, высокомерный неверующий) и (еще раз) горе [погибель]!"
+          "translation": "Горе [погибель] тебе (о, высокомерный неверующий) и (еще раз) горе [погибель]!"
         },
         {
           "id": 255668,
           "resource_id": 45,
-          "text": "Горе тебе, горе!"
+          "translation": "Горе тебе, горе!"
         },
         {
           "id": 144475,
           "resource_id": 27,
-          "text": "- Wehe dir, ja wehe!"
+          "translation": "- Wehe dir, ja wehe!"
         },
         {
           "id": 75346396,
           "resource_id": 445,
-          "text": "Так горе же тебе, (о человек)! О, горе"
+          "translation": "Так горе же тебе, (о человек)! О, горе"
         }
       ],
       "verse_key": "75:34",
@@ -4596,7 +4596,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﮑ",
-          "text_uthmani": "أَوْلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "Woe"
@@ -4604,7 +4603,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "awlā"
-          }
+          },
+          "arabic": "أَوْلَىٰ"
         },
         {
           "audio_url": "wbw/075_034_002.mp3",
@@ -4615,7 +4615,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﮒ",
-          "text_uthmani": "لَكَ",
           "translation": {
             "language_name": "english",
             "text": "to you"
@@ -4623,7 +4622,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "laka"
-          }
+          },
+          "arabic": "لَكَ"
         },
         {
           "audio_url": "wbw/075_034_003.mp3",
@@ -4634,7 +4634,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﮓ",
-          "text_uthmani": "فَأَوْلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "and woe"
@@ -4642,7 +4641,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-awlā"
-          }
+          },
+          "arabic": "فَأَوْلَىٰ"
         },
         {
           "audio_url": null,
@@ -4653,7 +4653,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮔ",
-          "text_uthmani": "٣٤",
           "translation": {
             "language_name": "english",
             "text": "(34)"
@@ -4661,7 +4660,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣٤"
         }
       ]
     },
@@ -4678,27 +4678,27 @@
         {
           "id": 95346,
           "resource_id": 19,
-          "text": "Again nearer unto thee and nearer (is the doom)."
+          "translation": "Again nearer unto thee and nearer (is the doom)."
         },
         {
           "id": 369873,
           "resource_id": 79,
-          "text": "Затем горе [погибель] тебе и (еще раз) горе [погибель]!"
+          "translation": "Затем горе [погибель] тебе и (еще раз) горе [погибель]!"
         },
         {
           "id": 255666,
           "resource_id": 45,
-          "text": "Еще раз горе тебе, горе!"
+          "translation": "Еще раз горе тебе, горе!"
         },
         {
           "id": 144476,
           "resource_id": 27,
-          "text": "Abermals: Wehe dir, ja wehe!"
+          "translation": "Abermals: Wehe dir, ja wehe!"
         },
         {
           "id": 75355710,
           "resource_id": 445,
-          "text": "И вновь: о, горе, (человек), тебе! О, горе"
+          "translation": "И вновь: о, горе, (человек), тебе! О, горе"
         }
       ],
       "verse_key": "75:35",
@@ -4713,7 +4713,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﮕ",
-          "text_uthmani": "ثُمَّ",
           "translation": {
             "language_name": "english",
             "text": "Then"
@@ -4721,7 +4720,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "thumma"
-          }
+          },
+          "arabic": "ثُمَّ"
         },
         {
           "audio_url": "wbw/075_035_002.mp3",
@@ -4732,7 +4732,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﮖ",
-          "text_uthmani": "أَوْلَىٰ",
           "translation": {
             "language_name": "english",
             "text": "woe"
@@ -4740,7 +4739,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "awlā"
-          }
+          },
+          "arabic": "أَوْلَىٰ"
         },
         {
           "audio_url": "wbw/075_035_003.mp3",
@@ -4751,7 +4751,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﮗ",
-          "text_uthmani": "لَكَ",
           "translation": {
             "language_name": "english",
             "text": "to you"
@@ -4759,7 +4758,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "laka"
-          }
+          },
+          "arabic": "لَكَ"
         },
         {
           "audio_url": "wbw/075_035_004.mp3",
@@ -4770,7 +4770,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮘ",
-          "text_uthmani": "فَأَوْلَىٰٓ",
           "translation": {
             "language_name": "english",
             "text": "and woe"
@@ -4778,7 +4777,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-awlā"
-          }
+          },
+          "arabic": "فَأَوْلَىٰٓ"
         },
         {
           "audio_url": null,
@@ -4789,7 +4789,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﮙ",
-          "text_uthmani": "٣٥",
           "translation": {
             "language_name": "english",
             "text": "(35)"
@@ -4797,7 +4796,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣٥"
         }
       ]
     },
@@ -4814,27 +4814,27 @@
         {
           "id": 95347,
           "resource_id": 19,
-          "text": "Thinketh man that he is to be left aimless?"
+          "translation": "Thinketh man that he is to be left aimless?"
         },
         {
           "id": 369874,
           "resource_id": 79,
-          "text": "Разве считает [полагает] человек (который не верует в воскрешение), что он будет оставлен просто так [что он не будет наказан за свое неверие]?"
+          "translation": "Разве считает [полагает] человек (который не верует в воскрешение), что он будет оставлен просто так [что он не будет наказан за свое неверие]?"
         },
         {
           "id": 255667,
           "resource_id": 45,
-          "text": "Неужели человек полагает, что он будет оставлен без присмотра?"
+          "translation": "Неужели человек полагает, что он будет оставлен без присмотра?"
         },
         {
           "id": 144477,
           "resource_id": 27,
-          "text": "Meint der Mensch (etwa), daß er außer acht gelassen wird?"
+          "translation": "Meint der Mensch (etwa), daß er außer acht gelassen wird?"
         },
         {
           "id": 7536326,
           "resource_id": 445,
-          "text": "Ужель считает человек, Что он оставлен без призора"
+          "translation": "Ужель считает человек, Что он оставлен без призора"
         }
       ],
       "verse_key": "75:36",
@@ -4849,7 +4849,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﮚ",
-          "text_uthmani": "أَيَحْسَبُ",
           "translation": {
             "language_name": "english",
             "text": "Does think"
@@ -4857,7 +4856,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ayaḥsabu"
-          }
+          },
+          "arabic": "أَيَحْسَبُ"
         },
         {
           "audio_url": "wbw/075_036_002.mp3",
@@ -4868,7 +4868,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﮛ",
-          "text_uthmani": "ٱلْإِنسَـٰنُ",
           "translation": {
             "language_name": "english",
             "text": "man"
@@ -4876,7 +4875,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-insānu"
-          }
+          },
+          "arabic": "ٱلْإِنسَـٰنُ"
         },
         {
           "audio_url": "wbw/075_036_003.mp3",
@@ -4887,7 +4887,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﮜ",
-          "text_uthmani": "أَن",
           "translation": {
             "language_name": "english",
             "text": "that"
@@ -4895,7 +4894,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "an"
-          }
+          },
+          "arabic": "أَن"
         },
         {
           "audio_url": "wbw/075_036_004.mp3",
@@ -4906,7 +4906,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮝ",
-          "text_uthmani": "يُتْرَكَ",
           "translation": {
             "language_name": "english",
             "text": "he will be left"
@@ -4914,7 +4913,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yut'raka"
-          }
+          },
+          "arabic": "يُتْرَكَ"
         },
         {
           "audio_url": "wbw/075_036_005.mp3",
@@ -4925,7 +4925,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﮞ",
-          "text_uthmani": "سُدًى",
           "translation": {
             "language_name": "english",
             "text": "neglected"
@@ -4933,7 +4932,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "sudan"
-          }
+          },
+          "arabic": "سُدًى"
         },
         {
           "audio_url": null,
@@ -4944,7 +4944,6 @@
           "page_number": 578,
           "position": 6,
           "text": "ﮟ",
-          "text_uthmani": "٣٦",
           "translation": {
             "language_name": "english",
             "text": "(36)"
@@ -4952,7 +4951,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣٦"
         }
       ]
     },
@@ -4969,27 +4969,27 @@
         {
           "id": 95348,
           "resource_id": 19,
-          "text": "Was he not a drop of fluid which gushed forth?"
+          "translation": "Was he not a drop of fluid which gushed forth?"
         },
         {
           "id": 369875,
           "resource_id": 79,
-          "text": "Разве не был он (когда-то) (лишь) каплей (мужского) семени, (который) извергался [изливался]?"
+          "translation": "Разве не был он (когда-то) (лишь) каплей (мужского) семени, (который) извергался [изливался]?"
         },
         {
           "id": 255670,
           "resource_id": 45,
-          "text": "Разве он не был каплей из семени источаемого?"
+          "translation": "Разве он не был каплей из семени источаемого?"
         },
         {
           "id": 144478,
           "resource_id": 27,
-          "text": "Ist er nicht ein Tropfen von Samenflüssigkeit, die ausgespritzt wird,"
+          "translation": "Ist er nicht ein Tropfen von Samenflüssigkeit, die ausgespritzt wird,"
         },
         {
           "id": 75379079,
           "resource_id": 445,
-          "text": "Ужель он не был каплей спермы, Что изливается (стрелой)"
+          "translation": "Ужель он не был каплей спермы, Что изливается (стрелой)"
         }
       ],
       "verse_key": "75:37",
@@ -5004,7 +5004,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﮠ",
-          "text_uthmani": "أَلَمْ",
           "translation": {
             "language_name": "english",
             "text": "Was not"
@@ -5012,7 +5011,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alam"
-          }
+          },
+          "arabic": "أَلَمْ"
         },
         {
           "audio_url": "wbw/075_037_002.mp3",
@@ -5023,7 +5023,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﮡ",
-          "text_uthmani": "يَكُ",
           "translation": {
             "language_name": "english",
             "text": "he"
@@ -5031,7 +5030,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yaku"
-          }
+          },
+          "arabic": "يَكُ"
         },
         {
           "audio_url": "wbw/075_037_003.mp3",
@@ -5042,7 +5042,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﮢ",
-          "text_uthmani": "نُطْفَةًۭ",
           "translation": {
             "language_name": "english",
             "text": "a semen-drop"
@@ -5050,7 +5049,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "nuṭ'fatan"
-          }
+          },
+          "arabic": "نُطْفَةًۭ"
         },
         {
           "audio_url": "wbw/075_037_004.mp3",
@@ -5061,7 +5061,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮣ",
-          "text_uthmani": "مِّن",
           "translation": {
             "language_name": "english",
             "text": "of"
@@ -5069,7 +5068,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "min"
-          }
+          },
+          "arabic": "مِّن"
         },
         {
           "audio_url": "wbw/075_037_005.mp3",
@@ -5080,7 +5080,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﮤ",
-          "text_uthmani": "مَّنِىٍّۢ",
           "translation": {
             "language_name": "english",
             "text": "semen"
@@ -5088,7 +5087,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "maniyyin"
-          }
+          },
+          "arabic": "مَّنِىٍّۢ"
         },
         {
           "audio_url": "wbw/075_037_006.mp3",
@@ -5099,7 +5099,6 @@
           "page_number": 578,
           "position": 6,
           "text": "ﮥ",
-          "text_uthmani": "يُمْنَىٰ",
           "translation": {
             "language_name": "english",
             "text": "emitted"
@@ -5107,7 +5106,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yum'nā"
-          }
+          },
+          "arabic": "يُمْنَىٰ"
         },
         {
           "audio_url": null,
@@ -5118,7 +5118,6 @@
           "page_number": 578,
           "position": 7,
           "text": "ﮦ",
-          "text_uthmani": "٣٧",
           "translation": {
             "language_name": "english",
             "text": "(37)"
@@ -5126,7 +5125,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣٧"
         }
       ]
     },
@@ -5143,27 +5143,27 @@
         {
           "id": 95349,
           "resource_id": 19,
-          "text": "Then he became a clot; then (Allah) shaped and fashioned"
+          "translation": "Then he became a clot; then (Allah) shaped and fashioned"
         },
         {
           "id": 369876,
           "resource_id": 79,
-          "text": "Потом был он сгустком (крови) (в утробе своей матери), и затем сотворил Он его (человеком) [послал ангела, который вдохнул в него дух] и выровнял [придал соразмеренность его телу],"
+          "translation": "Потом был он сгустком (крови) (в утробе своей матери), и затем сотворил Он его (человеком) [послал ангела, который вдохнул в него дух] и выровнял [придал соразмеренность его телу],"
         },
         {
           "id": 255669,
           "resource_id": 45,
-          "text": "Потом он превратился в сгусток крови, после чего Он создал его и придал ему соразмерный облик."
+          "translation": "Потом он превратился в сгусток крови, после чего Он создал его и придал ему соразмерный облик."
         },
         {
           "id": 144479,
           "resource_id": 27,
-          "text": "hierauf ein Anhängsel gewesen? Da hat Er erschaffen und zurechtgeformt"
+          "translation": "hierauf ein Anhängsel gewesen? Da hat Er erschaffen und zurechtgeformt"
         },
         {
           "id": 75384060,
           "resource_id": 445,
-          "text": "Ужель потом не стал (Червеобразным) сгустком, Из коего Господь и сотворил его, и соразмерил"
+          "translation": "Ужель потом не стал (Червеобразным) сгустком, Из коего Господь и сотворил его, и соразмерил"
         }
       ],
       "verse_key": "75:38",
@@ -5178,7 +5178,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﮧ",
-          "text_uthmani": "ثُمَّ",
           "translation": {
             "language_name": "english",
             "text": "Then"
@@ -5186,7 +5185,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "thumma"
-          }
+          },
+          "arabic": "ثُمَّ"
         },
         {
           "audio_url": "wbw/075_038_002.mp3",
@@ -5197,7 +5197,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﮨ",
-          "text_uthmani": "كَانَ",
           "translation": {
             "language_name": "english",
             "text": "he was"
@@ -5205,7 +5204,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kāna"
-          }
+          },
+          "arabic": "كَانَ"
         },
         {
           "audio_url": "wbw/075_038_003.mp3",
@@ -5216,7 +5216,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﮩ",
-          "text_uthmani": "عَلَقَةًۭ",
           "translation": {
             "language_name": "english",
             "text": "a clinging substance"
@@ -5224,7 +5223,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalaqatan"
-          }
+          },
+          "arabic": "عَلَقَةًۭ"
         },
         {
           "audio_url": "wbw/075_038_004.mp3",
@@ -5235,7 +5235,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮪ",
-          "text_uthmani": "فَخَلَقَ",
           "translation": {
             "language_name": "english",
             "text": "then He created"
@@ -5243,7 +5242,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fakhalaqa"
-          }
+          },
+          "arabic": "فَخَلَقَ"
         },
         {
           "audio_url": "wbw/075_038_005.mp3",
@@ -5254,7 +5254,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﮫ",
-          "text_uthmani": "فَسَوَّىٰ",
           "translation": {
             "language_name": "english",
             "text": "and proportioned"
@@ -5262,7 +5261,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fasawwā"
-          }
+          },
+          "arabic": "فَسَوَّىٰ"
         },
         {
           "audio_url": null,
@@ -5273,7 +5273,6 @@
           "page_number": 578,
           "position": 6,
           "text": "ﮬ",
-          "text_uthmani": "٣٨",
           "translation": {
             "language_name": "english",
             "text": "(38)"
@@ -5281,7 +5280,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣٨"
         }
       ]
     },
@@ -5298,27 +5298,27 @@
         {
           "id": 95350,
           "resource_id": 19,
-          "text": "And made of him a pair, the male and female."
+          "translation": "And made of him a pair, the male and female."
         },
         {
           "id": 369877,
           "resource_id": 79,
-          "text": "и сделал из него [из человека] пару: мужчину и женщину."
+          "translation": "и сделал из него [из человека] пару: мужчину и женщину."
         },
         {
           "id": 255671,
           "resource_id": 45,
-          "text": "Он сотворил из него чету: мужчину и женщину."
+          "translation": "Он сотворил из него чету: мужчину и женщину."
         },
         {
           "id": 144480,
           "resource_id": 27,
-          "text": "und dann daraus beide Teile des Paares gemacht, das Männliche und das Weibliche."
+          "translation": "und dann daraus beide Teile des Paares gemacht, das Männliche und das Weibliche."
         },
         {
           "id": 75391804,
           "resource_id": 445,
-          "text": "И из него два (пола) извели: мужской и женский"
+          "translation": "И из него два (пола) извели: мужской и женский"
         }
       ],
       "verse_key": "75:39",
@@ -5333,7 +5333,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﮭ",
-          "text_uthmani": "فَجَعَلَ",
           "translation": {
             "language_name": "english",
             "text": "Then made"
@@ -5341,7 +5340,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fajaʿala"
-          }
+          },
+          "arabic": "فَجَعَلَ"
         },
         {
           "audio_url": "wbw/075_039_002.mp3",
@@ -5352,7 +5352,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﮮ",
-          "text_uthmani": "مِنْهُ",
           "translation": {
             "language_name": "english",
             "text": "of him"
@@ -5360,7 +5359,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "min'hu"
-          }
+          },
+          "arabic": "مِنْهُ"
         },
         {
           "audio_url": "wbw/075_039_003.mp3",
@@ -5371,7 +5371,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﮯ",
-          "text_uthmani": "ٱلزَّوْجَيْنِ",
           "translation": {
             "language_name": "english",
             "text": "two kinds"
@@ -5379,7 +5378,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-zawjayni"
-          }
+          },
+          "arabic": "ٱلزَّوْجَيْنِ"
         },
         {
           "audio_url": "wbw/075_039_004.mp3",
@@ -5390,7 +5390,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﮰ",
-          "text_uthmani": "ٱلذَّكَرَ",
           "translation": {
             "language_name": "english",
             "text": "(the) male"
@@ -5398,7 +5397,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-dhakara"
-          }
+          },
+          "arabic": "ٱلذَّكَرَ"
         },
         {
           "audio_url": "wbw/075_039_005.mp3",
@@ -5409,7 +5409,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﮱ",
-          "text_uthmani": "وَٱلْأُنثَىٰٓ",
           "translation": {
             "language_name": "english",
             "text": "and the female"
@@ -5417,7 +5416,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wal-unthā"
-          }
+          },
+          "arabic": "وَٱلْأُنثَىٰٓ"
         },
         {
           "audio_url": null,
@@ -5428,7 +5428,6 @@
           "page_number": 578,
           "position": 6,
           "text": "ﯓ",
-          "text_uthmani": "٣٩",
           "translation": {
             "language_name": "english",
             "text": "(39)"
@@ -5436,7 +5435,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣٩"
         }
       ]
     },
@@ -5453,27 +5453,27 @@
         {
           "id": 95353,
           "resource_id": 19,
-          "text": "Is not He (Who doeth so) Able to bring the dead to life?"
+          "translation": "Is not He (Who doeth so) Able to bring the dead to life?"
         },
         {
           "id": 369878,
           "resource_id": 79,
-          "text": "Неужели Тот [Который сделал все это] не сможет оживить умерших?"
+          "translation": "Неужели Тот [Который сделал все это] не сможет оживить умерших?"
         },
         {
           "id": 258193,
           "resource_id": 45,
-          "text": "Неужели Он не способен воскресить мертвых?"
+          "translation": "Неужели Он не способен воскресить мертвых?"
         },
         {
           "id": 144483,
           "resource_id": 27,
-          "text": "Hat dieser (Gott) nicht die Macht, die Toten wieder lebendig zu machen?"
+          "translation": "Hat dieser (Gott) nicht die Macht, die Toten wieder lebendig zu machen?"
         },
         {
           "id": 7540182,
           "resource_id": 445,
-          "text": "(Так что ж!) Ужель умерших Он не может воскресить? (Воистину, Он - может)"
+          "translation": "(Так что ж!) Ужель умерших Он не может воскресить? (Воистину, Он - может)"
         }
       ],
       "verse_key": "75:40",
@@ -5488,7 +5488,6 @@
           "page_number": 578,
           "position": 1,
           "text": "ﯔ",
-          "text_uthmani": "أَلَيْسَ",
           "translation": {
             "language_name": "english",
             "text": "Is not"
@@ -5496,7 +5495,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alaysa"
-          }
+          },
+          "arabic": "أَلَيْسَ"
         },
         {
           "audio_url": "wbw/075_040_002.mp3",
@@ -5507,7 +5507,6 @@
           "page_number": 578,
           "position": 2,
           "text": "ﯕ",
-          "text_uthmani": "ذَٰلِكَ",
           "translation": {
             "language_name": "english",
             "text": "[that]"
@@ -5515,7 +5514,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "dhālika"
-          }
+          },
+          "arabic": "ذَٰلِكَ"
         },
         {
           "audio_url": "wbw/075_040_003.mp3",
@@ -5526,7 +5526,6 @@
           "page_number": 578,
           "position": 3,
           "text": "ﯖ",
-          "text_uthmani": "بِقَـٰدِرٍ",
           "translation": {
             "language_name": "english",
             "text": "(He) Able"
@@ -5534,7 +5533,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "biqādirin"
-          }
+          },
+          "arabic": "بِقَـٰدِرٍ"
         },
         {
           "audio_url": "wbw/075_040_004.mp3",
@@ -5545,7 +5545,6 @@
           "page_number": 578,
           "position": 4,
           "text": "ﯗ",
-          "text_uthmani": "عَلَىٰٓ",
           "translation": {
             "language_name": "english",
             "text": "[over]"
@@ -5553,7 +5552,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿalā"
-          }
+          },
+          "arabic": "عَلَىٰٓ"
         },
         {
           "audio_url": "wbw/075_040_005.mp3",
@@ -5564,7 +5564,6 @@
           "page_number": 578,
           "position": 5,
           "text": "ﯘ",
-          "text_uthmani": "أَن",
           "translation": {
             "language_name": "english",
             "text": "to"
@@ -5572,7 +5571,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "an"
-          }
+          },
+          "arabic": "أَن"
         },
         {
           "audio_url": "wbw/075_040_006.mp3",
@@ -5583,7 +5583,6 @@
           "page_number": 578,
           "position": 6,
           "text": "ﯙ",
-          "text_uthmani": "يُحْـِۧىَ",
           "translation": {
             "language_name": "english",
             "text": "give life"
@@ -5591,7 +5590,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yuḥ'yiya"
-          }
+          },
+          "arabic": "يُحْـِۧىَ"
         },
         {
           "audio_url": "wbw/075_040_007.mp3",
@@ -5602,7 +5602,6 @@
           "page_number": 578,
           "position": 7,
           "text": "ﯚ",
-          "text_uthmani": "ٱلْمَوْتَىٰ",
           "translation": {
             "language_name": "english",
             "text": "(to) the dead"
@@ -5610,7 +5609,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-mawtā"
-          }
+          },
+          "arabic": "ٱلْمَوْتَىٰ"
         },
         {
           "audio_url": null,
@@ -5621,7 +5621,6 @@
           "page_number": 578,
           "position": 8,
           "text": "ﯛ",
-          "text_uthmani": "٤٠",
           "translation": {
             "language_name": "english",
             "text": "(40)"
@@ -5629,7 +5628,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٤٠"
         }
       ]
     }

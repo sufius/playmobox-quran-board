@@ -130,27 +130,27 @@
         {
           "id": 89999,
           "resource_id": 19,
-          "text": "By the declining day,"
+          "translation": "By the declining day,"
         },
         {
           "id": 370464,
           "resource_id": 79,
-          "text": "(Я, Аллах) клянусь временем,"
+          "translation": "(Я, Аллах) клянусь временем,"
         },
         {
           "id": 257397,
           "resource_id": 45,
-          "text": "Клянусь предвечерним временем (или временем)!"
+          "translation": "Клянусь предвечерним временем (или временем)!"
         },
         {
           "id": 140601,
           "resource_id": 27,
-          "text": "Beim Zeitalter!"
+          "translation": "Beim Zeitalter!"
         },
         {
           "id": 10315150,
           "resource_id": 445,
-          "text": "В знак времени (как Моего знаменья)"
+          "translation": "В знак времени (как Моего знаменья)"
         }
       ],
       "verse_key": "103:1",
@@ -165,7 +165,6 @@
           "page_number": 601,
           "position": 1,
           "text": "ﭑ",
-          "text_uthmani": "وَٱلْعَصْرِ",
           "translation": {
             "language_name": "english",
             "text": "By the time"
@@ -173,7 +172,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wal-ʿaṣri"
-          }
+          },
+          "arabic": "وَٱلْعَصْرِ"
         },
         {
           "audio_url": null,
@@ -184,7 +184,6 @@
           "page_number": 601,
           "position": 2,
           "text": "ﭒ",
-          "text_uthmani": "١",
           "translation": {
             "language_name": "english",
             "text": "(1)"
@@ -192,7 +191,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١"
         }
       ]
     },
@@ -209,27 +209,27 @@
         {
           "id": 90001,
           "resource_id": 19,
-          "text": "Lo! man is a state of loss,"
+          "translation": "Lo! man is a state of loss,"
         },
         {
           "id": 370465,
           "resource_id": 79,
-          "text": "(что) поистине, человек непременно (окажется) в (величайшем) убытке (как в этом мире, так и в Вечной жизни [в Аду]),"
+          "translation": "(что) поистине, человек непременно (окажется) в (величайшем) убытке (как в этом мире, так и в Вечной жизни [в Аду]),"
         },
         {
           "id": 256479,
           "resource_id": 45,
-          "text": "Воистину, каждый человек в убытке,"
+          "translation": "Воистину, каждый человек в убытке,"
         },
         {
           "id": 145308,
           "resource_id": 27,
-          "text": "Der Mensch befindet sich wahrlich in Verlust,"
+          "translation": "Der Mensch befindet sich wahrlich in Verlust,"
         },
         {
           "id": 10326047,
           "resource_id": 445,
-          "text": "Уверь, что человек всегда убыток терпит"
+          "translation": "Уверь, что человек всегда убыток терпит"
         }
       ],
       "verse_key": "103:2",
@@ -244,7 +244,6 @@
           "page_number": 601,
           "position": 1,
           "text": "ﭓ",
-          "text_uthmani": "إِنَّ",
           "translation": {
             "language_name": "english",
             "text": "Indeed"
@@ -252,7 +251,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "inna"
-          }
+          },
+          "arabic": "إِنَّ"
         },
         {
           "audio_url": "wbw/103_002_002.mp3",
@@ -263,7 +263,6 @@
           "page_number": 601,
           "position": 2,
           "text": "ﭔ",
-          "text_uthmani": "ٱلْإِنسَـٰنَ",
           "translation": {
             "language_name": "english",
             "text": "mankind"
@@ -271,7 +270,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-insāna"
-          }
+          },
+          "arabic": "ٱلْإِنسَـٰنَ"
         },
         {
           "audio_url": "wbw/103_002_003.mp3",
@@ -282,7 +282,6 @@
           "page_number": 601,
           "position": 3,
           "text": "ﭕ",
-          "text_uthmani": "لَفِى",
           "translation": {
             "language_name": "english",
             "text": "(is) surely, in"
@@ -290,7 +289,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "lafī"
-          }
+          },
+          "arabic": "لَفِى"
         },
         {
           "audio_url": "wbw/103_002_004.mp3",
@@ -301,7 +301,6 @@
           "page_number": 601,
           "position": 4,
           "text": "ﭖ",
-          "text_uthmani": "خُسْرٍ",
           "translation": {
             "language_name": "english",
             "text": "loss"
@@ -309,7 +308,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "khus'rin"
-          }
+          },
+          "arabic": "خُسْرٍ"
         },
         {
           "audio_url": null,
@@ -320,7 +320,6 @@
           "page_number": 601,
           "position": 5,
           "text": "ﭗ",
-          "text_uthmani": "٢",
           "translation": {
             "language_name": "english",
             "text": "(2)"
@@ -328,7 +327,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢"
         }
       ]
     },
@@ -345,27 +345,27 @@
         {
           "id": 90003,
           "resource_id": 19,
-          "text": "Save those who believe and do good works, and exhort one another to truth and exhort one another to endurance."
+          "translation": "Save those who believe and do good works, and exhort one another to truth and exhort one another to endurance."
         },
         {
           "id": 370466,
           "resource_id": 79,
-          "text": "кроме тех, которые уверовали (в Аллаха), и совершали праведные деяния [исполняли Его повеления и оставляли то, что Он запретил], и заповедали друг другу истину [говорили друг другу придерживаться истины и повиноваться Аллаху], и заповедали друг другу терпение [проявлять терпение на этом]!"
+          "translation": "кроме тех, которые уверовали (в Аллаха), и совершали праведные деяния [исполняли Его повеления и оставляли то, что Он запретил], и заповедали друг другу истину [говорили друг другу придерживаться истины и повиноваться Аллаху], и заповедали друг другу терпение [проявлять терпение на этом]!"
         },
         {
           "id": 257369,
           "resource_id": 45,
-          "text": "кроме тех, которые уверовали, совершали праведные деяния, заповедали друг другу истину и заповедали друг другу терпение!"
+          "translation": "кроме тех, которые уверовали, совершали праведные деяния, заповедали друг другу истину и заповедали друг другу терпение!"
         },
         {
           "id": 145302,
           "resource_id": 27,
-          "text": "außer denjenigen, die glauben und rechtschaffene Werke tun und einander die Wahrheit eindringlich empfehlen und einander die Standhaftigkeit eindringlich empfehlen."
+          "translation": "außer denjenigen, die glauben und rechtschaffene Werke tun und einander die Wahrheit eindringlich empfehlen und einander die Standhaftigkeit eindringlich empfehlen."
         },
         {
           "id": 10333137,
           "resource_id": 445,
-          "text": "Помимо тех, кто верует, Деянья добрые творит, Заповедает истину средь братьев И к терпеливой стойкости зовет"
+          "translation": "Помимо тех, кто верует, Деянья добрые творит, Заповедает истину средь братьев И к терпеливой стойкости зовет"
         }
       ],
       "verse_key": "103:3",
@@ -380,7 +380,6 @@
           "page_number": 601,
           "position": 1,
           "text": "ﭘ",
-          "text_uthmani": "إِلَّا",
           "translation": {
             "language_name": "english",
             "text": "Except"
@@ -388,7 +387,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "illā"
-          }
+          },
+          "arabic": "إِلَّا"
         },
         {
           "audio_url": "wbw/103_003_002.mp3",
@@ -399,7 +399,6 @@
           "page_number": 601,
           "position": 2,
           "text": "ﭙ",
-          "text_uthmani": "ٱلَّذِينَ",
           "translation": {
             "language_name": "english",
             "text": "those who"
@@ -407,7 +406,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "alladhīna"
-          }
+          },
+          "arabic": "ٱلَّذِينَ"
         },
         {
           "audio_url": "wbw/103_003_003.mp3",
@@ -418,7 +418,6 @@
           "page_number": 601,
           "position": 3,
           "text": "ﭚ",
-          "text_uthmani": "ءَامَنُوا۟",
           "translation": {
             "language_name": "english",
             "text": "believe"
@@ -426,7 +425,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "āmanū"
-          }
+          },
+          "arabic": "ءَامَنُوا۟"
         },
         {
           "audio_url": "wbw/103_003_004.mp3",
@@ -437,7 +437,6 @@
           "page_number": 601,
           "position": 4,
           "text": "ﭛ",
-          "text_uthmani": "وَعَمِلُوا۟",
           "translation": {
             "language_name": "english",
             "text": "and do"
@@ -445,7 +444,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "waʿamilū"
-          }
+          },
+          "arabic": "وَعَمِلُوا۟"
         },
         {
           "audio_url": "wbw/103_003_005.mp3",
@@ -456,7 +456,6 @@
           "page_number": 601,
           "position": 5,
           "text": "ﭜ",
-          "text_uthmani": "ٱلصَّـٰلِحَـٰتِ",
           "translation": {
             "language_name": "english",
             "text": "righteous deeds"
@@ -464,7 +463,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ṣāliḥāti"
-          }
+          },
+          "arabic": "ٱلصَّـٰلِحَـٰتِ"
         },
         {
           "audio_url": "wbw/103_003_006.mp3",
@@ -475,7 +475,6 @@
           "page_number": 601,
           "position": 6,
           "text": "ﭝ",
-          "text_uthmani": "وَتَوَاصَوْا۟",
           "translation": {
             "language_name": "english",
             "text": "and enjoin (each other)"
@@ -483,7 +482,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "watawāṣaw"
-          }
+          },
+          "arabic": "وَتَوَاصَوْا۟"
         },
         {
           "audio_url": "wbw/103_003_007.mp3",
@@ -494,7 +494,6 @@
           "page_number": 601,
           "position": 7,
           "text": "ﭞ",
-          "text_uthmani": "بِٱلْحَقِّ",
           "translation": {
             "language_name": "english",
             "text": "to the truth"
@@ -502,7 +501,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bil-ḥaqi"
-          }
+          },
+          "arabic": "بِٱلْحَقِّ"
         },
         {
           "audio_url": "wbw/103_003_008.mp3",
@@ -513,7 +513,6 @@
           "page_number": 601,
           "position": 8,
           "text": "ﭟ",
-          "text_uthmani": "وَتَوَاصَوْا۟",
           "translation": {
             "language_name": "english",
             "text": "and enjoin (each other)"
@@ -521,7 +520,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "watawāṣaw"
-          }
+          },
+          "arabic": "وَتَوَاصَوْا۟"
         },
         {
           "audio_url": "wbw/103_003_009.mp3",
@@ -532,7 +532,6 @@
           "page_number": 601,
           "position": 9,
           "text": "ﭠ",
-          "text_uthmani": "بِٱلصَّبْرِ",
           "translation": {
             "language_name": "english",
             "text": "to [the] patience"
@@ -540,7 +539,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "bil-ṣabri"
-          }
+          },
+          "arabic": "بِٱلصَّبْرِ"
         },
         {
           "audio_url": null,
@@ -551,7 +551,6 @@
           "page_number": 601,
           "position": 10,
           "text": "ﭡ",
-          "text_uthmani": "٣",
           "translation": {
             "language_name": "english",
             "text": "(3)"
@@ -559,7 +558,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣"
         }
       ]
     }

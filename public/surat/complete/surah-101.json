@@ -130,27 +130,27 @@
         {
           "id": 89955,
           "resource_id": 19,
-          "text": "The Calamity!"
+          "translation": "The Calamity!"
         },
         {
           "id": 370445,
           "resource_id": 79,
-          "text": "«Устрашающий [[Это одно из названий Судного Дня. В этот день сердца наполнятся страхом, а на врагов Аллаха падет наказание.]]»!.."
+          "translation": "«Устрашающий [[Это одно из названий Судного Дня. В этот день сердца наполнятся страхом, а на врагов Аллаха падет наказание.]]»!.."
         },
         {
           "id": 255475,
           "resource_id": 45,
-          "text": "Великое бедствие (День воскресения)!"
+          "translation": "Великое бедствие (День воскресения)!"
         },
         {
           "id": 140056,
           "resource_id": 27,
-          "text": "Das Verhängnis!"
+          "translation": "Das Verhängnis!"
         },
         {
           "id": 10113970,
           "resource_id": 445,
-          "text": "День бичевания"
+          "translation": "День бичевания"
         }
       ],
       "verse_key": "101:1",
@@ -165,7 +165,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﭜ",
-          "text_uthmani": "ٱلْقَارِعَةُ",
           "translation": {
             "language_name": "english",
             "text": "The Striking Calamity"
@@ -173,7 +172,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "al-qāriʿatu"
-          }
+          },
+          "arabic": "ٱلْقَارِعَةُ"
         },
         {
           "audio_url": null,
@@ -184,7 +184,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﭝ",
-          "text_uthmani": "١",
           "translation": {
             "language_name": "english",
             "text": "(1)"
@@ -192,7 +191,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١"
         }
       ]
     },
@@ -209,27 +209,27 @@
         {
           "id": 89959,
           "resource_id": 19,
-          "text": "What is the Calamity?"
+          "translation": "What is the Calamity?"
         },
         {
           "id": 370446,
           "resource_id": 79,
-          "text": "Что такое «Устрашающий»?"
+          "translation": "Что такое «Устрашающий»?"
         },
         {
           "id": 254623,
           "resource_id": 45,
-          "text": "Что такое Великое бедствие (День воскресения)?"
+          "translation": "Что такое Великое бедствие (День воскресения)?"
         },
         {
           "id": 142751,
           "resource_id": 27,
-          "text": "Was ist das Verhängnis?"
+          "translation": "Was ist das Verhängnis?"
         },
         {
           "id": 10126317,
           "resource_id": 445,
-          "text": "Каков он - День (Господнего) Бича"
+          "translation": "Каков он - День (Господнего) Бича"
         }
       ],
       "verse_key": "101:2",
@@ -244,7 +244,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﭞ",
-          "text_uthmani": "مَا",
           "translation": {
             "language_name": "english",
             "text": "What"
@@ -252,7 +251,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "mā"
-          }
+          },
+          "arabic": "مَا"
         },
         {
           "audio_url": "wbw/101_002_002.mp3",
@@ -263,7 +263,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﭟ",
-          "text_uthmani": "ٱلْقَارِعَةُ",
           "translation": {
             "language_name": "english",
             "text": "(is) the Striking Calamity"
@@ -271,7 +270,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-qāriʿatu"
-          }
+          },
+          "arabic": "ٱلْقَارِعَةُ"
         },
         {
           "audio_url": null,
@@ -282,7 +282,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﭠ",
-          "text_uthmani": "٢",
           "translation": {
             "language_name": "english",
             "text": "(2)"
@@ -290,7 +289,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢"
         }
       ]
     },
@@ -307,27 +307,27 @@
         {
           "id": 89961,
           "resource_id": 19,
-          "text": "Ah, what will convey unto thee what the Calamity is!"
+          "translation": "Ah, what will convey unto thee what the Calamity is!"
         },
         {
           "id": 370447,
           "resource_id": 79,
-          "text": "И откуда ты (о, Пророк) мог знать, что такой «Устрашающий»?"
+          "translation": "И откуда ты (о, Пророк) мог знать, что такой «Устрашающий»?"
         },
         {
           "id": 257521,
           "resource_id": 45,
-          "text": "Откуда ты мог знать, что такое Великое бедствие (День воскресения)?"
+          "translation": "Откуда ты мог знать, что такое Великое бедствие (День воскресения)?"
         },
         {
           "id": 142991,
           "resource_id": 27,
-          "text": "Und was läßt dich wissen, was das Verhängnis ist?"
+          "translation": "Und was läßt dich wissen, was das Verhängnis ist?"
         },
         {
           "id": 10133598,
           "resource_id": 445,
-          "text": "Что объяснит тебе, Каков он - День Бича"
+          "translation": "Что объяснит тебе, Каков он - День Бича"
         }
       ],
       "verse_key": "101:3",
@@ -342,7 +342,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﭡ",
-          "text_uthmani": "وَمَآ",
           "translation": {
             "language_name": "english",
             "text": "And what"
@@ -350,7 +349,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wamā"
-          }
+          },
+          "arabic": "وَمَآ"
         },
         {
           "audio_url": "wbw/101_003_002.mp3",
@@ -361,7 +361,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﭢ",
-          "text_uthmani": "أَدْرَىٰكَ",
           "translation": {
             "language_name": "english",
             "text": "will make you know"
@@ -369,7 +368,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "adrāka"
-          }
+          },
+          "arabic": "أَدْرَىٰكَ"
         },
         {
           "audio_url": "wbw/101_003_003.mp3",
@@ -380,7 +380,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﭣ",
-          "text_uthmani": "مَا",
           "translation": {
             "language_name": "english",
             "text": "what"
@@ -388,7 +387,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "mā"
-          }
+          },
+          "arabic": "مَا"
         },
         {
           "audio_url": "wbw/101_003_004.mp3",
@@ -399,7 +399,6 @@
           "page_number": 600,
           "position": 4,
           "text": "ﭤ",
-          "text_uthmani": "ٱلْقَارِعَةُ",
           "translation": {
             "language_name": "english",
             "text": "(is) the Striking Calamity"
@@ -407,7 +406,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-qāriʿatu"
-          }
+          },
+          "arabic": "ٱلْقَارِعَةُ"
         },
         {
           "audio_url": null,
@@ -418,7 +418,6 @@
           "page_number": 600,
           "position": 5,
           "text": "ﭥ",
-          "text_uthmani": "٣",
           "translation": {
             "language_name": "english",
             "text": "(3)"
@@ -426,7 +425,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣"
         }
       ]
     },
@@ -443,27 +443,27 @@
         {
           "id": 89963,
           "resource_id": 19,
-          "text": "A day wherein mankind will be as thickly-scattered moths"
+          "translation": "A day wherein mankind will be as thickly-scattered moths"
         },
         {
           "id": 370448,
           "resource_id": 79,
-          "text": "(Это) – день, когда люди (от великого страха) будут (беспорядочно двигаться), как рассеянные мотыльки (пока не будут собраны к месту стояния),"
+          "translation": "(Это) – день, когда люди (от великого страха) будут (беспорядочно двигаться), как рассеянные мотыльки (пока не будут собраны к месту стояния),"
         },
         {
           "id": 257520,
           "resource_id": 45,
-          "text": "В тот день люди будут подобны рассеянным мотылькам,"
+          "translation": "В тот день люди будут подобны рассеянным мотылькам,"
         },
         {
           "id": 143240,
           "resource_id": 27,
-          "text": "Am Tag, da die Menschen wie flatternde Motten sein werden"
+          "translation": "Am Tag, da die Menschen wie flatternde Motten sein werden"
         },
         {
           "id": 10146629,
           "resource_id": 445,
-          "text": "В тот День Рассеются, подобно мотылькам, все люди"
+          "translation": "В тот День Рассеются, подобно мотылькам, все люди"
         }
       ],
       "verse_key": "101:4",
@@ -478,7 +478,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﭦ",
-          "text_uthmani": "يَوْمَ",
           "translation": {
             "language_name": "english",
             "text": "(The) Day"
@@ -486,7 +485,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yawma"
-          }
+          },
+          "arabic": "يَوْمَ"
         },
         {
           "audio_url": "wbw/101_004_002.mp3",
@@ -497,7 +497,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﭧ",
-          "text_uthmani": "يَكُونُ",
           "translation": {
             "language_name": "english",
             "text": "will be"
@@ -505,7 +504,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yakūnu"
-          }
+          },
+          "arabic": "يَكُونُ"
         },
         {
           "audio_url": "wbw/101_004_003.mp3",
@@ -516,7 +516,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﭨ",
-          "text_uthmani": "ٱلنَّاسُ",
           "translation": {
             "language_name": "english",
             "text": "the mankind"
@@ -524,7 +523,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-nāsu"
-          }
+          },
+          "arabic": "ٱلنَّاسُ"
         },
         {
           "audio_url": "wbw/101_004_004.mp3",
@@ -535,7 +535,6 @@
           "page_number": 600,
           "position": 4,
           "text": "ﭩ",
-          "text_uthmani": "كَٱلْفَرَاشِ",
           "translation": {
             "language_name": "english",
             "text": "like moths"
@@ -543,7 +542,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kal-farāshi"
-          }
+          },
+          "arabic": "كَٱلْفَرَاشِ"
         },
         {
           "audio_url": "wbw/101_004_005.mp3",
@@ -554,7 +554,6 @@
           "page_number": 600,
           "position": 5,
           "text": "ﭪ",
-          "text_uthmani": "ٱلْمَبْثُوثِ",
           "translation": {
             "language_name": "english",
             "text": "scattered"
@@ -562,7 +561,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-mabthūthi"
-          }
+          },
+          "arabic": "ٱلْمَبْثُوثِ"
         },
         {
           "audio_url": null,
@@ -573,7 +573,6 @@
           "page_number": 600,
           "position": 6,
           "text": "ﭫ",
-          "text_uthmani": "٤",
           "translation": {
             "language_name": "english",
             "text": "(4)"
@@ -581,7 +580,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٤"
         }
       ]
     },
@@ -598,27 +598,27 @@
         {
           "id": 89965,
           "resource_id": 19,
-          "text": "And the mountains will become as carded wool."
+          "translation": "And the mountains will become as carded wool."
         },
         {
           "id": 370449,
           "resource_id": 79,
-          "text": "и будут горы, как расчесанная шерсть (так как они разлетятся в виде пыли)..."
+          "translation": "и будут горы, как расчесанная шерсть (так как они разлетятся в виде пыли)..."
         },
         {
           "id": 257505,
           "resource_id": 45,
-          "text": "а горы будут подобны расчесанной шерсти."
+          "translation": "а горы будут подобны расчесанной шерсти."
         },
         {
           "id": 145091,
           "resource_id": 27,
-          "text": "und die Berge wie zerflockte gefärbte Wolle sein werden."
+          "translation": "und die Berge wie zerflockte gefärbte Wolle sein werden."
         },
         {
           "id": 10154810,
           "resource_id": 445,
-          "text": "Подобно паутинкам легкой шерсти, Повиснут горы"
+          "translation": "Подобно паутинкам легкой шерсти, Повиснут горы"
         }
       ],
       "verse_key": "101:5",
@@ -633,7 +633,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﭬ",
-          "text_uthmani": "وَتَكُونُ",
           "translation": {
             "language_name": "english",
             "text": "And will be"
@@ -641,7 +640,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "watakūnu"
-          }
+          },
+          "arabic": "وَتَكُونُ"
         },
         {
           "audio_url": "wbw/101_005_002.mp3",
@@ -652,7 +652,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﭭ",
-          "text_uthmani": "ٱلْجِبَالُ",
           "translation": {
             "language_name": "english",
             "text": "the mountains"
@@ -660,7 +659,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-jibālu"
-          }
+          },
+          "arabic": "ٱلْجِبَالُ"
         },
         {
           "audio_url": "wbw/101_005_003.mp3",
@@ -671,7 +671,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﭮ",
-          "text_uthmani": "كَٱلْعِهْنِ",
           "translation": {
             "language_name": "english",
             "text": "like wool"
@@ -679,7 +678,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kal-ʿih'ni"
-          }
+          },
+          "arabic": "كَٱلْعِهْنِ"
         },
         {
           "audio_url": "wbw/101_005_004.mp3",
@@ -690,7 +690,6 @@
           "page_number": 600,
           "position": 4,
           "text": "ﭯ",
-          "text_uthmani": "ٱلْمَنفُوشِ",
           "translation": {
             "language_name": "english",
             "text": "fluffed up"
@@ -698,7 +697,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-manfūshi"
-          }
+          },
+          "arabic": "ٱلْمَنفُوشِ"
         },
         {
           "audio_url": null,
@@ -709,7 +709,6 @@
           "page_number": 600,
           "position": 5,
           "text": "ﭰ",
-          "text_uthmani": "٥",
           "translation": {
             "language_name": "english",
             "text": "(5)"
@@ -717,7 +716,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٥"
         }
       ]
     },
@@ -734,27 +734,27 @@
         {
           "id": 89967,
           "resource_id": 19,
-          "text": "Then, as for him whose scales are heavy (with good works),"
+          "translation": "Then, as for him whose scales are heavy (with good works),"
         },
         {
           "id": 370450,
           "resource_id": 79,
-          "text": "И что касается того, у кого (будут в День Суда) тяжелы весы (благими деяниями), –"
+          "translation": "И что касается того, у кого (будут в День Суда) тяжелы весы (благими деяниями), –"
         },
         {
           "id": 257506,
           "resource_id": 45,
-          "text": "Тогда тот, чья чаша Весов окажется тяжелой,"
+          "translation": "Тогда тот, чья чаша Весов окажется тяжелой,"
         },
         {
           "id": 143433,
           "resource_id": 27,
-          "text": "Was nun jemanden angeht, dessen Waagschalen schwer sind,"
+          "translation": "Was nun jemanden angeht, dessen Waagschalen schwer sind,"
         },
         {
           "id": 10164254,
           "resource_id": 445,
-          "text": "И для того, чьи добрые деянья перевесят"
+          "translation": "И для того, чьи добрые деянья перевесят"
         }
       ],
       "verse_key": "101:6",
@@ -769,7 +769,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﭱ",
-          "text_uthmani": "فَأَمَّا",
           "translation": {
             "language_name": "english",
             "text": "Then as for"
@@ -777,7 +776,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-ammā"
-          }
+          },
+          "arabic": "فَأَمَّا"
         },
         {
           "audio_url": "wbw/101_006_002.mp3",
@@ -788,7 +788,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﭲ",
-          "text_uthmani": "مَن",
           "translation": {
             "language_name": "english",
             "text": "(him) whose"
@@ -796,7 +795,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "man"
-          }
+          },
+          "arabic": "مَن"
         },
         {
           "audio_url": "wbw/101_006_003.mp3",
@@ -807,7 +807,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﭳ",
-          "text_uthmani": "ثَقُلَتْ",
           "translation": {
             "language_name": "english",
             "text": "(are) heavy"
@@ -815,7 +814,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "thaqulat"
-          }
+          },
+          "arabic": "ثَقُلَتْ"
         },
         {
           "audio_url": "wbw/101_006_004.mp3",
@@ -826,7 +826,6 @@
           "page_number": 600,
           "position": 4,
           "text": "ﭴ",
-          "text_uthmani": "مَوَٰزِينُهُۥ",
           "translation": {
             "language_name": "english",
             "text": "his scales"
@@ -834,7 +833,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "mawāzīnuhu"
-          }
+          },
+          "arabic": "مَوَٰزِينُهُۥ"
         },
         {
           "audio_url": null,
@@ -845,7 +845,6 @@
           "page_number": 600,
           "position": 5,
           "text": "ﭵ",
-          "text_uthmani": "٦",
           "translation": {
             "language_name": "english",
             "text": "(6)"
@@ -853,7 +852,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٦"
         }
       ]
     },
@@ -870,27 +870,27 @@
         {
           "id": 89969,
           "resource_id": 19,
-          "text": "He will live a pleasant life."
+          "translation": "He will live a pleasant life."
         },
         {
           "id": 370451,
           "resource_id": 79,
-          "text": "то он (окажется) в жизни блаженной [в Раю]."
+          "translation": "то он (окажется) в жизни блаженной [в Раю]."
         },
         {
           "id": 257230,
           "resource_id": 45,
-          "text": "обретет приятную жизнь."
+          "translation": "обретет приятную жизнь."
         },
         {
           "id": 143438,
           "resource_id": 27,
-          "text": "so wird er in einem zufriedenen Leben sein."
+          "translation": "so wird er in einem zufriedenen Leben sein."
         },
         {
           "id": 10173891,
           "resource_id": 445,
-          "text": "Жизнь уготована в прекрасном Рае, Где он найдет блаженство и покой"
+          "translation": "Жизнь уготована в прекрасном Рае, Где он найдет блаженство и покой"
         }
       ],
       "verse_key": "101:7",
@@ -905,7 +905,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﭶ",
-          "text_uthmani": "فَهُوَ",
           "translation": {
             "language_name": "english",
             "text": "Then he"
@@ -913,7 +912,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fahuwa"
-          }
+          },
+          "arabic": "فَهُوَ"
         },
         {
           "audio_url": "wbw/101_007_002.mp3",
@@ -924,7 +924,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﭷ",
-          "text_uthmani": "فِى",
           "translation": {
             "language_name": "english",
             "text": "(will be) in"
@@ -932,7 +931,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fī"
-          }
+          },
+          "arabic": "فِى"
         },
         {
           "audio_url": "wbw/101_007_003.mp3",
@@ -943,7 +943,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﭸ",
-          "text_uthmani": "عِيشَةٍۢ",
           "translation": {
             "language_name": "english",
             "text": "a life"
@@ -951,7 +950,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ʿīshatin"
-          }
+          },
+          "arabic": "عِيشَةٍۢ"
         },
         {
           "audio_url": "wbw/101_007_004.mp3",
@@ -962,7 +962,6 @@
           "page_number": 600,
           "position": 4,
           "text": "ﭹ",
-          "text_uthmani": "رَّاضِيَةٍۢ",
           "translation": {
             "language_name": "english",
             "text": "pleasant"
@@ -970,7 +969,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "rāḍiyatin"
-          }
+          },
+          "arabic": "رَّاضِيَةٍۢ"
         },
         {
           "audio_url": null,
@@ -981,7 +981,6 @@
           "page_number": 600,
           "position": 5,
           "text": "ﭺ",
-          "text_uthmani": "٧",
           "translation": {
             "language_name": "english",
             "text": "(7)"
@@ -989,7 +988,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٧"
         }
       ]
     },
@@ -1006,27 +1006,27 @@
         {
           "id": 89974,
           "resource_id": 19,
-          "text": "But as for him whose scales are light,"
+          "translation": "But as for him whose scales are light,"
         },
         {
           "id": 370452,
           "resource_id": 79,
-          "text": "А что касается того, у кого (в тот день) (будут) легки весы [плохие дела перевесят хорошие], –"
+          "translation": "А что касается того, у кого (в тот день) (будут) легки весы [плохие дела перевесят хорошие], –"
         },
         {
           "id": 257495,
           "resource_id": 45,
-          "text": "Для того же, чья чаша Весов окажется легкой,"
+          "translation": "Для того же, чья чаша Весов окажется легкой,"
         },
         {
           "id": 144248,
           "resource_id": 27,
-          "text": "Was aber jemanden angeht, dessen Waagschalen leicht sind,"
+          "translation": "Was aber jemanden angeht, dessen Waagschalen leicht sind,"
         },
         {
           "id": 10183146,
           "resource_id": 445,
-          "text": "Но тот, кто легковесен был в земных деяньях"
+          "translation": "Но тот, кто легковесен был в земных деяньях"
         }
       ],
       "verse_key": "101:8",
@@ -1041,7 +1041,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﭻ",
-          "text_uthmani": "وَأَمَّا",
           "translation": {
             "language_name": "english",
             "text": "But as for"
@@ -1049,7 +1048,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wa-ammā"
-          }
+          },
+          "arabic": "وَأَمَّا"
         },
         {
           "audio_url": "wbw/101_008_002.mp3",
@@ -1060,7 +1060,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﭼ",
-          "text_uthmani": "مَنْ",
           "translation": {
             "language_name": "english",
             "text": "(him) whose"
@@ -1068,7 +1067,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "man"
-          }
+          },
+          "arabic": "مَنْ"
         },
         {
           "audio_url": "wbw/101_008_003.mp3",
@@ -1079,7 +1079,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﭽ",
-          "text_uthmani": "خَفَّتْ",
           "translation": {
             "language_name": "english",
             "text": "(are) light"
@@ -1087,7 +1086,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "khaffat"
-          }
+          },
+          "arabic": "خَفَّتْ"
         },
         {
           "audio_url": "wbw/101_008_004.mp3",
@@ -1098,7 +1098,6 @@
           "page_number": 600,
           "position": 4,
           "text": "ﭾ",
-          "text_uthmani": "مَوَٰزِينُهُۥ",
           "translation": {
             "language_name": "english",
             "text": "his scales"
@@ -1106,7 +1105,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "mawāzīnuhu"
-          }
+          },
+          "arabic": "مَوَٰزِينُهُۥ"
         },
         {
           "audio_url": null,
@@ -1117,7 +1117,6 @@
           "page_number": 600,
           "position": 5,
           "text": "ﭿ",
-          "text_uthmani": "٨",
           "translation": {
             "language_name": "english",
             "text": "(8)"
@@ -1125,7 +1124,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٨"
         }
       ]
     },
@@ -1142,27 +1142,27 @@
         {
           "id": 89976,
           "resource_id": 19,
-          "text": "A bereft and Hungry One will be his mother,"
+          "translation": "A bereft and Hungry One will be his mother,"
         },
         {
           "id": 370453,
           "resource_id": 79,
-          "text": "то матерью [[Ад назван «матерью», так как Ад станет единственным местом, где он будет находиться, как ребенок находится только у своей матери. И Ад назван пропастью, так как обитатель его падает в нем, как в пропасть.]] его (станет) «пропасть» [Ад]."
+          "translation": "то матерью [[Ад назван «матерью», так как Ад станет единственным местом, где он будет находиться, как ребенок находится только у своей матери. И Ад назван пропастью, так как обитатель его падает в нем, как в пропасть.]] его (станет) «пропасть» [Ад]."
         },
         {
           "id": 257509,
           "resource_id": 45,
-          "text": "матерью станет Пропасть (грешники будут искать убежище в Аду, подобно тому, как ребенок ищет убежище у своей матери; или грешники будут падать в Адскую Пропасть вниз головой)."
+          "translation": "матерью станет Пропасть (грешники будут искать убежище в Аду, подобно тому, как ребенок ищет убежище у своей матери; или грешники будут падать в Адскую Пропасть вниз головой)."
         },
         {
           "id": 143773,
           "resource_id": 27,
-          "text": "dessen Mutter wird ein Abgrund sein."
+          "translation": "dessen Mutter wird ein Abgrund sein."
         },
         {
           "id": 10198986,
           "resource_id": 445,
-          "text": "Найдет убежище себе во Рву бездонном"
+          "translation": "Найдет убежище себе во Рву бездонном"
         }
       ],
       "verse_key": "101:9",
@@ -1177,7 +1177,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﮀ",
-          "text_uthmani": "فَأُمُّهُۥ",
           "translation": {
             "language_name": "english",
             "text": "His abode"
@@ -1185,7 +1184,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "fa-ummuhu"
-          }
+          },
+          "arabic": "فَأُمُّهُۥ"
         },
         {
           "audio_url": "wbw/101_009_002.mp3",
@@ -1196,7 +1196,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﮁ",
-          "text_uthmani": "هَاوِيَةٌۭ",
           "translation": {
             "language_name": "english",
             "text": "(will be the) Pit"
@@ -1204,7 +1203,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "hāwiyatun"
-          }
+          },
+          "arabic": "هَاوِيَةٌۭ"
         },
         {
           "audio_url": null,
@@ -1215,7 +1215,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﮂ",
-          "text_uthmani": "٩",
           "translation": {
             "language_name": "english",
             "text": "(9)"
@@ -1223,7 +1222,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٩"
         }
       ]
     },
@@ -1240,27 +1240,27 @@
         {
           "id": 89956,
           "resource_id": 19,
-          "text": "Ah, what will convey unto thee what she is! -"
+          "translation": "Ah, what will convey unto thee what she is! -"
         },
         {
           "id": 370454,
           "resource_id": 79,
-          "text": "А откуда ты (о, Пророк) мог знать, что это [Ад] такое? –"
+          "translation": "А откуда ты (о, Пророк) мог знать, что это [Ад] такое? –"
         },
         {
           "id": 255451,
           "resource_id": 45,
-          "text": "Откуда ты мог знать, что это такое?"
+          "translation": "Откуда ты мог знать, что это такое?"
         },
         {
           "id": 145175,
           "resource_id": 27,
-          "text": "Und was läßt dich wissen, was das ist?"
+          "translation": "Und was läßt dich wissen, was das ist?"
         },
         {
           "id": 101104054,
           "resource_id": 445,
-          "text": "Как объяснить тебе, каков он, этот Ров"
+          "translation": "Как объяснить тебе, каков он, этот Ров"
         }
       ],
       "verse_key": "101:10",
@@ -1275,7 +1275,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﮃ",
-          "text_uthmani": "وَمَآ",
           "translation": {
             "language_name": "english",
             "text": "And what"
@@ -1283,7 +1282,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "wamā"
-          }
+          },
+          "arabic": "وَمَآ"
         },
         {
           "audio_url": "wbw/101_010_002.mp3",
@@ -1294,7 +1294,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﮄ",
-          "text_uthmani": "أَدْرَىٰكَ",
           "translation": {
             "language_name": "english",
             "text": "will make you know"
@@ -1302,7 +1301,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "adrāka"
-          }
+          },
+          "arabic": "أَدْرَىٰكَ"
         },
         {
           "audio_url": "wbw/101_010_003.mp3",
@@ -1313,7 +1313,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﮅ",
-          "text_uthmani": "مَا",
           "translation": {
             "language_name": "english",
             "text": "what"
@@ -1321,7 +1320,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "mā"
-          }
+          },
+          "arabic": "مَا"
         },
         {
           "audio_url": "wbw/101_010_004.mp3",
@@ -1332,7 +1332,6 @@
           "page_number": 600,
           "position": 4,
           "text": "ﮆ",
-          "text_uthmani": "هِيَهْ",
           "translation": {
             "language_name": "english",
             "text": "it is"
@@ -1340,7 +1339,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "hiyah"
-          }
+          },
+          "arabic": "هِيَهْ"
         },
         {
           "audio_url": null,
@@ -1351,7 +1351,6 @@
           "page_number": 600,
           "position": 5,
           "text": "ﮇ",
-          "text_uthmani": "١٠",
           "translation": {
             "language_name": "english",
             "text": "(10)"
@@ -1359,7 +1358,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١٠"
         }
       ]
     },
@@ -1376,27 +1376,27 @@
         {
           "id": 89957,
           "resource_id": 19,
-          "text": "Raging Fire."
+          "translation": "Raging Fire."
         },
         {
           "id": 370455,
           "resource_id": 79,
-          "text": "Огонь пылающий [достигший предела своего жара и силы]!"
+          "translation": "Огонь пылающий [достигший предела своего жара и силы]!"
         },
         {
           "id": 251425,
           "resource_id": 45,
-          "text": "Это - жаркий Огонь!"
+          "translation": "Это - жаркий Огонь!"
         },
         {
           "id": 145292,
           "resource_id": 27,
-          "text": "Ein sehr heißes Feuer."
+          "translation": "Ein sehr heißes Feuer."
         },
         {
           "id": 101114948,
           "resource_id": 445,
-          "text": "Слепящим пламенем горит он"
+          "translation": "Слепящим пламенем горит он"
         }
       ],
       "verse_key": "101:11",
@@ -1411,7 +1411,6 @@
           "page_number": 600,
           "position": 1,
           "text": "ﮈ",
-          "text_uthmani": "نَارٌ",
           "translation": {
             "language_name": "english",
             "text": "A Fire"
@@ -1419,7 +1418,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "nārun"
-          }
+          },
+          "arabic": "نَارٌ"
         },
         {
           "audio_url": "wbw/101_011_002.mp3",
@@ -1430,7 +1430,6 @@
           "page_number": 600,
           "position": 2,
           "text": "ﮉ",
-          "text_uthmani": "حَامِيَةٌۢ",
           "translation": {
             "language_name": "english",
             "text": "intensely hot"
@@ -1438,7 +1437,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "ḥāmiyatun"
-          }
+          },
+          "arabic": "حَامِيَةٌۢ"
         },
         {
           "audio_url": null,
@@ -1449,7 +1449,6 @@
           "page_number": 600,
           "position": 3,
           "text": "ﮊ",
-          "text_uthmani": "١١",
           "translation": {
             "language_name": "english",
             "text": "(11)"
@@ -1457,7 +1456,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١١"
         }
       ]
     }

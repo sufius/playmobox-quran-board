@@ -130,27 +130,27 @@
         {
           "id": 90157,
           "resource_id": 19,
-          "text": "Say: He is Allah, the One!"
+          "translation": "Say: He is Allah, the One!"
         },
         {
           "id": 370509,
           "resource_id": 79,
-          "text": "Скажи: «Он – Аллах – один [нет у Него сотоварища],"
+          "translation": "Скажи: «Он – Аллах – один [нет у Него сотоварища],"
         },
         {
           "id": 257474,
           "resource_id": 45,
-          "text": "Скажи: «Он - Аллах Единый,"
+          "translation": "Скажи: «Он - Аллах Единый,"
         },
         {
           "id": 145522,
           "resource_id": 27,
-          "text": "Sag: Er ist Allah, Einer,"
+          "translation": "Sag: Er ist Allah, Einer,"
         },
         {
           "id": 11216679,
           "resource_id": 445,
-          "text": "Скажи: \"Он - Аллах - Един"
+          "translation": "Скажи: \"Он - Аллах - Един"
         }
       ],
       "verse_key": "112:1",
@@ -165,7 +165,6 @@
           "page_number": 604,
           "position": 1,
           "text": "ﭑ",
-          "text_uthmani": "قُلْ",
           "translation": {
             "language_name": "english",
             "text": "Say"
@@ -173,7 +172,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "qul"
-          }
+          },
+          "arabic": "قُلْ"
         },
         {
           "audio_url": "wbw/112_001_002.mp3",
@@ -184,7 +184,6 @@
           "page_number": 604,
           "position": 2,
           "text": "ﭒ",
-          "text_uthmani": "هُوَ",
           "translation": {
             "language_name": "english",
             "text": "He"
@@ -192,7 +191,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "huwa"
-          }
+          },
+          "arabic": "هُوَ"
         },
         {
           "audio_url": "wbw/112_001_003.mp3",
@@ -203,7 +203,6 @@
           "page_number": 604,
           "position": 3,
           "text": "ﭓ",
-          "text_uthmani": "ٱللَّهُ",
           "translation": {
             "language_name": "english",
             "text": "(is) Allah"
@@ -211,7 +210,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-lahu"
-          }
+          },
+          "arabic": "ٱللَّهُ"
         },
         {
           "audio_url": "wbw/112_001_004.mp3",
@@ -222,7 +222,6 @@
           "page_number": 604,
           "position": 4,
           "text": "ﭔ",
-          "text_uthmani": "أَحَدٌ",
           "translation": {
             "language_name": "english",
             "text": "the One"
@@ -230,7 +229,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "aḥadun"
-          }
+          },
+          "arabic": "أَحَدٌ"
         },
         {
           "audio_url": null,
@@ -241,7 +241,6 @@
           "page_number": 604,
           "position": 5,
           "text": "ﭕ",
-          "text_uthmani": "١",
           "translation": {
             "language_name": "english",
             "text": "(1)"
@@ -249,7 +248,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "١"
         }
       ]
     },
@@ -266,27 +266,27 @@
         {
           "id": 90159,
           "resource_id": 19,
-          "text": "Allah, the eternally Besought of all!"
+          "translation": "Allah, the eternally Besought of all!"
         },
         {
           "id": 370510,
           "resource_id": 79,
-          "text": "Аллах – Един (Своей сущностью);"
+          "translation": "Аллах – Един (Своей сущностью);"
         },
         {
           "id": 257494,
           "resource_id": 45,
-          "text": "Аллах Самодостаточный."
+          "translation": "Аллах Самодостаточный."
         },
         {
           "id": 145513,
           "resource_id": 27,
-          "text": "Allah, der Überlegene."
+          "translation": "Allah, der Überlegene."
         },
         {
           "id": 11226387,
           "resource_id": 445,
-          "text": "Извечен Аллах один, Ему чужды любые нужды, Мы же нуждаемся лишь в Нем"
+          "translation": "Извечен Аллах один, Ему чужды любые нужды, Мы же нуждаемся лишь в Нем"
         }
       ],
       "verse_key": "112:2",
@@ -301,7 +301,6 @@
           "page_number": 604,
           "position": 1,
           "text": "ﭖ",
-          "text_uthmani": "ٱللَّهُ",
           "translation": {
             "language_name": "english",
             "text": "Allah"
@@ -309,7 +308,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "al-lahu"
-          }
+          },
+          "arabic": "ٱللَّهُ"
         },
         {
           "audio_url": "wbw/112_002_002.mp3",
@@ -320,7 +320,6 @@
           "page_number": 604,
           "position": 2,
           "text": "ﭗ",
-          "text_uthmani": "ٱلصَّمَدُ",
           "translation": {
             "language_name": "english",
             "text": "the Eternal, the Absolute"
@@ -328,7 +327,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "l-ṣamadu"
-          }
+          },
+          "arabic": "ٱلصَّمَدُ"
         },
         {
           "audio_url": null,
@@ -339,7 +339,6 @@
           "page_number": 604,
           "position": 3,
           "text": "ﭘ",
-          "text_uthmani": "٢",
           "translation": {
             "language_name": "english",
             "text": "(2)"
@@ -347,7 +346,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٢"
         }
       ]
     },
@@ -364,27 +364,27 @@
         {
           "id": 90161,
           "resource_id": 19,
-          "text": "He begetteth not nor was begotten."
+          "translation": "He begetteth not nor was begotten."
         },
         {
           "id": 370511,
           "resource_id": 79,
-          "text": "Он (никого) не родил и (Сам Он) не был рожден,"
+          "translation": "Он (никого) не родил и (Сам Он) не был рожден,"
         },
         {
           "id": 255453,
           "resource_id": 45,
-          "text": "Он не родил и не был рожден,"
+          "translation": "Он не родил и не был рожден,"
         },
         {
           "id": 145477,
           "resource_id": 27,
-          "text": "Er hat nicht gezeugt und ist nicht gezeugt worden,"
+          "translation": "Er hat nicht gezeugt und ist nicht gezeugt worden,"
         },
         {
           "id": 11237411,
           "resource_id": 445,
-          "text": "Он не рождает и Сам не рожден"
+          "translation": "Он не рождает и Сам не рожден"
         }
       ],
       "verse_key": "112:3",
@@ -399,7 +399,6 @@
           "page_number": 604,
           "position": 1,
           "text": "ﭙ",
-          "text_uthmani": "لَمْ",
           "translation": {
             "language_name": "english",
             "text": "Not"
@@ -407,7 +406,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "lam"
-          }
+          },
+          "arabic": "لَمْ"
         },
         {
           "audio_url": "wbw/112_003_002.mp3",
@@ -418,7 +418,6 @@
           "page_number": 604,
           "position": 2,
           "text": "ﭚ",
-          "text_uthmani": "يَلِدْ",
           "translation": {
             "language_name": "english",
             "text": "He begets"
@@ -426,7 +425,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yalid"
-          }
+          },
+          "arabic": "يَلِدْ"
         },
         {
           "audio_url": "wbw/112_003_003.mp3",
@@ -437,7 +437,6 @@
           "page_number": 604,
           "position": 3,
           "text": "ﭛ",
-          "text_uthmani": "وَلَمْ",
           "translation": {
             "language_name": "english",
             "text": "and not"
@@ -445,7 +444,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walam"
-          }
+          },
+          "arabic": "وَلَمْ"
         },
         {
           "audio_url": "wbw/112_003_004.mp3",
@@ -456,7 +456,6 @@
           "page_number": 604,
           "position": 4,
           "text": "ﭜ",
-          "text_uthmani": "يُولَدْ",
           "translation": {
             "language_name": "english",
             "text": "He is begotten"
@@ -464,7 +463,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yūlad"
-          }
+          },
+          "arabic": "يُولَدْ"
         },
         {
           "audio_url": null,
@@ -475,7 +475,6 @@
           "page_number": 604,
           "position": 5,
           "text": "ﭝ",
-          "text_uthmani": "٣",
           "translation": {
             "language_name": "english",
             "text": "(3)"
@@ -483,7 +482,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٣"
         }
       ]
     },
@@ -500,27 +500,27 @@
         {
           "id": 90163,
           "resource_id": 19,
-          "text": "And there is none comparable unto Him."
+          "translation": "And there is none comparable unto Him."
         },
         {
           "id": 370512,
           "resource_id": 79,
-          "text": "и не стал Ему равным ни один [Ему нет ни равного и ни подобного]!»"
+          "translation": "и не стал Ему равным ни один [Ему нет ни равного и ни подобного]!»"
         },
         {
           "id": 258322,
           "resource_id": 45,
-          "text": "и нет никого равного Ему»."
+          "translation": "и нет никого равного Ему»."
         },
         {
           "id": 145465,
           "resource_id": 27,
-          "text": "und niemand ist Ihm jemals gleich."
+          "translation": "und niemand ist Ihm jemals gleich."
         },
         {
           "id": 11248742,
           "resource_id": 445,
-          "text": "Неподражаем Он и не сравним (ни с чем, Что наше виденье объять способно Или земное знанье может охватить)"
+          "translation": "Неподражаем Он и не сравним (ни с чем, Что наше виденье объять способно Или земное знанье может охватить)"
         }
       ],
       "verse_key": "112:4",
@@ -535,7 +535,6 @@
           "page_number": 604,
           "position": 1,
           "text": "ﭞ",
-          "text_uthmani": "وَلَمْ",
           "translation": {
             "language_name": "english",
             "text": "And not"
@@ -543,7 +542,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "walam"
-          }
+          },
+          "arabic": "وَلَمْ"
         },
         {
           "audio_url": "wbw/112_004_002.mp3",
@@ -554,7 +554,6 @@
           "page_number": 604,
           "position": 2,
           "text": "ﭟ",
-          "text_uthmani": "يَكُن",
           "translation": {
             "language_name": "english",
             "text": "is"
@@ -562,7 +561,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "yakun"
-          }
+          },
+          "arabic": "يَكُن"
         },
         {
           "audio_url": "wbw/112_004_003.mp3",
@@ -573,7 +573,6 @@
           "page_number": 604,
           "position": 3,
           "text": "ﭠ",
-          "text_uthmani": "لَّهُۥ",
           "translation": {
             "language_name": "english",
             "text": "for Him"
@@ -581,7 +580,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "lahu"
-          }
+          },
+          "arabic": "لَّهُۥ"
         },
         {
           "audio_url": "wbw/112_004_004.mp3",
@@ -592,7 +592,6 @@
           "page_number": 604,
           "position": 4,
           "text": "ﭡ",
-          "text_uthmani": "كُفُوًا",
           "translation": {
             "language_name": "english",
             "text": "equivalent"
@@ -600,7 +599,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "kufuwan"
-          }
+          },
+          "arabic": "كُفُوًا"
         },
         {
           "audio_url": "wbw/112_004_005.mp3",
@@ -611,7 +611,6 @@
           "page_number": 604,
           "position": 5,
           "text": "ﭢ",
-          "text_uthmani": "أَحَدٌۢ",
           "translation": {
             "language_name": "english",
             "text": "any [one]"
@@ -619,7 +618,8 @@
           "transliteration": {
             "language_name": "english",
             "text": "aḥadun"
-          }
+          },
+          "arabic": "أَحَدٌۢ"
         },
         {
           "audio_url": null,
@@ -630,7 +630,6 @@
           "page_number": 604,
           "position": 6,
           "text": "ﭣ",
-          "text_uthmani": "٤",
           "translation": {
             "language_name": "english",
             "text": "(4)"
@@ -638,7 +637,8 @@
           "transliteration": {
             "language_name": "english",
             "text": null
-          }
+          },
+          "arabic": "٤"
         }
       ]
     }
