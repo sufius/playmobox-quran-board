@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation";
 import styles from "./page.module.css";
 
 /* =========================
-   Types (as provided)
+   Types
    ========================= */
 interface VerseProps {
   verse_number?: number;
@@ -46,6 +46,46 @@ const languages: LanguagesProps = {
   45: "ru",
 };
 const languagesFlipped: LanguagesFlippedProps = flip(languages);
+
+const ROWS_PER_BOARD = 11;
+
+/** Build a map of verse_number -> array of row positions (indices) */
+function buildVerseSegments(rows: VerseProps[]) {
+  const map = new Map<number, number[]>();
+  rows.forEach((v, pos) => {
+    const vn = v.verse_number ?? 0;
+    if (!map.has(vn)) map.set(vn, []);
+    map.get(vn)!.push(pos);
+  });
+  return map;
+}
+
+/** Format ayah range with “parts” when board starts/ends mid-verse */
+function formatAyahRange(rows: VerseProps[], startIndex: number, endIndex: number, totalAyahs: number) {
+  if (rows.length === 0 || startIndex >= rows.length) return `ʾāyāt: 0–0 [${totalAyahs}]`;
+
+  const verseSegs = buildVerseSegments(rows);
+
+  const startPos = startIndex;
+  const endPos = Math.min(endIndex - 1, rows.length - 1);
+
+  const startVN = rows[startPos].verse_number ?? rows[startPos].index;
+  const endVN = rows[endPos].verse_number ?? rows[endPos].index;
+
+  const startList = verseSegs.get(rows[startPos].verse_number ?? 0) ?? [startPos];
+  const endList = verseSegs.get(rows[endPos].verse_number ?? 0) ?? [endPos];
+
+  const startPart = startList.indexOf(startPos) + 1; // 1-based
+  const endPart = endList.indexOf(endPos) + 1;       // 1-based
+
+  const startIsPartial = startPart > 1;
+  const endIsPartial = endPart < endList.length;
+
+  const startLabel = startIsPartial ? `${startVN}.${startPart}` : String(startVN);
+  const endLabel = endIsPartial ? `${endVN}.${endPart}` : String(endVN);
+
+  return `ʾāyāt: ${startLabel}–${endLabel} [${totalAyahs}]`;
+}
 
 /* =========================
    Data loaders (public/)
@@ -125,10 +165,7 @@ interface BoardProps {
   }>;
 }
 
-const ROWS_PER_BOARD = 11;
-
 export default function Board({ params }: BoardProps) {
-  // (kept as-is per your current approach)
   const { surah = 1, lang = "de" } = use(params);
 
   const [data, setData] = useState<SurahProps | null>(null);
@@ -136,7 +173,8 @@ export default function Board({ params }: BoardProps) {
   const [error, setError] = useState<string | null>(null);
 
   const searchParams = useSearchParams();
-  const board = Math.max(1, Number(searchParams.get("board")) || 1); // 1-based board/page
+  const board = Math.max(1, Number(searchParams.get("board")) || 1); // 1-based
+  const totalRows = rows?.length ?? 0;
 
   useEffect(() => {
     let alive = true;
@@ -162,16 +200,14 @@ export default function Board({ params }: BoardProps) {
   if (error) return <div className="p-3 text-danger">{error}</div>;
   if (!data || !rows) return <>...Loading</>;
 
-  // Paging by "board": fixed 11 rows per board (last board may be shorter)
-  const totalBoards = Math.max(1, Math.ceil(rows.length / ROWS_PER_BOARD));
+  // Board slice (fixed 11 rows/page; last board may be shorter)
+  const totalBoards = Math.max(1, Math.ceil(totalRows / ROWS_PER_BOARD));
   const currentBoard = Math.min(board, totalBoards);
   const startIndex = (currentBoard - 1) * ROWS_PER_BOARD;
-  const endIndex = Math.min(startIndex + ROWS_PER_BOARD, rows.length);
+  const endIndex = Math.min(startIndex + ROWS_PER_BOARD, totalRows);
   const pageRows = rows.slice(startIndex, endIndex);
 
-  // Ayah range display (first/last in the current board slice)
-  const firstAyah = pageRows[0]?.verse_number ?? pageRows[0]?.index ?? 0;
-  const lastAyah = pageRows[pageRows.length - 1]?.verse_number ?? pageRows[pageRows.length - 1]?.index ?? 0;
+  const ayahRange = formatAyahRange(rows, startIndex, endIndex, data.number_of_ayahs);
 
   return (
     <div className={styles["page"]}>
@@ -180,9 +216,7 @@ export default function Board({ params }: BoardProps) {
       </h6>
 
       <h6 className="position-absolute pmb-text-primary ayat-numbers">
-        <b>
-          ʾāyāt: {firstAyah}-{lastAyah} [{data.number_of_ayahs}]
-        </b>
+        <b>{ayahRange}</b>
       </h6>
 
       <h6 className="position-absolute surah-name-transcribed text-transcribed">
