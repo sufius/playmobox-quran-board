@@ -1,57 +1,19 @@
-"use client"
+"use client";
 
-import { use, useEffect, useRef, useState } from "react";
+import { use, useEffect, useState } from "react";
 import { useSearchParams } from "next/navigation";
 import styles from "./page.module.css";
 
-
+/* =========================
+   Types (as provided)
+   ========================= */
 interface VerseProps {
-  hizb_number?: number;
-  id?: number;
-  juz_number?: number;
-  manzil_number?: number;
-  page_number?: number;
-  rub_el_hizb_number?: number;
-  ruku_number?: number;
-  sajdah_number?: number | null;
-  text_uthmani: string;
-  text_uthmani_tajweed?: string;
-  text_uthmani_tajweed_parsed?: string;
-  text_uthmani_transcribed: string;
-  translations?: {
-    "id": number;
-    "resource_id": number;
-    "text": string;
-  }[];
+  verse_number?: number;
+  index: number;
+  arabic: string;
+  transcription: string;
   translation: string;
-  splitted: {
-    text_uthmani: string;
-    text_uthmani_transcribed: string;
-    translation: string;
-  };
-  verse_key?: number;
-  verse_number: number;
-  belongs_to_verse_number: number;
-  words?: {
-    audio_url: string;
-    char_type_name: string;
-    code_v1: string;
-    id: number;
-    line_number: number;
-    page_number: number;
-    position: number;
-    text: string;
-    text_uthmani: string;
-    translation: {
-      language_name: string;
-      text: string;
-    };
-    transliteration: {
-      language_name: string;
-      text: string;
-    };
-  }[];
-}[];
+}
 
 interface SurahProps {
   chapter_name_arabic: string;
@@ -60,160 +22,187 @@ interface SurahProps {
     [key: string]: {
       language_name: string;
       name: string;
-    }
+    };
   };
-  chapter_name_transliterated: string;
   chapter_number: number;
   number_of_ayahs: number;
-  pages: number[];
-  revelation_order: number;
-  revelation_place: string;
-  verses: VerseProps[]
-};
+}
 
+/* =========================
+   Helpers / constants
+   ========================= */
+const convertToArabicNumerals = (latinNumber: number | string) =>
+  latinNumber.toString().replace(/\d/g, (digit: string) => "٠١٢٣٤٥٦٧٨٩"[parseInt(digit, 10)]);
 
-const convertToArabicNumerals = (latinNumber: number | string) => latinNumber.toString().replace(/\d/g, (digit: string) => '٠١٢٣٤٥٦٧٨٩'[parseInt(digit, 10)]);
-type LanguagesProps = { [key:number]: string };
-type LanguagesFlippedProps = { [key:string]: number };
-const f = (obj: LanguagesProps) => Object.fromEntries(Object.entries(obj).map(a => a.reverse()))
+type LanguagesProps = { [key: number]: string };
+type LanguagesFlippedProps = { [key: string]: number };
+const flip = (obj: LanguagesProps): LanguagesFlippedProps =>
+  Object.fromEntries(Object.entries(obj).map(([k, v]) => [v, Number(k)]));
+
 const languages: LanguagesProps = {
   27: "de",
   19: "en",
   45: "ru",
 };
-const languagesFlipped: LanguagesFlippedProps = f(languages);
+const languagesFlipped: LanguagesFlippedProps = flip(languages);
 
-
-async function fetchJSONFiles(surah: number): Promise<VerseProps[] | undefined> {
-  const directory = "/boards/"; // JSON files location
-  const regex = new RegExp(`surah-${surah}_part\\d+-splitted\\.json$`); // Dynamic regex based on surah number
-
-  try {
-    // Ideally, this should come from a dynamic file index, but for now, it's hardcoded
-    const fileList = [
-      "surah-18_part1-splitted.json",
-      "surah-18_part2-splitted.json"
-    ]; // Replace with dynamic fetching if possible
-
-    const jsonPromises = fileList
-      .filter(file => regex.test(file)) // Filter based on dynamic Surah regex
-      .map(async file => {
-        const response = await fetch(`${directory}${file}`);
-        if (!response.ok) throw new Error(`Failed to load ${file}`);
-        return response.json();
-      });
-
-    const jsonFiles = await Promise.all(jsonPromises);
-    // console.log(`Loaded JSON files for Surah ${surah}:`, jsonFiles);
-    // console.log(`Loaded JSON files for Surah ${surah}:`, jsonFiles.flat().map(verse => verse.splitted || verse));
-    return jsonFiles.flat().map(verse => {
-      if (verse.splitted) {
-        verse.splitted[0].verse_number = verse.verse_number;
-      }
-      return verse.splitted || verse
-    }).flat()
-  } catch (error) {
-    console.error("Error loading JSON files:", error);
-  }
+/* =========================
+   Data loaders (public/)
+   ========================= */
+async function fetchSurahMeta(surah: number): Promise<SurahProps> {
+  const res = await fetch(`/surat/complete/surah-${surah}.json`, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Failed to load surah meta for ${surah}`);
+  return (await res.json()) as SurahProps;
 }
 
-const Verse = ({
-  index,
-  verse_number,
-  text_uthmani,
-  text_uthmani_transcribed,
-  translation,
-}: VerseProps & { index: number }) => {
+async function fetchVerses(surah: number, lang: string): Promise<VerseProps[]> {
+  const langKey = languagesFlipped[lang];
+  if (langKey === undefined) {
+    throw new Error(`Unknown language "${lang}". Add it to the languages map.`);
+  }
+  const url = `/surat/segmented/${lang}/${langKey}/surah-${surah}.json`;
+  const res = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Failed to load verses from ${url}`);
+  const data = (await res.json()) as VerseProps[];
+  if (!Array.isArray(data)) throw new Error(`Verses JSON must be an array at ${url}`);
+  return data;
+}
 
-  return <>
-    <div className={`d-none position-absolute btn-close translate-middle ${styles['button-' + index]}`}></div>
-    <span 
-      style={{whiteSpace: "nowrap"}}
-      className={`position-absolute translate-middle-y text-transcribed ${styles['button-' + index + '-transcribed']}`}
-      dangerouslySetInnerHTML={{__html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${text_uthmani_transcribed}` : text_uthmani_transcribed }} 
-    />
-    <span
-      className={`position-absolute translate-middle-y text-translated ${styles['button-' + index + '-translated']}`}
-      dangerouslySetInnerHTML={{__html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${translation}` : translation }}
-    />
-    <span
-        style={{whiteSpace: "nowrap"}}
-        className={`position-absolute translate-middle-y arabic-font-400 text-arabic ${styles['button-' + index + '-arabic']}`}
-        dangerouslySetInnerHTML={{__html: verse_number ? 
-          `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${text_uthmani}` : text_uthmani }} 
-    />
-    <hr className={`position-absolute ${styles['button-' + index + '-divider']}`}/>
-  </>;
+/* =========================
+   Verse item
+   ========================= */
+const Verse = ({
+  displayIndex,
+  verse,
+}: {
+  displayIndex: number; // 1..11 for positioning
+  verse: VerseProps;
+}) => {
+  const { verse_number, arabic, transcription, translation } = verse;
+
+  return (
+    <>
+      <div className={`d-none position-absolute btn-close translate-middle ${styles["button-" + displayIndex]}`}></div>
+
+      <span
+        style={{ whiteSpace: "nowrap" }}
+        className={`position-absolute translate-middle-y text-transcribed ${styles["button-" + displayIndex + "-transcribed"]}`}
+        dangerouslySetInnerHTML={{
+          __html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${transcription}` : transcription,
+        }}
+      />
+
+      <span
+        className={`position-absolute translate-middle-y text-translated ${styles["button-" + displayIndex + "-translated"]}`}
+        dangerouslySetInnerHTML={{
+          __html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${translation}` : translation,
+        }}
+      />
+
+      <span
+        style={{ whiteSpace: "nowrap" }}
+        className={`position-absolute translate-middle-y arabic-font-400 text-arabic ${styles["button-" + displayIndex + "-arabic"]}`}
+        dangerouslySetInnerHTML={{
+          __html: verse_number
+            ? `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${arabic}`
+            : arabic,
+        }}
+      />
+
+      <hr className={`position-absolute ${styles["button-" + displayIndex + "-divider"]}`} />
+    </>
+  );
 };
 
+/* =========================
+   Page component
+   ========================= */
 interface BoardProps {
   params: Promise<{
     surah: number;
     lang: string;
-  }>
+  }>;
 }
 
-export default function Board({params}: BoardProps) {
+export default function Board({ params }: BoardProps) {
+  // Note: using `use(params)` in a client component can cause hydration warnings;
+  // keep as-is per your current approach.
   const { surah = 1, lang = "de" } = use(params);
+
   const [data, setData] = useState<SurahProps | null>(null);
-  const [rows, setRows] = useState<VerseProps[] | undefined>([]);
+  const [rows, setRows] = useState<VerseProps[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const searchParams = useSearchParams();
-  const start =  Number(searchParams.get("start")) || 0;  
+  const start = Number(searchParams.get("start")) || 0;
 
   useEffect(() => {
-    // Dynamically load the JSON file based on the param
-    import(`@/app/data/surah-${surah}.json`)
-      .then(async (module) => {
-        setData(module.default); // The default export of the imported module
-        let mergedSplittedVerses = await fetchJSONFiles(surah);
-        setRows(mergedSplittedVerses);
-        // console.log('fetchJSONFiles(surah)', mergedSplittedVerses);
-      })
-      .catch((err) => {
-        setError('File not found or an error occurred');
-        console.error(err);
-      });
-  }, [surah]);
- 
-  if (!data || !rows) {
-    return <>...Loading</>
-  }
+    let alive = true;
+
+    (async () => {
+      try {
+        const [meta, verses] = await Promise.all([fetchSurahMeta(surah), fetchVerses(surah, lang)]);
+        if (!alive) return;
+        setData(meta);
+        setRows(verses);
+      } catch (e: any) {
+        console.error(e);
+        if (!alive) return;
+        setError(e?.message ?? "File not found or an error occurred");
+      }
+    })();
+
+    return () => {
+      alive = false;
+    };
+  }, [surah, lang]);
+
+  if (error) return <div className="p-3 text-danger">{error}</div>;
+  if (!data || !rows) return <>...Loading</>;
+
+  const startAyah = rows[start]?.verse_number ?? rows[start]?.index ?? 0;
+  const endAyah = rows[start + 10]?.verse_number ?? rows[start + 10]?.index ?? 0;
 
   return (
     <div className={styles["page"]}>
-        <h6 className="position-absolute pmb-text-primary surah-number">
-            <b>s&#363;rah: {data.chapter_number}</b>
-        </h6>
-        <h6 className="position-absolute pmb-text-primary ayat-numbers">
-            <b>ʾāyāt: {rows[start]?.verse_number || rows[start]?.belongs_to_verse_number}-{rows[start+10]?.verse_number || rows[start+10]?.belongs_to_verse_number} [{data.number_of_ayahs}]</b>
-        </h6>
-        <h6 className="position-absolute surah-name-transcribed text-transcribed">
-            {data.chapter_name_transcribed}
-        </h6>
-        <h6 className="position-absolute text-translated surah-name-translated text-transcribed">
-            {data.chapter_name_translated[lang].name}
-        </h6>
-        <h6 className="position-absolute surah-name-arabic arabic-font-400 text-arabic">
-          {data.chapter_name_arabic}
-        </h6>
+      <h6 className="position-absolute pmb-text-primary surah-number">
+        <b>s&#363;rah: {data.chapter_number}</b>
+      </h6>
 
-        <img className="position-absolute bismillah-image" src="/bismillah.svg" alt="Bismillāhir-raḥmānir-raḥīm(i)" width="150" />
-        <h6 className="position-absolute bismillah-image-transcribed text-transcribed">
-          Bismillāhir-raḥmānir-raḥīm(i)
-        </h6>
+      <h6 className="position-absolute pmb-text-primary ayat-numbers">
+        <b>
+          ʾāyāt: {startAyah}-{endAyah} [{data.number_of_ayahs}]
+        </b>
+      </h6>
 
-        <span className="d-none position-absolute pmb-module-footprint border border-1 bg-gradient"></span> 
-        <span className="d-none position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span> 
+      <h6 className="position-absolute surah-name-transcribed text-transcribed">
+        {data.chapter_name_transcribed}
+      </h6>
 
-        {rows.slice(start, start + 11).map((verse, index) => (
-          <Verse 
-            key={index}
-            index={index+1}
-            {...verse} 
-          />
-        ))}
+      <h6 className="position-absolute text-translated surah-name-translated text-transcribed">
+        {data.chapter_name_translated[lang]?.name ?? data.chapter_name_transcribed}
+      </h6>
+
+      <h6 className="position-absolute surah-name-arabic arabic-font-400 text-arabic">
+        {data.chapter_name_arabic}
+      </h6>
+
+      <img
+        className="position-absolute bismillah-image"
+        src="/bismillah.svg"
+        alt="Bismillāhir-raḥmānir-raḥīm(i)"
+        width="150"
+      />
+      <h6 className="position-absolute bismillah-image-transcribed text-transcribed">
+        Bismillāhir-raḥmānir-raḥīm(i)
+      </h6>
+
+      <span className="d-none position-absolute pmb-module-footprint border border-1 bg-gradient"></span>
+      <span className="d-none position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span>
+
+      {rows.slice(start, start + 11).map((verse, i) => (
+        <Verse key={`${verse.index}-${i}`} displayIndex={i + 1} verse={verse} />
+      ))}
     </div>
   );
 }
