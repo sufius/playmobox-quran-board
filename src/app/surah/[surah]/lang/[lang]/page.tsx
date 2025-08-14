@@ -39,6 +39,7 @@ type LanguagesFlippedProps = { [key: string]: number };
 const flip = (obj: LanguagesProps): LanguagesFlippedProps =>
   Object.fromEntries(Object.entries(obj).map(([k, v]) => [v, Number(k)]));
 
+// Map of languageKey -> langCode
 const languages: LanguagesProps = {
   27: "de",
   19: "en",
@@ -75,7 +76,7 @@ const Verse = ({
   displayIndex,
   verse,
 }: {
-  displayIndex: number; // 1..11 for positioning
+  displayIndex: number; // 1..11 per board for CSS positioning
   verse: VerseProps;
 }) => {
   const { verse_number, arabic, transcription, translation } = verse;
@@ -124,9 +125,10 @@ interface BoardProps {
   }>;
 }
 
+const ROWS_PER_BOARD = 11;
+
 export default function Board({ params }: BoardProps) {
-  // Note: using `use(params)` in a client component can cause hydration warnings;
-  // keep as-is per your current approach.
+  // (kept as-is per your current approach)
   const { surah = 1, lang = "de" } = use(params);
 
   const [data, setData] = useState<SurahProps | null>(null);
@@ -134,7 +136,7 @@ export default function Board({ params }: BoardProps) {
   const [error, setError] = useState<string | null>(null);
 
   const searchParams = useSearchParams();
-  const start = Number(searchParams.get("start")) || 0;
+  const board = Math.max(1, Number(searchParams.get("board")) || 1); // 1-based board/page
 
   useEffect(() => {
     let alive = true;
@@ -160,8 +162,16 @@ export default function Board({ params }: BoardProps) {
   if (error) return <div className="p-3 text-danger">{error}</div>;
   if (!data || !rows) return <>...Loading</>;
 
-  const startAyah = rows[start]?.verse_number ?? rows[start]?.index ?? 0;
-  const endAyah = rows[start + 10]?.verse_number ?? rows[start + 10]?.index ?? 0;
+  // Paging by "board": fixed 11 rows per board (last board may be shorter)
+  const totalBoards = Math.max(1, Math.ceil(rows.length / ROWS_PER_BOARD));
+  const currentBoard = Math.min(board, totalBoards);
+  const startIndex = (currentBoard - 1) * ROWS_PER_BOARD;
+  const endIndex = Math.min(startIndex + ROWS_PER_BOARD, rows.length);
+  const pageRows = rows.slice(startIndex, endIndex);
+
+  // Ayah range display (first/last in the current board slice)
+  const firstAyah = pageRows[0]?.verse_number ?? pageRows[0]?.index ?? 0;
+  const lastAyah = pageRows[pageRows.length - 1]?.verse_number ?? pageRows[pageRows.length - 1]?.index ?? 0;
 
   return (
     <div className={styles["page"]}>
@@ -171,7 +181,7 @@ export default function Board({ params }: BoardProps) {
 
       <h6 className="position-absolute pmb-text-primary ayat-numbers">
         <b>
-          ʾāyāt: {startAyah}-{endAyah} [{data.number_of_ayahs}]
+          ʾāyāt: {firstAyah}-{lastAyah} [{data.number_of_ayahs}]
         </b>
       </h6>
 
@@ -200,8 +210,12 @@ export default function Board({ params }: BoardProps) {
       <span className="d-none position-absolute pmb-module-footprint border border-1 bg-gradient"></span>
       <span className="d-none position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span>
 
-      {rows.slice(start, start + 11).map((verse, i) => (
-        <Verse key={`${verse.index}-${i}`} displayIndex={i + 1} verse={verse} />
+      {pageRows.map((verse, i) => (
+        <Verse
+          key={`${verse.index}-${startIndex + i}`}
+          displayIndex={i + 1} // 1..11 per board for CSS positions
+          verse={verse}
+        />
       ))}
     </div>
   );
