@@ -1,7 +1,7 @@
 "use client";
 
 import { use, useEffect, useState } from "react";
-import { useSearchParams } from "next/navigation";
+import { useRouter, useSearchParams } from "next/navigation";
 import styles from "./page.module.css";
 
 /* =========================
@@ -60,31 +60,96 @@ function buildVerseSegments(rows: VerseProps[]) {
   return map;
 }
 
-/** Format ayah range with “parts” when board starts/ends mid-verse */
-function formatAyahRange(rows: VerseProps[], startIndex: number, endIndex: number, totalAyahs: number) {
-  if (rows.length === 0 || startIndex >= rows.length) return `ʾāyāt: 0–0 [${totalAyahs}]`;
+/** Compute ayah start/end labels (supports mid-verse “parts”) */
+function computeAyahRangeParts(
+  rows: VerseProps[],
+  startIndex: number,
+  endIndex: number,
+  totalAyahs: number
+) {
+  if (rows.length === 0 || startIndex >= rows.length) {
+    return { startLabel: "0", endLabel: "0", totalAyahs };
+  }
 
   const verseSegs = buildVerseSegments(rows);
-
   const startPos = startIndex;
   const endPos = Math.min(endIndex - 1, rows.length - 1);
 
   const startVN = rows[startPos].verse_number ?? rows[startPos].index;
-  const endVN = rows[endPos].verse_number ?? rows[endPos].index;
+  const endVN   = rows[endPos].verse_number   ?? rows[endPos].index;
 
   const startList = verseSegs.get(rows[startPos].verse_number ?? 0) ?? [startPos];
-  const endList = verseSegs.get(rows[endPos].verse_number ?? 0) ?? [endPos];
+  const endList   = verseSegs.get(rows[endPos].verse_number ?? 0)   ?? [endPos];
 
   const startPart = startList.indexOf(startPos) + 1; // 1-based
-  const endPart = endList.indexOf(endPos) + 1;       // 1-based
+  const endPart   = endList.indexOf(endPos) + 1;     // 1-based
 
   const startIsPartial = startPart > 1;
-  const endIsPartial = endPart < endList.length;
+  const endIsPartial   = endPart < endList.length;
 
   const startLabel = startIsPartial ? `${startVN}.${startPart}` : String(startVN);
-  const endLabel = endIsPartial ? `${endVN}.${endPart}` : String(endVN);
+  const endLabel   = endIsPartial   ? `${endVN}.${endPart}`     : String(endVN);
 
-  return `ʾāyāt: ${startLabel}–${endLabel} [${totalAyahs}]`;
+  return { startLabel, endLabel, totalAyahs };
+}
+
+/* =========================
+   Tiny, invisible “link” for the two numbers
+   ========================= */
+function AyahRangeNav({
+  startLabel,
+  endLabel,
+  totalAyahs,
+  canPrev,
+  canNext,
+  onPrev,
+  onNext,
+}: {
+  startLabel: string;
+  endLabel: string;
+  totalAyahs: number;
+  canPrev: boolean;
+  canNext: boolean;
+  onPrev?: () => void;
+  onNext?: () => void;
+}) {
+  return (
+    <>
+      {"ʾāyāt: "}
+      <span
+        className={canPrev ? styles.ayahHit : styles.ayahHitDisabled}
+        role={canPrev ? "button" : undefined}
+        tabIndex={canPrev ? 0 : -1}
+        onClick={canPrev ? onPrev : undefined}
+        onKeyDown={
+          canPrev
+            ? (e) => {
+                if (e.key === "Enter" || e.key === " ") onPrev?.();
+              }
+            : undefined
+        }
+      >
+        {startLabel}
+      </span>
+      {" – "}
+      <span
+        className={canNext ? styles.ayahHit : styles.ayahHitDisabled}
+        role={canNext ? "button" : undefined}
+        tabIndex={canNext ? 0 : -1}
+        onClick={canNext ? onNext : undefined}
+        onKeyDown={
+          canNext
+            ? (e) => {
+                if (e.key === "Enter" || e.key === " ") onNext?.();
+              }
+            : undefined
+        }
+      >
+        {endLabel}
+      </span>
+      <span style={{verticalAlign: "top", lineHeight: "1.1rem"}}>{` [${totalAyahs}]`}</span>
+    </>
+  );
 }
 
 /* =========================
@@ -119,7 +184,7 @@ const Verse = ({
   displayIndex: number; // 1..11 per board for CSS positioning
   verse: VerseProps;
 }) => {
-  const { verse_number, arabic, transcription, translation } = verse;
+  const { verse_number, arabic, transcription, translation, color } = verse;
 
   return (
     <>
@@ -141,7 +206,7 @@ const Verse = ({
       />
 
       <span
-        style={{ whiteSpace: "nowrap" }}
+        style={{ whiteSpace: "nowrap", color }}
         className={`position-absolute translate-middle-y arabic-font-400 text-arabic ${styles["button-" + displayIndex + "-arabic"]}`}
         dangerouslySetInnerHTML={{
           __html: verse_number
@@ -172,8 +237,10 @@ export default function Board({ params }: BoardProps) {
   const [rows, setRows] = useState<VerseProps[] | null>(null);
   const [error, setError] = useState<string | null>(null);
 
+  const router = useRouter();
   const searchParams = useSearchParams();
   const board = Math.max(1, Number(searchParams.get("board")) || 1); // 1-based
+
   const totalRows = rows?.length ?? 0;
 
   useEffect(() => {
@@ -207,7 +274,28 @@ export default function Board({ params }: BoardProps) {
   const endIndex = Math.min(startIndex + ROWS_PER_BOARD, totalRows);
   const pageRows = rows.slice(startIndex, endIndex);
 
-  const ayahRange = formatAyahRange(rows, startIndex, endIndex, data.number_of_ayahs);
+  // Compute labels
+  const { startLabel, endLabel } = computeAyahRangeParts(rows, startIndex, endIndex, data.number_of_ayahs);
+
+  // Navigation actions (update ?board= in the URL; no style change)
+  const canPrev = currentBoard > 1;
+  const canNext = currentBoard < totalBoards;
+
+  function goToBoard(nextBoard: number) {
+    const sp = new URLSearchParams(searchParams.toString());
+    sp.set("board", String(nextBoard));
+    router.push(`?${sp.toString()}`, { scroll: false });
+  }
+
+  function goPrev() {
+    if (!canPrev) return;
+    goToBoard(currentBoard - 1);
+  }
+
+  function goNext() {
+    if (!canNext) return;
+    goToBoard(currentBoard + 1);
+  }
 
   return (
     <div className={styles["page"]}>
@@ -216,7 +304,17 @@ export default function Board({ params }: BoardProps) {
       </h6>
 
       <h6 className="position-absolute pmb-text-primary ayat-numbers">
-        <b>{ayahRange}</b>
+        <b>
+          <AyahRangeNav
+            startLabel={startLabel}
+            endLabel={endLabel}
+            totalAyahs={data.number_of_ayahs}
+            canPrev={canPrev}
+            canNext={canNext}
+            onPrev={goPrev}
+            onNext={goNext}
+          />
+        </b>
       </h6>
 
       <h6 className="position-absolute surah-name-transcribed text-transcribed">

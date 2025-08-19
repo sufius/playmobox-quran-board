@@ -414,3 +414,34 @@
       top: 231.9mm;
       right: 5mm;
   }
+
+
+  
+/* Sieht aus wie normaler Text (blau von Eltern-Element), kein Rand */
+.ayahHit,
+.ayahHitDisabled {
+  color: inherit;          /* behält dein Blau */
+  font: inherit;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  line-height: inherit;
+  text-decoration: none;   /* keine Unterstreichung etc. */
+}
+
+/* Nur Pointer auf Hover bei aktivem “Link” */
+.ayahHit { cursor: default; }
+.ayahHit:hover { cursor: pointer; }
+
+/* Deaktiviert: kein Pointer, keine Klicks */
+.ayahHitDisabled {
+  cursor: default;
+  pointer-events: none;
+}
+
+/* optional: Fokus-Ring komplett entfernen (falls unerwünscht) */
+.ayahHit:focus,
+.ayahHit:focus-visible {
+  outline: none;
+}

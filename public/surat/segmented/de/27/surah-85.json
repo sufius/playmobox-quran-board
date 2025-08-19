@@ -3,13 +3,15 @@
     "index": 1,
     "verse_number": 1,
     "translation": "Beim Himmel mit den Türmen",
-    "arabic": " وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+    "arabic_full": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
+    "arabic": "وَٱلسَّمَآءِ ذَاتِ ٱلْبُرُوجِ",
     "transcription": "Was-samā'i żātil-burūj(i)."
   },
   {
     "index": 2,
     "verse_number": 2,
     "translation": "und dem versprochenen Tag",
+    "arabic_full": "وَٱلْيَوْمِ ٱلْمَوْعُودِ",
     "arabic": "وَٱلْيَوْمِ ٱلْمَوْعُودِ",
     "transcription": "Wal-yaumil-mau'ūd(i)."
   },
@@ -17,6 +19,7 @@
     "index": 3,
     "verse_number": 3,
     "translation": "und dem Zeugen und dem Bezeugten!",
+    "arabic_full": "وَشَاهِدٍ وَمَشْهُودٍ",
     "arabic": "وَشَاهِدٍ وَمَشْهُودٍ",
     "transcription": "Wa syāhidiw wa masyhūd(in)."
   },
@@ -24,6 +27,7 @@
     "index": 4,
     "verse_number": 4,
     "translation": "Tod (sei) geweiht den Leuten des Grabens,",
+    "arabic_full": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
     "arabic": "قُتِلَ أَصْحَـٰبُ ٱلْأُخْدُودِ",
     "transcription": "Qutila aṣḥābul-ukhdūd(i)."
   },
@@ -31,6 +35,7 @@
     "index": 5,
     "verse_number": 5,
     "translation": "des Feuers mit dem (vielen) Brennstoff,",
+    "arabic_full": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
     "arabic": "ٱلنَّارِ ذَاتِ ٱلْوَقُودِ",
     "transcription": "An-nāri żātil-waqūd(i)."
   },
@@ -38,6 +43,7 @@
     "index": 6,
     "verse_number": 6,
     "translation": "als sie daran saßen",
+    "arabic_full": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
     "arabic": "إِذْ هُمْ عَلَيْهَا قُعُودٌ",
     "transcription": "Iż hum 'alaihā qu'ūd(un)."
   },
@@ -45,6 +51,7 @@
     "index": 7,
     "verse_number": 7,
     "translation": "und Zeugen dessen waren, was sie den Gläubigen antaten.",
+    "arabic_full": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌ",
     "arabic": "وَهُمْ عَلَىٰ مَا يَفْعَلُونَ بِٱلْمُؤْمِنِينَ شُهُودٌ",
     "transcription": "Wa hum 'alā mā yaf'alūna bil-mu'minīna syuhūd(un)."
   },
@@ -52,6 +59,7 @@
     "index": 8,
     "verse_number": 8,
     "translation": "Und sie grollten ihnen nur, daß sie an Allah glaubten, den Allmächtigen und Lobenswürdigen,",
+    "arabic_full": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
     "arabic": "وَمَا نَقَمُوا۟ مِنْهُمْ إِلَّآ أَن يُؤْمِنُوا۟ بِٱللَّهِ ٱلْعَزِيزِ ٱلْحَمِيدِ",
     "transcription": "Wa mā naqamū minhum illā ay yu'minū billāhil-'azīzil-ḥamīd(i)."
   },
@@ -59,6 +67,7 @@
     "index": 9,
     "verse_number": 9,
     "translation": "Dem die Herrschaft der Himmel und der Erde gehört. Und Allah ist über alles Zeuge.",
+    "arabic_full": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
     "arabic": "ٱلَّذِى لَهُۥ مُلْكُ ٱلسَّمَـٰوَٰتِ وَٱلْأَرْضِ ۚ وَٱللَّهُ عَلَىٰ كُلِّ شَىْءٍ شَهِيدٌ",
     "transcription": "Allażī lahū mulkus-samāwāti wal-arḍ(i), wallāhu 'alā kulli syai'in syahīd(un)."
   },
@@ -66,6 +75,7 @@
     "index": 10,
     "verse_number": 10,
     "translation": "Gewiß, diejenigen, die die gläubigen Männer und die gläubigen Frauen in Versuchung bringen",
+    "arabic_full": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
     "arabic": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ",
     "transcription": "Innal-lażīna fatanul-mu'minīna wal-mu'mināti"
   },
@@ -73,6 +83,7 @@
     "index": 11,
     "verse_number": 10,
     "translation": "und hierauf nicht in Reue umkehren, für sie wird es die Strafe der Hölle geben, und für sie wird es die Strafe des Brennens geben.",
+    "arabic_full": "إِنَّ ٱلَّذِينَ فَتَنُوا۟ ٱلْمُؤْمِنِينَ وَٱلْمُؤْمِنَـٰتِ ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
     "arabic": "ثُمَّ لَمْ يَتُوبُوا۟ فَلَهُمْ عَذَابُ جَهَنَّمَ وَلَهُمْ عَذَابُ ٱلْحَرِيقِ",
     "transcription": "ṡumma lam yatūbū fa lahum 'ażābu jahannama wa lahum 'ażābul-ḥarīq(i)."
   },
@@ -80,6 +91,7 @@
     "index": 12,
     "verse_number": 11,
     "translation": "Gewiß, diejenigen, die glauben und rechtschaffene Werke tun, für sie wird es Gärten geben, durcheilt von Bächen; das ist der große Erfolg.",
+    "arabic_full": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
     "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
     "transcription": "Innal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti lahum jannātun tajrī min taḥtihal-anhār(u), żālikal-fauzul-kabīr(u)."
   },
@@ -87,6 +99,7 @@
     "index": 13,
     "verse_number": 12,
     "translation": "Das Zupacken deines Herrn ist wahrlich hart.",
+    "arabic_full": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
     "arabic": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
     "transcription": "Inna baṭsya rabbika lasyadīd(un)."
   },
@@ -94,6 +107,7 @@
     "index": 14,
     "verse_number": 13,
     "translation": "Gewiß, Er macht den Anfang und läßt wiederkehren.",
+    "arabic_full": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
     "arabic": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
     "transcription": "Innahū huwa yubdi'u wa yu'īd(u)."
   },
@@ -101,6 +115,7 @@
     "index": 15,
     "verse_number": 14,
     "translation": "Und Er ist der Allvergebende und Liebevolle,",
+    "arabic_full": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
     "arabic": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
     "transcription": "Wa huwal-gafūrul-wadūd(u)."
   },
@@ -108,6 +123,7 @@
     "index": 16,
     "verse_number": 15,
     "translation": "der Herr des Thrones, der Ruhmvolle.",
+    "arabic_full": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
     "arabic": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
     "transcription": "Żul-'arsyil-majīd(i)."
   },
@@ -115,6 +131,7 @@
     "index": 17,
     "verse_number": 16,
     "translation": "(Er) tut alles, was Er will.",
+    "arabic_full": "فَعَّالٌ لِّمَا يُرِيدُ",
     "arabic": "فَعَّالٌ لِّمَا يُرِيدُ",
     "transcription": "Fa''ālul limā yurīd(u)."
   },
@@ -122,6 +139,7 @@
     "index": 18,
     "verse_number": 17,
     "translation": "Ist zu dir die Geschichte der Heerscharen gekommen,",
+    "arabic_full": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
     "arabic": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
     "transcription": "Hal atāka ḥadīṡul-junūd(i)."
   },
@@ -129,6 +147,7 @@
     "index": 19,
     "verse_number": 18,
     "translation": "Fir’auns und der Tamud?",
+    "arabic_full": "فِرْعَوْنَ وَثَمُودَ",
     "arabic": "فِرْعَوْنَ وَثَمُودَ",
     "transcription": "Fir'auna wa ṡamūd(a)."
   },
@@ -136,6 +155,7 @@
     "index": 20,
     "verse_number": 19,
     "translation": "Aber nein! Diejenigen, die ungläubig sind, sind dem Leugnen (der Botschaft) verhaftet.",
+    "arabic_full": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍ",
     "arabic": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍ",
     "transcription": "Balil-lażīna kafarū fī takżīb(in)."
   },
@@ -143,6 +163,7 @@
     "index": 21,
     "verse_number": 20,
     "translation": "Doch Allah ist hinter ihnen her, (sie) umfassend.",
+    "arabic_full": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
     "arabic": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
     "transcription": "Wallāhu miw warā'ihim muḥīṭ(un)."
   },
@@ -150,6 +171,7 @@
     "index": 22,
     "verse_number": 21,
     "translation": "Nein! Vielmehr ist es ein ruhmvoller Qur’an",
+    "arabic_full": "بَلْ هُوَ قُرْءَانٌ مَّجِيدٌ",
     "arabic": "بَلْ هُوَ قُرْءَانٌ مَّجِيدٌ",
     "transcription": "Bal huwa qur'ānum majīd(un)."
   },
@@ -157,6 +179,7 @@
     "index": 23,
     "verse_number": 22,
     "translation": "auf einer wohlbehüteten Tafel.",
+    "arabic_full": "فِى لَوْحٍ مَّحْفُوظٍۭ",
     "arabic": "فِى لَوْحٍ مَّحْفُوظٍۭ",
     "transcription": "Fī lauḥim maḥfūẓ(in)."
   }
