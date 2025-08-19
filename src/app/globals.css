@@ -112,6 +112,7 @@ body {
 .ayat-numbers {
   top: 10.0mm;
   left: 1.00mm;
+  user-select: none;
 }
 .surah-name-transcribed {
   top: 17.5mm;
