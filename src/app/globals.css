@@ -27,7 +27,7 @@ nextjs-portal {
 :root {
   --pmb-text-primary: #5b83fc;
   --pmb-text-transcribed: #E6B800;
-  --pmb-text-translated: #8B5A2B;
+  --pmb-text-translated: #C0C0C0;
   --pmb-text-arabic: darkgoldenrod;
 
   --pmb-ghn: #FFA500;
@@ -66,7 +66,7 @@ body {
   /* Reset the document's padding values */
   padding: 0;
   /* Use a non-white background color to make the content areas stick out from the full page box */
-  background-color: #eee;
+  background-color: #21211F;
 
   font-family:'Times New Roman', Times, serif;
 }
