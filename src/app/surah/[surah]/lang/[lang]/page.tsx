@@ -199,9 +199,6 @@ useEffect(() => {
   if (rows) localStorage.setItem(`board-surah-${surahNum}`, String(currentBoard));
 }, [surahNum, currentBoard, rows]);
 
-// beim Surah-Wechsel (↑/↓) auslesen
-const savedPrev = localStorage.getItem(`board-surah-${surahNum - 1}`);
-const savedNext = localStorage.getItem(`board-surah-${surahNum + 1}`);
 
 // 6) Keyboard navigation effect (ALWAYS registered)
 useEffect(() => {
