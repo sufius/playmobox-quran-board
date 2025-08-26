@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import "@fontsource/raleway/500.css";
 import "./globals.css";
 import "./tajweed.css";
 

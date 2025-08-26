@@ -192,14 +192,14 @@ const Verse = ({
 
       <span
         style={{ whiteSpace: "nowrap" }}
-        className={`position-absolute translate-middle-y text-transcribed ${styles["button-" + displayIndex + "-transcribed"]}`}
+        className={`position-absolute translate-middle-y text-transcribed ${styles["button-" + displayIndex + "-transcribed"]} raleway-500`}
         dangerouslySetInnerHTML={{
           __html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${transcription}` : transcription,
         }}
       />
 
       <span
-        className={`position-absolute translate-middle-y text-translated ${styles["button-" + displayIndex + "-translated"]}`}
+        className={`position-absolute translate-middle-y text-translated ${styles["button-" + displayIndex + "-translated"]} raleway-500`}
         dangerouslySetInnerHTML={{
           __html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${translation}` : translation,
         }}

@@ -71,6 +71,10 @@ body {
   font-family:'Times New Roman', Times, serif;
 }
 
+.raleway-500 {
+  font-family: "Raleway";
+}
+
 /* =========================== */
 
 .arabic-font-400 {
@@ -92,14 +96,14 @@ body {
 .text-transcribed {
   color: var(--pmb-text-transcribed);
   right: 2.5mm;
-  font-weight: bold;
+  font-weight: normal;
 }
 .text-translated {
   color: var(--pmb-text-translated);
   line-height: 0.8rem;
   font-size: 0.8rem;
   right: 2.5mm;
-  font-weight: bold;
+  font-weight: normal;
 }
 .text-arabic {
   color: var(--pmb-text-arabic);
