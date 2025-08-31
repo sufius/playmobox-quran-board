@@ -245,6 +245,10 @@ useEffect(() => {
     return () => { alive = false; };
   }, [surahNum, lang]);                      // ← Dependency auch numeric
 
+  useEffect(() => {
+    document.title = `quran_${lang}_surah_${surahNum}_board_${currentBoard}`;
+  }, [ lang, surahNum, currentBoard]);
+
   // 8) Early returns (AFTER all hooks)
   if (error) return <div className="p-3 text-danger">{error}</div>;
   if (!data || !rows) return <>...Loading</>;
