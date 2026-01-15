@@ -1,6 +1,7 @@
 "use client";
 
 import { use, useEffect, useState, useCallback } from "react";
+import type { ReactNode } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import styles from "./page.module.css";
 
@@ -119,8 +120,88 @@ async function fetchVerses(surah: number, lang: string): Promise<VerseProps[]> {
 }
 
 /* ===== Verse row ===== */
-const Verse = ({ chapterNumber, displayIndex, verse }: { chapterNumber: number; displayIndex: number; verse: VerseProps }) => {
+const Verse = ({
+  chapterNumber,
+  displayIndex,
+  verse,
+  langKey,
+}: {
+  chapterNumber: number;
+  displayIndex: number;
+  verse: VerseProps;
+  langKey: number;
+}) => {
   const { verse_number, arabic, transcription, translation, color } = verse;
+  const router = useRouter();
+  const [hoveredSpaceIndex, setHoveredSpaceIndex] = useState<number | null>(null);
+  const [pending, setPending] = useState(false);
+  const verseNumberForApi = verse_number ?? verse.index;
+
+  const handleSplitClick = useCallback(
+    async (spaceIndex: number) => {
+      if (pending) return;
+      setPending(true);
+      try {
+        const res = await fetch("/api/segmentation/split", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            langKey: String(langKey),
+            chapterNumber,
+            verseNumber: verseNumberForApi,
+            verseIndex: verse.index,
+            spaceIndex,
+          }),
+        });
+        if (!res.ok) {
+          const msg = await res.text();
+          console.error("Split failed:", msg);
+          return;
+        }
+        router.refresh();
+      } finally {
+        setPending(false);
+      }
+    },
+    [pending, langKey, chapterNumber, verseNumberForApi, verse.index, router]
+  );
+
+  const translationNodes: ReactNode[] = [];
+  let buffer = "";
+  let spaceIndex = 0;
+  let nodeKey = 0;
+  for (const ch of translation) {
+    if (ch === " ") {
+      if (buffer) {
+        translationNodes.push(buffer);
+        buffer = "";
+      }
+      const currentSpaceIndex = spaceIndex;
+      translationNodes.push(
+        <span
+          key={`space-${nodeKey++}`}
+          className={[
+            styles.translationSpace,
+            hoveredSpaceIndex === currentSpaceIndex ? styles.translationSpaceHover : "",
+            pending ? styles.translationSpaceDisabled : "",
+          ].join(" ")}
+          role="button"
+          aria-disabled={pending}
+          aria-label={`Split at space ${currentSpaceIndex + 1}`}
+          onMouseEnter={() => setHoveredSpaceIndex(currentSpaceIndex)}
+          onMouseLeave={() => setHoveredSpaceIndex((prev) => (prev === currentSpaceIndex ? null : prev))}
+          onClick={() => handleSplitClick(currentSpaceIndex)}
+        >
+          {" "}
+        </span>
+      );
+      spaceIndex += 1;
+    } else {
+      buffer += ch;
+    }
+  }
+  if (buffer) translationNodes.push(buffer);
+
   return (
     <>
       <div className={`d-none position-absolute btn-close translate-middle ${styles["button-" + displayIndex]}`}></div>
@@ -134,10 +215,10 @@ const Verse = ({ chapterNumber, displayIndex, verse }: { chapterNumber: number; 
       />
       <span
         className={`position-absolute translate-middle-y text-translated ${styles["button-" + displayIndex + "-translated"]} raleway-500`}
-        dangerouslySetInnerHTML={{
-          __html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${translation}` : translation,
-        }}
-      />
+      >
+        {verse_number ? `﴾${verse_number}﴿ ` : ""}
+        {translationNodes}
+      </span>
       <span
         style={{ whiteSpace: "nowrap", color }}
         className={`position-absolute translate-middle-y arabic-font-400 text-arabic ${styles["button-" + displayIndex + "-arabic"]}`}
@@ -294,7 +375,13 @@ useEffect(() => {
       <span className="d-none position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span>
 
       {pageRows.map((verse, i) => (
-        <Verse chapterNumber={data.chapter_number} key={`${verse.index}-${startIndex + i}`} displayIndex={i + 1} verse={verse} />
+        <Verse
+          chapterNumber={data.chapter_number}
+          key={`${verse.index}-${startIndex + i}`}
+          displayIndex={i + 1}
+          verse={verse}
+          langKey={languagesFlipped[lang]!}
+        />
       ))}
     </div>
   );

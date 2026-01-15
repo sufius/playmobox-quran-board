@@ -445,3 +445,16 @@
 .ayahHit:focus-visible {
   outline: none;
 }
+
+.translationSpace {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.translationSpaceHover {
+  background-color: rgba(255, 214, 102, 0.6);
+}
+
+.translationSpaceDisabled {
+  cursor: not-allowed;
+}
