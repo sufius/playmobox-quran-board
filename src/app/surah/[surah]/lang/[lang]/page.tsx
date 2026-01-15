@@ -119,7 +119,7 @@ async function fetchVerses(surah: number, lang: string): Promise<VerseProps[]> {
 }
 
 /* ===== Verse row ===== */
-const Verse = ({ displayIndex, verse }: { displayIndex: number; verse: VerseProps }) => {
+const Verse = ({ chapterNumber, displayIndex, verse }: { chapterNumber: number; displayIndex: number; verse: VerseProps }) => {
   const { verse_number, arabic, transcription, translation, color } = verse;
   return (
     <>
@@ -207,17 +207,17 @@ useEffect(() => {
     else if (e.key === "ArrowRight") { e.preventDefault(); goNext(); }
     else if (e.key === "ArrowUp") {
       e.preventDefault();
-      if (surahNum > 1) {
-        const saved = localStorage.getItem(`board-surah-${surahNum - 1}`);
-        const nextBoard = saved ? Number(saved) : 1;
-        router.push(`/surah/${surahNum - 1}/lang/${lang}?board=${nextBoard}`, { scroll: false });
-      }
-    } else if (e.key === "ArrowDown") {
-      e.preventDefault();
       if (surahNum < 114) {
         const saved = localStorage.getItem(`board-surah-${surahNum + 1}`);
         const nextBoard = saved ? Number(saved) : 1;
         router.push(`/surah/${surahNum + 1}/lang/${lang}?board=${nextBoard}`, { scroll: false });
+      }
+    } else if (e.key === "ArrowDown") {
+      e.preventDefault();
+      if (surahNum > 1) {
+        const saved = localStorage.getItem(`board-surah-${surahNum - 1}`);
+        const nextBoard = saved ? Number(saved) : 1;
+        router.push(`/surah/${surahNum - 1}/lang/${lang}?board=${nextBoard}`, { scroll: false });
       }
     }
   };
@@ -294,7 +294,7 @@ useEffect(() => {
       <span className="d-none position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span>
 
       {pageRows.map((verse, i) => (
-        <Verse key={`${verse.index}-${startIndex + i}`} displayIndex={i + 1} verse={verse} />
+        <Verse chapterNumber={data.chapter_number} key={`${verse.index}-${startIndex + i}`} displayIndex={i + 1} verse={verse} />
       ))}
     </div>
   );
