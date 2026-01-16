@@ -100,6 +100,7 @@ async function callOpenAI(apiKey: string, prompt: string): Promise<OpenAISplit> 
   try {
     parsed = JSON.parse(content);
   } catch {
+    console.error("OpenAI JSON parse failed. Raw content:", content);
     throw new Error("OpenAI response was not valid JSON.");
   }
 
@@ -137,6 +138,7 @@ async function splitArabicAndTranscription(
       if (validateSplit(result, arabic, transcription)) {
         return result;
       }
+      console.error("OpenAI split validation failed. Raw result:", result);
       lastError = new Error("OpenAI response failed concatenation validation.");
     } catch (err) {
       lastError = err as Error;
