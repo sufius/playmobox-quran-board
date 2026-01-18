@@ -28,7 +28,7 @@ interface BoardProps {
 type SelectionMenuState = {
   x: number;
   y: number;
-  field: "translation" | "transcription";
+  field: "translation" | "transcription" | "arabic";
   verseIndex: number;
   verseNumber: number;
   start: number;
@@ -152,6 +152,7 @@ const Verse = ({
   const verseNumberForApi = verse_number ?? verse.index;
   const translationPrefix = verse_number ? `\ufd3e${verse_number}\ufd3f ` : "";
   const transcriptionPrefix = verse_number ? `\ufd3e${verse_number}\ufd3f ` : "";
+  const arabicPrefix = verse_number ? `\ufd3f${convertToArabicNumerals(verse_number)}\ufd3e ` : "";
 
   const handleSplitClick = useCallback(
     async (spaceIndex: number) => {
@@ -255,10 +256,14 @@ const Verse = ({
       <span
         style={{ whiteSpace: "nowrap", color }}
         className={`position-absolute translate-middle-y arabic-font-400 text-arabic ${styles["button-" + displayIndex + "-arabic"]}`}
-        dangerouslySetInnerHTML={{
-          __html: verse_number ? `&#xFD3F;${convertToArabicNumerals(verse_number)}&#xFD3E; ${arabic}` : arabic,
-        }}
-      />
+        data-field="arabic"
+        data-verse-index={verse.index}
+        data-verse-number={verseNumberForApi}
+        data-prefix-len={arabicPrefix.length}
+      >
+        {arabicPrefix ? <span style={{ userSelect: "none" }}>{arabicPrefix}</span> : null}
+        {arabic}
+      </span>
       <hr className={`position-absolute ${styles["button-" + displayIndex + "-divider"]}`} />
     </>
   );
@@ -401,10 +406,10 @@ export default function Board({ params }: BoardProps) {
         return;
       }
       const fieldAttr = container.getAttribute("data-field");
-      if (fieldAttr !== "translation" && fieldAttr !== "transcription") {
-        setSelectionMenu(null);
-        return;
-      }
+    if (fieldAttr !== "translation" && fieldAttr !== "transcription" && fieldAttr !== "arabic") {
+      setSelectionMenu(null);
+      return;
+    }
       if (!rows) {
         setSelectionMenu(null);
         return;
@@ -417,7 +422,8 @@ export default function Board({ params }: BoardProps) {
         setSelectionMenu(null);
         return;
       }
-      const fieldText = fieldAttr === "translation" ? row.translation : row.transcription;
+    const fieldText =
+      fieldAttr === "translation" ? row.translation : fieldAttr === "transcription" ? row.transcription : row.arabic;
       const preRange = range.cloneRange();
       preRange.selectNodeContents(container);
       preRange.setEnd(range.startContainer, range.startOffset);

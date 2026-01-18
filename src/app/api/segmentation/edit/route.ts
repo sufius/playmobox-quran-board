@@ -9,7 +9,7 @@ type EditPayload = {
   chapterNumber: number;
   verseNumber: number;
   verseIndex: number;
-  field: "translation" | "transcription";
+  field: "translation" | "transcription" | "arabic";
   start: number;
   end: number;
   action: "delete" | "cut_prepend_next" | "cut_append_prev";
@@ -20,6 +20,7 @@ type VerseRow = {
   verse_number?: number;
   translation: string;
   transcription: string;
+  arabic: string;
   [key: string]: unknown;
 };
 
@@ -68,7 +69,7 @@ export async function POST(request: Request) {
     !isInteger(payload.chapterNumber) ||
     !isInteger(payload.verseNumber) ||
     !isInteger(payload.verseIndex) ||
-    (payload.field !== "translation" && payload.field !== "transcription") ||
+    (payload.field !== "translation" && payload.field !== "transcription" && payload.field !== "arabic") ||
     !isInteger(payload.start) ||
     !isInteger(payload.end) ||
     (payload.action !== "delete" &&
@@ -94,6 +95,7 @@ export async function POST(request: Request) {
     const raw = await fs.readFile(filePath, "utf8");
     rows = JSON.parse(raw);
   } catch (err) {
+    console.log('err', err);
     return NextResponse.json({ error: "Segment file not found." }, { status: 404 });
   }
 
