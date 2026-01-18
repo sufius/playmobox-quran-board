@@ -346,124 +346,124 @@ export default function Board({ params }: BoardProps) {
     [selectionMenu, langKey, surahNum]
   );
 
-// speichern
-useEffect(() => {
-  if (rows) localStorage.setItem(`board-surah-${surahNum}`, String(currentBoard));
-}, [surahNum, currentBoard, rows]);
+  // speichern
+  useEffect(() => {
+    if (rows) localStorage.setItem(`board-surah-${surahNum}`, String(currentBoard));
+  }, [surahNum, currentBoard, rows]);
 
 
-// 6) Keyboard navigation effect (ALWAYS registered)
-useEffect(() => {
-  const onKey = (e: KeyboardEvent) => {
-    if (e.key === "ArrowLeft") { e.preventDefault(); goPrev(); }
-    else if (e.key === "ArrowRight") { e.preventDefault(); goNext(); }
-    else if (e.key === "ArrowUp") {
-      e.preventDefault();
-      if (surahNum < 114) {
-        const saved = localStorage.getItem(`board-surah-${surahNum + 1}`);
-        const nextBoard = saved ? Number(saved) : 1;
-        router.push(`/surah/${surahNum + 1}/lang/${lang}?board=${nextBoard}`, { scroll: false });
+  // 6) Keyboard navigation effect (ALWAYS registered)
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "ArrowLeft") { e.preventDefault(); goPrev(); }
+      else if (e.key === "ArrowRight") { e.preventDefault(); goNext(); }
+      else if (e.key === "ArrowUp") {
+        e.preventDefault();
+        if (surahNum < 114) {
+          const saved = localStorage.getItem(`board-surah-${surahNum + 1}`);
+          const nextBoard = saved ? Number(saved) : 1;
+          router.push(`/surah/${surahNum + 1}/lang/${lang}?board=${nextBoard}`, { scroll: false });
+        }
+      } else if (e.key === "ArrowDown") {
+        e.preventDefault();
+        if (surahNum > 1) {
+          const saved = localStorage.getItem(`board-surah-${surahNum - 1}`);
+          const nextBoard = saved ? Number(saved) : 1;
+          router.push(`/surah/${surahNum - 1}/lang/${lang}?board=${nextBoard}`, { scroll: false });
+        }
       }
-    } else if (e.key === "ArrowDown") {
-      e.preventDefault();
-      if (surahNum > 1) {
-        const saved = localStorage.getItem(`board-surah-${surahNum - 1}`);
-        const nextBoard = saved ? Number(saved) : 1;
-        router.push(`/surah/${surahNum - 1}/lang/${lang}?board=${nextBoard}`, { scroll: false });
-      }
-    }
-  };
-  window.addEventListener("keydown", onKey);
-  return () => window.removeEventListener("keydown", onKey);
-}, [goPrev, goNext, surahNum, lang, router]);
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [goPrev, goNext, surahNum, lang, router]);
 
-useEffect(() => {
-  if (!isEdit) {
-    setSelectionMenu(null);
-    return;
-  }
-  const handlePointerUp = () => {
-    const selection = window.getSelection();
-    if (!selection || selection.isCollapsed) {
+  useEffect(() => {
+    if (!isEdit) {
       setSelectionMenu(null);
       return;
     }
-    const range = selection.getRangeAt(0);
-    const anchorNode = selection.anchorNode;
-    if (!anchorNode) {
-      setSelectionMenu(null);
-      return;
-    }
-    const anchorElement = anchorNode instanceof Element ? anchorNode : anchorNode.parentElement;
-    const container = anchorElement?.closest<HTMLElement>("[data-field]");
-    if (!container || !selection.focusNode || !container.contains(selection.focusNode)) {
-      setSelectionMenu(null);
-      return;
-    }
-    const fieldAttr = container.getAttribute("data-field");
-    if (fieldAttr !== "translation" && fieldAttr !== "transcription") {
-      setSelectionMenu(null);
-      return;
-    }
-    if (!rows) {
-      setSelectionMenu(null);
-      return;
-    }
-    const verseIndex = Number(container.getAttribute("data-verse-index"));
-    const verseNumber = Number(container.getAttribute("data-verse-number"));
-    const prefixLen = Number(container.getAttribute("data-prefix-len") || "0");
-    const row = rows.find((item) => item.index === verseIndex);
-    if (!row) {
-      setSelectionMenu(null);
-      return;
-    }
-    const fieldText = fieldAttr === "translation" ? row.translation : row.transcription;
-    const preRange = range.cloneRange();
-    preRange.selectNodeContents(container);
-    preRange.setEnd(range.startContainer, range.startOffset);
-    const rawStart = preRange.toString().length;
-    const selectedText = range.toString();
-    const rawEnd = rawStart + selectedText.length;
-    if (selectedText.trim().length === 0) {
-      setSelectionMenu(null);
-      return;
-    }
-    if (rawStart < prefixLen || rawEnd < prefixLen) {
-      setSelectionMenu(null);
-      return;
-    }
-    let start = rawStart - prefixLen;
-    let end = rawEnd - prefixLen;
-    if (start < 0) start = 0;
-    if (end > fieldText.length) end = fieldText.length;
-    if (end <= start) {
-      setSelectionMenu(null);
-      return;
-    }
-    const before = fieldText.slice(0, start);
-    const after = fieldText.slice(end);
-    const atStart = before.trim().length === 0;
-    const atEnd = after.trim().length === 0;
-    const rect = range.getBoundingClientRect();
-    if (rect.width === 0 && rect.height === 0) {
-      setSelectionMenu(null);
-      return;
-    }
-    setSelectionMenu({
-      x: rect.left + rect.width / 2,
-      y: rect.bottom + 8,
-      field: fieldAttr,
-      verseIndex,
-      verseNumber,
-      start,
-      end,
-      atStart,
-      atEnd,
-    });
-  };
-  document.addEventListener("pointerup", handlePointerUp);
-  return () => document.removeEventListener("pointerup", handlePointerUp);
-}, [isEdit, rows]);
+    const handlePointerUp = () => {
+      const selection = window.getSelection();
+      if (!selection || selection.isCollapsed) {
+        setSelectionMenu(null);
+        return;
+      }
+      const range = selection.getRangeAt(0);
+      const anchorNode = selection.anchorNode;
+      if (!anchorNode) {
+        setSelectionMenu(null);
+        return;
+      }
+      const anchorElement = anchorNode instanceof Element ? anchorNode : anchorNode.parentElement;
+      const container = anchorElement?.closest<HTMLElement>("[data-field]");
+      if (!container || !selection.focusNode || !container.contains(selection.focusNode)) {
+        setSelectionMenu(null);
+        return;
+      }
+      const fieldAttr = container.getAttribute("data-field");
+      if (fieldAttr !== "translation" && fieldAttr !== "transcription") {
+        setSelectionMenu(null);
+        return;
+      }
+      if (!rows) {
+        setSelectionMenu(null);
+        return;
+      }
+      const verseIndex = Number(container.getAttribute("data-verse-index"));
+      const verseNumber = Number(container.getAttribute("data-verse-number"));
+      const prefixLen = Number(container.getAttribute("data-prefix-len") || "0");
+      const row = rows.find((item) => item.index === verseIndex);
+      if (!row) {
+        setSelectionMenu(null);
+        return;
+      }
+      const fieldText = fieldAttr === "translation" ? row.translation : row.transcription;
+      const preRange = range.cloneRange();
+      preRange.selectNodeContents(container);
+      preRange.setEnd(range.startContainer, range.startOffset);
+      const rawStart = preRange.toString().length;
+      const selectedText = range.toString();
+      const rawEnd = rawStart + selectedText.length;
+      if (selectedText.trim().length === 0) {
+        setSelectionMenu(null);
+        return;
+      }
+      if (rawStart < prefixLen || rawEnd < prefixLen) {
+        setSelectionMenu(null);
+        return;
+      }
+      let start = rawStart - prefixLen;
+      let end = rawEnd - prefixLen;
+      if (start < 0) start = 0;
+      if (end > fieldText.length) end = fieldText.length;
+      if (end <= start) {
+        setSelectionMenu(null);
+        return;
+      }
+      const before = fieldText.slice(0, start);
+      const after = fieldText.slice(end);
+      const atStart = before.trim().length === 0;
+      const atEnd = after.trim().length === 0;
+      const rect = range.getBoundingClientRect();
+      if (rect.width === 0 && rect.height === 0) {
+        setSelectionMenu(null);
+        return;
+      }
+      setSelectionMenu({
+        x: rect.left + rect.width / 2,
+        y: rect.bottom + 8,
+        field: fieldAttr,
+        verseIndex,
+        verseNumber,
+        start,
+        end,
+        atStart,
+        atEnd,
+      });
+    };
+    document.addEventListener("pointerup", handlePointerUp);
+    return () => document.removeEventListener("pointerup", handlePointerUp);
+  }, [isEdit, rows]);
 
   // 7) Data load
   useEffect(() => {
@@ -487,7 +487,7 @@ useEffect(() => {
 
   useEffect(() => {
     document.title = `quran_${lang}_surah_${surahNum}_board_${currentBoard}`;
-  }, [ lang, surahNum, currentBoard]);
+  }, [lang, surahNum, currentBoard]);
 
   // 8) Early returns (AFTER all hooks)
   if (error) return <div className="p-3 text-danger">{error}</div>;
