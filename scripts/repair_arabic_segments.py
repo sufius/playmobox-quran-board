@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+# Example fix: removes duplicated/overlapping arabic segments so that the
+# concatenated "arabic" (whitespace-free) matches "arabic_full".
 import argparse
 import difflib
 import json
