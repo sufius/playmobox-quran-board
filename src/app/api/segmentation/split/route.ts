@@ -120,6 +120,35 @@ function validateSplit(result: OpenAISplit, arabic: string, transcription: strin
   return result.arabicA + result.arabicB === arabic && result.transcriptionA + result.transcriptionB === transcription;
 }
 
+
+function alignSplitParts(original: string, partA: string, partB: string) {
+  if (partA + partB === original) return { partA, partB };
+  if (!original.startsWith(partA)) return null;
+  if (original.endsWith(partB)) {
+    const middle = original.slice(partA.length, original.length - partB.length);
+    return { partA: partA + middle, partB };
+  }
+  const indexB = original.indexOf(partB, partA.length);
+  if (indexB === -1) return null;
+  return { partA: original.slice(0, indexB), partB: original.slice(indexB) };
+}
+
+function normalizeSplit(result: OpenAISplit, arabic: string, transcription: string) {
+  const arabicAligned = alignSplitParts(arabic, result.arabicA, result.arabicB);
+  const transcriptionAligned = alignSplitParts(
+    transcription,
+    result.transcriptionA,
+    result.transcriptionB
+  );
+  if (!arabicAligned || !transcriptionAligned) return null;
+  return {
+    arabicA: arabicAligned.partA,
+    arabicB: arabicAligned.partB,
+    transcriptionA: transcriptionAligned.partA,
+    transcriptionB: transcriptionAligned.partB,
+  };
+}
+
 async function splitArabicAndTranscription(
   arabic: string,
   transcription: string,
@@ -137,6 +166,10 @@ async function splitArabicAndTranscription(
       const result = await callOpenAI(apiKey, prompt);
       if (validateSplit(result, arabic, transcription)) {
         return result;
+      }
+      const normalized = normalizeSplit(result, arabic, transcription);
+      if (normalized && validateSplit(normalized, arabic, transcription)) {
+        return normalized;
       }
       console.error("OpenAI split validation failed. Raw result:", result);
       lastError = new Error("OpenAI response failed concatenation validation.");
