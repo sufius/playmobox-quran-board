@@ -140,6 +140,8 @@ const Verse = ({
   const handleSplitClick = useCallback(
     async (spaceIndex: number) => {
       if (pending) return;
+      const confirmed = window.confirm("Do you really want to split it here?");
+      if (!confirmed) return;
       setPending(true);
       try {
         const res = await fetch("/api/segmentation/split", {
@@ -156,9 +158,13 @@ const Verse = ({
         if (!res.ok) {
           const msg = await res.text();
           console.error("Split failed:", msg);
+          window.alert(`Split failed: ${msg || res.statusText}`);
           return;
         }
         router.refresh();
+      } catch (err) {
+        console.error("Split failed:", err);
+        window.alert("Split failed. Please try again.");
       } finally {
         setPending(false);
       }
