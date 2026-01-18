@@ -25,6 +25,18 @@ interface BoardProps {
   params: Promise<{ surah: number; lang: string }>;
 }
 
+type SelectionMenuState = {
+  x: number;
+  y: number;
+  field: "translation" | "transcription";
+  verseIndex: number;
+  verseNumber: number;
+  start: number;
+  end: number;
+  atStart: boolean;
+  atEnd: boolean;
+};
+
 /* ===== Helpers ===== */
 const convertToArabicNumerals = (n: number | string) =>
   n.toString().replace(/\d/g, (d: string) => "٠١٢٣٤٥٦٧٨٩"[parseInt(d, 10)]);
@@ -138,6 +150,8 @@ const Verse = ({
   const [hoveredSpaceIndex, setHoveredSpaceIndex] = useState<number | null>(null);
   const [pending, setPending] = useState(false);
   const verseNumberForApi = verse_number ?? verse.index;
+  const translationPrefix = verse_number ? `\ufd3e${verse_number}\ufd3f ` : "";
+  const transcriptionPrefix = verse_number ? `\ufd3e${verse_number}\ufd3f ` : "";
 
   const handleSplitClick = useCallback(
     async (spaceIndex: number) => {
@@ -220,14 +234,22 @@ const Verse = ({
       <span
         style={{ whiteSpace: "nowrap" }}
         className={`position-absolute translate-middle-y text-transcribed ${styles["button-" + displayIndex + "-transcribed"]} raleway-500`}
-        dangerouslySetInnerHTML={{
-          __html: verse_number ? `&#xFD3E;${verse_number}&#xFD3F; ${transcription}` : transcription,
-        }}
-      />
+        data-field="transcription"
+        data-verse-index={verse.index}
+        data-verse-number={verseNumberForApi}
+        data-prefix-len={transcriptionPrefix.length}
+      >
+        {transcriptionPrefix ? <span style={{ userSelect: "none" }}>{transcriptionPrefix}</span> : null}
+        {transcription}
+      </span>
       <span
         className={`position-absolute translate-middle-y text-translated ${styles["button-" + displayIndex + "-translated"]} raleway-500`}
+        data-field="translation"
+        data-verse-index={verse.index}
+        data-verse-number={verseNumberForApi}
+        data-prefix-len={translationPrefix.length}
       >
-        {verse_number ? `﴾${verse_number}﴿ ` : ""}
+        {translationPrefix ? <span style={{ userSelect: "none" }}>{translationPrefix}</span> : null}
         {translationNodes}
       </span>
       <span
@@ -248,11 +270,13 @@ export default function Board({ params }: BoardProps) {
   const raw = use(params);
   const surahNum = Number(raw.surah) || 1;   // ← sicher numeric
   const lang = raw.lang || "de";
+  const langKey = languagesFlipped[lang]!;
 
   // 2) State hooks
   const [data, setData] = useState<SurahProps | null>(null);
   const [rows, setRows] = useState<VerseProps[] | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [selectionMenu, setSelectionMenu] = useState<SelectionMenuState | null>(null);
 
   // 3) Router/Search (context hooks)
   const router = useRouter();
@@ -287,6 +311,41 @@ export default function Board({ params }: BoardProps) {
   const goPrev = useCallback(() => { if (canPrev) goToBoard(currentBoard - 1); }, [canPrev, currentBoard, goToBoard]);
   const goNext = useCallback(() => { if (canNext) goToBoard(currentBoard + 1); }, [canNext, currentBoard, goToBoard]);
 
+  const applySelectionEdit = useCallback(
+    async (action: "delete" | "cut_prepend_next" | "cut_append_prev") => {
+      if (!selectionMenu) return;
+      const menu = selectionMenu;
+      setSelectionMenu(null);
+      try {
+        const res = await fetch("/api/segmentation/edit", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            langKey: String(langKey),
+            chapterNumber: surahNum,
+            verseNumber: menu.verseNumber,
+            verseIndex: menu.verseIndex,
+            field: menu.field,
+            start: menu.start,
+            end: menu.end,
+            action,
+          }),
+        });
+        if (!res.ok) {
+          const msg = await res.text();
+          console.error("Selection edit failed:", msg);
+          window.alert(`Selection edit failed: ${msg || res.statusText}`);
+          return;
+        }
+        window.location.reload();
+      } catch (err) {
+        console.error("Selection edit failed:", err);
+        window.alert("Selection edit failed. Please try again.");
+      }
+    },
+    [selectionMenu, langKey, surahNum]
+  );
+
 // speichern
 useEffect(() => {
   if (rows) localStorage.setItem(`board-surah-${surahNum}`, String(currentBoard));
@@ -317,6 +376,94 @@ useEffect(() => {
   window.addEventListener("keydown", onKey);
   return () => window.removeEventListener("keydown", onKey);
 }, [goPrev, goNext, surahNum, lang, router]);
+
+useEffect(() => {
+  if (!isEdit) {
+    setSelectionMenu(null);
+    return;
+  }
+  const handlePointerUp = () => {
+    const selection = window.getSelection();
+    if (!selection || selection.isCollapsed) {
+      setSelectionMenu(null);
+      return;
+    }
+    const range = selection.getRangeAt(0);
+    const anchorNode = selection.anchorNode;
+    if (!anchorNode) {
+      setSelectionMenu(null);
+      return;
+    }
+    const anchorElement = anchorNode instanceof Element ? anchorNode : anchorNode.parentElement;
+    const container = anchorElement?.closest<HTMLElement>("[data-field]");
+    if (!container || !selection.focusNode || !container.contains(selection.focusNode)) {
+      setSelectionMenu(null);
+      return;
+    }
+    const fieldAttr = container.getAttribute("data-field");
+    if (fieldAttr !== "translation" && fieldAttr !== "transcription") {
+      setSelectionMenu(null);
+      return;
+    }
+    if (!rows) {
+      setSelectionMenu(null);
+      return;
+    }
+    const verseIndex = Number(container.getAttribute("data-verse-index"));
+    const verseNumber = Number(container.getAttribute("data-verse-number"));
+    const prefixLen = Number(container.getAttribute("data-prefix-len") || "0");
+    const row = rows.find((item) => item.index === verseIndex);
+    if (!row) {
+      setSelectionMenu(null);
+      return;
+    }
+    const fieldText = fieldAttr === "translation" ? row.translation : row.transcription;
+    const preRange = range.cloneRange();
+    preRange.selectNodeContents(container);
+    preRange.setEnd(range.startContainer, range.startOffset);
+    const rawStart = preRange.toString().length;
+    const selectedText = range.toString();
+    const rawEnd = rawStart + selectedText.length;
+    if (selectedText.trim().length === 0) {
+      setSelectionMenu(null);
+      return;
+    }
+    if (rawStart < prefixLen || rawEnd < prefixLen) {
+      setSelectionMenu(null);
+      return;
+    }
+    let start = rawStart - prefixLen;
+    let end = rawEnd - prefixLen;
+    if (start < 0) start = 0;
+    if (end > fieldText.length) end = fieldText.length;
+    if (end <= start) {
+      setSelectionMenu(null);
+      return;
+    }
+    const before = fieldText.slice(0, start);
+    const after = fieldText.slice(end);
+    const atStart = before.trim().length === 0;
+    const atEnd = after.trim().length === 0;
+    const rect = range.getBoundingClientRect();
+    if (rect.width === 0 && rect.height === 0) {
+      setSelectionMenu(null);
+      return;
+    }
+    setSelectionMenu({
+      x: rect.left + rect.width / 2,
+      y: rect.bottom + 8,
+      field: fieldAttr,
+      verseIndex,
+      verseNumber,
+      start,
+      end,
+      atStart,
+      atEnd,
+    });
+  };
+  document.addEventListener("pointerup", handlePointerUp);
+  return () => document.removeEventListener("pointerup", handlePointerUp);
+}, [isEdit, rows]);
 
   // 7) Data load
   useEffect(() => {
@@ -392,10 +539,44 @@ useEffect(() => {
           key={`${verse.index}-${startIndex + i}`}
           displayIndex={i + 1}
           verse={verse}
-          langKey={languagesFlipped[lang]!}
+          langKey={langKey}
           isEdit={isEdit}
         />
       ))}
+      {isEdit && selectionMenu ? (
+        <div
+          style={{
+            position: "fixed",
+            left: selectionMenu.x,
+            top: selectionMenu.y,
+            transform: "translate(-50%, 0)",
+            background: "#fff",
+            border: "1px solid #ccc",
+            borderRadius: "6px",
+            boxShadow: "0 4px 12px rgba(0, 0, 0, 0.15)",
+            padding: "6px",
+            zIndex: 1000,
+            display: "grid",
+            gap: "6px",
+          }}
+          role="dialog"
+          aria-label="Selection edit menu"
+        >
+          <button type="button" onClick={() => applySelectionEdit("delete")}>
+            delete selection
+          </button>
+          {selectionMenu.atEnd ? (
+            <button type="button" onClick={() => applySelectionEdit("cut_prepend_next")}>
+              cut and prepend to the beginning of next
+            </button>
+          ) : null}
+          {selectionMenu.atStart ? (
+            <button type="button" onClick={() => applySelectionEdit("cut_append_prev")}>
+              cut and append to end of previous
+            </button>
+          ) : null}
+        </div>
+      ) : null}
     </div>
   );
 }
