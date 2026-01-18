@@ -125,11 +125,13 @@ const Verse = ({
   displayIndex,
   verse,
   langKey,
+  isEdit,
 }: {
   chapterNumber: number;
   displayIndex: number;
   verse: VerseProps;
   langKey: number;
+  isEdit: boolean;
 }) => {
   const { verse_number, arabic, transcription, translation, color } = verse;
   const router = useRouter();
@@ -139,6 +141,7 @@ const Verse = ({
 
   const handleSplitClick = useCallback(
     async (spaceIndex: number) => {
+      if (!isEdit) return;
       if (pending) return;
       const confirmed = window.confirm("Do you really want to split it here?");
       if (!confirmed) return;
@@ -169,7 +172,7 @@ const Verse = ({
         setPending(false);
       }
     },
-    [pending, langKey, chapterNumber, verseNumberForApi, verse.index, router]
+    [pending, isEdit, langKey, chapterNumber, verseNumberForApi, verse.index, router]
   );
 
   const translationNodes: ReactNode[] = [];
@@ -189,14 +192,16 @@ const Verse = ({
           className={[
             styles.translationSpace,
             hoveredSpaceIndex === currentSpaceIndex ? styles.translationSpaceHover : "",
-            pending ? styles.translationSpaceDisabled : "",
+            pending || !isEdit ? styles.translationSpaceDisabled : "",
           ].join(" ")}
-          role="button"
-          aria-disabled={pending}
+          role={isEdit ? "button" : undefined}
+          aria-disabled={pending || !isEdit}
           aria-label={`Split at space ${currentSpaceIndex + 1}`}
-          onMouseEnter={() => setHoveredSpaceIndex(currentSpaceIndex)}
-          onMouseLeave={() => setHoveredSpaceIndex((prev) => (prev === currentSpaceIndex ? null : prev))}
-          onClick={() => handleSplitClick(currentSpaceIndex)}
+          onMouseEnter={isEdit ? () => setHoveredSpaceIndex(currentSpaceIndex) : undefined}
+          onMouseLeave={
+            isEdit ? () => setHoveredSpaceIndex((prev) => (prev === currentSpaceIndex ? null : prev)) : undefined
+          }
+          onClick={isEdit ? () => handleSplitClick(currentSpaceIndex) : undefined}
         >
           {" "}
         </span>
@@ -252,6 +257,7 @@ export default function Board({ params }: BoardProps) {
   // 3) Router/Search (context hooks)
   const router = useRouter();
   const searchParams = useSearchParams();
+  const isEdit = searchParams.get("edit") === "true";
   let boardParam = Number(searchParams.get("board"));
   if (!boardParam || boardParam < 1) {
     // Prüfen, ob im localStorage ein Wert existiert
@@ -387,6 +393,7 @@ useEffect(() => {
           displayIndex={i + 1}
           verse={verse}
           langKey={languagesFlipped[lang]!}
+          isEdit={isEdit}
         />
       ))}
     </div>
