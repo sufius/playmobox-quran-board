@@ -290,7 +290,7 @@ export default function Board({ params }: BoardProps) {
   let boardParam = Number(searchParams.get("board"));
   if (!boardParam || boardParam < 1) {
     // Prüfen, ob im localStorage ein Wert existiert
-    const saved = typeof window !== "undefined" ? localStorage.getItem(`board-surah-${surah}`) : null;
+    const saved = typeof window !== "undefined" ? localStorage.getItem(`board-surah-${surahNum}`) : null;
     if (saved) {
       boardParam = Number(saved);
     }
