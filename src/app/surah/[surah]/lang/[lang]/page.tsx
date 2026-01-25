@@ -138,12 +138,14 @@ const Verse = ({
   verse,
   langKey,
   isEdit,
+  onSplitSuccess,
 }: {
   chapterNumber: number;
   displayIndex: number;
   verse: VerseProps;
   langKey: number;
   isEdit: boolean;
+  onSplitSuccess?: () => Promise<void> | void;
 }) => {
   const { verse_number, arabic, transcription, translation, color } = verse;
   const router = useRouter();
@@ -179,6 +181,9 @@ const Verse = ({
           window.alert(`Split failed: ${msg || res.statusText}`);
           return;
         }
+        if (onSplitSuccess) {
+          await onSplitSuccess();
+        }
         router.refresh();
       } catch (err) {
         console.error("Split failed:", err);
@@ -187,7 +192,7 @@ const Verse = ({
         setPending(false);
       }
     },
-    [pending, isEdit, langKey, chapterNumber, verseNumberForApi, verse.index, router]
+    [pending, isEdit, langKey, chapterNumber, verseNumberForApi, verse.index, router, onSplitSuccess]
   );
 
   const translationNodes: ReactNode[] = [];
@@ -315,6 +320,15 @@ export default function Board({ params }: BoardProps) {
   const canNext = currentBoard < totalBoards;
   const goPrev = useCallback(() => { if (canPrev) goToBoard(currentBoard - 1); }, [canPrev, currentBoard, goToBoard]);
   const goNext = useCallback(() => { if (canNext) goToBoard(currentBoard + 1); }, [canNext, currentBoard, goToBoard]);
+
+  const reloadRows = useCallback(async () => {
+    try {
+      const verses = await fetchVerses(surahNum, lang);
+      setRows(verses);
+    } catch (e: any) {
+      setError(e?.message ?? "File not found or an error occurred");
+    }
+  }, [surahNum, lang]);
 
   const applySelectionEdit = useCallback(
     async (action: "delete" | "cut_prepend_next" | "cut_append_prev") => {
@@ -547,6 +561,7 @@ export default function Board({ params }: BoardProps) {
           verse={verse}
           langKey={langKey}
           isEdit={isEdit}
+          onSplitSuccess={reloadRows}
         />
       ))}
       {isEdit && selectionMenu ? (
