@@ -381,14 +381,14 @@ export default function Board({ params }: BoardProps) {
         if (surahNum < 114) {
           const saved = localStorage.getItem(`board-surah-${surahNum + 1}`);
           const nextBoard = saved ? Number(saved) : 1;
-          router.push(`/surah/${surahNum + 1}/lang/${lang}?board=${nextBoard}`, { scroll: false });
+          router.push(`/surah/${surahNum + 1}/lang/${lang}?board=${nextBoard}&edit=${isEdit}`, { scroll: false });
         }
       } else if (e.key === "ArrowDown") {
         e.preventDefault();
         if (surahNum > 1) {
           const saved = localStorage.getItem(`board-surah-${surahNum - 1}`);
           const nextBoard = saved ? Number(saved) : 1;
-          router.push(`/surah/${surahNum - 1}/lang/${lang}?board=${nextBoard}`, { scroll: false });
+          router.push(`/surah/${surahNum - 1}/lang/${lang}?board=${nextBoard}&edit=${isEdit}`, { scroll: false });
         }
       }
     };
