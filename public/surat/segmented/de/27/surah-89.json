@@ -186,13 +186,21 @@
   {
     "index": 24,
     "verse_number": 23,
-    "translation": "und herbeigebracht wird an jenem Tag die Hölle, an jenem Tag wird der Mensch bedenken. Wie soll ihm dann die Selbstbesinnung (nützen)?",
+    "translation": "und herbeigebracht wird an jenem Tag die Hölle, an jenem Tag wird der Mensch bedenken.",
     "arabic_full": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
-    "arabic": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
-    "transcription": "Wa jī'a yauma'iżim bijahannam(a), yauma'iżiy yatażakkarul-insānu wa annā lahuż-żikrā."
+    "arabic": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ ",
+    "transcription": "Wa jī'a yauma'iżim bijahannam(a), yauma'iżiy yatażakkarul-insānu "
   },
   {
     "index": 25,
+    "verse_number": 23,
+    "translation": "Wie soll ihm dann die Selbstbesinnung (nützen)?",
+    "arabic_full": "وَجِا۟ىٓءَ يَوْمَئِذٍۭ بِجَهَنَّمَ ۚ يَوْمَئِذٍ يَتَذَكَّرُ ٱلْإِنسَـٰنُ وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+    "arabic": "وَأَنَّىٰ لَهُ ٱلذِّكْرَىٰ",
+    "transcription": "wa annā lahuż-żikrā."
+  },
+  {
+    "index": 26,
     "verse_number": 24,
     "translation": "Er wird sagen: O hätte ich doch für mein (jenseitiges) Leben (etwas) vorausgeschickt!",
     "arabic_full": "يَقُولُ يَـٰلَيْتَنِى قَدَّمْتُ لِحَيَاتِى",
@@ -200,7 +208,7 @@
     "transcription": "Yaqūlu yā laitanī qaddamtu liḥayātī."
   },
   {
-    "index": 26,
+    "index": 27,
     "verse_number": 25,
     "translation": "An jenem Tag wird niemand strafen, so wie Er straft,",
     "arabic_full": "فَيَوْمَئِذٍ لَّا يُعَذِّبُ عَذَابَهُۥٓ أَحَدٌ",
@@ -208,7 +216,7 @@
     "transcription": "Fa yauma'iżil lā yu'ażżibu 'ażābahū aḥad(un)."
   },
   {
-    "index": 27,
+    "index": 28,
     "verse_number": 26,
     "translation": "und niemand wird fesseln, so wie Er fesselt.",
     "arabic_full": "وَلَا يُوثِقُ وَثَاقَهُۥٓ أَحَدٌ",
@@ -216,7 +224,7 @@
     "transcription": "Wa lā yūṡiqu waṡāqahū aḥad(un)."
   },
   {
-    "index": 28,
+    "index": 29,
     "verse_number": 27,
     "translation": "O du Seele, die du Ruhe gefunden hast,",
     "arabic_full": "يَـٰٓأَيَّتُهَا ٱلنَّفْسُ ٱلْمُطْمَئِنَّةُ",
@@ -224,7 +232,7 @@
     "transcription": "Yā ayyatuhan-nafsul-muṭma'innah(tu)."
   },
   {
-    "index": 29,
+    "index": 30,
     "verse_number": 28,
     "translation": "kehre zu deinem Herrn zufrieden und mit Wohlgefallen zurück.",
     "arabic_full": "ٱرْجِعِىٓ إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً",
@@ -232,7 +240,7 @@
     "transcription": "Irji'ī ilā rabbiki rāḍiyatam marḍiyyah(tan)."
   },
   {
-    "index": 30,
+    "index": 31,
     "verse_number": 29,
     "translation": "Tritt ein unter Meine Diener,",
     "arabic_full": "فَٱدْخُلِى فِى عِبَـٰدِى",
@@ -240,7 +248,7 @@
     "transcription": "Fadkhuli fī 'ibādī."
   },
   {
-    "index": 31,
+    "index": 32,
     "verse_number": 30,
     "translation": "und tritt ein in Meinen (Paradies)garten.",
     "arabic_full": "وَٱدْخُلِى جَنَّتِى",

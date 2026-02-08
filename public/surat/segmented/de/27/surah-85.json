@@ -90,13 +90,21 @@
   {
     "index": 12,
     "verse_number": 11,
-    "translation": "Gewiß, diejenigen, die glauben und rechtschaffene Werke tun, für sie wird es Gärten geben, durcheilt von Bächen; das ist der große Erfolg.",
+    "translation": "Gewiß, diejenigen, die glauben und rechtschaffene Werke tun,",
     "arabic_full": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
-    "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
-    "transcription": "Innal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti lahum jannātun tajrī min taḥtihal-anhār(u), żālikal-fauzul-kabīr(u)."
+    "arabic": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ ",
+    "transcription": "Innal-lażīna āmanū wa 'amiluṣ-ṣāliḥāti "
   },
   {
     "index": 13,
+    "verse_number": 11,
+    "translation": "für sie wird es Gärten geben, durcheilt von Bächen; das ist der große Erfolg.",
+    "arabic_full": "إِنَّ ٱلَّذِينَ ءَامَنُوا۟ وَعَمِلُوا۟ ٱلصَّـٰلِحَـٰتِ لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
+    "arabic": "لَهُمْ جَنَّـٰتٌ تَجْرِى مِن تَحْتِهَا ٱلْأَنْهَـٰرُ ۚ ذَٰلِكَ ٱلْفَوْزُ ٱلْكَبِيرُ",
+    "transcription": "lahum jannātun tajrī min taḥtihal-anhār(u), żālikal-fauzul-kabīr(u)."
+  },
+  {
+    "index": 14,
     "verse_number": 12,
     "translation": "Das Zupacken deines Herrn ist wahrlich hart.",
     "arabic_full": "إِنَّ بَطْشَ رَبِّكَ لَشَدِيدٌ",
@@ -104,7 +112,7 @@
     "transcription": "Inna baṭsya rabbika lasyadīd(un)."
   },
   {
-    "index": 14,
+    "index": 15,
     "verse_number": 13,
     "translation": "Gewiß, Er macht den Anfang und läßt wiederkehren.",
     "arabic_full": "إِنَّهُۥ هُوَ يُبْدِئُ وَيُعِيدُ",
@@ -112,7 +120,7 @@
     "transcription": "Innahū huwa yubdi'u wa yu'īd(u)."
   },
   {
-    "index": 15,
+    "index": 16,
     "verse_number": 14,
     "translation": "Und Er ist der Allvergebende und Liebevolle,",
     "arabic_full": "وَهُوَ ٱلْغَفُورُ ٱلْوَدُودُ",
@@ -120,7 +128,7 @@
     "transcription": "Wa huwal-gafūrul-wadūd(u)."
   },
   {
-    "index": 16,
+    "index": 17,
     "verse_number": 15,
     "translation": "der Herr des Thrones, der Ruhmvolle.",
     "arabic_full": "ذُو ٱلْعَرْشِ ٱلْمَجِيدُ",
@@ -128,7 +136,7 @@
     "transcription": "Żul-'arsyil-majīd(i)."
   },
   {
-    "index": 17,
+    "index": 18,
     "verse_number": 16,
     "translation": "(Er) tut alles, was Er will.",
     "arabic_full": "فَعَّالٌ لِّمَا يُرِيدُ",
@@ -136,7 +144,7 @@
     "transcription": "Fa''ālul limā yurīd(u)."
   },
   {
-    "index": 18,
+    "index": 19,
     "verse_number": 17,
     "translation": "Ist zu dir die Geschichte der Heerscharen gekommen,",
     "arabic_full": "هَلْ أَتَىٰكَ حَدِيثُ ٱلْجُنُودِ",
@@ -144,7 +152,7 @@
     "transcription": "Hal atāka ḥadīṡul-junūd(i)."
   },
   {
-    "index": 19,
+    "index": 20,
     "verse_number": 18,
     "translation": "Fir’auns und der Tamud?",
     "arabic_full": "فِرْعَوْنَ وَثَمُودَ",
@@ -152,7 +160,7 @@
     "transcription": "Fir'auna wa ṡamūd(a)."
   },
   {
-    "index": 20,
+    "index": 21,
     "verse_number": 19,
     "translation": "Aber nein! Diejenigen, die ungläubig sind, sind dem Leugnen (der Botschaft) verhaftet.",
     "arabic_full": "بَلِ ٱلَّذِينَ كَفَرُوا۟ فِى تَكْذِيبٍ",
@@ -160,7 +168,7 @@
     "transcription": "Balil-lażīna kafarū fī takżīb(in)."
   },
   {
-    "index": 21,
+    "index": 22,
     "verse_number": 20,
     "translation": "Doch Allah ist hinter ihnen her, (sie) umfassend.",
     "arabic_full": "وَٱللَّهُ مِن وَرَآئِهِم مُّحِيطٌۢ",
@@ -168,7 +176,7 @@
     "transcription": "Wallāhu miw warā'ihim muḥīṭ(un)."
   },
   {
-    "index": 22,
+    "index": 23,
     "verse_number": 21,
     "translation": "Nein! Vielmehr ist es ein ruhmvoller Qur’an",
     "arabic_full": "بَلْ هُوَ قُرْءَانٌ مَّجِيدٌ",
@@ -176,7 +184,7 @@
     "transcription": "Bal huwa qur'ānum majīd(un)."
   },
   {
-    "index": 23,
+    "index": 24,
     "verse_number": 22,
     "translation": "auf einer wohlbehüteten Tafel.",
     "arabic_full": "فِى لَوْحٍ مَّحْفُوظٍۭ",
