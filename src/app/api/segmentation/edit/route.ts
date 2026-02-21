@@ -1,8 +1,11 @@
 import { NextResponse } from "next/server";
 import { promises as fs } from "fs";
+import { execFile } from "child_process";
 import path from "path";
+import { promisify } from "util";
 
 export const runtime = "nodejs";
+const execFileAsync = promisify(execFile);
 
 type EditPayload = {
   langKey: string | number;
@@ -53,6 +56,14 @@ function appendWithSpace(text: string, suffix: string) {
     return `${text} ${suffix}`;
   }
   return `${text}${suffix}`;
+}
+
+function isBlank(text: string) {
+  return text.trim().length === 0;
+}
+
+function hasEmptyTranslationArabicAndTranscription(row: VerseRow) {
+  return isBlank(row.translation) && isBlank(row.arabic) && isBlank(row.transcription);
 }
 
 export async function POST(request: Request) {
@@ -147,6 +158,17 @@ export async function POST(request: Request) {
   }
 
   await fs.writeFile(filePath, JSON.stringify(rows, null, 2) + "\n", "utf8");
+
+  if (hasEmptyTranslationArabicAndTranscription(row)) {
+    const scriptPath = path.join(process.cwd(), "scripts", "merge_empty_arabic.mjs");
+    const baseDir = path.join("public", "surat", "segmented", "de", langKey);
+    try {
+      await execFileAsync(process.execPath, [scriptPath, "--base-dir", baseDir], { cwd: process.cwd() });
+    } catch (error) {
+      console.error("Post-edit merge script failed:", error);
+      return NextResponse.json({ error: "Edit saved, but post-processing failed." }, { status: 500 });
+    }
+  }
 
   return NextResponse.json({ ok: true });
 }
