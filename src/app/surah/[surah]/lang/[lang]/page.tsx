@@ -584,15 +584,24 @@ export default function Board({ params }: BoardProps) {
           aria-label="Selection edit menu"
         >
           <button type="button" onClick={() => applySelectionEdit("delete")}>
+            <span aria-hidden="true" style={{ color: "#dc3545", fontWeight: 700, marginRight: "4px" }}>
+              ✕
+            </span>
             delete selection
           </button>
           {selectionMenu.atEnd ? (
             <button type="button" onClick={() => applySelectionEdit("cut_prepend_next")}>
+              <span aria-hidden="true" style={{ marginRight: "4px" }}>
+                ↓
+              </span>
               cut and prepend to the beginning of next
             </button>
           ) : null}
           {selectionMenu.atStart ? (
             <button type="button" onClick={() => applySelectionEdit("cut_append_prev")}>
+              <span aria-hidden="true" style={{ marginRight: "4px" }}>
+                ↑
+              </span>
               cut and append to end of previous
             </button>
           ) : null}
