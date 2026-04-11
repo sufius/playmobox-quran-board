@@ -519,11 +519,11 @@ export default function Board({ params }: BoardProps) {
 
   return (
     <div className={styles["page"]}>
-      <h6 className="position-absolute pmb-text-primary surah-number">
+      <h6 className="position-absolute text-transcribed surah-number">
         <b>s&#363;rah: {data.chapter_number}</b>
       </h6>
 
-      <h6 className="position-absolute pmb-text-primary ayat-numbers">
+      <h6 className="position-absolute text-transcribed ayat-numbers">
         <b>
           <AyahRangeNav
             startLabel={startLabel}
@@ -547,8 +547,9 @@ export default function Board({ params }: BoardProps) {
         {data.chapter_name_arabic}
       </h6>
 
-      <img className="position-absolute bismillah-image" src="/bismillah.svg" alt="Bismillāhir-raḥmānir-raḥīm(i)" width="150" />
       <h6 className="position-absolute bismillah-image-transcribed text-transcribed">Bismillāhir-raḥmānir-raḥīm(i)</h6>
+      <h6 className="position-absolute bismillah-image-translated text-translated">Im Namen Allahs, des All-<br/> erbarmers, des Barmherzigen:</h6>
+      <img className="position-absolute bismillah-image" src="/bismillah.svg" alt="Bismillāhir-raḥmānir-raḥīm(i)" width="150" />
 
       <span className="d-none position-absolute pmb-module-footprint border border-1 bg-gradient"></span>
       <span className="d-none position-absolute pmb-module-usb-footprint border border-1 bg-gradient"></span>

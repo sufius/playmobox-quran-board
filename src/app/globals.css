@@ -28,7 +28,7 @@ nextjs-portal {
   --pmb-text-primary: #5b83fc;
   --pmb-text-transcribed: #E6B800;
   --pmb-text-translated: #C0C0C0;
-  --pmb-text-arabic: darkgoldenrod;
+  --pmb-text-arabic: #b8860b;
 
   --pmb-ghn: #FFA500;
   --pmb-qlq: #FF0000;
@@ -90,7 +90,7 @@ body {
 
 /* =========================== */
 
-.pmb-text-primary {
+.text-primary {
   color: var(--pmb-text-primary);
 }
 .text-transcribed {
@@ -137,14 +137,19 @@ body {
   line-height: 1.3rem;
 }
 
-.bismillah-image {
-  top: 47.0mm;
-  left: 2.5mm;
-}
 .bismillah-image-transcribed {
-  top: 60.0mm;
+  top: 43.0mm;
   left: 2.5mm;
   font-size: 0.8rem;
+}
+.bismillah-image-translated {
+  top: 46.5mm;
+  left: 2.5mm;
+  font-size: 0.8rem;
+}
+.bismillah-image {
+  top: 53.5mm;
+  left: 2.5mm;
 }
 
 /* =============================== */
