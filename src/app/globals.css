@@ -1,6 +1,14 @@
 @charset "UTF-8";
 @import "bootstrap/dist/css/bootstrap.css";
 
+@font-face {
+  font-family: "Noto Naskh Arabic";
+  src: url("/fonts/NotoNaskhArabic/NotoNaskhArabic-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* 
 @font-face {
   font-family: "arabic-font-400";
@@ -69,6 +77,13 @@ body {
   background-color: #21211F;
 
   font-family:'Times New Roman', Times, serif;
+}
+
+@media print {
+  html,
+  body {
+    background-color: #fff;
+  }
 }
 
 .raleway-500 {

@@ -37,11 +37,6 @@
 
 /* When the document is actually printed */
 @media print {
-    html,
-    body {
-        /* Reset the document's background color */
-        background-color: #fff;
-    }
     .page {
         /* Reset all page styles that have been for better screen appearance only */
         /* Break cascading by using the !important rule */
