@@ -58,6 +58,19 @@ function buildVerseSegments(rows: VerseProps[]) {
   });
   return map;
 }
+function buildVerseSegmentLabels(rows: VerseProps[]) {
+  const verseSegments = buildVerseSegments(rows);
+
+  return rows.map((verse, position) => {
+    const verseNumber = verse.verse_number;
+    if (!verseNumber) return undefined;
+
+    const segmentPositions = verseSegments.get(verseNumber) ?? [position];
+    if (segmentPositions.length === 1) return String(verseNumber);
+
+    return `${verseNumber}.${segmentPositions.indexOf(position) + 1}`;
+  });
+}
 function computeAyahRangeParts(rows: VerseProps[], startIndex: number, endIndex: number, totalAyahs: number) {
   if (rows.length === 0 || startIndex >= rows.length) return { startLabel: "0", endLabel: "0", totalAyahs };
   const verseSegs = buildVerseSegments(rows);
@@ -136,6 +149,7 @@ const Verse = ({
   chapterNumber,
   displayIndex,
   verse,
+  verseLabel,
   langKey,
   isEdit,
   onSplitSuccess,
@@ -143,6 +157,7 @@ const Verse = ({
   chapterNumber: number;
   displayIndex: number;
   verse: VerseProps;
+  verseLabel?: string;
   langKey: number;
   isEdit: boolean;
   onSplitSuccess?: () => Promise<void> | void;
@@ -152,8 +167,8 @@ const Verse = ({
   const [hoveredSpaceIndex, setHoveredSpaceIndex] = useState<number | null>(null);
   const [pending, setPending] = useState(false);
   const verseNumberForApi = verse_number ?? verse.index;
-  const translationPrefix = verse_number ? `\ufd3e${verse_number}\ufd3f ` : "";
-  const transcriptionPrefix = verse_number ? `\ufd3e${verse_number}\ufd3f ` : "";
+  const translationPrefix = verseLabel ? `\ufd3e${verseLabel}\ufd3f ` : "";
+  const transcriptionPrefix = verseLabel ? `\ufd3e${verseLabel}\ufd3f ` : "";
   const arabicPrefix = verse_number ? `\ufd3f${convertToArabicNumerals(verse_number)}\ufd3e ` : "";
 
   const handleSplitClick = useCallback(
@@ -515,6 +530,7 @@ export default function Board({ params }: BoardProps) {
 
   // 9) Now that we have rows, compute labels and page slice
   const pageRows = rows.slice(startIndex, endIndex);
+  const verseSegmentLabels = buildVerseSegmentLabels(rows);
   const { startLabel, endLabel } = computeAyahRangeParts(rows, startIndex, endIndex, data.number_of_ayahs);
 
   return (
@@ -560,6 +576,7 @@ export default function Board({ params }: BoardProps) {
           key={`${verse.index}-${startIndex + i}`}
           displayIndex={i + 1}
           verse={verse}
+          verseLabel={verseSegmentLabels[startIndex + i]}
           langKey={langKey}
           isEdit={isEdit}
           onSplitSuccess={reloadRows}
