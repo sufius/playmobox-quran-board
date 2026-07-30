@@ -169,7 +169,9 @@ const Verse = ({
   const verseNumberForApi = verse_number ?? verse.index;
   const translationPrefix = verseLabel ? `\ufd3e${verseLabel}\ufd3f ` : "";
   const transcriptionPrefix = verseLabel ? `\ufd3e${verseLabel}\ufd3f ` : "";
-  const arabicPrefix = verse_number ? `\ufd3f${convertToArabicNumerals(verse_number)}\ufd3e ` : "";
+  const isFirstVerseSegment =
+    verse_number !== undefined && (verseLabel === String(verse_number) || verseLabel === `${verse_number}.1`);
+  const arabicPrefix = isFirstVerseSegment ? `\ufd3f${convertToArabicNumerals(verse_number)}\ufd3e ` : "";
 
   const handleSplitClick = useCallback(
     async (spaceIndex: number) => {
@@ -281,7 +283,11 @@ const Verse = ({
         data-verse-number={verseNumberForApi}
         data-prefix-len={arabicPrefix.length}
       >
-        {arabicPrefix ? <span style={{ userSelect: "none" }}>{arabicPrefix}</span> : null}
+        {arabicPrefix ? (
+          <span style={{ userSelect: "none" }}>{arabicPrefix}</span>
+        ) : verse_number ? (
+          <span aria-hidden="true" style={{ display: "inline-block", width: "11mm", userSelect: "none" }} />
+        ) : null}
         {arabic}
       </span>
       <hr className={`position-absolute ${styles["button-" + displayIndex + "-divider"]}`} />
