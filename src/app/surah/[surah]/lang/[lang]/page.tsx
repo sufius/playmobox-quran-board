@@ -346,8 +346,8 @@ export default function Board({ params }: BoardProps) {
     try {
       const verses = await fetchVerses(surahNum, lang);
       setRows(verses);
-    } catch (e: any) {
-      setError(e?.message ?? "File not found or an error occurred");
+    } catch (e: unknown) {
+      setError((e as Error)?.message ?? "File not found or an error occurred");
     }
   }, [surahNum, lang]);
 
@@ -518,9 +518,9 @@ export default function Board({ params }: BoardProps) {
         if (!alive) return;
         setData(meta);
         setRows(verses);
-      } catch (e: any) {
+      } catch (e: unknown) {
         if (!alive) return;
-        setError(e?.message ?? "File not found or an error occurred");
+        setError((e as Error)?.message ?? "File not found or an error occurred");
       }
     })();
     return () => { alive = false; };
