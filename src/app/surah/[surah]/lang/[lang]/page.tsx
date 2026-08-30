@@ -99,8 +99,8 @@ function AyahRangeNav(props: {
 }) {
   const { startLabel, endLabel, totalAyahs, canPrev, canNext, onPrev, onNext } = props;
   return (
-    <>
-      {"ʾāyāt: "}
+    <>  
+      {"ʾĀyāt: "}
       <span
         className={canPrev ? styles.ayahHit : styles.ayahHitDisabled}
         style={{ display: "inline-block", textAlign: "center", userSelect: "none" as const }}
@@ -542,7 +542,7 @@ export default function Board({ params }: BoardProps) {
   return (
     <div className={styles["page"]}>
       <h6 className="position-absolute text-transcribed surah-number">
-        <b>s&#363;rah: {data.chapter_number}</b>
+        <b>S&#363;rah: {data.chapter_number}</b>
       </h6>
 
       <h6 className="position-absolute text-transcribed ayat-numbers">
