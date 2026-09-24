@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import type { MouseEvent } from "react";
 import Link from "next/link";
 import {
   Box,
@@ -56,6 +57,14 @@ const theme = createTheme({
     },
   },
 });
+
+function preventNavigationOnTextSelection(event: MouseEvent<HTMLElement>) {
+  if (window.getSelection()?.toString()) {
+    event.stopPropagation();
+    // The list entry is a link, so also prevent its native navigation.
+    event.preventDefault();
+  }
+}
 
 export default function LandingPage({
   surahs,
@@ -172,6 +181,8 @@ export default function LandingPage({
                 <ListItemButton
                   key={surah.number}
                   component={Link}
+                  draggable={false}
+                  onClick={preventNavigationOnTextSelection}
                   href={`/surah/${surah.number}/lang/${translation.language}?board=1&edit=false`}
                   divider={index < visibleSurahs.length - 1}
                   sx={{ px: { xs: 2, sm: 3 }, py: 1.4, gap: 2 }}
@@ -192,6 +203,8 @@ export default function LandingPage({
                     {surah.number}
                   </Box>
                   <ListItemText
+                    sx={{ userSelect: "text", cursor: "text" }}
+                    onClick={preventNavigationOnTextSelection}
                     primary={
                       <Typography component="span" sx={{ fontWeight: 650 }}>
                         {surah.transcribedName}
@@ -205,7 +218,8 @@ export default function LandingPage({
                   <Typography
                     lang="ar"
                     dir="rtl"
-                    sx={{ fontFamily: "Noto Naskh Arabic, serif", fontSize: "1.35rem", color: "text.secondary" }}
+                    onClick={preventNavigationOnTextSelection}
+                    sx={{ fontFamily: "Noto Naskh Arabic, serif", fontSize: "1.35rem", color: "text.secondary", userSelect: "text", cursor: "text" }}
                   >
                     {surah.arabicName}
                   </Typography>
