@@ -15,6 +15,10 @@ const selectedTranslation = {
 
 export const dynamic = "force-dynamic";
 
+export const metadata = {
+  title: "Quran board | Playmobox",
+};
+
 type SurahMetadata = {
   chapter_name_arabic: string;
   chapter_name_transcribed: string;

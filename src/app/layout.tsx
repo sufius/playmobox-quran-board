@@ -4,7 +4,6 @@ import "./globals.css";
 import "./tajweed.css";
 
 export const metadata: Metadata = {
-  title: "Quran board | Playmobox",
   description: "Memorize the Quran with the Playmobox Quran board",
 };
 

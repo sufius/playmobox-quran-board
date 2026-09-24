@@ -526,13 +526,13 @@ export default function Board({ params }: BoardProps) {
     return () => { alive = false; };
   }, [surahNum, lang]);                      // ← Dependency auch numeric
 
-  useEffect(() => {
-    document.title = `quran_${lang}_surah_${surahNum}_board_${currentBoard}`;
-  }, [lang, surahNum, currentBoard]);
+  const pageTitle = (
+    <title>{`quran_board_${lang}_surah_${String(surahNum).padStart(3, "0")}_board_${String(currentBoard).padStart(2, "0")}`}</title>
+  );
 
   // 8) Early returns (AFTER all hooks)
-  if (error) return <div className="p-3 text-danger">{error}</div>;
-  if (!data || !rows) return <>...Loading</>;
+  if (error) return <>{pageTitle}<div className="p-3 text-danger">{error}</div></>;
+  if (!data || !rows) return <>{pageTitle}...Loading</>;
 
   // 9) Now that we have rows, compute labels and page slice
   const pageRows = rows.slice(startIndex, endIndex);
@@ -541,6 +541,7 @@ export default function Board({ params }: BoardProps) {
 
   return (
     <div className={styles["page"]}>
+      {pageTitle}
       <h6 className="position-absolute text-transcribed surah-number">
         <b>S&#363;rah: {data.chapter_number}</b>
       </h6>
